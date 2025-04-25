@@ -93,7 +93,13 @@ def filter_content(html):
         r'<p>\*Comment on this article on Nextdoor\.\*</p>',
         r'Read the complete story.*?Nextdoor\.',
         r'Read the complete story.*?digital replica\.',
-        r'Comment on this article on Nextdoor\.'
+        r'Comment on this article on Nextdoor\.',
+        r'Support The Ark\'s commitment to high-impact community journalism\..*?makes this possible\.',
+        r'In addition to subscribing to The Ark.*?hcorn@thearknewspaper\.com or \d+-\d+-\d+\.',
+        r'© \d+ The Ark, AMMI Publishing Co\. Inc\..*?Designed by Kevin Hessel',
+        r'<p>Support The Ark.*?</p>',
+        r'<p>In addition to subscribing.*?</p>',
+        r'<p>© \d+.*?</p>'
     ]
     
     for pattern in patterns_to_remove:
@@ -218,9 +224,12 @@ rss_str = re.sub(r'<rss version="2.0">',
 content_pattern = re.compile(r'<content>(.*?)</content>', re.DOTALL)
 for match in content_pattern.finditer(rss_str):
     content = match.group(1)
-    # Unescape HTML entities to prevent double-escaping
-    content = BeautifulSoup(content, 'html.parser').get_text(formatter=None)
-    # Replace the content tag with content:encoded containing raw HTML
+    # Unescape HTML entities to get raw HTML
+    # Use the html module to properly unescape entities
+    import html as html_module
+    content = html_module.unescape(content)
+    
+    # Replace the content tag with content:encoded containing raw HTML in CDATA
     old_tag = match.group(0)
     new_tag = f'<content:encoded><![CDATA[{content}]]></content:encoded>'
     rss_str = rss_str.replace(old_tag, new_tag)
