@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>The Ark Newspaper (Full Text)</title>
     <link>https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml</link>
     <description>Full-content RSS feed generated from The Ark Newspaper blog.</description>
     <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>python-feedgen</generator>
+    <generator>Ark RSS Feed Generator</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Apr 2025 05:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 05:42:30 +0000</lastBuildDate>
+    <itunes:category text="News"/>
     <item>
       <title>Early bunny in Belvedere</title>
       <link>https://www.thearknewspaper.com/live/early-bunny-in-belvedere</link>
       <description>The Ranchs Spring Carnival &amp;#38; Egg Hunt at Belvedere Community Park.</description>
-      <content:encoded><![CDATA[]]></content:encoded>
       <guid isPermaLink="true">https://www.thearknewspaper.com/live/early-bunny-in-belvedere</guid>
       <pubDate>Tue, 15 Apr 2025 17:40:14 +0000</pubDate>
     </item>
@@ -238,7 +238,6 @@
       <title>Nowruz in motion on Main</title>
       <link>https://www.thearknewspaper.com/live/nowruz-in-motion-on-main</link>
       <description>Ballet Afsaneh performs traditional routines during the third annual Nowruz spring festival celebrating the Persian new year on lower...</description>
-      <content:encoded><![CDATA[]]></content:encoded>
       <guid isPermaLink="true">https://www.thearknewspaper.com/live/nowruz-in-motion-on-main</guid>
       <pubDate>Wed, 23 Apr 2025 15:00:24 +0000</pubDate>
     </item>
