@@ -127,6 +127,11 @@ for entry in feed.entries:
     title = clean_text(entry.title)
     desc = clean_text(entry.get('description', ''))
     logging.info(f"Processing {post_url}")
+    
+    # Reset content variables for this entry
+    paragraphs = []
+    content_html = ""
+    media_items = []
 
     # Scrape full article
     try:
