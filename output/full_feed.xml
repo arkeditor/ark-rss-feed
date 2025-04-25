@@ -2,16 +2,19 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>The Ark Newspaper (Full Text)</title>
-    <link>https://www.thearknewspaper.com/news</link>
+    <link>https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml</link>
     <description>Full-content RSS feed generated from The Ark Newspaper blog.</description>
+    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 25 Apr 2025 00:48:47 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Apr 2025 00:56:10 +0000</lastBuildDate>
     <item>
       <title>Early bunny in Belvedere</title>
       <link>https://www.thearknewspaper.com/live/early-bunny-in-belvedere</link>
       <description>The Ranchs Spring Carnival &amp;#38; Egg Hunt at Belvedere Community Park.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/early-bunny-in-belvedere</guid>
       <pubDate>Tue, 15 Apr 2025 17:40:14 +0000</pubDate>
     </item>
     <item>
@@ -19,6 +22,7 @@
       <link>https://www.thearknewspaper.com/live/dr-jerome-marvin-weiss</link>
       <description>Dr. Jerome Marvin Weiss, a distinguished urologist and compassionate healer, passed away at the age of 89, in Napa, California, on April 4th.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/dr-jerome-marvin-weiss</guid>
       <pubDate>Wed, 16 Apr 2025 12:45:04 +0000</pubDate>
     </item>
     <item>
@@ -26,6 +30,7 @@
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-local-dad-works-to-pass-love-of-soccer-to-daughters</link>
       <description>Born in Iran, Tiburon resident Paul Inalou moved to the U.S. at age 12  though he lived in Japan for two years and played on his school's soccer team.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/everyday-encounters-a-local-dad-works-to-pass-love-of-soccer-to-daughters</guid>
       <pubDate>Wed, 16 Apr 2025 13:00:22 +0000</pubDate>
     </item>
     <item>
@@ -33,6 +38,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-teen-turns-childhood-passion-into-youth-chess-network</link>
       <description>Stanley Wong is leading growing after-school programs across Marin and the North Bay.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-teen-turns-childhood-passion-into-youth-chess-network</guid>
       <pubDate>Wed, 16 Apr 2025 13:15:07 +0000</pubDate>
     </item>
     <item>
@@ -40,6 +46,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-poet-finds-healing-through-verse</link>
       <description>Ashley Moyo uses the spoken word to process grief, identity and life as part of African diaspora.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-poet-finds-healing-through-verse</guid>
       <pubDate>Wed, 16 Apr 2025 13:30:09 +0000</pubDate>
     </item>
     <item>
@@ -47,6 +54,7 @@
       <link>https://www.thearknewspaper.com/live/redwood-water-polo-standout-on-olympic-path</link>
       <description>Reed schools grad Samantha Riley won an invitation to the National Team Selection Camp.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/redwood-water-polo-standout-on-olympic-path</guid>
       <pubDate>Wed, 16 Apr 2025 13:45:04 +0000</pubDate>
     </item>
     <item>
@@ -54,6 +62,7 @@
       <link>https://www.thearknewspaper.com/live/man-arrested-in-denver-in-connection-with-2023-tiburon-armed-robbery</link>
       <description>He's been arraigned on felony charges of robbery and negligent discharge of a firearm, both with special enhancements.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/man-arrested-in-denver-in-connection-with-2023-tiburon-armed-robbery</guid>
       <pubDate>Wed, 16 Apr 2025 14:00:28 +0000</pubDate>
     </item>
     <item>
@@ -61,6 +70,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-lifts-8-year-ban-on-new-utility-burying-districts</link>
       <description>The Town Council also agreed to help fund some early planning costs.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-lifts-8-year-ban-on-new-utility-burying-districts</guid>
       <pubDate>Wed, 16 Apr 2025 14:15:08 +0000</pubDate>
     </item>
     <item>
@@ -68,6 +78,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-to-celebrate-55th-earth-day-with-parade-enviro-fair</link>
       <description>Tiburons celebration is set for 10 a.m.-1 p.m. April 27.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-to-celebrate-55th-earth-day-with-parade-enviro-fair</guid>
       <pubDate>Wed, 16 Apr 2025 14:30:09 +0000</pubDate>
     </item>
     <item>
@@ -75,6 +86,7 @@
       <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
       <description>The theater owner's complaint says the operator of the Rafael, Sequoia and Mill Valley Film Fest is hurting his business.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</guid>
       <pubDate>Wed, 16 Apr 2025 14:45:06 +0000</pubDate>
     </item>
     <item>
@@ -82,6 +94,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
       <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 +0000</pubDate>
     </item>
     <item>
@@ -89,6 +102,7 @@
       <link>https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</link>
       <description>Zhongs works will be displayed in the upstairs gallery through June 30, with an artists reception set for 6-8 p.m. May 6.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:05 +0000</pubDate>
     </item>
     <item>
@@ -96,6 +110,7 @@
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-dad-passes-down-his-love-for-baseball-to-his-three-children</link>
       <description>Mark Marsella played baseball from age 6 through high school.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/everyday-encounters-a-dad-passes-down-his-love-for-baseball-to-his-three-children</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:54 +0000</pubDate>
     </item>
     <item>
@@ -103,6 +118,7 @@
       <link>https://www.thearknewspaper.com/live/mill-valley-principal-tapped-to-lead-reed-elementary-school</link>
       <description>Aubrey OConnor is the new Reed Elementary School principal, replacing Mary Niesyn, who is retiring.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/mill-valley-principal-tapped-to-lead-reed-elementary-school</guid>
       <pubDate>Wed, 23 Apr 2025 13:45:06 +0000</pubDate>
     </item>
     <item>
@@ -110,6 +126,7 @@
       <link>https://www.thearknewspaper.com/live/angel-island-exhibit-looks-at-border-surveillance-technology</link>
       <description>Border Surveillance: Places, People and Technology features panels detailing technologies used to monitor border crossings  from aerostats and drones to fixed cameras and ground sensors.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/angel-island-exhibit-looks-at-border-surveillance-technology</guid>
       <pubDate>Wed, 23 Apr 2025 14:00:13 +0000</pubDate>
     </item>
     <item>
@@ -117,6 +134,7 @@
       <link>https://www.thearknewspaper.com/live/sani-5-oks-3-mil-rehab-of-aging-cove-road-pump-station</link>
       <description>Construction is targeted for spring 2026 because it will take up to a year to obtain one of the necessary parts for the upgrade.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/sani-5-oks-3-mil-rehab-of-aging-cove-road-pump-station</guid>
       <pubDate>Wed, 23 Apr 2025 14:15:09 +0000</pubDate>
     </item>
     <item>
@@ -124,6 +142,7 @@
       <link>https://www.thearknewspaper.com/live/school-foundation-saddling-up-for-rodeo-fundraiser</link>
       <description>The May 10 event for the Reed Union district will feature dinner, dancing and a live auction.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/school-foundation-saddling-up-for-rodeo-fundraiser</guid>
       <pubDate>Wed, 23 Apr 2025 14:30:17 +0000</pubDate>
     </item>
     <item>
@@ -131,6 +150,7 @@
       <link>https://www.thearknewspaper.com/live/tiburon-councilmember-nikfar-misses-yet-another-state-financial-report-deadline</link>
       <description>The failure to file reflects a pattern for Nikfar, who missed three disclosure deadlines August 2023 and November 2024 elections.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/tiburon-councilmember-nikfar-misses-yet-another-state-financial-report-deadline</guid>
       <pubDate>Wed, 23 Apr 2025 14:45:07 +0000</pubDate>
     </item>
     <item>
@@ -138,6 +158,7 @@
       <link>https://www.thearknewspaper.com/live/nowruz-in-motion-on-main</link>
       <description>Ballet Afsaneh performs traditional routines during the third annual Nowruz spring festival celebrating the Persian new year on lower...</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/nowruz-in-motion-on-main</guid>
       <pubDate>Wed, 23 Apr 2025 15:00:24 +0000</pubDate>
     </item>
     <item>
@@ -145,6 +166,7 @@
       <link>https://www.thearknewspaper.com/live/owner-cinelounge-won-t-close-this-week-despite-fundraising-urgency</link>
       <description>Email campaign was a Hail Mary to generate support for the transition to a nonprofit.</description>
       <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://www.thearknewspaper.com/live/owner-cinelounge-won-t-close-this-week-despite-fundraising-urgency</guid>
       <pubDate>Wed, 23 Apr 2025 22:32:22 +0000</pubDate>
     </item>
   </channel>

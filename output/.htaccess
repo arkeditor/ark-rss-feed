@@ -1,0 +1,5 @@
+
+# Set correct MIME type for RSS feed
+<Files "full_feed.xml">
+    ForceType application/rss+xml
+</Files>
