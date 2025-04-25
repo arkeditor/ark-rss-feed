@@ -149,8 +149,13 @@ for entry in feed.entries:
             logging.warning(f"Could not find tETUs/BrKEk structure in {post_url}, falling back to p tags")
             for p in soup.find_all('p'):
                 txt = p.get_text(strip=True)
-                if len(txt) > 20:  # Longer minimum for p tags to avoid headers/etc
-                    paragraphs.append(f"<p>{clean_text(txt)}</p>")
+                # Skip short texts and headers/section titles
+                if len(txt) <= 20:
+                    continue
+                    
+                # Explicitly filter out known section headers and boilerplate
+                skip_patterns = [
+                    r'^Public Notices/Legals
         
         # Dedupe & clean
         seen, unique = set(), []
@@ -164,6 +169,13 @@ for entry in feed.entries:
         content_html = dedupe_sentences(content_html)
         content_html = merge_broken_paragraphs(content_html)
         content_html = filter_content(content_html)
+        
+        # Check if there's meaningful content after all filtering
+        # If we have less than 100 characters or just 1 paragraph of boilerplate, consider it empty
+        if len(content_html) < 100 or len(paragraphs) <= 1:
+            content_html = ""
+            logging.info(f"No meaningful content found for {post_url}")
+
         
         # Extract media - specifically looking for figures with figcaptions
         media_items = []
@@ -202,10 +214,11 @@ for entry in feed.entries:
     if media_items:
         entry_media_map[entry_id] = media_items
         
-    # We'll handle media items in post-processing
-    # Just store content for now
+    # Only store content if we have meaningful content
     if content_html:
         fe.content(content_html)
+    # Even if no content, we keep the description
+    fe.description(desc)
 
 # --- Output feed ---
 os.makedirs('output', exist_ok=True)
@@ -224,10 +237,182 @@ rss_str = re.sub(r'<rss version="2.0">',
 content_pattern = re.compile(r'<content>(.*?)</content>', re.DOTALL)
 for match in content_pattern.finditer(rss_str):
     content = match.group(1)
-    # Unescape HTML entities to get raw HTML
-    # Use the html module to properly unescape entities
-    import html as html_module
-    content = html_module.unescape(content)
+    
+    # Skip empty content
+    if not content.strip():
+        # Replace with empty content:encoded tag
+        old_tag = match.group(0)
+        new_tag = '<content:encoded></content:encoded>'
+        rss_str = rss_str.replace(old_tag, new_tag)
+        continue
+    
+    # Handle unescaping of HTML entities properly
+    try:
+        # First convert to an actual DOM to handle entities
+        soup = BeautifulSoup(f"<div>{content}</div>", 'lxml')
+        # Extract the raw HTML (with entities converted to actual tags)
+        content = ''.join(str(c) for c in soup.div.contents)
+    except Exception as e:
+        logging.error(f"Error unescaping HTML: {e}")
+        # Fallback to basic replacement if parsing fails
+        content = content.replace('&lt;', '<').replace('&gt;', '>')
+    
+    # Replace the content tag with content:encoded containing raw HTML in CDATA
+    old_tag = match.group(0)
+    new_tag = f'<content:encoded><![CDATA[{content}]]></content:encoded>'
+    rss_str = rss_str.replace(old_tag, new_tag)
+
+# Add media items with proper media:group and media:description tags
+# This uses the entry URLs as identifiers to match with our stored media items
+item_pattern = re.compile(r'<item>\s*<title>(.*?)</title>.*?<link>(.*?)</link>', re.DOTALL)
+for match in item_pattern.finditer(rss_str):
+    title = match.group(1)
+    link = match.group(2)
+    
+    # Check if we have media items for this entry
+    if link in entry_media_map and entry_media_map[link]:
+        # Find the position to insert media group
+        item_end_pos = rss_str.find('</item>', match.start())
+        if item_end_pos > 0:
+            # Create media group XML
+            media_group = []
+            media_group.append('  <media:group>')
+            
+            for img_url, caption in entry_media_map[link]:
+                media_group.append(f'    <media:content url="{img_url}" medium="image"/>')
+                if caption:
+                    media_group.append(f'    <media:description>{caption}</media:description>')
+            
+            media_group.append('  </media:group>')
+            media_xml = '\n'.join(media_group)
+            
+            # Insert media group before item closing tag
+            rss_str = rss_str[:item_end_pos] + '\n' + media_xml + '\n' + rss_str[item_end_pos:]
+
+# Write the final RSS feed to file
+with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    f.write(rss_str)
+
+logging.info("Rebuilt feed written to output/full_feed.xml")
+,
+                    r'^The Ark, twice named',
+                    r'support makes this possible',
+                    r'In addition to subscribing',
+                    r'© \d+ The Ark',
+                    r'Designed by Kevin Hessel',
+                    r'^Email campaign was',
+                    r'^SUBSCRIBE NOW',
+                ]
+                
+                should_skip = False
+                for pattern in skip_patterns:
+                    if re.search(pattern, txt, re.IGNORECASE):
+                        should_skip = True
+                        break
+                        
+                if not should_skip:
+                    paragraphs.append(f"<p>{clean_text(txt)}</p>")
+        
+        # Dedupe & clean
+        seen, unique = set(), []
+        for p in paragraphs:
+            norm = re.sub(r'\s+', ' ', BeautifulSoup(p, 'html.parser').get_text()).lower()
+            if norm not in seen:
+                seen.add(norm)
+                unique.append(p)
+        
+        content_html = "\n".join(unique)
+        content_html = dedupe_sentences(content_html)
+        content_html = merge_broken_paragraphs(content_html)
+        content_html = filter_content(content_html)
+        
+        # Check if there's meaningful content after all filtering
+        # If we have less than 100 characters or just 1 paragraph of boilerplate, consider it empty
+        if len(content_html) < 100 or len(paragraphs) <= 1:
+            content_html = ""
+            logging.info(f"No meaningful content found for {post_url}")
+
+        
+        # Extract media - specifically looking for figures with figcaptions
+        media_items = []
+        for fig in soup.find_all('figure'):
+            img = fig.find('img')
+            # Specifically look for figcaption elements with any class
+            cap = fig.find('figcaption')
+            
+            if img and img.get('src'):
+                url = img['src']
+                caption = ""
+                
+                if cap:
+                    # Log the figcaption and its classes for debugging
+                    caption_classes = cap.get('class', [])
+                    caption_text = cap.get_text(strip=True)
+                    logging.info(f"Found figcaption with classes: {caption_classes}, text: {caption_text[:30]}...")
+                    caption = clean_text(caption_text)
+                
+                media_items.append((url, caption))
+                logging.info(f"Added media: {url} with caption: {caption[:30]}...")
+    except Exception as e:
+        logging.error(f"Error scraping {post_url}: {e}")
+        content_html, media_items = '', []
+
+    # Build entry
+    fe = fg.add_entry()
+    fe.id(post_url)
+    fe.title(title)
+    fe.link(href=post_url)
+    fe.description(desc)
+    fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
+
+    # Store entry ID and media items for post-processing
+    entry_id = post_url  # Use URL as unique identifier
+    if media_items:
+        entry_media_map[entry_id] = media_items
+        
+    # Only store content if we have meaningful content
+    if content_html:
+        fe.content(content_html)
+    # Even if no content, we keep the description
+    fe.description(desc)
+
+# --- Output feed ---
+os.makedirs('output', exist_ok=True)
+
+# Generate the RSS XML string
+rss_bytes = fg.rss_str(pretty=True)
+rss_str = rss_bytes.decode('utf-8')
+
+# Add proper namespaces to the root element
+rss_str = re.sub(r'<rss version="2.0">', 
+                 '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">', 
+                 rss_str)
+
+# Replace content tags with content:encoded tags containing CDATA
+# First, find all content tags
+content_pattern = re.compile(r'<content>(.*?)</content>', re.DOTALL)
+for match in content_pattern.finditer(rss_str):
+    content = match.group(1)
+    
+    # Skip empty content
+    if not content.strip():
+        # Replace with empty content:encoded tag
+        old_tag = match.group(0)
+        new_tag = '<content:encoded></content:encoded>'
+        rss_str = rss_str.replace(old_tag, new_tag)
+        continue
+    
+    # Handle unescaping of HTML entities properly
+    try:
+        # First convert to an actual DOM to handle entities
+        soup = BeautifulSoup(f"<div>{content}</div>", 'lxml')
+        # Extract the raw HTML (with entities converted to actual tags)
+        content = ''.join(str(c) for c in soup.div.contents)
+    except Exception as e:
+        logging.error(f"Error unescaping HTML: {e}")
+        # Fallback to basic replacement if parsing fails
+        content = content.replace('&lt;', '<').replace('&gt;', '>')
     
     # Replace the content tag with content:encoded containing raw HTML in CDATA
     old_tag = match.group(0)
