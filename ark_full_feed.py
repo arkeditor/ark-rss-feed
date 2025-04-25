@@ -18,6 +18,7 @@ Dependencies:
 
 import feedparser
 import requests
+from feedgen.util import xml_elem
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import logging
@@ -175,7 +176,10 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
     for m_url, m_caption in media_items:
-        fe.media_content({'url': m_url, 'medium': 'image'})
+        # Insert media:content via xml_elem
+        media_elem = xml_elem('{http://search.yahoo.com/mrss/}content', fe._entry)
+        media_elem.set('url', m_url)
+        media_elem.set('medium', 'image')
         if m_caption:
             desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
             desc_elem.text = m_caption
