@@ -316,7 +316,7 @@ for entry in all_entries:
     
     # Add media items with the new format
     for media in entry['media_items']:
-        output_xml += f'      <media:content url="{media["url"]}" type="{media["type"]}"/>\n'
+        output_xml += f'      <media:content url="{media["url"]}" medium="{media["type"]}"/>\n'
         if media['caption']:
             # Escape & in captions
             safe_caption = media['caption'].replace("&", "&amp;")
