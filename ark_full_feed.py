@@ -20,6 +20,7 @@ import logging
 import re
 import os
 from datetime import datetime, timezone
+from lxml import etree
 
 # --- Set up logging ---
 log_dir = "logs"
@@ -46,9 +47,6 @@ except Exception as e:
 fg = FeedGenerator()
 fg.load_extension('podcast')
 fg.podcast.itunes_category('News')
-
-# Add media namespace for media:description tags
-fg.register_ns('media', 'http://search.yahoo.com/mrss/')
 
 # --- Feed metadata ---
 fg.title('The Ark Newspaper (Full Text)')
@@ -188,8 +186,8 @@ for entry in feed.entries:
         # Try multiple selectors to handle potential HTML structure changes
         paragraphs = []
         
-        # Extract figcaptions for media:description
-        media_descriptions = []
+        # Extract figcaptions for later use in the feed
+        image_captions = []
         figcaptions = soup.find_all('figcaption')
         for figcaption in figcaptions:
             caption_text = ""
@@ -206,7 +204,7 @@ for entry in feed.entries:
             
             if caption_text:
                 caption_text = fix_garbled_encodings(caption_text.strip())
-                media_descriptions.append(caption_text)
+                image_captions.append(caption_text)
                 logging.info(f"📸 Found image caption: {caption_text[:50]}...")
         
         # Method 1: Look for the new structure with class selectors
@@ -258,7 +256,7 @@ for entry in feed.entries:
 
     except Exception as e:
         full_content_html = ""
-        media_descriptions = []
+        image_captions = []
         logging.error(f"❌ Error scraping {post_url}: {str(e)}")
 
     # Create feed entry
@@ -272,10 +270,6 @@ for entry in feed.entries:
     
     # Add description
     fe.description(post_description)
-    
-    # Add media:description tags for each figcaption found
-    for i, media_desc in enumerate(media_descriptions):
-        fe.media.description(media_desc)
     
     # Add publication date with timezone info
     if pub_date:
@@ -292,6 +286,9 @@ for entry in feed.entries:
     # Add full content
     if full_content_html:
         fe.content(content=full_content_html, type='CDATA')
+    
+    # We'll store captions to add later when we modify the XML
+    fe._image_captions = image_captions
 
 # --- Output files for different hosting scenarios ---
 output_dir = "output"
@@ -303,16 +300,38 @@ try:
     # Generate RSS feed with pretty formatting
     rss_feed = fg.rss_str(pretty=True)
     
-    # Extra validation: Ensure required elements are present
-    if b'<atom:link' not in rss_feed or b'rel="self"' not in rss_feed:
-        logging.warning("⚠️ atom:link with rel='self' might be missing from the feed")
-        
-    if b'<guid' not in rss_feed:
-        logging.warning("⚠️ guid elements might be missing from items")
+    # Parse the feed to add media:description tags
+    root = etree.fromstring(rss_feed)
+    
+    # Add media namespace to the root element
+    nsmap = root.nsmap
+    nsmap['media'] = 'http://search.yahoo.com/mrss/'
+    
+    # Create a new root with the updated namespace map
+    new_root = etree.Element(root.tag, nsmap=nsmap)
+    
+    # Copy all children from the original root
+    for child in root:
+        new_root.append(child)
+    
+    # Find all item elements
+    channel = new_root.find('channel')
+    items = channel.findall('item')
+    
+    # Add media:description to each item that has image captions
+    for i, item in enumerate(items):
+        entry = fg.entry(item.findtext('guid'))
+        if hasattr(entry, '_image_captions') and entry._image_captions:
+            for caption in entry._image_captions:
+                media_desc = etree.SubElement(item, '{http://search.yahoo.com/mrss/}description')
+                media_desc.text = caption
+    
+    # Convert back to string
+    modified_rss_feed = etree.tostring(new_root, pretty_print=True, xml_declaration=True, encoding='UTF-8')
     
     # Write the feed file
     with open(output_file, "wb") as f:
-        f.write(rss_feed)
+        f.write(modified_rss_feed)
     logging.info(f"📦 Full-content RSS feed written to {output_file}")
     
     # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
@@ -340,6 +359,7 @@ readfile('full_feed.xml');
     logging.info(f"📦 Created PHP wrapper for proper MIME type")
     
 except Exception as e:
-    logging.error(f"❌ Failed to write feed file: {e}")
+    logging.error(f"❌ Failed to write feed file: {str(e)}")
+    logging.exception("Stack trace:")
 
 logging.info("✅ Script completed.")
