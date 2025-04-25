@@ -15,12 +15,10 @@ This script enriches the RSS feed by:
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
 import logging
 import re
 import os
 from datetime import datetime, timezone
-import xml.etree.ElementTree as ET
 import html
 
 # --- Setup logging ---
@@ -36,21 +34,6 @@ logging.info(f"Fetching blog feed: {blog_feed_url}")
 blog_feed = feedparser.parse(blog_feed_url)
 # We'll use the blog feed entries directly as our primary source
 feed = blog_feed
-
-# --- Initialize output feed ---
-fg = FeedGenerator()
-fg.load_extension('media')
-fg.load_extension('base')
-
-# Use original blog feed as a base
-feed_id = feed.feed.get('id', blog_feed_url)
-fg.id(feed_id)
-fg.title(feed.feed.get('title', 'The Ark'))
-fg.link(href=blog_feed_url)
-fg.description(feed.feed.get('description', 'The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry'))
-fg.language(feed.feed.get('language', 'en'))
-fg.lastBuildDate(datetime.now(timezone.utc))
-fg.generator('Ark RSS Feed Generator (Rebuilt)')
 
 # --- Text cleaning functions ---
 def clean_text(text):
@@ -151,6 +134,20 @@ def filter_content(html):
     
     return filtered_html
 
+def transform_media_url(url):
+    """Transform media URLs to the specified format."""
+    # Extract the media ID from the URL
+    match = re.search(r'media/([^/]+)', url)
+    if match:
+        media_id = match.group(1)
+        # Extract file extension if possible
+        ext_match = re.search(r'\.(png|jpg|jpeg|gif|webp)', url.lower())
+        ext = ext_match.group(1) if ext_match else 'png'
+        
+        # Create the new URL format
+        return f"https://static.wixstatic.com/media/{media_id}/v1/fit/w_1000,h_999,al_c,q_80/file.{ext}"
+    return url
+
 # For storing the feed entries before we create the final XML
 all_entries = []
 
@@ -162,6 +159,11 @@ for entry in feed.entries:
     desc = entry.get('description', '')
     guid = entry.get('id', post_url)
     published = entry.get('published', datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000'))
+    
+    # Extract creator and categories from original feed if available
+    creator = entry.get('author', '')
+    categories = [tag.get('term', '') for tag in entry.get('tags', [])]
+    
     logging.info(f"Processing {post_url}")
     
     # Create dictionary for this entry
@@ -171,8 +173,10 @@ for entry in feed.entries:
         'description': desc,
         'guid': guid,
         'pubDate': published,
+        'creator': creator,
+        'categories': categories,
         'content_encoded': None,
-        'media_groups': []
+        'media_items': []
     }
     
     # Now scrape the article page
@@ -227,13 +231,11 @@ for entry in feed.entries:
             content_html = html.unescape(content_html)
             
             # Step 3: Check for specific patterns to clean up
-            # Strip <p> at the beginning of content if needed
-            if content_html.startswith('<p>'):
-                content_html = content_html[3:]
-                
-            # Strip </p> at the end of content if needed
-            if content_html.endswith('</p>'):
-                content_html = content_html[:-4]
+            # Ensure content is properly wrapped in paragraph tags
+            if not content_html.startswith('<p>'):
+                content_html = '<p>' + content_html
+            if not content_html.endswith('</p>'):
+                content_html = content_html + '</p>'
                 
             # Store the properly formatted content
             current_entry['content_encoded'] = content_html
@@ -246,20 +248,24 @@ for entry in feed.entries:
             
             if img and img.get('src'):
                 img_url = img['src']
-                img_caption = ""
+                # Transform to the requested URL format
+                transformed_url = transform_media_url(img_url)
                 
+                img_caption = ""
                 if cap:
                     img_caption = clean_text(cap.get_text(strip=True))
                 
-                # Create a media entry
+                # Add the media item
                 media_item = {
-                    'url': img_url,
-                    'caption': img_caption
+                    'url': transformed_url,
+                    'caption': img_caption,
+                    'type': 'image/png',
+                    'length': '0'
                 }
                 
-                # Add to this entry's media groups
-                current_entry['media_groups'].append(media_item)
-                logging.info(f"Added media to {post_url}: {img_url}")
+                # Add to this entry's media items
+                current_entry['media_items'].append(media_item)
+                logging.info(f"Added media to {post_url}: {transformed_url}")
         
     except Exception as e:
         logging.error(f"Error processing {post_url}: {e}")
@@ -269,7 +275,8 @@ for entry in feed.entries:
 
 # Create the XML output directly
 output_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
-output_xml += '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">\n'
+output_xml += '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" '
+output_xml += 'xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">\n'
 output_xml += '  <channel>\n'
 output_xml += f'    <title>{feed.feed.get("title", "The Ark")}</title>\n'
 output_xml += f'    <link>{blog_feed_url}</link>\n'
@@ -292,22 +299,24 @@ for entry in all_entries:
     
     # Add content:encoded if we have it
     if entry['content_encoded']:
-        # Ensure content is properly wrapped in paragraph tags 
-        content = entry["content_encoded"]
-        if not content.startswith('<p>'):
-            content = '<p>' + content
-        if not content.endswith('</p>'):
-            content = content + '</p>'
-            
-        output_xml += f'      <content:encoded><![CDATA[{content}]]></content:encoded>\n'
+        output_xml += f'      <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
+    
+    # Add dc:creator if available
+    if entry['creator']:
+        safe_creator = entry['creator'].replace("&", "&amp;")
+        output_xml += f'      <dc:creator>{safe_creator}</dc:creator>\n'
+    
+    # Add categories if available
+    for category in entry['categories']:
+        safe_category = category.replace("&", "&amp;")
+        output_xml += f'      <category>{safe_category}</category>\n'
     
     output_xml += f'      <guid isPermaLink="false">{entry["guid"]}</guid>\n'
     output_xml += f'      <pubDate>{entry["pubDate"]}</pubDate>\n'
     
-    # Add each media item without grouping
-    for media in entry['media_groups']:
-        # Use media:content directly without media:group
-        output_xml += f'      <media:content url="{media["url"]}" medium="image"/>\n'
+    # Add media items with the new format
+    for media in entry['media_items']:
+        output_xml += f'      <media:content url="{media["url"]}" length="{media["length"]}" type="{media["type"]}"/>\n'
         if media['caption']:
             # Escape & in captions
             safe_caption = media['caption'].replace("&", "&amp;")
