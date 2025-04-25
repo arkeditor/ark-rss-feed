@@ -24,6 +24,7 @@ import logging
 import re
 import os
 from datetime import datetime, timezone
+import xml.etree.ElementTree as ET
 
 # --- Setup logging ---
 log_dir = "logs"
