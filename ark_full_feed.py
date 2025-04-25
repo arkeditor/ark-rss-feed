@@ -281,27 +281,39 @@ output_xml += f'    <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d 
 
 # Add each entry
 for entry in all_entries:
+    # Ensure XML-safe text by escaping special characters
+    safe_title = entry["title"].replace("&", "&amp;")
+    safe_description = entry["description"].replace("&", "&amp;")
+    
     output_xml += '    <item>\n'
-    output_xml += f'      <title>{entry["title"]}</title>\n'
+    output_xml += f'      <title>{safe_title}</title>\n'
     output_xml += f'      <link>{entry["link"]}</link>\n'
-    output_xml += f'      <description>{entry["description"]}</description>\n'
+    output_xml += f'      <description>{safe_description}</description>\n'
     
     # Add content:encoded if we have it
     if entry['content_encoded']:
-        output_xml += f'      <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
+        # Ensure content is properly wrapped in paragraph tags 
+        content = entry["content_encoded"]
+        if not content.startswith('<p>'):
+            content = '<p>' + content
+        if not content.endswith('</p>'):
+            content = content + '</p>'
+            
+        output_xml += f'      <content:encoded><![CDATA[{content}]]></content:encoded>\n'
     
     output_xml += f'      <guid isPermaLink="false">{entry["guid"]}</guid>\n'
     output_xml += f'      <pubDate>{entry["pubDate"]}</pubDate>\n'
     
-    # Add media groups
+    # Add each media item without grouping
     for media in entry['media_groups']:
-        output_xml += '    \n  <media:group>\n'
-        output_xml += f'    <media:content url="{media["url"]}" medium="image"/>\n'
+        # Use media:content directly without media:group
+        output_xml += f'      <media:content url="{media["url"]}" medium="image"/>\n'
         if media['caption']:
-            output_xml += f'    <media:description>{media["caption"]}</media:description>\n'
-        output_xml += '  </media:group>\n'
+            # Escape & in captions
+            safe_caption = media['caption'].replace("&", "&amp;")
+            output_xml += f'      <media:description>{safe_caption}</media:description>\n'
     
-    output_xml += '</item>\n'
+    output_xml += '    </item>\n'
 
 # Close the channel and rss tags
 output_xml += '  </channel>\n'
