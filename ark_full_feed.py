@@ -67,27 +67,28 @@ fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator')
 
 
-def fix_garbled_encodings(text):
+def fix_titles_and_descriptions(text):
     """
-    Fix only known garbled character encodings without removing legitimate punctuation.
-    
-    Args:
-        text (str): Text to clean
-        
-    Returns:
-        str: Cleaned text with legitimate punctuation preserved
+    Fix common issues in titles and descriptions.
     """
-    # Check for common patterns that need fixing
-    if " wont " in text:
-        text = text.replace(" wont ", " won't ")
-    if "wont " in text:
-        text = text.replace("wont ", "won't ")
-    if " wont" in text:
-        text = text.replace(" wont", " won't")
+    # Fix "won't" in titles and descriptions
+    text = text.replace(" wont ", " won't ")
+    text = text.replace("wont ", "won't ")
+    text = text.replace(" wont", " won't")
     
-    # Fix O'Connor and similar possessives 
+    # Fix missing apostrophes in names and possessives
     text = re.sub(r'(\w+)s\s+([^\s])', r"\1's \2", text)
     
+    # Fix other common issues
+    text = text.replace("&amp;#38;", "&")
+    
+    return text
+
+
+def clean_garbled_text(text):
+    """
+    Fix only known garbled character encodings without removing legitimate punctuation.
+    """
     # Only fix specific known garbled encodings
     garbled_map = {
         "‚Äôt": "'t",  # won't
@@ -103,10 +104,6 @@ def fix_garbled_encodings(text):
         "â€˜": "'",    # apostrophe
     }
     
-    skip_content = "HE ARK HAS THE STORY IN THIS WEEK'S ARK • Click the link in our bio for digital-edition access"
-    if skip_content in text:
-        return text
-        
     for garbled, correct in garbled_map.items():
         text = text.replace(garbled, correct)
     
@@ -117,48 +114,9 @@ def fix_garbled_encodings(text):
     return text
 
 
-def clean_garbled_html(html_text):
-    """
-    More aggressive cleaning for HTML content, used for the article body.
-    
-    Args:
-        html_text (str): HTML text to clean
-        
-    Returns:
-        str: Cleaned HTML
-    """
-    garbled_map = {
-        "‚Äôt": "'",
-        "‚Äò": "'",
-        "‚Äô": "'",
-        "‚Äú": '"',
-        "‚Äù": '"',
-        "‚Äôs": "'s",
-        "¬†": " ",
-        "â€™": "'",
-        "â€œ": '"',
-        "â€": '"',
-        "â€˜": "'",
-    }
-    
-    for garbled, correct in garbled_map.items():
-        html_text = html_text.replace(garbled, correct)
-    
-    # More aggressive cleaning for HTML content is fine
-    html_text = re.sub(r'[^\x00-\x7F]+', '', html_text)
-    
-    return html_text
-
-
 def extract_text_from_element(element):
     """
     Extract text from an element, handling the nested span structure.
-    
-    Args:
-        element: BeautifulSoup element
-        
-    Returns:
-        str: Extracted text
     """
     text = ""
     if element.name == 'span':
@@ -179,25 +137,6 @@ def extract_text_from_element(element):
     return text.strip()
 
 
-def create_content_signature(text):
-    """
-    Create a unique signature for a paragraph to use in deduplication.
-    Uses the entire content after normalization, not just the first 50 chars.
-    
-    Args:
-        text (str): Paragraph text
-        
-    Returns:
-        str: Signature for deduplication
-    """
-    # Remove all whitespace
-    text = re.sub(r'\s+', '', text).lower()
-    # Remove all punctuation
-    text = re.sub(r'[^\w]', '', text)
-    # Return the full text for exact matching
-    return text
-
-
 # Dictionary to store captions for each URL
 url_to_captions = {}
 
@@ -205,9 +144,9 @@ url_to_captions = {}
 for entry in feed.entries:
     post_url = entry.link
     
-    # Use gentler cleaning for titles and descriptions
-    post_title = fix_garbled_encodings(entry.title)
-    post_description = fix_garbled_encodings(entry.get("description", ""))
+    # Fix titles and descriptions
+    post_title = fix_titles_and_descriptions(entry.title)
+    post_description = fix_titles_and_descriptions(entry.get("description", ""))
     pub_date = entry.get("published", "")
 
     logging.info(f"🔍 Processing: {post_title} - {post_url}")
@@ -219,7 +158,7 @@ for entry in feed.entries:
         # --- Extract captions for media:description tags ---
         image_captions = []
         
-        # Method 1: Look for figcaptions with class JlS9j (as in the example)
+        # Method 1: Look for figcaptions with class JlS9j
         figcaptions = soup.find_all('figcaption', class_='JlS9j')
         if figcaptions:
             for figcaption in figcaptions:
@@ -227,7 +166,7 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = fix_garbled_encodings(caption_text)
+                        caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (class method): {caption_text[:50]}...")
         
@@ -241,18 +180,18 @@ for entry in feed.entries:
                     for span in spans:
                         caption_text = span.get_text(strip=True)
                         if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                            caption_text = fix_garbled_encodings(caption_text)
+                            caption_text = clean_garbled_text(caption_text)
                             image_captions.append(caption_text)
                             logging.info(f"📸 Found image caption (generic method): {caption_text[:50]}...")
                 else:
                     # Get text directly from figcaption
                     caption_text = figcaption.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = fix_garbled_encodings(caption_text)
+                        caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (direct method): {caption_text[:50]}...")
         
-        # Method 3: Look for div with class _3mtS- that contains figcaption (as in the example)
+        # Method 3: Look for div with class _3mtS- that contains figcaption
         img_containers = soup.find_all('div', class_='_3mtS-')
         for container in img_containers:
             figcaption = container.find('figcaption')
@@ -261,11 +200,11 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = fix_garbled_encodings(caption_text)
+                        caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (container method): {caption_text[:50]}...")
         
-        # Method 4: Look for div with class bYXDH that contains figcaption (as in the example)
+        # Method 4: Look for div with class bYXDH that contains figcaption
         img_containers = soup.find_all('div', class_='bYXDH')
         for container in img_containers:
             figcaption = container.find('figcaption')
@@ -274,26 +213,9 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = fix_garbled_encodings(caption_text)
+                        caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (bYXDH method): {caption_text[:50]}...")
-
-        # Method 5: Look for quoted text in paragraphs that might be exhibit names
-        paragraphs = soup.find_all('p')
-        for paragraph in paragraphs:
-            # Check if paragraph contains both quotes and relevant keywords
-            text = paragraph.get_text(strip=True)
-            
-            # General case for quoted content that might be captions
-            if ('"' in text or "'" in text) and any(keyword in text.lower() for keyword in 
-                                                ['exhibit', 'display', 'shown', 'pictured', 'photo']):
-                # Try to extract the quoted part if it's an exhibit name
-                matches = re.findall(r'["\'](.*?)["\']', text)
-                for match in matches:
-                    if len(match) > 20:  # Only include substantial quotes
-                        caption_text = fix_garbled_encodings(match)
-                        image_captions.append(caption_text)
-                        logging.info(f"📸 Found image caption (quote extraction): {caption_text[:50]}...")
         
         # De-duplicate captions
         if image_captions:
@@ -310,39 +232,20 @@ for entry in feed.entries:
         if image_captions:
             url_to_captions[post_url] = image_captions
 
-        # --- First-step content extraction: Get raw text and remove direct duplicates ---
-        # This helps with the website's tendency to duplicate paragraphs
-        raw_paragraphs = [] 
-        seen_paragraphs = set()
+        # --- Simple and robust content extraction ---
+        # For each article, we'll first check if we have previous content in the feed
+        paragraphs = []
         
-        # Split paragraphs directly from HTML content to catch duplication
-        html_str = str(soup)
-        # Remove all <script> and <style> tags first
-        html_str = re.sub(r'<script.*?</script>', '', html_str, flags=re.DOTALL)
-        html_str = re.sub(r'<style.*?</style>', '', html_str, flags=re.DOTALL)
+        # Check if this entry already has content in the original feed
+        original_content = entry.get("content", [{}])[0].get("value", "")
         
-        # Split by paragraph tags
-        paragraph_parts = html_str.split("<p")
-        for part in paragraph_parts[1:]:  # Skip first part (before first <p>)
-            # Find where paragraph ends
-            end_idx = part.find("</p>")
-            if end_idx > 0:
-                # Extract text within paragraph
-                para_html = "<p" + part[:end_idx + 4]
-                para_soup = BeautifulSoup(para_html, 'html.parser')
-                text = para_soup.get_text(strip=True)
-                
-                # Only include substantial paragraphs
-                if len(text) > 100:
-                    # Create a signature for this paragraph
-                    sig = create_content_signature(text)
-                    if sig not in seen_paragraphs:
-                        seen_paragraphs.add(sig)
-                        raw_paragraphs.append((text, para_html))
-        
-        # --- Secondary content extraction for backup methods ---
-        if not raw_paragraphs:
-            # Method 1: Look for the new structure with class selectors
+        # If original content exists, use it
+        if original_content and len(original_content) > 100:
+            full_content_html = original_content
+            logging.info(f"✅ Using original content from feed for: {post_title}")
+        else:
+            # Try to extract content from the article page using the most reliable method
+            # Method 1: Look for the content div with class tETUs
             content_divs = soup.find_all('div', class_='tETUs')
             if content_divs:
                 logging.info(f"✅ Found content using tETUs class selector for: {post_title}")
@@ -351,67 +254,58 @@ for entry in feed.entries:
                     p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
                     for p in p_elements:
                         text = extract_text_from_element(p)
-                        if text and len(text) > 100:
-                            sig = create_content_signature(text)
-                            if sig not in seen_paragraphs:
-                                seen_paragraphs.add(sig)
-                                raw_paragraphs.append((text, f"<p>{text}</p>"))
-
-            # Method 2: Try the older selector as a fallback
-            if not raw_paragraphs:
+                        # Only include non-empty, substantial paragraphs
+                        if text and len(text) > 10:
+                            # Clean up the text and assemble the HTML paragraph
+                            text = clean_garbled_text(text)
+                            paragraphs.append(f"<p>{text}</p>")
+            
+            # Method 2: If no content found, try the original style-based selector
+            if not paragraphs:
                 for p in soup.find_all("p"):
                     style = p.get("style", "")
                     if "Georgia" in style and ("18px" in style or "1.5em" in style):
                         text = p.get_text(strip=True)
-                        if len(text) > 100:
-                            sig = create_content_signature(text)
-                            if sig not in seen_paragraphs:
-                                seen_paragraphs.add(sig)
-                                html = clean_garbled_html(str(p))
-                                raw_paragraphs.append((text, html))
-                if raw_paragraphs:
+                        # Only include non-empty, substantial paragraphs
+                        if text and len(text) > 10:
+                            text = clean_garbled_text(text)
+                            paragraphs.append(f"<p>{text}</p>")
+                
+                if paragraphs:
                     logging.info(f"✅ Found content using style-based selector for: {post_title}")
-
-            # Method 3: Try a more generic approach if both specific methods fail
-            if not raw_paragraphs:
-                # Look for any div that might contain the main article content
-                article_divs = soup.find_all('div', class_=lambda c: c and (
-                    'article' in c.lower() or 'content' in c.lower() or 'post' in c.lower()
-                ))
-                for div in article_divs:
-                    p_elements = div.find_all('p')
-                    for p in p_elements:
-                        # Filter out very short paragraphs that might be captions or metadata
-                        text = p.get_text(strip=True)
-                        if len(text) > 100:  # Only include substantial paragraphs
-                            sig = create_content_signature(text)
-                            if sig not in seen_paragraphs:
-                                seen_paragraphs.add(sig)
-                                raw_paragraphs.append((text, f"<p>{text}</p>"))
-                if raw_paragraphs:
-                    logging.info(f"✅ Found content using generic article selector for: {post_title}")
-        
-        # Filter out subscription/comment paragraphs
-        final_paragraphs = []
-        for text, html in raw_paragraphs:
-            if not any(phrase in text for phrase in [
-                "Read the complete story", 
-                "SUBSCRIBE NOW", 
-                "Comment on this article",
-                "on Nextdoor",
-                "e-edition"
-            ]):
-                final_paragraphs.append(html)
-
-        full_content_html = "\n".join(final_paragraphs) if final_paragraphs else ""
-        
-        if full_content_html:
-            logging.info(f"✅ Extracted content: {len(final_paragraphs)} paragraphs for: {post_title}")
-        else:
-            logging.warning(f"⚠️ No content found for: {post_title}")
             
-            # Log the first 1000 characters of HTML for debugging
-            logging.info(f"Debug HTML sample: {str(soup)[:1000]}")
+            # Filter out paragraphs about subscribing or commenting
+            filtered_paragraphs = []
+            for p in paragraphs:
+                text = BeautifulSoup(p, 'html.parser').get_text()
+                if not any(phrase in text for phrase in [
+                    "Read the complete story", 
+                    "SUBSCRIBE NOW", 
+                    "Comment on this article",
+                    "e-edition", 
+                    "on Nextdoor",
+                    "Your support makes this possible"
+                ]):
+                    filtered_paragraphs.append(p)
+            
+            # Deduplicate paragraphs by comparing normalized text
+            unique_paragraphs = []
+            seen_texts = set()
+            
+            for p in filtered_paragraphs:
+                text = BeautifulSoup(p, 'html.parser').get_text()
+                # Normalize by removing whitespace and converting to lowercase
+                normalized = re.sub(r'\s+', ' ', text).strip().lower()
+                if normalized not in seen_texts:
+                    seen_texts.add(normalized)
+                    unique_paragraphs.append(p)
+            
+            full_content_html = "\n".join(unique_paragraphs) if unique_paragraphs else ""
+            
+            if full_content_html:
+                logging.info(f"✅ Extracted content: {len(unique_paragraphs)} paragraphs for: {post_title}")
+            else:
+                logging.warning(f"⚠️ No content found for: {post_title}")
 
     except Exception as e:
         full_content_html = ""
