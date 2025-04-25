@@ -19,7 +19,7 @@ from feedgen.feed import FeedGenerator
 import logging
 import re
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 # --- Set up logging ---
 log_dir = "logs"
@@ -61,8 +61,8 @@ fg.language('en')
 # Explicitly add atom:link with rel="self" (ensuring this works)
 fg.link(href=feed_url, rel='self')
 
-# Add additional required elements
-fg.lastBuildDate(datetime.now())
+# Add additional required elements with timezone-aware datetime
+fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator')
 
 
@@ -248,12 +248,17 @@ for entry in feed.entries:
     # Add description
     fe.description(post_description)
     
-    # Add publication date
+    # Add publication date with timezone info
     if pub_date:
-        fe.pubDate(pub_date)
+        try:
+            # Try to use the original date
+            fe.pubDate(pub_date)
+        except:
+            # If there's an error with the original date, use current time with timezone
+            fe.pubDate(datetime.now(timezone.utc))
     else:
-        # If no publication date is available, use current time
-        fe.pubDate(datetime.now())
+        # If no publication date is available, use current time with timezone
+        fe.pubDate(datetime.now(timezone.utc))
     
     # Add full content
     if full_content_html:
