@@ -78,8 +78,15 @@ def fix_garbled_encodings(text):
         str: Cleaned text with legitimate punctuation preserved
     """
     # Check for common patterns that need fixing
-    if "wont" in text and "won't" not in text:
-        text = text.replace("wont", "won't")
+    if " wont " in text:
+        text = text.replace(" wont ", " won't ")
+    if "wont " in text:
+        text = text.replace("wont ", "won't ")
+    if " wont" in text:
+        text = text.replace(" wont", " won't")
+    
+    # Fix O'Connor and similar possessives 
+    text = re.sub(r'(\w+)s\s+([^\s])', r"\1's \2", text)
     
     # Only fix specific known garbled encodings
     garbled_map = {
@@ -172,25 +179,22 @@ def extract_text_from_element(element):
     return text.strip()
 
 
-def clean_and_normalize_text(text):
+def create_content_signature(text):
     """
-    Clean and normalize text for deduplication comparison.
-    Removes extra whitespace and punctuation and trims to first 50 chars.
+    Create a unique signature for a paragraph to use in deduplication.
+    Uses the entire content after normalization, not just the first 50 chars.
     
     Args:
-        text (str): Text to normalize
+        text (str): Paragraph text
         
     Returns:
-        str: Normalized text for comparison
+        str: Signature for deduplication
     """
-    # Remove multiple spaces, tabs, newlines
-    text = re.sub(r'\s+', ' ', text)
-    # Remove leading/trailing whitespace
-    text = text.strip()
-    # Take first 50 characters for comparison - enough to identify duplicates
-    # but not so much that minor variations cause false negatives
-    if len(text) > 50:
-        text = text[:50]
+    # Remove all whitespace
+    text = re.sub(r'\s+', '', text).lower()
+    # Remove all punctuation
+    text = re.sub(r'[^\w]', '', text)
+    # Return the full text for exact matching
     return text
 
 
@@ -306,74 +310,98 @@ for entry in feed.entries:
         if image_captions:
             url_to_captions[post_url] = image_captions
 
-        # --- Process article content ---
-        all_paragraphs = []
+        # --- First-step content extraction: Get raw text and remove direct duplicates ---
+        # This helps with the website's tendency to duplicate paragraphs
+        raw_paragraphs = [] 
+        seen_paragraphs = set()
         
-        # Method 1: Look for the new structure with class selectors
-        content_divs = soup.find_all('div', class_='tETUs')
-        if content_divs:
-            logging.info(f"✅ Found content using tETUs class selector for: {post_title}")
-            for div in content_divs:
-                # Find all paragraphs in the content div
-                p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
-                for p in p_elements:
-                    text = extract_text_from_element(p)
-                    if text:
-                        all_paragraphs.append((text, f"<p>{text}</p>"))
+        # Split paragraphs directly from HTML content to catch duplication
+        html_str = str(soup)
+        # Remove all <script> and <style> tags first
+        html_str = re.sub(r'<script.*?</script>', '', html_str, flags=re.DOTALL)
+        html_str = re.sub(r'<style.*?</style>', '', html_str, flags=re.DOTALL)
+        
+        # Split by paragraph tags
+        paragraph_parts = html_str.split("<p")
+        for part in paragraph_parts[1:]:  # Skip first part (before first <p>)
+            # Find where paragraph ends
+            end_idx = part.find("</p>")
+            if end_idx > 0:
+                # Extract text within paragraph
+                para_html = "<p" + part[:end_idx + 4]
+                para_soup = BeautifulSoup(para_html, 'html.parser')
+                text = para_soup.get_text(strip=True)
+                
+                # Only include substantial paragraphs
+                if len(text) > 100:
+                    # Create a signature for this paragraph
+                    sig = create_content_signature(text)
+                    if sig not in seen_paragraphs:
+                        seen_paragraphs.add(sig)
+                        raw_paragraphs.append((text, para_html))
+        
+        # --- Secondary content extraction for backup methods ---
+        if not raw_paragraphs:
+            # Method 1: Look for the new structure with class selectors
+            content_divs = soup.find_all('div', class_='tETUs')
+            if content_divs:
+                logging.info(f"✅ Found content using tETUs class selector for: {post_title}")
+                for div in content_divs:
+                    # Find all paragraphs in the content div
+                    p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
+                    for p in p_elements:
+                        text = extract_text_from_element(p)
+                        if text and len(text) > 100:
+                            sig = create_content_signature(text)
+                            if sig not in seen_paragraphs:
+                                seen_paragraphs.add(sig)
+                                raw_paragraphs.append((text, f"<p>{text}</p>"))
 
-        # Method 2: Try the older selector as a fallback
-        if not all_paragraphs:
-            for p in soup.find_all("p"):
-                style = p.get("style", "")
-                if "Georgia" in style and ("18px" in style or "1.5em" in style):
-                    text = p.get_text(strip=True)
-                    html = clean_garbled_html(str(p))
-                    all_paragraphs.append((text, html))
-            if all_paragraphs:
-                logging.info(f"✅ Found content using style-based selector for: {post_title}")
+            # Method 2: Try the older selector as a fallback
+            if not raw_paragraphs:
+                for p in soup.find_all("p"):
+                    style = p.get("style", "")
+                    if "Georgia" in style and ("18px" in style or "1.5em" in style):
+                        text = p.get_text(strip=True)
+                        if len(text) > 100:
+                            sig = create_content_signature(text)
+                            if sig not in seen_paragraphs:
+                                seen_paragraphs.add(sig)
+                                html = clean_garbled_html(str(p))
+                                raw_paragraphs.append((text, html))
+                if raw_paragraphs:
+                    logging.info(f"✅ Found content using style-based selector for: {post_title}")
 
-        # Method 3: Try a more generic approach if both specific methods fail
-        if not all_paragraphs:
-            # Look for any div that might contain the main article content
-            article_divs = soup.find_all('div', class_=lambda c: c and (
-                'article' in c.lower() or 'content' in c.lower() or 'post' in c.lower()
-            ))
-            for div in article_divs:
-                p_elements = div.find_all('p')
-                for p in p_elements:
-                    # Filter out very short paragraphs that might be captions or metadata
-                    text = p.get_text(strip=True)
-                    if len(text) > 100:  # Only include substantial paragraphs
-                        all_paragraphs.append((text, f"<p>{text}</p>"))
-            if all_paragraphs:
-                logging.info(f"✅ Found content using generic article selector for: {post_title}")
-        
-        # --- Advanced deduplication and filtering ---
-        # Track paragraphs content with normalized first 50 chars
-        paragraph_signatures = {}
-        clean_paragraphs = []
-        
-        # First pass: extract signatures and detect duplicates
-        for text, html in all_paragraphs:
-            # Create normalized signature
-            signature = clean_and_normalize_text(text)
-            
-            # Only store the first occurrence of each unique paragraph
-            if signature not in paragraph_signatures:
-                paragraph_signatures[signature] = html
-                clean_paragraphs.append(html)
+            # Method 3: Try a more generic approach if both specific methods fail
+            if not raw_paragraphs:
+                # Look for any div that might contain the main article content
+                article_divs = soup.find_all('div', class_=lambda c: c and (
+                    'article' in c.lower() or 'content' in c.lower() or 'post' in c.lower()
+                ))
+                for div in article_divs:
+                    p_elements = div.find_all('p')
+                    for p in p_elements:
+                        # Filter out very short paragraphs that might be captions or metadata
+                        text = p.get_text(strip=True)
+                        if len(text) > 100:  # Only include substantial paragraphs
+                            sig = create_content_signature(text)
+                            if sig not in seen_paragraphs:
+                                seen_paragraphs.add(sig)
+                                raw_paragraphs.append((text, f"<p>{text}</p>"))
+                if raw_paragraphs:
+                    logging.info(f"✅ Found content using generic article selector for: {post_title}")
         
         # Filter out subscription/comment paragraphs
         final_paragraphs = []
-        for p in clean_paragraphs:
-            text = BeautifulSoup(p, 'html.parser').get_text()
+        for text, html in raw_paragraphs:
             if not any(phrase in text for phrase in [
                 "Read the complete story", 
                 "SUBSCRIBE NOW", 
                 "Comment on this article",
-                "on Nextdoor"
+                "on Nextdoor",
+                "e-edition"
             ]):
-                final_paragraphs.append(p)
+                final_paragraphs.append(html)
 
         full_content_html = "\n".join(final_paragraphs) if final_paragraphs else ""
         
@@ -435,6 +463,9 @@ try:
             '<rss xmlns:media="http://search.yahoo.com/mrss/" ', 
             1
         )
+    
+    # Fix any remaining "wont" → "won't" issues in titles
+    rss_feed = re.sub(r'<title>(.*?)wont(.*?)</title>', r'<title>\1won\'t\2</title>', rss_feed)
     
     # Create the XML document manually to ensure correct prefixes
     output_lines = []
