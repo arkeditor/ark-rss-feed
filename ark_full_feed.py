@@ -54,9 +54,6 @@ fg.language(feed.feed.get('language', 'en'))
 fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator (Rebuilt)')
 
-# --- Register media namespace for proper xml output ---
-fg.namespace('media', 'http://search.yahoo.com/mrss/')
-
 # --- Punctuation-cleaning pipeline ---
 def clean_text(text):
     """
@@ -67,8 +64,8 @@ def clean_text(text):
     - Collapse excess whitespace
     """
     replacements = {
-        '\u2018': "'", '\u2019': "'", '\u201C': '"', '\u201D': '"',
-        '\u2013': '-', '\u2014': '-', '\u2026': '...', '\u00A0': ' '
+        '‘': "'", '’': "'", '“': '"', '”': '"',
+        '–': '-', '—': '-', '…': '...', ' ': ' '
     }
     for src, tgt in replacements.items(): text = text.replace(src, tgt)
     entities = {
@@ -84,7 +81,7 @@ def dedupe_sentences(html):
     """Deduplicate repeated sentences within each <p> block."""
     def repl(m):
         content = clean_text(m.group(1))
-        sentences = re.split(r'(?<=[\.\?!])\s+', content)
+        sentences = re.split(r'(?<=[\.!?])\s+', content)
         seen, unique = set(), []
         for s in sentences:
             key = re.sub(r'[^\w\s]', '', s).lower().strip()
@@ -97,9 +94,14 @@ def dedupe_sentences(html):
 # --- Merge paragraphs broken mid-sentence or by links ---
 def merge_broken_paragraphs(html):
     """Merge <p> tags that were split mid-sentence or around links."""
-    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \1</p>', html, flags=re.DOTALL)
-    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \1</p>', html, flags=re.DOTALL)
+    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \\1</p>', html, flags=re.DOTALL)
+    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \\1</p>', html, flags=re.DOTALL)
     return html
+
+# --- Remove Ark promotional footer ---
+def remove_footer(html):
+    pattern = re.compile(r'<p>Read the complete story.*?Designed byKevin Hessel</p>', re.DOTALL)
+    return re.sub(pattern, '', html)
 
 # --- Process each feed entry ---
 for entry in feed.entries:
@@ -121,8 +123,7 @@ for entry in feed.entries:
         paragraphs = []
         for div in soup.find_all('div', class_='tETUs'):
             for outer in div.select('span.BrKEk'):
-                for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):\
-
+                for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):
                     txt = inner.get_text(strip=True)
                     if len(txt) > 10:
                         paragraphs.append(f"<p>{clean_text(txt)}</p>")
@@ -146,6 +147,9 @@ for entry in feed.entries:
 
         # Merge broken paragraphs
         content_html = merge_broken_paragraphs(content_html)
+
+        # Remove footer if present
+        content_html = remove_footer(content_html)
 
         # Extract media content
         media_items = []
@@ -175,9 +179,18 @@ for entry in feed.entries:
     if content_html:
         fe.content(content=content_html, type='CDATA')
 
-# --- Output feed (prettified) ---
+# --- Output feed (prettified with media namespace) ---
 os.makedirs('output', exist_ok=True)
-rss_str = fg.rss_str(pretty=True).decode('utf-8')
+rss_bytes = fg.rss_str(pretty=True)
+rss_str = rss_bytes.decode('utf-8')
+
+# Insert media namespace into root <rss> tag
+rss_str = re.sub(
+    r'<rss version="2.0">',
+    r'<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
+    rss_str
+)
+
 output_path = os.path.join('output', 'full_feed.xml')
 with open(output_path, 'w', encoding='utf-8') as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
