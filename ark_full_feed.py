@@ -47,6 +47,9 @@ fg = FeedGenerator()
 fg.load_extension('podcast')
 fg.podcast.itunes_category('News')
 
+# Add media namespace for media:description tags
+fg.register_ns('media', 'http://search.yahoo.com/mrss/')
+
 # --- Feed metadata ---
 fg.title('The Ark Newspaper (Full Text)')
 fg.link(href='https://www.thearknewspaper.com/news')
@@ -185,6 +188,27 @@ for entry in feed.entries:
         # Try multiple selectors to handle potential HTML structure changes
         paragraphs = []
         
+        # Extract figcaptions for media:description
+        media_descriptions = []
+        figcaptions = soup.find_all('figcaption')
+        for figcaption in figcaptions:
+            caption_text = ""
+            # Try to get text from span within figcaption
+            spans = figcaption.find_all('span')
+            if spans:
+                for span in spans:
+                    span_text = span.get_text(strip=True)
+                    if span_text:
+                        caption_text += span_text + " "
+            else:
+                # Get text directly from figcaption
+                caption_text = figcaption.get_text(strip=True)
+            
+            if caption_text:
+                caption_text = fix_garbled_encodings(caption_text.strip())
+                media_descriptions.append(caption_text)
+                logging.info(f"📸 Found image caption: {caption_text[:50]}...")
+        
         # Method 1: Look for the new structure with class selectors
         content_divs = soup.find_all('div', class_='tETUs')
         if content_divs:
@@ -234,6 +258,7 @@ for entry in feed.entries:
 
     except Exception as e:
         full_content_html = ""
+        media_descriptions = []
         logging.error(f"❌ Error scraping {post_url}: {str(e)}")
 
     # Create feed entry
@@ -247,6 +272,10 @@ for entry in feed.entries:
     
     # Add description
     fe.description(post_description)
+    
+    # Add media:description tags for each figcaption found
+    for i, media_desc in enumerate(media_descriptions):
+        fe.media.description(media_desc)
     
     # Add publication date with timezone info
     if pub_date:
