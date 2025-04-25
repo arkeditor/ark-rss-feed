@@ -177,6 +177,7 @@ for entry in feed.entries:
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
     for m_url, m_caption in media_items:
         fe.media_content({'url': m_url, 'medium': 'image'})
+        if m_caption:
             desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
             desc_elem.text = m_caption
         if content_html:
