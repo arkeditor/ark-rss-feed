@@ -29,24 +29,25 @@ log_filename = os.path.join(log_dir, f"scraper_{datetime.now().strftime('%Y%m%d'
 logging.basicConfig(filename=log_filename, level=logging.INFO,
                     format='%(asctime)s %(levelname)s:%(message)s')
 
-# --- Load blog feed for original titles/descriptions ---
+# --- Load blog feed for processing ---
 blog_feed_url = 'https://www.thearknewspaper.com/blog-feed.xml'
-logging.info(f"üì° Fetching blog feed: {blog_feed_url}")
+logging.info(f"üì° Fetching blog feed: {blog_feed_url}")
 blog_feed = feedparser.parse(blog_feed_url)
-blog_map = {entry.link: (entry.title, entry.get('description','')) for entry in blog_feed.entries}
-
-# --- Load live RSS feed for enrichment ---
-feed_url = 'https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml'
-logging.info(f"üì° Fetching live feed: {feed_url}")
-feed = feedparser.parse(feed_url)
+# We'll use the blog feed entries directly, not just as a mapping
+feed = blog_feed  # Use the blog feed as our primary source
 
 # --- Initialize output feed ---
 fg = FeedGenerator()
 fg.load_extension('media')
-fg.id(feed.feed.get('id', feed_url))
-fg.title(feed.feed.get('title', 'Ark Full Feed'))
-fg.link(href=feed_url)
-fg.description(feed.feed.get('description', ''))
+# Load content extension for the content:encoded elements
+fg.load_extension('base')  # Required extension for other core elements
+
+# Use original blog feed as a base
+feed_id = feed.feed.get('id', blog_feed_url)
+fg.id(feed_id)
+fg.title(feed.feed.get('title', 'The Ark Full RSS Feed'))
+fg.link(href=blog_feed_url)
+fg.description(feed.feed.get('description', 'Full content feed for The Ark Newspaper'))
 fg.language(feed.feed.get('language', 'en'))
 fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator (Rebuilt)')
@@ -103,19 +104,26 @@ for entry in feed.entries:
     try:
         res = requests.get(post_url)
         soup = BeautifulSoup(res.content, 'lxml')
-        # Extract content paragraphs
+        
+        # Extract content paragraphs - focus on the specific structure mentioned
         paragraphs = []
+        
+        # Primary content extraction target: <div class="tETUs"> with nested spans
         for div in soup.find_all('div', class_='tETUs'):
             for outer in div.select('span.BrKEk'):
                 for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):
                     txt = inner.get_text(strip=True)
-                    if len(txt) > 10:
+                    if len(txt) > 10:  # Only include substantial text
                         paragraphs.append(f"<p>{clean_text(txt)}</p>")
+        
+        # Fallback if the specific structure isn't found
         if not paragraphs:
+            logging.warning(f"Could not find tETUs/BrKEk structure in {post_url}, falling back to p tags")
             for p in soup.find_all('p'):
                 txt = p.get_text(strip=True)
-                if len(txt) > 20:
+                if len(txt) > 20:  # Longer minimum for p tags to avoid headers/etc
                     paragraphs.append(f"<p>{clean_text(txt)}</p>")
+        
         # Dedupe & clean
         seen, unique = set(), []
         for p in paragraphs:
@@ -123,19 +131,23 @@ for entry in feed.entries:
             if norm not in seen:
                 seen.add(norm)
                 unique.append(p)
+        
         content_html = "\n".join(unique)
         content_html = dedupe_sentences(content_html)
         content_html = merge_broken_paragraphs(content_html)
         content_html = remove_footer(content_html)
-        # Extract media
+        
+        # Extract media - specifically looking for figures with figcaptions
         media_items = []
         for fig in soup.find_all('figure'):
             img = fig.find('img')
+            # Look for figcaption with any class
             cap = fig.find('figcaption')
             if img and img.get('src'):
                 url = img['src']
                 caption = clean_text(cap.get_text(strip=True)) if cap else ''
                 media_items.append((url, caption))
+                logging.info(f"Found media: {url} with caption: {caption[:30]}...")
     except Exception as e:
         logging.error(f"Error scraping {post_url}: {e}")
         content_html, media_items = '', []
@@ -148,19 +160,29 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
 
-    # Add media items
+    # Add media items - use direct media namespace approach for better control
+    entry_xml = fe._FeedEntry__rss_entry()
     for m_url, m_caption in media_items:
-        media_elem = ET.SubElement(fe.rss_entry, '{http://search.yahoo.com/mrss/}content')
+        # Add media content element
+        media_ns = '{http://search.yahoo.com/mrss/}'
+        media_elem = ET.SubElement(entry_xml, f'{media_ns}content')
         media_elem.set('url', m_url)
         media_elem.set('medium', 'image')
+        
+        # Add media description if available
         if m_caption:
-            desc_elem = ET.SubElement(fe.rss_entry, '{http://search.yahoo.com/mrss/}description')
+            desc_elem = ET.SubElement(entry_xml, f'{media_ns}description')
             desc_elem.text = m_caption
 
-    # Add full content
+    # Add full content using content:encoded element
     if content_html:
-        content_elem = ET.SubElement(fe.rss_entry, '{http://purl.org/rss/1.0/modules/content/}encoded')
-        content_elem.text = f'<![CDATA[{content_html}]]>'
+        # Create content:encoded element manually
+        content_ns = '{http://purl.org/rss/1.0/modules/content/}'
+        encoded_elem = ET.SubElement(entry_xml, f'{content_ns}encoded')
+        encoded_elem.text = f'<![CDATA[{content_html}]]>'
+        
+        # Log successful content addition
+        logging.info(f"Added content:encoded ({len(content_html)} chars) to {post_url}")
 
 # --- Output feed ---
 os.makedirs('output', exist_ok=True)
