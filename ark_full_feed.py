@@ -10,6 +10,7 @@ Dependencies:
 - requests
 - beautifulsoup4
 - feedgen
+- lxml
 """
 
 import feedparser
@@ -20,7 +21,7 @@ import logging
 import re
 import os
 from datetime import datetime, timezone
-from lxml import etree
+import xml.etree.ElementTree as ET
 
 # --- Set up logging ---
 log_dir = "logs"
@@ -168,6 +169,9 @@ def extract_text_from_element(element):
     return text.strip()
 
 
+# Dictionary to store captions for each URL
+url_to_captions = {}
+
 # --- Loop through each post and scrape full content ---
 for entry in feed.entries:
     post_url = entry.link
@@ -186,26 +190,71 @@ for entry in feed.entries:
         # Try multiple selectors to handle potential HTML structure changes
         paragraphs = []
         
-        # Extract figcaptions for later use in the feed
+        # Extract figcaptions for media:description
         image_captions = []
-        figcaptions = soup.find_all('figcaption')
-        for figcaption in figcaptions:
-            caption_text = ""
-            # Try to get text from span within figcaption
-            spans = figcaption.find_all('span')
-            if spans:
+        
+        # Method 1: Look for figcaptions with class JlS9j (as in the example)
+        figcaptions = soup.find_all('figcaption', class_='JlS9j')
+        if figcaptions:
+            for figcaption in figcaptions:
+                spans = figcaption.find_all('span')
                 for span in spans:
-                    span_text = span.get_text(strip=True)
-                    if span_text:
-                        caption_text += span_text + " "
-            else:
-                # Get text directly from figcaption
-                caption_text = figcaption.get_text(strip=True)
-            
-            if caption_text:
-                caption_text = fix_garbled_encodings(caption_text.strip())
-                image_captions.append(caption_text)
-                logging.info(f"📸 Found image caption: {caption_text[:50]}...")
+                    caption_text = span.get_text(strip=True)
+                    if caption_text and len(caption_text) > 20:  # Filter out very short captions
+                        caption_text = fix_garbled_encodings(caption_text)
+                        image_captions.append(caption_text)
+                        logging.info(f"📸 Found image caption (class method): {caption_text[:50]}...")
+        
+        # Method 2: Generic figcaption search if the class-based search finds nothing
+        if not image_captions:
+            figcaptions = soup.find_all('figcaption')
+            for figcaption in figcaptions:
+                # Try to get text from span within figcaption
+                spans = figcaption.find_all('span')
+                if spans:
+                    for span in spans:
+                        caption_text = span.get_text(strip=True)
+                        if caption_text and len(caption_text) > 20:  # Filter out very short captions
+                            caption_text = fix_garbled_encodings(caption_text)
+                            image_captions.append(caption_text)
+                            logging.info(f"📸 Found image caption (generic method): {caption_text[:50]}...")
+                else:
+                    # Get text directly from figcaption
+                    caption_text = figcaption.get_text(strip=True)
+                    if caption_text and len(caption_text) > 20:  # Filter out very short captions
+                        caption_text = fix_garbled_encodings(caption_text)
+                        image_captions.append(caption_text)
+                        logging.info(f"📸 Found image caption (direct method): {caption_text[:50]}...")
+        
+        # Method 3: Look for div with class _3mtS- that contains figcaption (as in the example)
+        img_containers = soup.find_all('div', class_='_3mtS-')
+        for container in img_containers:
+            figcaption = container.find('figcaption')
+            if figcaption:
+                spans = figcaption.find_all('span')
+                for span in spans:
+                    caption_text = span.get_text(strip=True)
+                    if caption_text and len(caption_text) > 20:  # Filter out very short captions
+                        caption_text = fix_garbled_encodings(caption_text)
+                        image_captions.append(caption_text)
+                        logging.info(f"📸 Found image caption (container method): {caption_text[:50]}...")
+        
+        # Method 4: Look for div with class bYXDH that contains figcaption (as in the example)
+        img_containers = soup.find_all('div', class_='bYXDH')
+        for container in img_containers:
+            figcaption = container.find('figcaption')
+            if figcaption:
+                spans = figcaption.find_all('span')
+                for span in spans:
+                    caption_text = span.get_text(strip=True)
+                    if caption_text and len(caption_text) > 20:  # Filter out very short captions
+                        caption_text = fix_garbled_encodings(caption_text)
+                        image_captions.append(caption_text)
+                        logging.info(f"📸 Found image caption (bYXDH method): {caption_text[:50]}...")
+        
+        # Store captions for this URL
+        if image_captions:
+            url_to_captions[post_url] = image_captions
         
         # Method 1: Look for the new structure with class selectors
         content_divs = soup.find_all('div', class_='tETUs')
@@ -256,7 +305,6 @@ for entry in feed.entries:
 
     except Exception as e:
         full_content_html = ""
-        image_captions = []
         logging.error(f"❌ Error scraping {post_url}: {str(e)}")
 
     # Create feed entry
@@ -286,9 +334,6 @@ for entry in feed.entries:
     # Add full content
     if full_content_html:
         fe.content(content=full_content_html, type='CDATA')
-    
-    # We'll store captions to add later when we modify the XML
-    fe._image_captions = image_captions
 
 # --- Output files for different hosting scenarios ---
 output_dir = "output"
@@ -297,37 +342,36 @@ os.makedirs(output_dir, exist_ok=True)
 # Standard XML output
 output_file = os.path.join(output_dir, "full_feed.xml")
 try:
-    # Generate RSS feed with pretty formatting
-    rss_feed = fg.rss_str(pretty=True)
+    # Generate the feed XML
+    rss_feed = fg.rss_str(pretty=True).decode('utf-8')
     
-    # Parse the feed to add media:description tags
-    root = etree.fromstring(rss_feed)
+    # Check if we need to add the media namespace - using string manipulation 
+    # since FeedGenerator doesn't have a direct method for adding custom namespaces
+    if '<rss ' in rss_feed and ' xmlns:media=' not in rss_feed:
+        rss_feed = rss_feed.replace(
+            '<rss ', 
+            '<rss xmlns:media="http://search.yahoo.com/mrss/" ', 
+            1
+        )
     
-    # Add media namespace to the root element
-    nsmap = root.nsmap
-    nsmap['media'] = 'http://search.yahoo.com/mrss/'
-    
-    # Create a new root with the updated namespace map
-    new_root = etree.Element(root.tag, nsmap=nsmap)
-    
-    # Copy all children from the original root
-    for child in root:
-        new_root.append(child)
+    # Parse the feed with ElementTree
+    root = ET.fromstring(rss_feed)
     
     # Find all item elements
-    channel = new_root.find('channel')
-    items = channel.findall('item')
-    
-    # Add media:description to each item that has image captions
-    for i, item in enumerate(items):
-        entry = fg.entry(item.findtext('guid'))
-        if hasattr(entry, '_image_captions') and entry._image_captions:
-            for caption in entry._image_captions:
-                media_desc = etree.SubElement(item, '{http://search.yahoo.com/mrss/}description')
-                media_desc.text = caption
+    channel = root.find('channel')
+    if channel is not None:
+        items = channel.findall('item')
+        
+        # Add media:description to each item that has image captions
+        for item in items:
+            link_elem = item.find('link')
+            if link_elem is not None and link_elem.text in url_to_captions:
+                for caption in url_to_captions[link_elem.text]:
+                    media_desc = ET.SubElement(item, '{http://search.yahoo.com/mrss/}description')
+                    media_desc.text = caption
     
     # Convert back to string
-    modified_rss_feed = etree.tostring(new_root, pretty_print=True, xml_declaration=True, encoding='UTF-8')
+    modified_rss_feed = ET.tostring(root, encoding='utf-8', method='xml')
     
     # Write the feed file
     with open(output_file, "wb") as f:
