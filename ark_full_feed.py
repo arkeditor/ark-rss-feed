@@ -18,11 +18,9 @@ Dependencies:
 
 import feedparser
 import requests
-from feedgen.util import xml_elem
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import logging
-from feedgen.util import xml_elem
 import re
 import os
 from datetime import datetime, timezone
@@ -176,16 +174,13 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
     for m_url, m_caption in media_items:
-        # Insert media:content via xml_elem
-        media_elem = xml_elem('{http://search.yahoo.com/mrss/}content', fe._entry)
+        media_elem = ET.SubElement(fe.element, '{http://search.yahoo.com/mrss/}content')
         media_elem.set('url', m_url)
         media_elem.set('medium', 'image')
         if m_caption:
-            desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
+            desc_elem = ET.SubElement(fe.element, '{http://search.yahoo.com/mrss/}description')
             desc_elem.text = m_caption
-        if content_html:
             # Add content:encoded element
-            content_elem = xml_elem('{http://purl.org/rss/1.0/modules/content/}encoded', fe._entry)
             content_elem.text = f'<![CDATA[{content_html}]]>'
 
 
