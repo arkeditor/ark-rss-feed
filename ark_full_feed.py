@@ -182,7 +182,7 @@ for entry in feed.entries:
         if content_html:
             # Add content:encoded element
             content_elem = xml_elem('{http://purl.org/rss/1.0/modules/content/}encoded', fe._entry)
-            content_elem.text = f\"<![CDATA[{content_html}]]>\"
+            content_elem.text = f'<![CDATA[{content_html}]]>'
 
 
 # --- Output feed (prettified with media namespace) ---
