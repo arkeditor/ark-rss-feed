@@ -71,53 +71,43 @@ def fix_titles_and_descriptions(text):
     """
     Fix common issues in titles and descriptions.
     """
-    # Fix "won't" in titles and descriptions
-    text = text.replace(" wont ", " won't ")
-    text = text.replace("wont ", "won't ")
-    text = text.replace(" wont", " won't")
-    
+    # Normalize curly quotes to straight
+    text = text.replace("‚Äô", "'").replace("‚Äò", "'").replace("‚Äú", '"').replace("‚Äù", '"')
+    # Fix common apostrophe issues
+    text = re.sub(r"\bwont\b", "won't", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bthi's\b", "this", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bwa's\b", "was", text, flags=re.IGNORECASE)
     # Fix missing apostrophes in names and possessives
     text = re.sub(r'(\w+)s\s+([^\s])', r"\1's \2", text)
-    
     # Fix other common issues
     text = text.replace("&amp;#38;", "&")
-    
     return text
 
 
-
-def fix_content_issues(text):
-    """Fix common apostrophe errors in content."""
-    # Fix missing apostrophes
-    replacements = {
-        r"\bwont\b": "won't",
-        r"\bWont\b": "Won't",
-        r"\bthi's\b": "this",
-        r"\bThi's\b": "This",
-        r"\bwa's\b": "was",
-        r"\bWa's\b": "Was",
-    }
-    for pattern, repl in replacements.items():
-        text = re.sub(pattern, repl, text)
-    return text
-def clean_garbled_text(text):
+def clean_text(text):
     """
-    Fix only known garbled character encodings without removing legitimate punctuation.
+    Normalize text by fixing garbled encodings and common apostrophe issues.
     """
-    # Only fix specific known garbled encodings
+    # Convert curly quotes to straight
+    text = text.replace("‚Äô", "'").replace("‚Äò", "'").replace("‚Äú", '"').replace("‚Äù", '"')
+    # Fix garbled encodings
     garbled_map = {
-        "‚Äö√Ñ√¥t": "'t",  # won't
-        "‚Äö√Ñ√≤": "'",    # apostrophe
-        "‚Äö√Ñ√¥": "'",    # apostrophe
-        "‚Äö√Ñ√∫": '"',    # opening double quote
-        "‚Äö√Ñ√π": '"',    # closing double quote
-        "‚Äö√Ñ√¥s": "'s",  # possessive
-        "¬¨‚Ä†": " ",     # space
-        "√¢‚Ç¨‚Ñ¢": "'",    # apostrophe
-        "√¢‚Ç¨≈ì": '"',    # opening double quote
-        "√¢‚Ç¨": '"',     # closing double quote
-        "√¢‚Ç¨Àú": "'",    # apostrophe
+        "‚Äö√Ñ√¥t": "'t",
+        "‚Äö√Ñ√≤": "'",
+        "‚Äö√Ñ√¥": "'",
+        "‚Äö√Ñ√∫": '"',
+        "‚Äö√Ñ√π": '"',
+        "√¢‚Ç¨‚Äù": "‚Äî",
+        "√¢‚Ç¨‚Äú": "‚Äì",
+        "√Ç": "",
     }
+    for bad, good in garbled_map.items():
+        text = text.replace(bad, good)
+    # Fix common apostrophe issues
+    text = re.sub(r"\bwont\b", "won't", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bthi's\b", "this", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bwa's\b", "was", text, flags=re.IGNORECASE)
+    return text
     
     for garbled, correct in garbled_map.items():
         text = text.replace(garbled, correct)
@@ -160,8 +150,8 @@ for entry in feed.entries:
     post_url = entry.link
     
     # Fix titles and descriptions
-    post_title = fix_titles_and_descriptions(entry.title)
-    post_description = fix_titles_and_descriptions(entry.get("description", ""))
+    post_title = clean_text(fix_titles_and_descriptions(entry.title))
+    post_description = clean_text(fix_titles_and_descriptions(entry.get("description", "")))
     pub_date = entry.get("published", "")
 
     logging.info(f"üîç Processing: {post_title} - {post_url}")
@@ -181,7 +171,7 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = clean_garbled_text(caption_text)
+                        caption_text = clean_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"üì∏ Found image caption (class method): {caption_text[:50]}...")
         
@@ -195,14 +185,14 @@ for entry in feed.entries:
                     for span in spans:
                         caption_text = span.get_text(strip=True)
                         if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                            caption_text = clean_garbled_text(caption_text)
+                            caption_text = clean_text(caption_text)
                             image_captions.append(caption_text)
                             logging.info(f"üì∏ Found image caption (generic method): {caption_text[:50]}...")
                 else:
                     # Get text directly from figcaption
                     caption_text = figcaption.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = clean_garbled_text(caption_text)
+                        caption_text = clean_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"üì∏ Found image caption (direct method): {caption_text[:50]}...")
         
@@ -215,7 +205,7 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = clean_garbled_text(caption_text)
+                        caption_text = clean_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"üì∏ Found image caption (container method): {caption_text[:50]}...")
         
@@ -228,7 +218,7 @@ for entry in feed.entries:
                 for span in spans:
                     caption_text = span.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
-                        caption_text = clean_garbled_text(caption_text)
+                        caption_text = clean_text(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"üì∏ Found image caption (bYXDH method): {caption_text[:50]}...")
         
@@ -272,7 +262,7 @@ for entry in feed.entries:
                         # Only include non-empty, substantial paragraphs
                         if text and len(text) > 10:
                             # Clean up the text and assemble the HTML paragraph
-                            text = clean_garbled_text(text)
+                            text = clean_text(text)
                             paragraphs.append(f"<p>{text}</p>")
             
             # Method 2: If no content found, try the original style-based selector
@@ -283,7 +273,7 @@ for entry in feed.entries:
                         text = p.get_text(strip=True)
                         # Only include non-empty, substantial paragraphs
                         if text and len(text) > 10:
-                            text = clean_garbled_text(text)
+                            text = clean_text(text)
                             paragraphs.append(f"<p>{text}</p>")
                 
                 if paragraphs:
@@ -318,9 +308,6 @@ for entry in feed.entries:
             full_content_html = "\n".join(unique_paragraphs) if unique_paragraphs else ""
             
             if full_content_html:
-                # Remove duplicate paragraphs and fix apostrophes in content
-                full_content_html = re.sub(r"(<p>.*?</p>)(?:\s*\1)+", r"\1", full_content_html, flags=re.DOTALL)
-                full_content_html = fix_content_issues(full_content_html)
                 logging.info(f"‚úÖ Extracted content: {len(unique_paragraphs)} paragraphs for: {post_title}")
             else:
                 logging.warning(f"‚ö†Ô∏è No content found for: {post_title}")
@@ -355,6 +342,9 @@ for entry in feed.entries:
     
     # Add full content
     if full_content_html:
+        # Deduplicate paragraphs in final HTML
+        full_content_html = re.sub(r'(<p>.*?</p>)(?:\s*\1)+', r'\1', full_content_html, flags=re.DOTALL)
+        full_content_html = clean_text(full_content_html)
         fe.content(content=full_content_html, type='CDATA')
 
 # --- Output files for different hosting scenarios ---
