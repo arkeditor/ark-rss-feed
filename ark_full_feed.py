@@ -48,6 +48,15 @@ fg.title('The Ark Newspaper (Full Text)')
 fg.link(href='https://www.thearknewspaper.com/news')
 fg.description('Full-content RSS feed generated from The Ark Newspaper blog.')
 
+# --- Add required atom namespace and self link ---
+fg.id('https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml')
+fg.author({'name': 'The Ark Newspaper', 'email': 'info@thearknewspaper.com'})
+fg.language('en')
+
+# Add self-referential link
+feed_url = 'https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml'
+fg.link(href=feed_url, rel='self')
+
 
 def clean_garbled_text(text):
     """
@@ -114,9 +123,26 @@ for entry in feed.entries:
     fe = fg.add_entry()
     fe.title(post_title)
     fe.link(href=post_url)
+    
+    # Add a GUID to each entry (using the post URL as the unique identifier)
+    fe.guid(post_url, permalink=True)
+    
     fe.description(post_description)
-    fe.pubDate(pub_date)
+    
+    # Add publication date
+    if pub_date:
+        fe.pubDate(pub_date)
+    
+    # Add content
     fe.content(content=full_content_html, type='CDATA')
+
+# --- Create the .htaccess file to set proper media type ---
+htaccess_content = """
+# Set correct MIME type for RSS feed
+<Files "full_feed.xml">
+    ForceType application/rss+xml
+</Files>
+"""
 
 # --- Output the final RSS feed ---
 output_dir = "output"
@@ -127,6 +153,13 @@ try:
     with open(output_file, "wb") as f:
         f.write(fg.rss_str(pretty=True))
     logging.info(f"📦 Full-content RSS feed written to {output_file}")
+    
+    # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
+    htaccess_file = os.path.join(output_dir, ".htaccess")
+    with open(htaccess_file, "w") as f:
+        f.write(htaccess_content)
+    logging.info(f"📦 Created .htaccess file for proper MIME type")
+    
 except Exception as e:
     logging.error(f"❌ Failed to write feed file: {e}")
 
