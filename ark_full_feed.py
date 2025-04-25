@@ -157,39 +157,39 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
 
-    # Add media items - use direct media namespace approach for better control
-    entry_xml = fe._FeedEntry__rss_entry()
+    # Add media items using the media extension methods
     for m_url, m_caption in media_items:
-        # Add media content element
-        media_ns = '{http://search.yahoo.com/mrss/}'
-        media_elem = ET.SubElement(entry_xml, f'{media_ns}content')
-        media_elem.set('url', m_url)
-        media_elem.set('medium', 'image')
-        
-        # Add media description if available
+        fe.media.content(url=m_url, medium='image')
         if m_caption:
-            desc_elem = ET.SubElement(entry_xml, f'{media_ns}description')
-            desc_elem.text = m_caption
+            fe.media.description(m_caption)
 
-    # Add full content using content:encoded element
+    # Store content for post-processing since we can't directly modify the XML structure here
     if content_html:
-        # Create content:encoded element manually
-        content_ns = '{http://purl.org/rss/1.0/modules/content/}'
-        encoded_elem = ET.SubElement(entry_xml, f'{content_ns}encoded')
-        encoded_elem.text = f'<![CDATA[{content_html}]]>'
-        
-        # Log successful content addition
-        logging.info(f"Added content:encoded ({len(content_html)} chars) to {post_url}")
+        # We'll add content:encoded elements after generating the XML
+        fe.description(desc)  # Keep the original description
+        # Store the content in a custom element that we'll replace later
+        fe.content(content_html)
 
 # --- Output feed ---
 os.makedirs('output', exist_ok=True)
+
+# Generate the RSS XML string
 rss_bytes = fg.rss_str(pretty=True)
 rss_str = rss_bytes.decode('utf-8')
-# Insert namespaces
+
+# Add proper namespaces to the root element
 rss_str = re.sub(r'<rss version="2.0">', 
-                 '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
+                 '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">', 
                  rss_str)
+
+# Replace content tags with content:encoded tags containing CDATA
+rss_str = re.sub(r'<content>(.*?)</content>', 
+                 r'<content:encoded><![CDATA[\1]]></content:encoded>', 
+                 rss_str, flags=re.DOTALL)
+
+# Write the final RSS feed to file
 with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     f.write(rss_str)
+
 logging.info("Rebuilt feed written to output/full_feed.xml")
