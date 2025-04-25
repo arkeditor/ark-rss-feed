@@ -40,14 +40,14 @@ feed = blog_feed
 # --- Initialize output feed ---
 fg = FeedGenerator()
 fg.load_extension('media')
-fg.load_extension('base')  # Required extension for other core elements
+fg.load_extension('base')
 
 # Use original blog feed as a base
 feed_id = feed.feed.get('id', blog_feed_url)
 fg.id(feed_id)
-fg.title(feed.feed.get('title', 'The Ark Full RSS Feed'))
+fg.title(feed.feed.get('title', 'The Ark'))
 fg.link(href=blog_feed_url)
-fg.description(feed.feed.get('description', 'Full content feed for The Ark Newspaper'))
+fg.description(feed.feed.get('description', 'The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry'))
 fg.language(feed.feed.get('language', 'en'))
 fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator (Rebuilt)')
@@ -72,31 +72,13 @@ def clean_text(text):
     for ent, ch in entities.items(): 
         text = text.replace(ent, ch)
     
-    # Fix word spacing issues (like "tosubscribing") - careful not to break normal words
-    text = re.sub(r'(\w)to(subscribing|making)', r'\1 to \2', text)
-    text = re.sub(r'(\w)for(weekly)', r'\1 for \2', text)
-    text = re.sub(r'consider(making)', r'consider \1', text)
-    text = re.sub(r'(hcorn)at(thearknewspaper)', r'\1 at \2', text)
+    # Fix specific word spacing issues while avoiding breaking normal words
+    text = re.sub(r'(\w)to(subscribing|making)\b', r'\1 to \2', text)
+    text = re.sub(r'(\w)for(weekly)\b', r'\1 for \2', text)
+    text = re.sub(r'\bconsider(making)\b', r'consider \1', text)
+    text = re.sub(r'\b(hcorn)at(thearknewspaper)\b', r'\1 at \2', text)
     
     return re.sub(r'\s+', ' ', text).strip()
-
-def dedupe_sentences(html):
-    def repl(m):
-        content = clean_text(m.group(1))
-        sentences = re.split(r'(?<=[\.?!])\s+', content)
-        seen, unique = set(), []
-        for s in sentences:
-            key = re.sub(r'[^\w\s]', '', s).lower().strip()
-            if key and key not in seen:
-                seen.add(key)
-                unique.append(s.strip())
-        return f"<p>{' '.join(unique)}</p>"
-    return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
-
-def merge_broken_paragraphs(html):
-    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \1</p>', html, flags=re.DOTALL)
-    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \1</p>', html, flags=re.DOTALL)
-    return html
 
 def is_boilerplate(text):
     """Check if text matches known boilerplate patterns."""
@@ -120,6 +102,24 @@ def is_boilerplate(text):
         if re.search(pattern, text, re.IGNORECASE):
             return True
     return False
+
+def dedupe_sentences(html):
+    def repl(m):
+        content = clean_text(m.group(1))
+        sentences = re.split(r'(?<=[\.?!])\s+', content)
+        seen, unique = set(), []
+        for s in sentences:
+            key = re.sub(r'[^\w\s]', '', s).lower().strip()
+            if key and key not in seen:
+                seen.add(key)
+                unique.append(s.strip())
+        return f"<p>{' '.join(unique)}</p>"
+    return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
+
+def merge_broken_paragraphs(html):
+    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \1</p>', html, flags=re.DOTALL)
+    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \1</p>', html, flags=re.DOTALL)
+    return html
 
 def filter_content(html):
     """Filter content to remove unwanted text and limit to 1100 characters."""
@@ -151,27 +151,31 @@ def filter_content(html):
     
     return filtered_html
 
-# Store media items for each entry URL
-entry_media_map = {}
-
-# --- Process each feed entry ---
+# --- Process each feed entry directly ---
 for entry in feed.entries:
     post_url = entry.link
     # Use original title and description directly from the feed
-    title = entry.title  # Don't clean title to preserve original
-    desc = entry.get('description', '')  # Don't clean description
+    title = entry.title
+    desc = entry.get('description', '')
     logging.info(f"Processing {post_url}")
     
-    # Reset content variables for this entry
-    content_html = ""
-    media_items = []
+    # Create the feed entry first
+    fe = fg.add_entry()
+    fe.id(post_url)
+    fe.title(title)
+    fe.link(href=post_url)
+    fe.description(desc)
+    fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
     
-    # Scrape full article
+    # Create a root element for this entry to add our custom elements
+    root_el = ET.Element('item')
+    
+    # Now scrape the article page
     try:
-        res = requests.get(post_url)
-        soup = BeautifulSoup(res.content, 'lxml')
+        response = requests.get(post_url)
+        soup = BeautifulSoup(response.content, 'lxml')
         
-        # Extract content paragraphs - focus on the specific structure mentioned
+        # First extract article content
         paragraphs = []
         
         # Primary content extraction target: <div class="tETUs"> with nested spans
@@ -179,7 +183,7 @@ for entry in feed.entries:
             for outer in div.select('span.BrKEk'):
                 for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):
                     txt = inner.get_text(strip=True)
-                    if len(txt) > 10 and not is_boilerplate(txt):  # Only include substantial text
+                    if len(txt) > 10 and not is_boilerplate(txt):
                         paragraphs.append(f"<p>{clean_text(txt)}</p>")
         
         # Fallback if the specific structure isn't found
@@ -190,7 +194,7 @@ for entry in feed.entries:
                 # Skip short texts and headers/section titles
                 if len(txt) <= 20:
                     continue
-                    
+                
                 if not is_boilerplate(txt):
                     paragraphs.append(f"<p>{clean_text(txt)}</p>")
         
@@ -207,102 +211,86 @@ for entry in feed.entries:
         content_html = merge_broken_paragraphs(content_html)
         content_html = filter_content(content_html)
         
-        # Extract media - specifically looking for figures with figcaptions
+        # Add content:encoded directly to the feed entry if we have valid content
+        if content_html and len(content_html) > 100:
+            # Properly format HTML content for CDATA
+            
+            # Step 1: Check for specific patterns to strip
+            # Strip &lt;p&gt; at the beginning of content
+            if content_html.startswith('&lt;p&gt;'):
+                content_html = content_html[8:]  # Remove opening &lt;p&gt;
+                
+            # Strip &lt;/p&gt; at the end of content
+            if content_html.endswith('&lt;/p&gt;'):
+                content_html = content_html[:-9]  # Remove closing &lt;/p&gt;
+            
+            # Step 2: Replace all remaining escaped HTML tags with actual tags
+            content_html = content_html.replace('&lt;p&gt;', '<p>')
+            content_html = content_html.replace('&lt;/p&gt;', '</p>')
+            
+            # Step 3: Apply html.unescape for any other entities
+            content_html = html.unescape(content_html)
+            
+            # Create content:encoded with properly formatted CDATA
+            content_encoded = f'<![CDATA[{content_html}]]>'
+            content_xml = ET.fromstring(f'<content:encoded>{content_encoded}</content:encoded>')
+            fe._FeedEntry__rss_entry().append(content_xml)
+            logging.info(f"Added content ({len(content_html)} chars) to {post_url}")
+        
+        # Now extract media from THIS ARTICLE ONLY
+        # We'll add media directly to this entry
         for fig in soup.find_all('figure'):
             img = fig.find('img')
             cap = fig.find('figcaption')
             
             if img and img.get('src'):
-                url = img['src']
-                caption = ""
+                img_url = img['src']
+                img_caption = ""
                 
                 if cap:
-                    caption_text = cap.get_text(strip=True)
-                    caption = clean_text(caption_text)
+                    img_caption = clean_text(cap.get_text(strip=True))
                 
-                media_items.append((url, caption))
-                logging.info(f"Found media: {url} with caption: {caption[:30]}...")
+                # Create a media:group for this image
+                media_group = ET.Element('media:group')
+                
+                # Add media:content
+                media_content = ET.Element('media:content')
+                media_content.set('url', img_url)
+                media_content.set('medium', 'image')
+                media_group.append(media_content)
+                
+                # Add media:description if we have a caption
+                if img_caption:
+                    media_desc = ET.Element('media:description')
+                    media_desc.text = img_caption
+                    media_group.append(media_desc)
+                
+                # Add the media group to this entry
+                fe._FeedEntry__rss_entry().append(media_group)
+                logging.info(f"Added media to {post_url}: {img_url}")
         
-        # Store media items for this entry
-        if media_items:
-            entry_media_map[post_url] = media_items
-            
     except Exception as e:
-        logging.error(f"Error scraping {post_url}: {e}")
-        content_html = ""
-        media_items = []
-
-    # Build entry
-    fe = fg.add_entry()
-    fe.id(post_url)
-    fe.title(title)
-    fe.link(href=post_url)
-    fe.description(desc)
-    fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
-    
-    # Store content for post-processing if we have meaningful content
-    if content_html and len(content_html) > 100:
-        # Store in a custom element
-        fe.content(content_html)
+        logging.error(f"Error processing {post_url}: {e}")
 
 # --- Output feed ---
 os.makedirs('output', exist_ok=True)
 
-# Generate the RSS XML string
+# Generate the RSS XML
 rss_bytes = fg.rss_str(pretty=True)
 rss_str = rss_bytes.decode('utf-8')
 
-# Add proper namespaces to the root element
+# Add proper namespaces to root element
 rss_str = re.sub(r'<rss version="2.0">', 
-                 '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">', 
+                 '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">', 
                  rss_str)
 
-# Replace <content> tags with <content:encoded> tags including proper CDATA sections
-content_pattern = re.compile(r'<content>(.*?)</content>', re.DOTALL)
-for match in content_pattern.finditer(rss_str):
-    content = match.group(1)
-    
-    # Skip empty content
-    if not content.strip():
-        old_tag = match.group(0)
-        rss_str = rss_str.replace(old_tag, '')
-        continue
-    
-    # Convert HTML entities to actual HTML tags
-    content = html.unescape(content)
-    
-    # Replace the content tag with content:encoded containing raw HTML in CDATA
-    old_tag = match.group(0)
-    new_tag = f'<content:encoded><![CDATA[{content}]]></content:encoded>'
-    rss_str = rss_str.replace(old_tag, new_tag)
-
-# Add media groups to each item
-item_pattern = re.compile(r'<item>\s*<title>.*?</title>.*?<link>(.*?)</link>', re.DOTALL)
-for match in item_pattern.finditer(rss_str):
-    link = match.group(1)
-    
-    # Check if we have media items for this entry
-    if link in entry_media_map and entry_media_map[link]:
-        item_end_pos = rss_str.find('</item>', match.start())
-        if item_end_pos > 0:
-            # Create media group tags
-            media_xml = []
-            
-            for img_url, caption in entry_media_map[link]:
-                media_xml.append('  <media:group>')
-                media_xml.append(f'    <media:content url="{img_url}" medium="image"/>')
-                if caption:
-                    media_xml.append(f'    <media:description>{caption}</media:description>')
-                media_xml.append('  </media:group>')
-            
-            media_str = '\n'.join(media_xml)
-            
-            # Insert media groups before item closing tag
-            rss_str = rss_str[:item_end_pos] + '\n' + media_str + '\n' + rss_str[item_end_pos:]
+# Make sure we don't have duplicate XML declaration
+rss_str = re.sub(r'<\?xml version=\'1.0\' encoding=\'UTF-8\'\?>\s*<\?xml version=\'1.0\' encoding=\'UTF-8\'\?>', 
+                 '<?xml version=\'1.0\' encoding=\'UTF-8\'?>', 
+                 rss_str)
 
 # Write the final RSS feed to file
 with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
-    f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     f.write(rss_str)
 
 logging.info("Rebuilt feed written to output/full_feed.xml")
