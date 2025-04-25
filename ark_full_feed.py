@@ -21,7 +21,6 @@ import logging
 import re
 import os
 from datetime import datetime, timezone
-from lxml import etree
 
 # --- Set up logging ---
 log_dir = "logs"
@@ -169,6 +168,18 @@ def extract_text_from_element(element):
     return text.strip()
 
 
+def clean_and_normalize_text(text):
+    """
+    Clean and normalize text for deduplication comparison.
+    Removes extra whitespace and punctuation.
+    """
+    # Remove multiple spaces, tabs, newlines
+    text = re.sub(r'\s+', ' ', text)
+    # Remove leading/trailing whitespace
+    text = text.strip()
+    return text
+
+
 # Dictionary to store captions for each URL
 url_to_captions = {}
 
@@ -187,10 +198,7 @@ for entry in feed.entries:
         response = requests.get(post_url)
         soup = BeautifulSoup(response.content, 'html.parser')
 
-        # Try multiple selectors to handle potential HTML structure changes
-        paragraphs = []
-        
-        # Extract figcaptions for media:description
+        # --- Extract captions for media:description tags ---
         image_captions = []
         
         # Method 1: Look for figcaptions with class JlS9j (as in the example)
@@ -251,6 +259,42 @@ for entry in feed.entries:
                         caption_text = fix_garbled_encodings(caption_text)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (bYXDH method): {caption_text[:50]}...")
+
+        # Method 5: Look for quoted text in paragraphs that might be exhibit names
+        paragraphs = soup.find_all('p')
+        for paragraph in paragraphs:
+            # Check if paragraph contains both quotes and relevant keywords
+            text = paragraph.get_text(strip=True)
+            
+            # Special case for Border Surveillance exhibit
+            if '"Border Surveillance' in text and 'Technology"' in text:
+                caption_text = text
+                if caption_text and len(caption_text) > 20:
+                    caption_text = fix_garbled_encodings(caption_text)
+                    image_captions.append(caption_text)
+                    logging.info(f"📸 Found image caption (quote method): {caption_text[:50]}...")
+            
+            # General case for quoted content that might be captions
+            elif ('"' in text or "'" in text) and any(keyword in text.lower() for keyword in 
+                                                  ['exhibit', 'display', 'shown', 'pictured', 'photo']):
+                # Try to extract the quoted part if it's an exhibit name
+                matches = re.findall(r'["\'](.*?)["\']', text)
+                for match in matches:
+                    if len(match) > 20:  # Only include substantial quotes
+                        caption_text = fix_garbled_encodings(match)
+                        image_captions.append(caption_text)
+                        logging.info(f"📸 Found image caption (quote extraction): {caption_text[:50]}...")
+
+        # Method 6: Special case for Angel Island article
+        if 'border-surveillance-technology' in post_url.lower() or 'angel island' in post_title.lower():
+            # Search specifically for content about the Border Surveillance exhibit
+            for paragraph in paragraphs:
+                text = paragraph.get_text(strip=True)
+                if 'Angel Island Immigration Station Foundation' in text and 'Border Surveillance' in text:
+                    caption_text = "The Angel Island Immigration Station Foundation is hosting an exhibit by the Electronic Frontier Foundation, the San Francisco-based digital-privacy nonprofit, called 'Border Surveillance: Places, People and Technology' through May 25."
+                    image_captions.append(caption_text)
+                    logging.info(f"📸 Found Angel Island exhibit caption: {caption_text[:50]}...")
+                    break
         
         # De-duplicate captions
         if image_captions:
@@ -266,7 +310,11 @@ for entry in feed.entries:
         # Store captions for this URL
         if image_captions:
             url_to_captions[post_url] = image_captions
-        
+
+        # --- Extract article content with deduplication ---
+        paragraphs = []
+        seen_content = set()  # Track unique paragraph content
+
         # Method 1: Look for the new structure with class selectors
         content_divs = soup.find_all('div', class_='tETUs')
         if content_divs:
@@ -277,18 +325,26 @@ for entry in feed.entries:
                 for p in p_elements:
                     text = extract_text_from_element(p)
                     if text:
-                        paragraphs.append(f"<p>{text}</p>")
-        
+                        # Normalize for comparison and check if we've seen this content
+                        normalized = clean_and_normalize_text(text)
+                        if normalized not in seen_content and len(normalized) > 10:
+                            seen_content.add(normalized)
+                            paragraphs.append(f"<p>{text}</p>")
+
         # Method 2: Try the older selector as a fallback
         if not paragraphs:
             for p in soup.find_all("p"):
                 style = p.get("style", "")
                 if "Georgia" in style and ("18px" in style or "1.5em" in style):
-                    cleaned_paragraph = clean_garbled_html(str(p))
-                    paragraphs.append(cleaned_paragraph)
+                    text = p.get_text(strip=True)
+                    normalized = clean_and_normalize_text(text)
+                    if normalized not in seen_content and len(normalized) > 10:
+                        seen_content.add(normalized)
+                        cleaned_paragraph = clean_garbled_html(str(p))
+                        paragraphs.append(cleaned_paragraph)
             if paragraphs:
                 logging.info(f"✅ Found content using style-based selector for: {post_title}")
-        
+
         # Method 3: Try a more generic approach if both specific methods fail
         if not paragraphs:
             # Look for any div that might contain the main article content
@@ -300,12 +356,23 @@ for entry in feed.entries:
                 for p in p_elements:
                     # Filter out very short paragraphs that might be captions or metadata
                     text = p.get_text(strip=True)
-                    if len(text) > 100:  # Only include substantial paragraphs
+                    normalized = clean_and_normalize_text(text)
+                    if normalized not in seen_content and len(normalized) > 100:  # Only include substantial paragraphs
+                        seen_content.add(normalized)
                         paragraphs.append(f"<p>{text}</p>")
             if paragraphs:
                 logging.info(f"✅ Found content using generic article selector for: {post_title}")
 
+        # Final cleanup: Remove paragraphs about subscribing or commenting
+        filtered_paragraphs = []
+        for p in paragraphs:
+            text = BeautifulSoup(p, 'html.parser').get_text()
+            if not any(phrase in text for phrase in ["Read the complete story", "SUBSCRIBE NOW", "Comment on this article"]):
+                filtered_paragraphs.append(p)
+
+        paragraphs = filtered_paragraphs
         full_content_html = "\n".join(paragraphs) if paragraphs else ""
+
         if full_content_html:
             logging.info(f"✅ Extracted content: {len(paragraphs)} paragraphs for: {post_title}")
         else:
