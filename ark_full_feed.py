@@ -90,6 +90,35 @@ def clean_garbled_text(text):
     return text
 
 
+def extract_text_from_element(element):
+    """
+    Extract text from an element, handling the nested span structure.
+    
+    Args:
+        element: BeautifulSoup element
+        
+    Returns:
+        str: Extracted text
+    """
+    text = ""
+    if element.name == 'span':
+        # Get text directly from span
+        text = element.get_text(strip=True)
+    else:
+        # For other elements, collect text from all child spans
+        spans = element.find_all('span', recursive=True)
+        if spans:
+            for span in spans:
+                span_text = span.get_text(strip=True)
+                if span_text:
+                    text += span_text + " "
+        else:
+            # If no spans, get all text
+            text = element.get_text(strip=True)
+    
+    return text.strip()
+
+
 # --- Loop through each post and scrape full content ---
 for entry in feed.entries:
     post_url = entry.link
@@ -103,22 +132,59 @@ for entry in feed.entries:
         response = requests.get(post_url)
         soup = BeautifulSoup(response.content, 'html.parser')
 
+        # Try multiple selectors to handle potential HTML structure changes
         paragraphs = []
-        for p in soup.find_all("p"):
-            style = p.get("style", "")
-            if "Georgia" in style and ("18px" in style or "1.5em" in style):
-                cleaned_paragraph = clean_garbled_text(str(p))
-                paragraphs.append(cleaned_paragraph)
+        
+        # Method 1: Look for the new structure with class selectors
+        content_divs = soup.find_all('div', class_='tETUs')
+        if content_divs:
+            logging.info(f"✅ Found content using tETUs class selector for: {post_title}")
+            for div in content_divs:
+                # Find all paragraphs in the content div
+                p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
+                for p in p_elements:
+                    text = extract_text_from_element(p)
+                    if text:
+                        paragraphs.append(f"<p>{text}</p>")
+        
+        # Method 2: Try the older selector as a fallback
+        if not paragraphs:
+            for p in soup.find_all("p"):
+                style = p.get("style", "")
+                if "Georgia" in style and ("18px" in style or "1.5em" in style):
+                    cleaned_paragraph = clean_garbled_text(str(p))
+                    paragraphs.append(cleaned_paragraph)
+            if paragraphs:
+                logging.info(f"✅ Found content using style-based selector for: {post_title}")
+        
+        # Method 3: Try a more generic approach if both specific methods fail
+        if not paragraphs:
+            # Look for any div that might contain the main article content
+            article_divs = soup.find_all('div', class_=lambda c: c and (
+                'article' in c.lower() or 'content' in c.lower() or 'post' in c.lower()
+            ))
+            for div in article_divs:
+                p_elements = div.find_all('p')
+                for p in p_elements:
+                    # Filter out very short paragraphs that might be captions or metadata
+                    text = p.get_text(strip=True)
+                    if len(text) > 100:  # Only include substantial paragraphs
+                        paragraphs.append(f"<p>{text}</p>")
+            if paragraphs:
+                logging.info(f"✅ Found content using generic article selector for: {post_title}")
 
         full_content_html = "\n".join(paragraphs) if paragraphs else ""
         if full_content_html:
-            logging.info(f"✅ Extracted and cleaned styled paragraphs for: {post_title}")
+            logging.info(f"✅ Extracted content: {len(paragraphs)} paragraphs for: {post_title}")
         else:
-            logging.warning(f"⚠️ No matching styled paragraphs for: {post_title}")
+            logging.warning(f"⚠️ No content found for: {post_title}")
+            
+            # Log the first 1000 characters of HTML for debugging
+            logging.info(f"Debug HTML sample: {str(soup)[:1000]}")
 
     except Exception as e:
         full_content_html = ""
-        logging.error(f"❌ Error scraping {post_url}: {e}")
+        logging.error(f"❌ Error scraping {post_url}: {str(e)}")
 
     fe = fg.add_entry()
     fe.title(post_title)
