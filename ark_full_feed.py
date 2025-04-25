@@ -151,24 +151,29 @@ def filter_content(html):
     
     return filtered_html
 
+# For storing the feed entries before we create the final XML
+all_entries = []
+
 # --- Process each feed entry directly ---
 for entry in feed.entries:
     post_url = entry.link
     # Use original title and description directly from the feed
     title = entry.title
     desc = entry.get('description', '')
+    guid = entry.get('id', post_url)
+    published = entry.get('published', datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000'))
     logging.info(f"Processing {post_url}")
     
-    # Create the feed entry first
-    fe = fg.add_entry()
-    fe.id(post_url)
-    fe.title(title)
-    fe.link(href=post_url)
-    fe.description(desc)
-    fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
-    
-    # Create a root element for this entry to add our custom elements
-    root_el = ET.Element('item')
+    # Create dictionary for this entry
+    current_entry = {
+        'title': title,
+        'link': post_url,
+        'description': desc,
+        'guid': guid,
+        'pubDate': published,
+        'content_encoded': None,
+        'media_groups': []
+    }
     
     # Now scrape the article page
     try:
@@ -211,34 +216,30 @@ for entry in feed.entries:
         content_html = merge_broken_paragraphs(content_html)
         content_html = filter_content(content_html)
         
-        # Add content:encoded directly to the feed entry if we have valid content
+        # Add content:encoded if we have valid content
         if content_html and len(content_html) > 100:
-            # Properly format HTML content for CDATA
-            
-            # Step 1: Check for specific patterns to strip
-            # Strip &lt;p&gt; at the beginning of content
-            if content_html.startswith('&lt;p&gt;'):
-                content_html = content_html[8:]  # Remove opening &lt;p&gt;
-                
-            # Strip &lt;/p&gt; at the end of content
-            if content_html.endswith('&lt;/p&gt;'):
-                content_html = content_html[:-9]  # Remove closing &lt;/p&gt;
-            
-            # Step 2: Replace all remaining escaped HTML tags with actual tags
+            # Fix HTML formatting
+            # Step 1: First convert escaped HTML to actual HTML
             content_html = content_html.replace('&lt;p&gt;', '<p>')
             content_html = content_html.replace('&lt;/p&gt;', '</p>')
             
-            # Step 3: Apply html.unescape for any other entities
+            # Step 2: Apply html.unescape for any other entities
             content_html = html.unescape(content_html)
             
-            # Create content:encoded with properly formatted CDATA
-            content_encoded = f'<![CDATA[{content_html}]]>'
-            content_xml = ET.fromstring(f'<content:encoded>{content_encoded}</content:encoded>')
-            fe._FeedEntry__rss_entry().append(content_xml)
+            # Step 3: Check for specific patterns to clean up
+            # Strip <p> at the beginning of content if needed
+            if content_html.startswith('<p>'):
+                content_html = content_html[3:]
+                
+            # Strip </p> at the end of content if needed
+            if content_html.endswith('</p>'):
+                content_html = content_html[:-4]
+                
+            # Store the properly formatted content
+            current_entry['content_encoded'] = content_html
             logging.info(f"Added content ({len(content_html)} chars) to {post_url}")
         
         # Now extract media from THIS ARTICLE ONLY
-        # We'll add media directly to this entry
         for fig in soup.find_all('figure'):
             img = fig.find('img')
             cap = fig.find('figcaption')
@@ -250,47 +251,65 @@ for entry in feed.entries:
                 if cap:
                     img_caption = clean_text(cap.get_text(strip=True))
                 
-                # Create a media:group for this image
-                media_group = ET.Element('media:group')
+                # Create a media entry
+                media_item = {
+                    'url': img_url,
+                    'caption': img_caption
+                }
                 
-                # Add media:content
-                media_content = ET.Element('media:content')
-                media_content.set('url', img_url)
-                media_content.set('medium', 'image')
-                media_group.append(media_content)
-                
-                # Add media:description if we have a caption
-                if img_caption:
-                    media_desc = ET.Element('media:description')
-                    media_desc.text = img_caption
-                    media_group.append(media_desc)
-                
-                # Add the media group to this entry
-                fe._FeedEntry__rss_entry().append(media_group)
+                # Add to this entry's media groups
+                current_entry['media_groups'].append(media_item)
                 logging.info(f"Added media to {post_url}: {img_url}")
         
     except Exception as e:
         logging.error(f"Error processing {post_url}: {e}")
+    
+    # Add the entry to our collection
+    all_entries.append(current_entry)
 
-# --- Output feed ---
-os.makedirs('output', exist_ok=True)
+# Create the XML output directly
+output_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+output_xml += '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">\n'
+output_xml += '  <channel>\n'
+output_xml += f'    <title>{feed.feed.get("title", "The Ark")}</title>\n'
+output_xml += f'    <link>{blog_feed_url}</link>\n'
+output_xml += f'    <description>{feed.feed.get("description", "The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry")}</description>\n'
+output_xml += '    <docs>http://www.rssboard.org/rss-specification</docs>\n'
+output_xml += '    <generator>Ark RSS Feed Generator (Rebuilt)</generator>\n'
+output_xml += '    <language>en</language>\n'
+output_xml += f'    <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
 
-# Generate the RSS XML
-rss_bytes = fg.rss_str(pretty=True)
-rss_str = rss_bytes.decode('utf-8')
+# Add each entry
+for entry in all_entries:
+    output_xml += '    <item>\n'
+    output_xml += f'      <title>{entry["title"]}</title>\n'
+    output_xml += f'      <link>{entry["link"]}</link>\n'
+    output_xml += f'      <description>{entry["description"]}</description>\n'
+    
+    # Add content:encoded if we have it
+    if entry['content_encoded']:
+        output_xml += f'      <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
+    
+    output_xml += f'      <guid isPermaLink="false">{entry["guid"]}</guid>\n'
+    output_xml += f'      <pubDate>{entry["pubDate"]}</pubDate>\n'
+    
+    # Add media groups
+    for media in entry['media_groups']:
+        output_xml += '    \n  <media:group>\n'
+        output_xml += f'    <media:content url="{media["url"]}" medium="image"/>\n'
+        if media['caption']:
+            output_xml += f'    <media:description>{media["caption"]}</media:description>\n'
+        output_xml += '  </media:group>\n'
+    
+    output_xml += '</item>\n'
 
-# Add proper namespaces to root element
-rss_str = re.sub(r'<rss version="2.0">', 
-                 '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">', 
-                 rss_str)
-
-# Make sure we don't have duplicate XML declaration
-rss_str = re.sub(r'<\?xml version=\'1.0\' encoding=\'UTF-8\'\?>\s*<\?xml version=\'1.0\' encoding=\'UTF-8\'\?>', 
-                 '<?xml version=\'1.0\' encoding=\'UTF-8\'?>', 
-                 rss_str)
+# Close the channel and rss tags
+output_xml += '  </channel>\n'
+output_xml += '</rss>\n'
 
 # Write the final RSS feed to file
+os.makedirs('output', exist_ok=True)
 with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
-    f.write(rss_str)
+    f.write(output_xml)
 
 logging.info("Rebuilt feed written to output/full_feed.xml")
