@@ -77,6 +77,10 @@ def fix_garbled_encodings(text):
     Returns:
         str: Cleaned text with legitimate punctuation preserved
     """
+    # Check for common patterns that need fixing
+    if "wont" in text and "won't" not in text:
+        text = text.replace("wont", "won't")
+    
     # Only fix specific known garbled encodings
     garbled_map = {
         "‚Äôt": "'t",  # won't
@@ -171,12 +175,22 @@ def extract_text_from_element(element):
 def clean_and_normalize_text(text):
     """
     Clean and normalize text for deduplication comparison.
-    Removes extra whitespace and punctuation.
+    Removes extra whitespace and punctuation and trims to first 50 chars.
+    
+    Args:
+        text (str): Text to normalize
+        
+    Returns:
+        str: Normalized text for comparison
     """
     # Remove multiple spaces, tabs, newlines
     text = re.sub(r'\s+', ' ', text)
     # Remove leading/trailing whitespace
     text = text.strip()
+    # Take first 50 characters for comparison - enough to identify duplicates
+    # but not so much that minor variations cause false negatives
+    if len(text) > 50:
+        text = text[:50]
     return text
 
 
@@ -266,17 +280,9 @@ for entry in feed.entries:
             # Check if paragraph contains both quotes and relevant keywords
             text = paragraph.get_text(strip=True)
             
-            # Special case for Border Surveillance exhibit
-            if '"Border Surveillance' in text and 'Technology"' in text:
-                caption_text = text
-                if caption_text and len(caption_text) > 20:
-                    caption_text = fix_garbled_encodings(caption_text)
-                    image_captions.append(caption_text)
-                    logging.info(f"📸 Found image caption (quote method): {caption_text[:50]}...")
-            
             # General case for quoted content that might be captions
-            elif ('"' in text or "'" in text) and any(keyword in text.lower() for keyword in 
-                                                  ['exhibit', 'display', 'shown', 'pictured', 'photo']):
+            if ('"' in text or "'" in text) and any(keyword in text.lower() for keyword in 
+                                                ['exhibit', 'display', 'shown', 'pictured', 'photo']):
                 # Try to extract the quoted part if it's an exhibit name
                 matches = re.findall(r'["\'](.*?)["\']', text)
                 for match in matches:
@@ -284,17 +290,6 @@ for entry in feed.entries:
                         caption_text = fix_garbled_encodings(match)
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (quote extraction): {caption_text[:50]}...")
-
-        # Method 6: Special case for Angel Island article
-        if 'border-surveillance-technology' in post_url.lower() or 'angel island' in post_title.lower():
-            # Search specifically for content about the Border Surveillance exhibit
-            for paragraph in paragraphs:
-                text = paragraph.get_text(strip=True)
-                if 'Angel Island Immigration Station Foundation' in text and 'Border Surveillance' in text:
-                    caption_text = "The Angel Island Immigration Station Foundation is hosting an exhibit by the Electronic Frontier Foundation, the San Francisco-based digital-privacy nonprofit, called 'Border Surveillance: Places, People and Technology' through May 25."
-                    image_captions.append(caption_text)
-                    logging.info(f"📸 Found Angel Island exhibit caption: {caption_text[:50]}...")
-                    break
         
         # De-duplicate captions
         if image_captions:
@@ -311,10 +306,9 @@ for entry in feed.entries:
         if image_captions:
             url_to_captions[post_url] = image_captions
 
-        # --- Extract article content with deduplication ---
-        paragraphs = []
-        seen_content = set()  # Track unique paragraph content
-
+        # --- Process article content ---
+        all_paragraphs = []
+        
         # Method 1: Look for the new structure with class selectors
         content_divs = soup.find_all('div', class_='tETUs')
         if content_divs:
@@ -325,28 +319,21 @@ for entry in feed.entries:
                 for p in p_elements:
                     text = extract_text_from_element(p)
                     if text:
-                        # Normalize for comparison and check if we've seen this content
-                        normalized = clean_and_normalize_text(text)
-                        if normalized not in seen_content and len(normalized) > 10:
-                            seen_content.add(normalized)
-                            paragraphs.append(f"<p>{text}</p>")
+                        all_paragraphs.append((text, f"<p>{text}</p>"))
 
         # Method 2: Try the older selector as a fallback
-        if not paragraphs:
+        if not all_paragraphs:
             for p in soup.find_all("p"):
                 style = p.get("style", "")
                 if "Georgia" in style and ("18px" in style or "1.5em" in style):
                     text = p.get_text(strip=True)
-                    normalized = clean_and_normalize_text(text)
-                    if normalized not in seen_content and len(normalized) > 10:
-                        seen_content.add(normalized)
-                        cleaned_paragraph = clean_garbled_html(str(p))
-                        paragraphs.append(cleaned_paragraph)
-            if paragraphs:
+                    html = clean_garbled_html(str(p))
+                    all_paragraphs.append((text, html))
+            if all_paragraphs:
                 logging.info(f"✅ Found content using style-based selector for: {post_title}")
 
         # Method 3: Try a more generic approach if both specific methods fail
-        if not paragraphs:
+        if not all_paragraphs:
             # Look for any div that might contain the main article content
             article_divs = soup.find_all('div', class_=lambda c: c and (
                 'article' in c.lower() or 'content' in c.lower() or 'post' in c.lower()
@@ -356,25 +343,42 @@ for entry in feed.entries:
                 for p in p_elements:
                     # Filter out very short paragraphs that might be captions or metadata
                     text = p.get_text(strip=True)
-                    normalized = clean_and_normalize_text(text)
-                    if normalized not in seen_content and len(normalized) > 100:  # Only include substantial paragraphs
-                        seen_content.add(normalized)
-                        paragraphs.append(f"<p>{text}</p>")
-            if paragraphs:
+                    if len(text) > 100:  # Only include substantial paragraphs
+                        all_paragraphs.append((text, f"<p>{text}</p>"))
+            if all_paragraphs:
                 logging.info(f"✅ Found content using generic article selector for: {post_title}")
-
-        # Final cleanup: Remove paragraphs about subscribing or commenting
-        filtered_paragraphs = []
-        for p in paragraphs:
+        
+        # --- Advanced deduplication and filtering ---
+        # Track paragraphs content with normalized first 50 chars
+        paragraph_signatures = {}
+        clean_paragraphs = []
+        
+        # First pass: extract signatures and detect duplicates
+        for text, html in all_paragraphs:
+            # Create normalized signature
+            signature = clean_and_normalize_text(text)
+            
+            # Only store the first occurrence of each unique paragraph
+            if signature not in paragraph_signatures:
+                paragraph_signatures[signature] = html
+                clean_paragraphs.append(html)
+        
+        # Filter out subscription/comment paragraphs
+        final_paragraphs = []
+        for p in clean_paragraphs:
             text = BeautifulSoup(p, 'html.parser').get_text()
-            if not any(phrase in text for phrase in ["Read the complete story", "SUBSCRIBE NOW", "Comment on this article"]):
-                filtered_paragraphs.append(p)
+            if not any(phrase in text for phrase in [
+                "Read the complete story", 
+                "SUBSCRIBE NOW", 
+                "Comment on this article",
+                "on Nextdoor"
+            ]):
+                final_paragraphs.append(p)
 
-        paragraphs = filtered_paragraphs
-        full_content_html = "\n".join(paragraphs) if paragraphs else ""
-
+        full_content_html = "\n".join(final_paragraphs) if final_paragraphs else ""
+        
         if full_content_html:
-            logging.info(f"✅ Extracted content: {len(paragraphs)} paragraphs for: {post_title}")
+            logging.info(f"✅ Extracted content: {len(final_paragraphs)} paragraphs for: {post_title}")
         else:
             logging.warning(f"⚠️ No content found for: {post_title}")
             
@@ -434,28 +438,31 @@ try:
     
     # Create the XML document manually to ensure correct prefixes
     output_lines = []
+    in_item = False
+    current_url = None
     
     # Start with XML declaration and opening tags
     lines = rss_feed.splitlines()
     for line in lines:
-        # Keep all lines until we reach an item where we need to add media:description
-        if "<item>" in line or "</channel>" in line or "</rss>" in line:
-            # Check if we need to add media:description tags for this item
+        if "<item>" in line:
+            in_item = True
             current_url = None
-            
-            # Find the URL for this item
-            for url in url_to_captions.keys():
-                if f"<link>{url}</link>" in "".join(output_lines):
-                    current_url = url
-                    break
-            
-            # If we found captions for this URL, add them before the closing item tag
-            if current_url and "</item>" in line:
+            output_lines.append(line)
+        elif "</item>" in line:
+            in_item = False
+            # Add media:description tags before closing the item
+            if current_url and current_url in url_to_captions:
                 for caption in url_to_captions[current_url]:
-                    # Add the media:description tag with proper indentation
                     output_lines.append(f"    <media:description>{caption}</media:description>")
-        
-        output_lines.append(line)
+            output_lines.append(line)
+        elif in_item and "<link>" in line and "</link>" in line:
+            # Extract URL to identify the current item
+            url_match = re.search(r"<link>(.*?)</link>", line)
+            if url_match:
+                current_url = url_match.group(1)
+            output_lines.append(line)
+        else:
+            output_lines.append(line)
     
     # Join all lines to create the final XML
     final_xml = "\n".join(output_lines)
