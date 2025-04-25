@@ -89,6 +89,9 @@ def remove_footer(html):
     pattern = re.compile(r'<p>Read the complete story.*?Designed byKevin Hessel</p>', re.DOTALL)
     return re.sub(pattern, '', html)
 
+# Store media captions for post-processing
+media_captions = {}
+
 # --- Process each feed entry ---
 for entry in feed.entries:
     post_url = entry.link
@@ -157,11 +160,10 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
 
-    # Add media items using the media extension methods
+    # Add media content tags
     for m_url, m_caption in media_items:
+        # Add media content
         fe.media.content(url=m_url, medium='image')
-        if m_caption:
-            fe.media.description(m_caption)
 
     # Store content for post-processing since we can't directly modify the XML structure here
     if content_html:
@@ -186,6 +188,23 @@ rss_str = re.sub(r'<rss version="2.0">',
 rss_str = re.sub(r'<content>(.*?)</content>', 
                  r'<content:encoded><![CDATA[\1]]></content:encoded>', 
                  rss_str, flags=re.DOTALL)
+
+# Add media descriptions - if feasible
+# This is a simplified approach; for a more robust solution, consider XML parsing
+for entry in feed.entries:
+    post_url = entry.link
+    for fig in BeautifulSoup(entry.get('description', ''), 'html.parser').find_all('figure'):
+        img = fig.find('img')
+        cap = fig.find('figcaption')
+        if img and img.get('src') and cap:
+            img_url = img['src']
+            caption = clean_text(cap.get_text(strip=True))
+            if caption:
+                # Insert media:description after media:content with matching URL
+                media_content_pattern = f'<media:content url="{re.escape(img_url)}" medium="image"/>'
+                media_description = f'<media:description>{caption}</media:description>'
+                rss_str = rss_str.replace(media_content_pattern, 
+                                         f'{media_content_pattern}\n      {media_description}')
 
 # Write the final RSS feed to file
 with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
