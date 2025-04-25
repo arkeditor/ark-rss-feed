@@ -21,7 +21,7 @@ import logging
 import re
 import os
 from datetime import datetime, timezone
-import xml.etree.ElementTree as ET
+from lxml import etree
 
 # --- Set up logging ---
 log_dir = "logs"
@@ -252,6 +252,17 @@ for entry in feed.entries:
                         image_captions.append(caption_text)
                         logging.info(f"📸 Found image caption (bYXDH method): {caption_text[:50]}...")
         
+        # De-duplicate captions
+        if image_captions:
+            # Use a set to remove duplicates while preserving order
+            unique_captions = []
+            seen = set()
+            for caption in image_captions:
+                if caption not in seen:
+                    unique_captions.append(caption)
+                    seen.add(caption)
+            image_captions = unique_captions
+        
         # Store captions for this URL
         if image_captions:
             url_to_captions[post_url] = image_captions
@@ -345,8 +356,8 @@ try:
     # Generate the feed XML
     rss_feed = fg.rss_str(pretty=True).decode('utf-8')
     
-    # Check if we need to add the media namespace - using string manipulation 
-    # since FeedGenerator doesn't have a direct method for adding custom namespaces
+    # Use direct XML string manipulation to add the media namespace with the correct prefix
+    # This avoids the prefix being changed when parsed by XML libraries
     if '<rss ' in rss_feed and ' xmlns:media=' not in rss_feed:
         rss_feed = rss_feed.replace(
             '<rss ', 
@@ -354,28 +365,37 @@ try:
             1
         )
     
-    # Parse the feed with ElementTree
-    root = ET.fromstring(rss_feed)
+    # Create the XML document manually to ensure correct prefixes
+    output_lines = []
     
-    # Find all item elements
-    channel = root.find('channel')
-    if channel is not None:
-        items = channel.findall('item')
+    # Start with XML declaration and opening tags
+    lines = rss_feed.splitlines()
+    for line in lines:
+        # Keep all lines until we reach an item where we need to add media:description
+        if "<item>" in line or "</channel>" in line or "</rss>" in line:
+            # Check if we need to add media:description tags for this item
+            current_url = None
+            
+            # Find the URL for this item
+            for url in url_to_captions.keys():
+                if f"<link>{url}</link>" in "".join(output_lines):
+                    current_url = url
+                    break
+            
+            # If we found captions for this URL, add them before the closing item tag
+            if current_url and "</item>" in line:
+                for caption in url_to_captions[current_url]:
+                    # Add the media:description tag with proper indentation
+                    output_lines.append(f"    <media:description>{caption}</media:description>")
         
-        # Add media:description to each item that has image captions
-        for item in items:
-            link_elem = item.find('link')
-            if link_elem is not None and link_elem.text in url_to_captions:
-                for caption in url_to_captions[link_elem.text]:
-                    media_desc = ET.SubElement(item, '{http://search.yahoo.com/mrss/}description')
-                    media_desc.text = caption
+        output_lines.append(line)
     
-    # Convert back to string
-    modified_rss_feed = ET.tostring(root, encoding='utf-8', method='xml')
+    # Join all lines to create the final XML
+    final_xml = "\n".join(output_lines)
     
     # Write the feed file
-    with open(output_file, "wb") as f:
-        f.write(modified_rss_feed)
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(final_xml)
     logging.info(f"📦 Full-content RSS feed written to {output_file}")
     
     # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
