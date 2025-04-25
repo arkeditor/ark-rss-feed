@@ -92,12 +92,9 @@ def remove_footer(html):
 # --- Process each feed entry ---
 for entry in feed.entries:
     post_url = entry.link
-    # Preserve original title/description
-    if post_url in blog_map:
-        title, desc = blog_map[post_url]
-    else:
-        title, desc = entry.title, entry.get('description','')
-    title, desc = clean_text(title), clean_text(desc)
+    # Get title and description directly from entry
+    title = clean_text(entry.title)
+    desc = clean_text(entry.get('description', ''))
     logging.info(f"Processing {post_url}")
 
     # Scrape full article
