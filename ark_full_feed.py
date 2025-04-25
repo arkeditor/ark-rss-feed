@@ -32,15 +32,15 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 
-logging.info("🚀 Starting RSS feed enrichment script...")
+logging.info("üöÄ Starting RSS feed enrichment script...")
 
 # --- Parse the existing RSS feed ---
 rss_url = "https://www.thearknewspaper.com/blog-feed.xml"
 try:
     feed = feedparser.parse(rss_url)
-    logging.info(f"✅ Fetched RSS feed from {rss_url}")
+    logging.info(f"‚úÖ Fetched RSS feed from {rss_url}")
 except Exception as e:
-    logging.error(f"❌ Failed to parse RSS feed: {e}")
+    logging.error(f"‚ùå Failed to parse RSS feed: {e}")
     raise
 
 # --- Set up a new enriched feed ---
@@ -85,23 +85,38 @@ def fix_titles_and_descriptions(text):
     return text
 
 
+
+def fix_content_issues(text):
+    """Fix common apostrophe errors in content."""
+    # Fix missing apostrophes
+    replacements = {
+        r"\bwont\b": "won't",
+        r"\bWont\b": "Won't",
+        r"\bthi's\b": "this",
+        r"\bThi's\b": "This",
+        r"\bwa's\b": "was",
+        r"\bWa's\b": "Was",
+    }
+    for pattern, repl in replacements.items():
+        text = re.sub(pattern, repl, text)
+    return text
 def clean_garbled_text(text):
     """
     Fix only known garbled character encodings without removing legitimate punctuation.
     """
     # Only fix specific known garbled encodings
     garbled_map = {
-        "‚Äôt": "'t",  # won't
-        "‚Äò": "'",    # apostrophe
-        "‚Äô": "'",    # apostrophe
-        "‚Äú": '"',    # opening double quote
-        "‚Äù": '"',    # closing double quote
-        "‚Äôs": "'s",  # possessive
-        "¬†": " ",     # space
-        "â€™": "'",    # apostrophe
-        "â€œ": '"',    # opening double quote
-        "â€": '"',     # closing double quote
-        "â€˜": "'",    # apostrophe
+        "‚Äö√Ñ√¥t": "'t",  # won't
+        "‚Äö√Ñ√≤": "'",    # apostrophe
+        "‚Äö√Ñ√¥": "'",    # apostrophe
+        "‚Äö√Ñ√∫": '"',    # opening double quote
+        "‚Äö√Ñ√π": '"',    # closing double quote
+        "‚Äö√Ñ√¥s": "'s",  # possessive
+        "¬¨‚Ä†": " ",     # space
+        "√¢‚Ç¨‚Ñ¢": "'",    # apostrophe
+        "√¢‚Ç¨≈ì": '"',    # opening double quote
+        "√¢‚Ç¨": '"',     # closing double quote
+        "√¢‚Ç¨Àú": "'",    # apostrophe
     }
     
     for garbled, correct in garbled_map.items():
@@ -149,7 +164,7 @@ for entry in feed.entries:
     post_description = fix_titles_and_descriptions(entry.get("description", ""))
     pub_date = entry.get("published", "")
 
-    logging.info(f"🔍 Processing: {post_title} - {post_url}")
+    logging.info(f"üîç Processing: {post_title} - {post_url}")
 
     try:
         response = requests.get(post_url)
@@ -168,7 +183,7 @@ for entry in feed.entries:
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
                         caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
-                        logging.info(f"📸 Found image caption (class method): {caption_text[:50]}...")
+                        logging.info(f"üì∏ Found image caption (class method): {caption_text[:50]}...")
         
         # Method 2: Generic figcaption search if the class-based search finds nothing
         if not image_captions:
@@ -182,14 +197,14 @@ for entry in feed.entries:
                         if caption_text and len(caption_text) > 20:  # Filter out very short captions
                             caption_text = clean_garbled_text(caption_text)
                             image_captions.append(caption_text)
-                            logging.info(f"📸 Found image caption (generic method): {caption_text[:50]}...")
+                            logging.info(f"üì∏ Found image caption (generic method): {caption_text[:50]}...")
                 else:
                     # Get text directly from figcaption
                     caption_text = figcaption.get_text(strip=True)
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
                         caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
-                        logging.info(f"📸 Found image caption (direct method): {caption_text[:50]}...")
+                        logging.info(f"üì∏ Found image caption (direct method): {caption_text[:50]}...")
         
         # Method 3: Look for div with class _3mtS- that contains figcaption
         img_containers = soup.find_all('div', class_='_3mtS-')
@@ -202,7 +217,7 @@ for entry in feed.entries:
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
                         caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
-                        logging.info(f"📸 Found image caption (container method): {caption_text[:50]}...")
+                        logging.info(f"üì∏ Found image caption (container method): {caption_text[:50]}...")
         
         # Method 4: Look for div with class bYXDH that contains figcaption
         img_containers = soup.find_all('div', class_='bYXDH')
@@ -215,7 +230,7 @@ for entry in feed.entries:
                     if caption_text and len(caption_text) > 20:  # Filter out very short captions
                         caption_text = clean_garbled_text(caption_text)
                         image_captions.append(caption_text)
-                        logging.info(f"📸 Found image caption (bYXDH method): {caption_text[:50]}...")
+                        logging.info(f"üì∏ Found image caption (bYXDH method): {caption_text[:50]}...")
         
         # De-duplicate captions
         if image_captions:
@@ -242,13 +257,13 @@ for entry in feed.entries:
         # If original content exists, use it
         if original_content and len(original_content) > 100:
             full_content_html = original_content
-            logging.info(f"✅ Using original content from feed for: {post_title}")
+            logging.info(f"‚úÖ Using original content from feed for: {post_title}")
         else:
             # Try to extract content from the article page using the most reliable method
             # Method 1: Look for the content div with class tETUs
             content_divs = soup.find_all('div', class_='tETUs')
             if content_divs:
-                logging.info(f"✅ Found content using tETUs class selector for: {post_title}")
+                logging.info(f"‚úÖ Found content using tETUs class selector for: {post_title}")
                 for div in content_divs:
                     # Find all paragraphs in the content div
                     p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
@@ -272,7 +287,7 @@ for entry in feed.entries:
                             paragraphs.append(f"<p>{text}</p>")
                 
                 if paragraphs:
-                    logging.info(f"✅ Found content using style-based selector for: {post_title}")
+                    logging.info(f"‚úÖ Found content using style-based selector for: {post_title}")
             
             # Filter out paragraphs about subscribing or commenting
             filtered_paragraphs = []
@@ -303,13 +318,16 @@ for entry in feed.entries:
             full_content_html = "\n".join(unique_paragraphs) if unique_paragraphs else ""
             
             if full_content_html:
-                logging.info(f"✅ Extracted content: {len(unique_paragraphs)} paragraphs for: {post_title}")
+                # Remove duplicate paragraphs and fix apostrophes in content
+                full_content_html = re.sub(r"(<p>.*?</p>)(?:\s*\1)+", r"\1", full_content_html, flags=re.DOTALL)
+                full_content_html = fix_content_issues(full_content_html)
+                logging.info(f"‚úÖ Extracted content: {len(unique_paragraphs)} paragraphs for: {post_title}")
             else:
-                logging.warning(f"⚠️ No content found for: {post_title}")
+                logging.warning(f"‚ö†Ô∏è No content found for: {post_title}")
 
     except Exception as e:
         full_content_html = ""
-        logging.error(f"❌ Error scraping {post_url}: {str(e)}")
+        logging.error(f"‚ùå Error scraping {post_url}: {str(e)}")
 
     # Create feed entry
     fe = fg.add_entry()
@@ -358,7 +376,7 @@ try:
             1
         )
     
-    # Fix any remaining "wont" → "won't" issues in titles
+    # Fix any remaining "wont" ‚Üí "won't" issues in titles
     rss_feed = re.sub(r'<title>(.*?)wont(.*?)</title>', r'<title>\1won\'t\2</title>', rss_feed)
     
     # Create the XML document manually to ensure correct prefixes
@@ -395,7 +413,7 @@ try:
     # Write the feed file
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(final_xml)
-    logging.info(f"📦 Full-content RSS feed written to {output_file}")
+    logging.info(f"üì¶ Full-content RSS feed written to {output_file}")
     
     # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
     htaccess_file = os.path.join(output_dir, ".htaccess")
@@ -407,7 +425,7 @@ try:
 """
     with open(htaccess_file, "w") as f:
         f.write(htaccess_content)
-    logging.info(f"📦 Created .htaccess file for proper MIME type")
+    logging.info(f"üì¶ Created .htaccess file for proper MIME type")
     
     # Create a PHP wrapper for hosting on servers that support PHP
     # This will force the correct Content-Type
@@ -419,10 +437,10 @@ readfile('full_feed.xml');
 """
     with open(php_wrapper, "w") as f:
         f.write(php_content)
-    logging.info(f"📦 Created PHP wrapper for proper MIME type")
+    logging.info(f"üì¶ Created PHP wrapper for proper MIME type")
     
 except Exception as e:
-    logging.error(f"❌ Failed to write feed file: {str(e)}")
+    logging.error(f"‚ùå Failed to write feed file: {str(e)}")
     logging.exception("Stack trace:")
 
-logging.info("✅ Script completed.")
+logging.info("‚úÖ Script completed.")
