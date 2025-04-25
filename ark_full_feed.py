@@ -85,12 +85,34 @@ def merge_broken_paragraphs(html):
     html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \1</p>', html, flags=re.DOTALL)
     return html
 
-def remove_footer(html):
-    pattern = re.compile(r'<p>Read the complete story.*?Designed byKevin Hessel</p>', re.DOTALL)
-    return re.sub(pattern, '', html)
+def filter_content(html):
+    """Filter content to remove unwanted text and limit to 1100 characters."""
+    # Remove unwanted text patterns
+    patterns_to_remove = [
+        r'<p>\*\*Read the complete story in our e-edition, or SUBSCRIBE NOW for home delivery and access to the digital replica\.\*\*</p>',
+        r'<p>\*Comment on this article on Nextdoor\.\*</p>',
+        r'Read the complete story.*?Nextdoor\.',
+        r'Read the complete story.*?digital replica\.',
+        r'Comment on this article on Nextdoor\.'
+    ]
+    
+    for pattern in patterns_to_remove:
+        html = re.sub(pattern, '', html, flags=re.DOTALL|re.IGNORECASE)
+    
+    # Limit to 1100 characters (try to break at a paragraph end if possible)
+    if len(html) > 1100:
+        # First try to find a paragraph break near 1100 chars
+        match = re.search(r'</p>\s*(?=<p>)', html[:1200])
+        if match and match.end() > 800:  # Only use if we found a decent amount of content
+            html = html[:match.end()] + '...'
+        else:
+            # Otherwise just cut at 1100 and add ellipsis
+            html = html[:1100] + '...</p>'
+    
+    return html
 
-# Store media captions for post-processing
-media_captions = {}
+# Store media items for each entry ID for post-processing
+entry_media_map = {}
 
 # --- Process each feed entry ---
 for entry in feed.entries:
@@ -135,19 +157,28 @@ for entry in feed.entries:
         content_html = "\n".join(unique)
         content_html = dedupe_sentences(content_html)
         content_html = merge_broken_paragraphs(content_html)
-        content_html = remove_footer(content_html)
+        content_html = filter_content(content_html)
         
         # Extract media - specifically looking for figures with figcaptions
         media_items = []
         for fig in soup.find_all('figure'):
             img = fig.find('img')
-            # Look for figcaption with any class
+            # Specifically look for figcaption elements with any class
             cap = fig.find('figcaption')
+            
             if img and img.get('src'):
                 url = img['src']
-                caption = clean_text(cap.get_text(strip=True)) if cap else ''
+                caption = ""
+                
+                if cap:
+                    # Log the figcaption and its classes for debugging
+                    caption_classes = cap.get('class', [])
+                    caption_text = cap.get_text(strip=True)
+                    logging.info(f"Found figcaption with classes: {caption_classes}, text: {caption_text[:30]}...")
+                    caption = clean_text(caption_text)
+                
                 media_items.append((url, caption))
-                logging.info(f"Found media: {url} with caption: {caption[:30]}...")
+                logging.info(f"Added media: {url} with caption: {caption[:30]}...")
     except Exception as e:
         logging.error(f"Error scraping {post_url}: {e}")
         content_html, media_items = '', []
@@ -160,16 +191,14 @@ for entry in feed.entries:
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
 
-    # Add media content tags
-    for m_url, m_caption in media_items:
-        # Add media content
-        fe.media.content(url=m_url, medium='image')
-
-    # Store content for post-processing since we can't directly modify the XML structure here
+    # Store entry ID and media items for post-processing
+    entry_id = post_url  # Use URL as unique identifier
+    if media_items:
+        entry_media_map[entry_id] = media_items
+        
+    # We'll handle media items in post-processing
+    # Just store content for now
     if content_html:
-        # We'll add content:encoded elements after generating the XML
-        fe.description(desc)  # Keep the original description
-        # Store the content in a custom element that we'll replace later
         fe.content(content_html)
 
 # --- Output feed ---
@@ -185,26 +214,43 @@ rss_str = re.sub(r'<rss version="2.0">',
                  rss_str)
 
 # Replace content tags with content:encoded tags containing CDATA
-rss_str = re.sub(r'<content>(.*?)</content>', 
-                 r'<content:encoded><![CDATA[\1]]></content:encoded>', 
-                 rss_str, flags=re.DOTALL)
+# First, find all content tags
+content_pattern = re.compile(r'<content>(.*?)</content>', re.DOTALL)
+for match in content_pattern.finditer(rss_str):
+    content = match.group(1)
+    # Unescape HTML entities to prevent double-escaping
+    content = BeautifulSoup(content, 'html.parser').get_text(formatter=None)
+    # Replace the content tag with content:encoded containing raw HTML
+    old_tag = match.group(0)
+    new_tag = f'<content:encoded><![CDATA[{content}]]></content:encoded>'
+    rss_str = rss_str.replace(old_tag, new_tag)
 
-# Add media descriptions - if feasible
-# This is a simplified approach; for a more robust solution, consider XML parsing
-for entry in feed.entries:
-    post_url = entry.link
-    for fig in BeautifulSoup(entry.get('description', ''), 'html.parser').find_all('figure'):
-        img = fig.find('img')
-        cap = fig.find('figcaption')
-        if img and img.get('src') and cap:
-            img_url = img['src']
-            caption = clean_text(cap.get_text(strip=True))
-            if caption:
-                # Insert media:description after media:content with matching URL
-                media_content_pattern = f'<media:content url="{re.escape(img_url)}" medium="image"/>'
-                media_description = f'<media:description>{caption}</media:description>'
-                rss_str = rss_str.replace(media_content_pattern, 
-                                         f'{media_content_pattern}\n      {media_description}')
+# Add media items with proper media:group and media:description tags
+# This uses the entry URLs as identifiers to match with our stored media items
+item_pattern = re.compile(r'<item>\s*<title>(.*?)</title>.*?<link>(.*?)</link>', re.DOTALL)
+for match in item_pattern.finditer(rss_str):
+    title = match.group(1)
+    link = match.group(2)
+    
+    # Check if we have media items for this entry
+    if link in entry_media_map and entry_media_map[link]:
+        # Find the position to insert media group
+        item_end_pos = rss_str.find('</item>', match.start())
+        if item_end_pos > 0:
+            # Create media group XML
+            media_group = []
+            media_group.append('  <media:group>')
+            
+            for img_url, caption in entry_media_map[link]:
+                media_group.append(f'    <media:content url="{img_url}" medium="image"/>')
+                if caption:
+                    media_group.append(f'    <media:description>{caption}</media:description>')
+            
+            media_group.append('  </media:group>')
+            media_xml = '\n'.join(media_group)
+            
+            # Insert media group before item closing tag
+            rss_str = rss_str[:item_end_pos] + '\n' + media_xml + '\n' + rss_str[item_end_pos:]
 
 # Write the final RSS feed to file
 with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
