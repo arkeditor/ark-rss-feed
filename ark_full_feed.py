@@ -21,6 +21,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import logging
+from feedgen.util import xml_elem
 import re
 import os
 from datetime import datetime, timezone
@@ -34,18 +35,20 @@ logging.basicConfig(filename=log_filename, level=logging.INFO,
 
 # --- Load blog feed for original titles/descriptions ---
 blog_feed_url = 'https://www.thearknewspaper.com/blog-feed.xml'
-logging.info(f"📡 Fetching blog feed: {blog_feed_url}")
+logging.info(f"üì° Fetching blog feed: {blog_feed_url}")
 blog_feed = feedparser.parse(blog_feed_url)
 # Map each post URL to its original title/description
 blog_map = {entry.link: (entry.title, entry.get('description','')) for entry in blog_feed.entries}
 
 # --- Load live RSS feed for enrichment ---
 feed_url = 'https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml'
-logging.info(f"📡 Fetching live feed: {feed_url}")
+logging.info(f"üì° Fetching live feed: {feed_url}")
 feed = feedparser.parse(feed_url)
 
 # --- Initialize output feed ---
 fg = FeedGenerator()
+fg.load_extension('media')
+fg.load_extension('content')
 fg.id(feed.feed.get('id', feed_url))
 fg.title(feed.feed.get('title', 'Ark Full Feed'))
 fg.link(href=feed_url)
@@ -64,8 +67,8 @@ def clean_text(text):
     - Collapse excess whitespace
     """
     replacements = {
-        '‘': "'", '’': "'", '“': '"', '”': '"',
-        '–': '-', '—': '-', '…': '...', ' ': ' '
+        '‚Äò': "'", '‚Äô': "'", '‚Äú': '"', '‚Äù': '"',
+        '‚Äì': '-', '‚Äî': '-', '‚Ä¶': '...', '¬†': ' '
     }
     for src, tgt in replacements.items(): text = text.replace(src, tgt)
     entities = {
@@ -175,8 +178,10 @@ for entry in feed.entries:
     for m_url, m_caption in media_items:
         fe.media_content({'url': m_url, 'medium': 'image'})
         if m_caption:
-            fe.media_description(m_caption)
-    if content_html:
+            desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
+            desc_elem.text = m_caption
+        if m_caption:
+if content_html:
         fe.content(content=content_html, type='CDATA')
 
 # --- Output feed (prettified with media namespace) ---
