@@ -89,7 +89,11 @@ def clean_text(text):
     Normalize text by fixing garbled encodings and common apostrophe issues.
     """
     # Convert curly quotes to straight
+    # Fix missing space between lowercase and uppercase (e.g., ofMarinChess)
+    text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)
     text = text.replace("‚Äô", "'").replace("‚Äò", "'").replace("‚Äú", '"').replace("‚Äù", '"')
+    # Fix missing space between lowercase and uppercase (e.g., ofMarinChess)
+    text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)
     # Fix garbled encodings
     garbled_map = {
         "‚Äö√Ñ√¥t": "'t",
@@ -111,19 +115,23 @@ def clean_text(text):
 
 def dedupe_sentences(html):
     """Deduplicate repeated sentences within each <p> block."""
+    import re
     def repl(m):
-        content = m.group(1)
+        content = clean_text(m.group(1))
         # Split on sentence boundaries
         sentences = re.split(r'(?<=[\.\?!])\s+', content)
         seen = set()
         unique = []
         for s in sentences:
             s_str = s.strip()
-            key = s_str.lower()
+            # Normalize for comparison: remove punctuation, lowercase
+            key = re.sub(r'[^\w\s]', '', s_str).lower()
             if key and key not in seen:
                 seen.add(key)
                 unique.append(s_str)
         return "<p>" + " ".join(unique) + "</p>"
+    return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
+
 
     return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
 
@@ -163,8 +171,6 @@ def extract_text_from_element(element):
 
 # Dictionary to store captions for each URL
 url_to_captions = {}
-
-# --- Loop through each post and scrape full content ---
 for entry in feed.entries:
     post_url = entry.link
     
@@ -270,20 +276,23 @@ for entry in feed.entries:
         else:
             # Try to extract content from the article page using the most reliable method
             # Method 1: Look for the content div with class tETUs
+            # Method 1: Extract content from spans inside tETUs div
             content_divs = soup.find_all('div', class_='tETUs')
             if content_divs:
-                logging.info(f"‚úÖ Found content using tETUs class selector for: {post_title}")
+                logging.info(f"‚úÖ Found tETUs container for: {post_title}")
                 for div in content_divs:
-                    # Find all paragraphs in the content div
-                    p_elements = div.find_all('p', class_=lambda c: c and ('_01XM8' in c))
-                    for p in p_elements:
-                        text = extract_text_from_element(p)
-                        # Only include non-empty, substantial paragraphs
-                        if text and len(text) > 10:
-                            # Clean up the text and assemble the HTML paragraph
-                            text = clean_text(text)
-                            paragraphs.append(f"<p>{text}</p>")
-            
+                    # Look for outer span containers
+                    span_containers = div.find_all('span', class_='BrKEk')
+                    for span_outer in span_containers:
+                        # Find nested span with specific style attributes
+                        inner_spans = span_outer.find_all('span', style=lambda s: s and 'color:black' in s and 'text-decoration:inherit' in s)
+                        for span_inner in inner_spans:
+                            text = span_inner.get_text(strip=True)
+                            if text and len(text) > 10:
+                                text = clean_text(text)
+                                paragraphs.append(f"<p>{text}</p>")
+
+            # Method 2: If no content found via spans, fall back to style-based selector
             # Method 2: If no content found, try the original style-based selector
             if not paragraphs:
                 for p in soup.find_all("p"):
