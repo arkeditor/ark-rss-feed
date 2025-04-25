@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Apr 2025 21:24:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 21:33:08 +0000</lastBuildDate>
     <item>
       <title>Early bunny in Belvedere</title>
       <link>https://www.thearknewspaper.com/live/early-bunny-in-belvedere</link>
@@ -21,25 +21,43 @@
 &lt;p&gt;© 2025 The Ark, AMMI Publishing Co. Inc. | 1550 Tiburon Blvd. Ste. D, Tiburon, CA 94920 |415-435-2652|Privacy Policy| Designed byKevin Hessel&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/early-bunny-in-belvedere</guid>
       <pubDate>Tue, 15 Apr 2025 17:40:14 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_abdeb3c0ecaf48f1bb401cef6dd114d3~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_abdeb3c0ecaf48f1bb401cef6dd114d3~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_997484e5dc6b4d73a7df3e222cc187ab~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_997484e5dc6b4d73a7df3e222cc187ab~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_48b4d687fa564bffaa1b0f0db0f25363~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_48b4d687fa564bffaa1b0f0db0f25363~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_abdeb3c0ecaf48f1bb401cef6dd114d3~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_abdeb3c0ecaf48f1bb401cef6dd114d3~mv2.png" medium="image"/>
+    <media:description>Victoria and William Diemer open the eggs they found at the The Ranch’s Spring Carnival & Egg Hunt at Belvedere Community Park, while below, Pamela Parker and kids Finnegan and Evangeline get a picture with the Easter Bunny. At bottom, 5-year-old Sage Linehan plays with the ducks in the petting zoo. (Leo Leung photos / For The Ark)</media:description>
+    <media:content url="https://static.wixstatic.com/media/75283d_997484e5dc6b4d73a7df3e222cc187ab~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_997484e5dc6b4d73a7df3e222cc187ab~mv2.png" medium="image"/>
+    <media:content url="https://static.wixstatic.com/media/75283d_48b4d687fa564bffaa1b0f0db0f25363~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_48b4d687fa564bffaa1b0f0db0f25363~mv2.png" medium="image"/>
+  </media:group>
+
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_0c060695656a4ef79207cabd25a369f4~mv2.png/v1/fill/w_49,h_67,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_0c060695656a4ef79207cabd25a369f4~mv2.png" medium="image"/>
+  </media:group>
+</item>
     <item>
       <title>Dr. Jerome Marvin Weiss</title>
       <link>https://www.thearknewspaper.com/live/dr-jerome-marvin-weiss</link>
       <description>Dr. Jerome Marvin Weiss, a distinguished urologist and compassionate healer, passed away at the age of 89, in Napa, California, on April 4th.</description>
       <content:encoded>&lt;p&gt;Dr. Jerome Marvin Weiss, a distinguished urologist and compassionate healer, passed away at the age of 89, in Napa, California, on April 4th. Known for his dedication to medicine and his patients, Dr. Weiss practiced for over six decades, specializing in urology and earning the respect and gratitude of countless individuals whose lives he touched.&lt;/p&gt;
 &lt;p&gt;Dr. Weiss graduated from Tufts Medical School in 1960 and went on to build a remarkable career. In 1995, he established the Pacific Center for Pelvic Pain. The practice was his passion and known for its innovative and holistic approach to ad-dressing unresolved pelvic pain and organ dysfunction, combining Western and Eastern medical traditions. He was able to help those who no one else had been able to heal. Patients praised his empathetic nature, describing him as a doctor who truly listened and cared.&lt;/p&gt;
-&lt;p&gt;Jerry and his late wife Ingrid were cherished members of the Belvedere/Tiburon community. He was known for his dry wit, kindness, wisdom, intelligence, passion, and unwavering commitment to improving the lives of those around him. His legacy is one of compassion, excellence, and a life dedicated to the well-being of others.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Jerry and his late wife Ingrid were cherished members of the Belvedere/Tiburon community. He was known for his dry wit, kindness, wisdom, intelligence, passion, and unwavering commitment to improving the lives of those aroun...&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/dr-jerome-marvin-weiss</guid>
       <pubDate>Wed, 16 Apr 2025 12:45:04 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_0c060695656a4ef79207cabd25a369f4~mv2.png/v1/fill/w_49,h_67,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_0c060695656a4ef79207cabd25a369f4~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_a3362bff8fcc4d4cbafdb1420a246750~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_a3362bff8fcc4d4cbafdb1420a246750~mv2.png" medium="image"/>
+    <media:description>Tiburon resident Paul Inalou (second right) is having a midday soccer kickaround with daughters, from left, Lenna, Nikka and Adrina at McKegney Green on April 9. Inalou played soccer for his school in Japan and is passing on his love for the game to his kids. (Francisco Martinez / The Ark)</media:description>
+  </media:group>
+
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_f217f906a2f14d39918758f9909f1485~mv2.png/v1/fill/w_49,h_37,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_f217f906a2f14d39918758f9909f1485~mv2.png" medium="image"/>
+    <media:description>MarinChess Executive Director Stanley Wong (left) and instructor Leo Maso observe as third graders Anthony Lopez (left, seated) and Mark Abraham are in deep thought over their next moves during the program's after-school class March 28 at Vallecito Elementary School in San Rafael. (Francisco Martinez / The Ark)</media:description>
+  </media:group>
+
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_cef25ebfb42940f79e5b5a7f0d74a17e~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_cef25ebfb42940f79e5b5a7f0d74a17e~mv2.png" medium="image"/>
+    <media:description>Tiburon poet Ashley Moyo at the Hippie Tree, a location she finds inspirational and often writes at. (Leo Leung / For The Ark)</media:description>
+  </media:group>
+</item>
     <item>
       <title>Everyday Encounters: A local dad works to pass love of soccer to daughters</title>
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-local-dad-works-to-pass-love-of-soccer-to-daughters</link>
@@ -48,10 +66,12 @@
 &lt;p&gt;Inalou, 49, Nikka, 10, Lenna, 8, and Adrina, 3, take turns playing goalkeeper as the others take shots at the net.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/everyday-encounters-a-local-dad-works-to-pass-love-of-soccer-to-daughters</guid>
       <pubDate>Wed, 16 Apr 2025 13:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_a3362bff8fcc4d4cbafdb1420a246750~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_a3362bff8fcc4d4cbafdb1420a246750~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_2b209722370741baa33762ba6efdc21f~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_2b209722370741baa33762ba6efdc21f~mv2.png" medium="image"/>
+    <media:description>Samantha Riley is seen during the USA Water Polo Junior Olympics qualifiers as a member of the Central Marin Sharks 12U coed team that ultimately won gold. (via Jake Riley)</media:description>
+  </media:group>
+</item>
     <item>
       <title>Tiburon teen turns childhood passion into youth chess network</title>
       <link>https://www.thearknewspaper.com/live/tiburon-teen-turns-childhood-passion-into-youth-chess-network</link>
@@ -61,10 +81,17 @@
 &lt;p&gt;Wong, the 19-year-old executive director of , says he enjoys seeing the students’ enthusiasm to learn the game, which he says teaches kids larger problem-solving skills, as well.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-teen-turns-childhood-passion-into-youth-chess-network</guid>
       <pubDate>Wed, 16 Apr 2025 13:15:07 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_f217f906a2f14d39918758f9909f1485~mv2.png/v1/fill/w_49,h_37,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_f217f906a2f14d39918758f9909f1485~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_be1c7af424084c0e956f6f1b6e72fdf0~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_be1c7af424084c0e956f6f1b6e72fdf0~mv2.jpg" medium="image"/>
+    <media:description>The passenger and gunman is seen with the red Kia involved in the November 2023 robbery of a Tiburon resident. (via Tiburon Police Department)</media:description>
+  </media:group>
+
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_d22f2cab018142d7a61e45770b434cf7~mv2.jpg/v1/fill/w_147,h_57,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_d22f2cab018142d7a61e45770b434cf7~mv2.jpg" medium="image"/>
+    <media:description>Preliminary trench locations for a potential utility-undergrounding project along Mar West Street account for 2,323 feet of trench that would impact roughly 39 parcels, according to Public Works Engineering Manager David Eshoo. (via town of Tiburon)</media:description>
+  </media:group>
+</item>
     <item>
       <title>Tiburon poet finds healing through verse</title>
       <link>https://www.thearknewspaper.com/live/tiburon-poet-finds-healing-through-verse</link>
@@ -74,9 +101,6 @@
 &lt;p&gt;The Tiburon resident says she began taking poetry seriously in 2018 during her senior year of high school after sharing one of her poems at an interactive theater show. The director reached out afterward and asked if she wanted to try slam poetry, a type of competition where poets perform original work before a live audience and judges.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-poet-finds-healing-through-verse</guid>
       <pubDate>Wed, 16 Apr 2025 13:30:09 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_cef25ebfb42940f79e5b5a7f0d74a17e~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_cef25ebfb42940f79e5b5a7f0d74a17e~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Redwood water polo standout on Olympic path</title>
@@ -87,9 +111,6 @@
 &lt;p&gt;Riley attended the selection camp in 2023 but has yet to compete in the games. Athletes at the camp will develop various water polo skills before participating in a tournament on the final day, she said.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/redwood-water-polo-standout-on-olympic-path</guid>
       <pubDate>Wed, 16 Apr 2025 13:45:04 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_2b209722370741baa33762ba6efdc21f~mv2.png/v1/fill/w_49,h_49,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_2b209722370741baa33762ba6efdc21f~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Man arrested in Denver in connection with 2023 Tiburon armed robbery</title>
@@ -99,10 +120,11 @@
 &lt;p&gt;Anthony Ledell Yancy III, 21, is facing felony charges of robbery and negligent discharge of a firearm, both with special enhancements for violence, use of a weapon, prior convictions and involving a minor — the then-17-year-old suspected getaway driver who was arrested shortly after the incident.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/man-arrested-in-denver-in-connection-with-2023-tiburon-armed-robbery</guid>
       <pubDate>Wed, 16 Apr 2025 14:00:28 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_be1c7af424084c0e956f6f1b6e72fdf0~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_be1c7af424084c0e956f6f1b6e72fdf0~mv2.jpg" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fill/w_80,h_120,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_86f9550585434043bdbc660e6dabee24~mv2.png" medium="image"/>
+  </media:group>
+</item>
     <item>
       <title>Tiburon lifts 8-year ban on new utility-burying districts</title>
       <link>https://www.thearknewspaper.com/live/tiburon-lifts-8-year-ban-on-new-utility-burying-districts</link>
@@ -111,10 +133,17 @@
 &lt;p&gt;The Town Council voted unanimously April 2 to allow new districts to form, paving the way for Mar West Street neighbors to explore burying their electric infrastructure. The council also decided to help pay for the final engineering report for proposed projects, with the town’s contribution to be determined case by case.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-lifts-8-year-ban-on-new-utility-burying-districts</guid>
       <pubDate>Wed, 16 Apr 2025 14:15:08 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_d22f2cab018142d7a61e45770b434cf7~mv2.jpg/v1/fill/w_147,h_57,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_d22f2cab018142d7a61e45770b434cf7~mv2.jpg" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fill/w_49,h_24,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png" medium="image"/>
+    <media:description>The ink-on-rice-paper ‘Scope of the Vision’ is one of several works by Corte Madera artist Yueying Zhong that will be on display at Tiburon Town Hall May 1-June 30. (Yueying Zhong)</media:description>
+  </media:group>
+
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png" medium="image"/>
+    <media:description>Mark Marsella of Tiburon stands by the bleachers at the Strawberry Recreation District watching his son Troy Marsella’s Little League team, the Yankees, play against the Diamondbacks on April 15. (Naomi Friedland / The Ark)</media:description>
+  </media:group>
+</item>
     <item>
       <title>Tiburon to celebrate 55th Earth Day with parade, enviro fair</title>
       <link>https://www.thearknewspaper.com/live/tiburon-to-celebrate-55th-earth-day-with-parade-enviro-fair</link>
@@ -123,7 +152,11 @@
 &lt;p&gt;It’s one of several local events planned to mark Earth Day, including an April 24 fundraiser for San Francisco State University’s Estuary &amp; Ocean Science Center on Paradise Drive; and a Nature Day at the Richardson Bay Audubon Center and Sanctuary and Marin County parks-organized cleanup of Ring Mountain, both on April 26.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-to-celebrate-55th-earth-day-with-parade-enviro-fair</guid>
       <pubDate>Wed, 16 Apr 2025 14:30:09 +0000</pubDate>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png/v1/fill/w_49,h_74,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png" medium="image"/>
+  </media:group>
+</item>
     <item>
       <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
       <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
@@ -132,7 +165,12 @@
 &lt;p&gt;Meoli on April 3 filed a claim with the Independent Theater Owners Coalition, an arm of the Cinema United trade organization, to end the exclusivity practices and is weighing his legal options, including potentially filing an antitrust claim.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</guid>
       <pubDate>Wed, 16 Apr 2025 14:45:06 +0000</pubDate>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png/v1/fill/w_49,h_37,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png" medium="image"/>
+    <media:description>The Angel Island Immigration Station Foundation is hosting an exhibit by the Electronic Frontier Foundation, the San Francisco-based digital-privacy nonprofit, called ‘Border Surveillance: Places, People and Technology’ through May 25. (via Angel Island Immigration Station Foundation)</media:description>
+  </media:group>
+</item>
     <item>
       <title>Tiburon Mayor Thier launching Assembly bid</title>
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
@@ -143,10 +181,12 @@
 &lt;p&gt;Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fill/w_80,h_120,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_86f9550585434043bdbc660e6dabee24~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_67e34418feb24c35b20cb22465784563~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_67e34418feb24c35b20cb22465784563~mv2.png" medium="image"/>
+    <media:description>The Sanitary District No. 5 of Marin will spend $3.3 million to replace its pump station at Cove Road, pictured here April 17, beginning in spring 2026. The pump station, which serves all of Belvedere, is in need of replacement due to aging infrastructure with its motor-control center and generator, District Manager Tony Rubio said. (Francisco Martinez / The Ark)</media:description>
+  </media:group>
+</item>
     <item>
       <title>See collection of ink paintings in new Town Hall exhibit</title>
       <link>https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</link>
@@ -156,9 +196,6 @@
 &lt;p&gt;Zhong, 65, has excelled at brush ink painting for more than 40 years. He grew up in northeast China, near the Russian border, during the Chinese Cultural Revolution and was always interested in art. He remembers being fascinated by the paintings on propaganda posters — not the words. By age 10, he was so adept at painting he won a province-wide art contest.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:05 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fill/w_49,h_24,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Everyday Encounters: A dad passes down his love for baseball to his three children</title>
@@ -170,9 +207,6 @@
 &lt;p&gt;Marsella says he appreciates the parental involvement in the league.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/everyday-encounters-a-dad-passes-down-his-love-for-baseball-to-his-three-children</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:54 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Mill Valley principal tapped to lead Reed Elementary School</title>
@@ -183,10 +217,16 @@
 &lt;p&gt;O’Connor was chosen among seven applicants interviewed to replace Mary Niesyn, who is retiring after a 21-year career at the school that saw her serve as a second-grade teacher and assistant principal before assuming the top job in 2015.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/mill-valley-principal-tapped-to-lead-reed-elementary-school</guid>
       <pubDate>Wed, 23 Apr 2025 13:45:06 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png/v1/fill/w_49,h_74,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png" medium="image"/>
-      </media:group>
-    </item>
+    
+  <media:group>
+    <media:content url="https://static.wixstatic.com/media/75283d_48b1291eb1a748a99ccfae2a47c38675~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_48b1291eb1a748a99ccfae2a47c38675~mv2.png" medium="image"/>
+    <media:description>Ballet Afsaneh performs traditional routines during the third annual Nowruz spring festival celebrating the Persian new year on lower Main Street April 19. The official holiday was March 20. Below, Nahid Hassan dances to the music with daughter Nila and nephew Adam. Entertainment also included San Ramon-based Sardar Mianaby, known as DJ Mian; art from Majid Rajabloo, who creates calligraphy and wood engravings; and Persian food vendors including Saffron Grill and Orchid Persian Catering of San Francisco, Jaleh Bakery in Lafayette and Gol Ice Cream in San Ramon. (Leo Leung photos / For The Ark)</media:description>
+    <media:content url="https://static.wixstatic.com/media/75283d_7507669c0a124de8a793b74a2a2eb2d3~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_7507669c0a124de8a793b74a2a2eb2d3~mv2.png" medium="image"/>
+    <media:content url="https://static.wixstatic.com/media/75283d_3cd95d51755e40f4b0b200141fd4038f~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_3cd95d51755e40f4b0b200141fd4038f~mv2.png" medium="image"/>
+    <media:content url="https://static.wixstatic.com/media/75283d_d6a400ff59d04ba3a01d4ead2fe0ac3a~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_d6a400ff59d04ba3a01d4ead2fe0ac3a~mv2.png" medium="image"/>
+    <media:content url="https://static.wixstatic.com/media/75283d_77e0099e87ff4489954ec20eb3017dbe~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_77e0099e87ff4489954ec20eb3017dbe~mv2.png" medium="image"/>
+  </media:group>
+</item>
     <item>
       <title>Angel Island exhibit looks at border surveillance technology</title>
       <link>https://www.thearknewspaper.com/live/angel-island-exhibit-looks-at-border-surveillance-technology</link>
@@ -196,9 +236,6 @@
 &lt;p&gt;Edward Tepporn, executive director of the Angel Island Immigration Station Foundation that oversees the museum, said that while the digital-privacy nonprofit developed the exhibit independently, he was proud the museum serves as its inaugural venue.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/angel-island-exhibit-looks-at-border-surveillance-technology</guid>
       <pubDate>Wed, 23 Apr 2025 14:00:13 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png/v1/fill/w_49,h_37,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Sani 5 OKs $3-mil rehab of aging Cove Road pump station</title>
@@ -210,9 +247,6 @@
 &lt;p&gt;The actual work to rehabilitate the station, located at the corner of Cove and Barn roads in Belvedere, will last three to four months.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/sani-5-oks-3-mil-rehab-of-aging-cove-road-pump-station</guid>
       <pubDate>Wed, 23 Apr 2025 14:15:09 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_67e34418feb24c35b20cb22465784563~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_67e34418feb24c35b20cb22465784563~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>School foundation saddling up for rodeo fundraiser</title>
@@ -233,8 +267,7 @@
 &lt;p&gt;Four Tiburon Town Council­members have disclosed economic interests totaling at least $2.84 million for 2024, while Councilmember Isaac Nikfar has once again failed to submit legally required financial reports by the state deadline.&lt;/p&gt;
 &lt;p&gt;Councilmember Jack Ryan leads with a minimum of $1.17 million in economic interests, followed by Mayor Holli Thier with at least $1 million. Councilmember Alice Fredericks reported at least $453,013, while Vice Mayor Jon Welner disclosed at least $210,001.&lt;/p&gt;
 &lt;p&gt;California law requires these annual economic-interest statements, known as Form 700, to be filed by April 1. The California Fair Political Practices Commission mandates that all elected officials and public employees “who (make) or (influence) governmental decisions” submit these disclosures.&lt;/p&gt;
-&lt;p&gt;The failure to file state-mandated financial disclosures for his office reflects a pattern for Nikfar, who missed two deadlines for campaign-finance disclosures related to the November 2024 election, most recently a semiannual report due Jan. 31. Nikfar also missed his initial campaign-finance disclosure requirement in July 2023 before a special election that August, when he was first voted into office. Nikfar has declined to comment on any of the campaign-finance reporting lapses.&lt;/p&gt;
-</content:encoded>
+&lt;p&gt;The failure to file state-mandated financial disclosures for his office reflects a pattern for Nikfar, who missed two deadlines for campaign-finance disclosures related to the November 2024 election, most recently a semiannual report due Jan. 31. Nikfar also mis...&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-councilmember-nikfar-misses-yet-another-state-financial-report-deadline</guid>
       <pubDate>Wed, 23 Apr 2025 14:45:07 +0000</pubDate>
     </item>
@@ -250,13 +283,6 @@
 &lt;p&gt;© 2025 The Ark, AMMI Publishing Co. Inc. | 1550 Tiburon Blvd. Ste. D, Tiburon, CA 94920 |415-435-2652|Privacy Policy| Designed byKevin Hessel&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/nowruz-in-motion-on-main</guid>
       <pubDate>Wed, 23 Apr 2025 15:00:24 +0000</pubDate>
-      <media:group>
-        <media:content url="https://static.wixstatic.com/media/75283d_48b1291eb1a748a99ccfae2a47c38675~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_48b1291eb1a748a99ccfae2a47c38675~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_7507669c0a124de8a793b74a2a2eb2d3~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_7507669c0a124de8a793b74a2a2eb2d3~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_3cd95d51755e40f4b0b200141fd4038f~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_3cd95d51755e40f4b0b200141fd4038f~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_d6a400ff59d04ba3a01d4ead2fe0ac3a~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_d6a400ff59d04ba3a01d4ead2fe0ac3a~mv2.png" medium="image"/>
-        <media:content url="https://static.wixstatic.com/media/75283d_77e0099e87ff4489954ec20eb3017dbe~mv2.png/v1/fill/w_49,h_33,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/75283d_77e0099e87ff4489954ec20eb3017dbe~mv2.png" medium="image"/>
-      </media:group>
     </item>
     <item>
       <title>Owner: Cinelounge won’t close this week despite fundraising urgency</title>
@@ -266,7 +292,7 @@
 &lt;p&gt;Meoli, who co-owns the theater with his wife Camilla, acknowledged the messaging was a deliberate “Hail Mary” approach after earlier announcements about the theater’s planned transition to nonprofit status failed to gain traction.&lt;/p&gt;
 &lt;p&gt;“That’s the decision that I had to make to really jumpstart what we consider to be, so far, a very successful initiative,” Meoli said in an April 16 phone interview.&lt;/p&gt;
 &lt;p&gt;The theater’s GoFundMe campaign, titled “Preserve a Community Cinema Born from Love,” warned in an April 14 email that “our beloved Cinelounge could fade to black for good” without reaching its financial goal. But Meoli clarified that people could continue donating after the deadline, adding that meeting even part of the goal would provide a good start over the next couple of months toward resolving the theater’s financial struggles.&lt;/p&gt;
-&lt;p&gt;The theater will hold a “Save the Reels, Raise the Roof” fundraiser from 5:30 to 9 p.m. April 29 at Malibu Farm, whose co-owner John Stockwell was Cougar in 1986’s “Top Gun” and directed 2002’s “Blue Crush.”&lt;/p&gt;</content:encoded>
+&lt;p&gt;The theater will hold a “Save the Reels,...&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false">https://www.thearknewspaper.com/live/owner-cinelounge-won-t-close-this-week-despite-fundraising-urgency</guid>
       <pubDate>Wed, 23 Apr 2025 22:32:22 +0000</pubDate>
     </item>
