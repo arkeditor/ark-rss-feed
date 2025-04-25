@@ -2,18 +2,14 @@
 """
 The Ark Newspaper Full RSS Feed Generator (Rebuilt)
 
-This script enriches the RSS feed by pulling in titles and descriptions directly
-from the blog feed, applies robust punctuation-cleaning, full-article scraping,
-and embeds media content from <figure>/<figcaption> as media:content descriptors.
-It also merges paragraphs broken by embedded links or mid-sentence splits, and
-outputs a prettified XML with proper declaration and indentation.
-
-Dependencies:
-- feedparser
-- requests
-- beautifulsoup4
-- feedgen
-- lxml
+This script enriches the RSS feed by:
+- Pulling titles and descriptions from the blog feed.
+- Cleaning punctuation and merging paragraph fragments.
+- Scraping full article content under <div class="tETUs"> for 
+  <content:encoded> output.
+- Embedding images from <figure>/<figcaption> as <media:content>
+  and <media:description>.
+- Outputting a prettified RSS with proper namespaces.
 """
 
 import feedparser
@@ -37,7 +33,6 @@ logging.basicConfig(filename=log_filename, level=logging.INFO,
 blog_feed_url = 'https://www.thearknewspaper.com/blog-feed.xml'
 logging.info(f"üì° Fetching blog feed: {blog_feed_url}")
 blog_feed = feedparser.parse(blog_feed_url)
-# Map each post URL to its original title/description
 blog_map = {entry.link: (entry.title, entry.get('description','')) for entry in blog_feed.entries}
 
 # --- Load live RSS feed for enrichment ---
@@ -56,15 +51,8 @@ fg.language(feed.feed.get('language', 'en'))
 fg.lastBuildDate(datetime.now(timezone.utc))
 fg.generator('Ark RSS Feed Generator (Rebuilt)')
 
-# --- Punctuation-cleaning pipeline ---
+# --- Text cleaning functions omitted for brevity ---
 def clean_text(text):
-    """
-    Normalize punctuation:
-    - Straighten smart quotes & apostrophes
-    - Normalize dashes and ellipses
-    - Decode HTML entities for quotes/apostrophes
-    - Collapse excess whitespace
-    """
     replacements = {
         '‚Äò': "'", '‚Äô': "'", '‚Äú': '"', '‚Äù': '"',
         '‚Äì': '-', '‚Äî': '-', '‚Ä¶': '...', '¬†': ' '
@@ -78,12 +66,10 @@ def clean_text(text):
     for ent, ch in entities.items(): text = text.replace(ent, ch)
     return re.sub(r'\s+', ' ', text).strip()
 
-# --- Sentence-level dedupe within paragraphs ---
 def dedupe_sentences(html):
-    """Deduplicate repeated sentences within each <p> block."""
     def repl(m):
         content = clean_text(m.group(1))
-        sentences = re.split(r'(?<=[\.!?])\s+', content)
+        sentences = re.split(r'(?<=[\.?!])\s+', content)
         seen, unique = set(), []
         for s in sentences:
             key = re.sub(r'[^\w\s]', '', s).lower().strip()
@@ -93,14 +79,11 @@ def dedupe_sentences(html):
         return f"<p>{' '.join(unique)}</p>"
     return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
 
-# --- Merge paragraphs broken mid-sentence or by links ---
 def merge_broken_paragraphs(html):
-    """Merge <p> tags that were split mid-sentence or around links."""
-    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \\1</p>', html, flags=re.DOTALL)
-    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \\1</p>', html, flags=re.DOTALL)
+    html = re.sub(r'</p>\s*<p>([a-z].*?)</p>', r' \1</p>', html, flags=re.DOTALL)
+    html = re.sub(r'</p>\s*<p>([\.,;:][^<]+)</p>', r' \1</p>', html, flags=re.DOTALL)
     return html
 
-# --- Remove Ark promotional footer ---
 def remove_footer(html):
     pattern = re.compile(r'<p>Read the complete story.*?Designed byKevin Hessel</p>', re.DOTALL)
     return re.sub(pattern, '', html)
@@ -116,12 +99,11 @@ for entry in feed.entries:
     title, desc = clean_text(title), clean_text(desc)
     logging.info(f"Processing {post_url}")
 
-    # Scrape the full article
+    # Scrape full article
     try:
         res = requests.get(post_url)
         soup = BeautifulSoup(res.content, 'lxml')
-
-        # Extract main content paragraphs
+        # Extract content paragraphs
         paragraphs = []
         for div in soup.find_all('div', class_='tETUs'):
             for outer in div.select('span.BrKEk'):
@@ -134,8 +116,7 @@ for entry in feed.entries:
                 txt = p.get_text(strip=True)
                 if len(txt) > 20:
                     paragraphs.append(f"<p>{clean_text(txt)}</p>")
-
-        # Deduplicate paragraphs
+        # Dedupe & clean
         seen, unique = set(), []
         for p in paragraphs:
             norm = re.sub(r'\s+', ' ', BeautifulSoup(p, 'html.parser').get_text()).lower()
@@ -143,17 +124,10 @@ for entry in feed.entries:
                 seen.add(norm)
                 unique.append(p)
         content_html = "\n".join(unique)
-
-        # Sentence-level dedupe
         content_html = dedupe_sentences(content_html)
-
-        # Merge broken paragraphs
         content_html = merge_broken_paragraphs(content_html)
-
-        # Remove footer if present
         content_html = remove_footer(content_html)
-
-        # Extract media content
+        # Extract media
         media_items = []
         for fig in soup.find_all('figure'):
             img = fig.find('img')
@@ -162,43 +136,41 @@ for entry in feed.entries:
                 url = img['src']
                 caption = clean_text(cap.get_text(strip=True)) if cap else ''
                 media_items.append((url, caption))
-
     except Exception as e:
         logging.error(f"Error scraping {post_url}: {e}")
         content_html, media_items = '', []
 
-    # Build and attach entry
+    # Build entry
     fe = fg.add_entry()
     fe.id(post_url)
     fe.title(title)
     fe.link(href=post_url)
     fe.description(desc)
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
+
+    # Add media items
     for m_url, m_caption in media_items:
-        media_elem = ET.SubElement(fe._entry, '{http://search.yahoo.com/mrss/}content')
+        media_elem = ET.SubElement(fe.rss_entry, '{http://search.yahoo.com/mrss/}content')
         media_elem.set('url', m_url)
         media_elem.set('medium', 'image')
         if m_caption:
-            desc_elem = ET.SubElement(fe._entry, '{http://search.yahoo.com/mrss/}description')
+            desc_elem = ET.SubElement(fe.rss_entry, '{http://search.yahoo.com/mrss/}description')
             desc_elem.text = m_caption
-            # Add content:encoded element
-            content_elem.text = f'<![CDATA[{content_html}]]>'
 
+    # Add full content
+    if content_html:
+        content_elem = ET.SubElement(fe.rss_entry, '{http://purl.org/rss/1.0/modules/content/}encoded')
+        content_elem.text = f'<![CDATA[{content_html}]]>'
 
-# --- Output feed (prettified with media namespace) ---
+# --- Output feed ---
 os.makedirs('output', exist_ok=True)
 rss_bytes = fg.rss_str(pretty=True)
 rss_str = rss_bytes.decode('utf-8')
-
-# Insert media namespace into root <rss> tag
-rss_str = re.sub(
-    r'<rss version="2.0">',
-    r'<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
-    rss_str
-)
-
-output_path = os.path.join('output', 'full_feed.xml')
-with open(output_path, 'w', encoding='utf-8') as f:
+# Insert namespaces
+rss_str = re.sub(r'<rss version="2.0">', 
+                 '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
+                 rss_str)
+with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     f.write(rss_str)
-logging.info(f"Rebuilt feed written to {output_path}")
+logging.info("Rebuilt feed written to output/full_feed.xml")
