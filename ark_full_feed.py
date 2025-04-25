@@ -259,7 +259,7 @@ for entry in feed.entries:
                 media_item = {
                     'url': transformed_url,
                     'caption': img_caption,
-                    'type': 'image/png'
+                    'medium': 'image'
                 }
                 
                 # Add to this entry's media items
