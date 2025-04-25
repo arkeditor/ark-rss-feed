@@ -259,8 +259,7 @@ for entry in feed.entries:
                 media_item = {
                     'url': transformed_url,
                     'caption': img_caption,
-                    'type': 'image/png',
-                    'length': '0'
+                    'type': 'image/png'
                 }
                 
                 # Add to this entry's media items
@@ -285,6 +284,7 @@ output_xml += '    <docs>http://www.rssboard.org/rss-specification</docs>\n'
 output_xml += '    <generator>Ark RSS Feed Generator (Rebuilt)</generator>\n'
 output_xml += '    <language>en</language>\n'
 output_xml += f'    <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
+output_xml += f'    <atom:link href="{blog_feed_url}" rel="self" type="application/rss+xml" />\n'
 
 # Add each entry
 for entry in all_entries:
@@ -316,7 +316,7 @@ for entry in all_entries:
     
     # Add media items with the new format
     for media in entry['media_items']:
-        output_xml += f'      <media:content url="{media["url"]}" length="{media["length"]}" type="{media["type"]}"/>\n'
+        output_xml += f'      <media:content url="{media["url"]}" type="{media["type"]}"/>\n'
         if media['caption']:
             # Escape & in captions
             safe_caption = media['caption'].replace("&", "&amp;")
