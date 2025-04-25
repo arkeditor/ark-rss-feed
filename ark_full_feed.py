@@ -108,6 +108,25 @@ def clean_text(text):
     text = re.sub(r"\bthi's\b", "this", text, flags=re.IGNORECASE)
     text = re.sub(r"\bwa's\b", "was", text, flags=re.IGNORECASE)
     return text
+
+def dedupe_sentences(html):
+    """Deduplicate repeated sentences within each <p> block."""
+    def repl(m):
+        content = m.group(1)
+        # Split on sentence boundaries
+        sentences = re.split(r'(?<=[\.\?!])\s+', content)
+        seen = set()
+        unique = []
+        for s in sentences:
+            s_str = s.strip()
+            key = s_str.lower()
+            if key and key not in seen:
+                seen.add(key)
+                unique.append(s_str)
+        return "<p>" + " ".join(unique) + "</p>"
+
+    return re.sub(r'<p>(.*?)</p>', repl, html, flags=re.DOTALL)
+
     
     for garbled, correct in garbled_map.items():
         text = text.replace(garbled, correct)
@@ -342,8 +361,11 @@ for entry in feed.entries:
     
     # Add full content
     if full_content_html:
-        # Deduplicate paragraphs in final HTML
+        # Deduplicate sentences within each paragraph
+        full_content_html = dedupe_sentences(full_content_html)
+        # Deduplicate repeated paragraphs
         full_content_html = re.sub(r'(<p>.*?</p>)(?:\s*\1)+', r'\1', full_content_html, flags=re.DOTALL)
+        # Normalize and fix text
         full_content_html = clean_text(full_content_html)
         fe.content(content=full_content_html, type='CDATA')
 
