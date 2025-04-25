@@ -177,12 +177,10 @@ for entry in feed.entries:
     fe.pubDate(entry.get('published', datetime.now(timezone.utc)))
     for m_url, m_caption in media_items:
         fe.media_content({'url': m_url, 'medium': 'image'})
-        if m_caption:
             desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
             desc_elem.text = m_caption
-        if m_caption:
-if content_html:
-        fe.content(content=content_html, type='CDATA')
+        if content_html:
+            fe.content(content=content_html, type='CDATA')
 
 # --- Output feed (prettified with media namespace) ---
 os.makedirs('output', exist_ok=True)
