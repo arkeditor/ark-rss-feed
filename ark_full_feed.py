@@ -48,7 +48,6 @@ feed = feedparser.parse(feed_url)
 # --- Initialize output feed ---
 fg = FeedGenerator()
 fg.load_extension('media')
-fg.load_extension('content')
 fg.id(feed.feed.get('id', feed_url))
 fg.title(feed.feed.get('title', 'Ark Full Feed'))
 fg.link(href=feed_url)
@@ -181,7 +180,10 @@ for entry in feed.entries:
             desc_elem = xml_elem('{http://search.yahoo.com/mrss/}description', fe._entry)
             desc_elem.text = m_caption
         if content_html:
-            fe.content(content=content_html, type='CDATA')
+            # Add content:encoded element
+            content_elem = xml_elem('{http://purl.org/rss/1.0/modules/content/}encoded', fe._entry)
+            content_elem.text = f\"<![CDATA[{content_html}]]>\"
+
 
 # --- Output feed (prettified with media namespace) ---
 os.makedirs('output', exist_ok=True)
