@@ -44,29 +44,76 @@ except Exception as e:
 
 # --- Set up a new enriched feed ---
 fg = FeedGenerator()
+fg.load_extension('podcast')
+fg.podcast.itunes_category('News')
+
+# --- Feed metadata ---
 fg.title('The Ark Newspaper (Full Text)')
 fg.link(href='https://www.thearknewspaper.com/news')
 fg.description('Full-content RSS feed generated from The Ark Newspaper blog.')
 
 # --- Add required atom namespace and self link ---
-fg.id('https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml')
+feed_url = 'https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml'
+fg.id(feed_url)
 fg.author({'name': 'The Ark Newspaper', 'email': 'info@thearknewspaper.com'})
 fg.language('en')
 
-# Add self-referential link
-feed_url = 'https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml'
+# Explicitly add atom:link with rel="self" (ensuring this works)
 fg.link(href=feed_url, rel='self')
 
+# Add additional required elements
+fg.lastBuildDate(datetime.now())
+fg.generator('Ark RSS Feed Generator')
 
-def clean_garbled_text(text):
+
+def fix_garbled_encodings(text):
     """
-    Clean up common garbled character encodings found in the feed.
+    Fix only known garbled character encodings without removing legitimate punctuation.
     
     Args:
         text (str): Text to clean
         
     Returns:
-        str: Cleaned text
+        str: Cleaned text with legitimate punctuation preserved
+    """
+    # Only fix specific known garbled encodings
+    garbled_map = {
+        "‚Äôt": "'t",  # won't
+        "‚Äò": "'",    # apostrophe
+        "‚Äô": "'",    # apostrophe
+        "‚Äú": '"',    # opening double quote
+        "‚Äù": '"',    # closing double quote
+        "‚Äôs": "'s",  # possessive
+        "¬†": " ",     # space
+        "â€™": "'",    # apostrophe
+        "â€œ": '"',    # opening double quote
+        "â€": '"',     # closing double quote
+        "â€˜": "'",    # apostrophe
+    }
+    
+    skip_content = "HE ARK HAS THE STORY IN THIS WEEK'S ARK • Click the link in our bio for digital-edition access"
+    if skip_content in text:
+        return text
+        
+    for garbled, correct in garbled_map.items():
+        text = text.replace(garbled, correct)
+    
+    # Don't strip regular apostrophes and quotes - only remove truly non-ASCII characters
+    # This regex keeps ASCII, apostrophes, and quotes
+    text = re.sub(r'[^\x00-\x7F\'\"\`]', '', text)
+    
+    return text
+
+
+def clean_garbled_html(html_text):
+    """
+    More aggressive cleaning for HTML content, used for the article body.
+    
+    Args:
+        html_text (str): HTML text to clean
+        
+    Returns:
+        str: Cleaned HTML
     """
     garbled_map = {
         "‚Äôt": "'",
@@ -81,13 +128,14 @@ def clean_garbled_text(text):
         "â€": '"',
         "â€˜": "'",
     }
-    skip_content = "HE ARK HAS THE STORY IN THIS WEEK'S ARK • Click the link in our bio for digital-edition access"
-    if skip_content in text:
-        return text
+    
     for garbled, correct in garbled_map.items():
-        text = text.replace(garbled, correct)
-    text = re.sub(r'[^\x00-\x7F]+', '', text)
-    return text
+        html_text = html_text.replace(garbled, correct)
+    
+    # More aggressive cleaning for HTML content is fine
+    html_text = re.sub(r'[^\x00-\x7F]+', '', html_text)
+    
+    return html_text
 
 
 def extract_text_from_element(element):
@@ -122,8 +170,10 @@ def extract_text_from_element(element):
 # --- Loop through each post and scrape full content ---
 for entry in feed.entries:
     post_url = entry.link
-    post_title = clean_garbled_text(entry.title)
-    post_description = clean_garbled_text(entry.get("description", ""))
+    
+    # Use gentler cleaning for titles and descriptions
+    post_title = fix_garbled_encodings(entry.title)
+    post_description = fix_garbled_encodings(entry.get("description", ""))
     pub_date = entry.get("published", "")
 
     logging.info(f"🔍 Processing: {post_title} - {post_url}")
@@ -152,7 +202,7 @@ for entry in feed.entries:
             for p in soup.find_all("p"):
                 style = p.get("style", "")
                 if "Georgia" in style and ("18px" in style or "1.5em" in style):
-                    cleaned_paragraph = clean_garbled_text(str(p))
+                    cleaned_paragraph = clean_garbled_html(str(p))
                     paragraphs.append(cleaned_paragraph)
             if paragraphs:
                 logging.info(f"✅ Found content using style-based selector for: {post_title}")
@@ -186,45 +236,74 @@ for entry in feed.entries:
         full_content_html = ""
         logging.error(f"❌ Error scraping {post_url}: {str(e)}")
 
+    # Create feed entry
     fe = fg.add_entry()
     fe.title(post_title)
     fe.link(href=post_url)
     
-    # Add a GUID to each entry (using the post URL as the unique identifier)
-    fe.guid(post_url, permalink=True)
+    # Ensure GUID is present - use URL as permalink GUID
+    guid_value = post_url
+    fe.guid(guid_value, permalink=True)
     
+    # Add description
     fe.description(post_description)
     
     # Add publication date
     if pub_date:
         fe.pubDate(pub_date)
+    else:
+        # If no publication date is available, use current time
+        fe.pubDate(datetime.now())
     
-    # Add content
-    fe.content(content=full_content_html, type='CDATA')
+    # Add full content
+    if full_content_html:
+        fe.content(content=full_content_html, type='CDATA')
 
-# --- Create the .htaccess file to set proper media type ---
-htaccess_content = """
+# --- Output files for different hosting scenarios ---
+output_dir = "output"
+os.makedirs(output_dir, exist_ok=True)
+
+# Standard XML output
+output_file = os.path.join(output_dir, "full_feed.xml")
+try:
+    # Generate RSS feed with pretty formatting
+    rss_feed = fg.rss_str(pretty=True)
+    
+    # Extra validation: Ensure required elements are present
+    if b'<atom:link' not in rss_feed or b'rel="self"' not in rss_feed:
+        logging.warning("⚠️ atom:link with rel='self' might be missing from the feed")
+        
+    if b'<guid' not in rss_feed:
+        logging.warning("⚠️ guid elements might be missing from items")
+    
+    # Write the feed file
+    with open(output_file, "wb") as f:
+        f.write(rss_feed)
+    logging.info(f"📦 Full-content RSS feed written to {output_file}")
+    
+    # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
+    htaccess_file = os.path.join(output_dir, ".htaccess")
+    htaccess_content = """
 # Set correct MIME type for RSS feed
 <Files "full_feed.xml">
     ForceType application/rss+xml
 </Files>
 """
-
-# --- Output the final RSS feed ---
-output_dir = "output"
-os.makedirs(output_dir, exist_ok=True)
-output_file = os.path.join(output_dir, "full_feed.xml")
-
-try:
-    with open(output_file, "wb") as f:
-        f.write(fg.rss_str(pretty=True))
-    logging.info(f"📦 Full-content RSS feed written to {output_file}")
-    
-    # Create .htaccess file (note: this won't work on GitHub Pages, but included for completeness)
-    htaccess_file = os.path.join(output_dir, ".htaccess")
     with open(htaccess_file, "w") as f:
         f.write(htaccess_content)
     logging.info(f"📦 Created .htaccess file for proper MIME type")
+    
+    # Create a PHP wrapper for hosting on servers that support PHP
+    # This will force the correct Content-Type
+    php_wrapper = os.path.join(output_dir, "feed.php")
+    php_content = """<?php
+header('Content-Type: application/rss+xml');
+readfile('full_feed.xml');
+?>
+"""
+    with open(php_wrapper, "w") as f:
+        f.write(php_content)
+    logging.info(f"📦 Created PHP wrapper for proper MIME type")
     
 except Exception as e:
     logging.error(f"❌ Failed to write feed file: {e}")
