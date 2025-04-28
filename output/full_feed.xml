@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Apr 2025 03:35:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 04:24:07 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Owner: Cinelounge won’t close this week despite fundraising urgency</title>
@@ -136,23 +136,33 @@
       <title>See collection of ink paintings in new Town Hall exhibit</title>
       <link>https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</link>
       <description>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</description>
+      <content:encoded><![CDATA[<p>Corte Madera resident Yue­ying Zhong will show his brush ink paintings in a Town Hall exhibit opening May 1.</p>
+<p>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</p>
+<p>Zhong, 65, has excelled at brush ink painting for more than 40 years. He grew up in northeast China, near the Russian border, during the Chinese Cultural Revolution and was always interested in art. He remembers being fascinated by the paintings on propaganda posters — not the words. By age 10, he was so adept at painting he won a province-wide art contest.</p>]]></content:encoded>
       <dc:creator>Diane Smith</dc:creator>
       <category>Entertainment</category>
       <category>Tiburon</category>
       <category>News</category>
       <guid isPermaLink="false">6807d391844ea9bbd183f1aa</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:05 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>The ink-on-rice-paper ‘Scope of the Vision’ is one of several works by Corte Madera artist Yueying Zhong that will be on display at Tiburon Town Hall May 1-June 30. (Yueying Zhong)</media:description>
     </item>
     <item>
       <title>Tiburon Mayor Thier launching Assembly bid</title>
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
       <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
+      <content:encoded><![CDATA[<p>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</p>
+<p>Thier, who is in the first year of her third term on the Town Council, announced last week she intended to run for the District 12 seat, which covers all of Marin County and nearly half of Sonoma County, including Petaluma, Rohnert Park and Cotati.</p>
+<p>Connolly, D-San Rafael, was elected in 2022 and has announced his campaign to replace President Pro Tem Mike McGuire, D-Healdsburg, in the state Senate, as McGuire terms out next year.</p>
+<p>Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
       <category>Election 2026</category>
       <guid isPermaLink="false">67fe96ead2b5eeef5fc961e7</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
     <item>
       <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
