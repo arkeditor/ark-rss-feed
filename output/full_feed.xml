@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Apr 2025 03:06:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 03:32:49 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Owner: Cinelounge won’t close this week despite fundraising urgency</title>
@@ -106,15 +106,11 @@
       <title>Mill Valley principal tapped to lead Reed Elementary School</title>
       <link>https://www.thearknewspaper.com/live/mill-valley-principal-tapped-to-lead-reed-elementary-school</link>
       <description>Aubrey O’Connor is the new Reed Elementary School principal, replacing Mary Niesyn, who is retiring.</description>
-      <content:encoded><![CDATA[<p>A longtime teacher and administrator in the Mill Valley School District has been named the next principal at Reed Elementary School.</p>
-<p>Aubrey O’Connor, the current principal at Park Elementary School, will join the Reed Union School District July 1, with a starting annual salary of $200,000. Her hiring was approved by a 4-0 vote of the district board at its April 15 meeting; the item was included in the district’s personnel report as part of the board’s consent agenda, reserved for bulk approval of items deemed noncontroversial. Board member Afsaneh Zolfaghari was absent.</p>
-<p>O’Connor was chosen among seven applicants interviewed to replace Mary Niesyn, who is retiring after a 21-year career at the school that saw her serve as a second-grade teacher and assistant principal before assuming the top job in 2015.</p>]]></content:encoded>
       <dc:creator>Emily Lavin</dc:creator>
       <category>News</category>
       <category>School News</category>
       <guid isPermaLink="false">6807d1ff7c84107804b9f7d2</guid>
       <pubDate>Wed, 23 Apr 2025 13:45:06 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
     <item>
       <title>Everyday Encounters: A dad passes down his love for baseball to his three children</title>
@@ -136,12 +132,17 @@
       <title>See collection of ink paintings in new Town Hall exhibit</title>
       <link>https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</link>
       <description>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</description>
+      <content:encoded><![CDATA[<p>Corte Madera resident Yue­ying Zhong will show his brush ink paintings in a Town Hall exhibit opening May 1.</p>
+<p>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</p>
+<p>Zhong, 65, has excelled at brush ink painting for more than 40 years. He grew up in northeast China, near the Russian border, during the Chinese Cultural Revolution and was always interested in art. He remembers being fascinated by the paintings on propaganda posters — not the words. By age 10, he was so adept at painting he won a province-wide art contest.</p>]]></content:encoded>
       <dc:creator>Diane Smith</dc:creator>
       <category>Entertainment</category>
       <category>Tiburon</category>
       <category>News</category>
       <guid isPermaLink="false">6807d391844ea9bbd183f1aa</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:05 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>The ink-on-rice-paper ‘Scope of the Vision’ is one of several works by Corte Madera artist Yueying Zhong that will be on display at Tiburon Town Hall May 1-June 30. (Yueying Zhong)</media:description>
     </item>
     <item>
       <title>Tiburon Mayor Thier launching Assembly bid</title>
