@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Apr 2025 17:10:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 18:27:40 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signs, songs for Earth Day</title>
@@ -137,12 +137,19 @@
       <title>Everyday Encounters: A retired pharma rep finds joy in life’s slower pace</title>
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-retired-pharma-rep-finds-joy-in-life-s-slower-pace</link>
       <description>Strawberry resident Suzanne Brooks says she’s enjoying a calm pace of life.</description>
+      <content:encoded><![CDATA[<p>Strawberry resident Suzanne Brooks says she’s enjoying a calm pace of life as she walks Bennie, her 2-year-old Australian labradoodle, along the San Francisco Bay Trail and Greenwood Cove Road April 22. She gives Bennie a treat as they walk, and he leaps to eat it.</p>
+<p>Brooks, who currently works part-time managing properties in Marin and Sonoma counties and has recently taken up watercolor classes offered at the College of Marin, spent 33 years working in pharmaceutical sales, mostly in ophthalmology, before retiring in 2021.</p>
+<p>“I was more satisfied than I ever thought I would be, honestly,” she says.</p>
+<p>While she planned on being a bench researcher when entering college, that changed when Brooks waited tables while doing research.</p>
+<p>“I liked waiting tables better than I liked doing the research,” Brooks says. “So that really told me how much of a people person that I am.”</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Everyday Encounters</category>
       <category>Strawberry</category>
       <guid isPermaLink="false">681184ead7aab542e7f50c15</guid>
       <pubDate>Wed, 30 Apr 2025 13:00:34 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_d0676c64405d41308bf0ad90b5e9f863~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Strawberry resident Suzanne Brooks gives Bennie, a 2-year-old Australian labradoodle named after Elton John’s hit track ‘Bennie and the Jets,’ a treat during their walk April 22 along the San Francisco Bay Trail in Strawberry. ‘He’s an eager 2-year-old,’ Brooks says of Bennie. (Francisco Martinez / The Ark)</media:description>
     </item>
     <item>
       <title>Owner: Cinelounge won’t close this week despite fundraising urgency</title>
