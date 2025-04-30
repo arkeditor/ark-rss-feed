@@ -7,8 +7,54 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Apr 2025 14:19:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 15:12:03 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Signs, songs for Earth Day</title>
+      <link>https://www.thearknewspaper.com/live/signs-songs-for-earth-day</link>
+      <description>Participants in Tiburon’s Earth Day celebration April 27 paraded along Tiburon Boulevard to Fountain Plaza.</description>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>News</category>
+      <category>Tiburon</category>
+      <category>Featured</category>
+      <guid isPermaLink="false">68117f221055c34ce1ae212a</guid>
+      <pubDate>Wed, 30 Apr 2025 14:59:05 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_bc03208523f242108e68b90b69d2f23c~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Jocelyn Kay Levy and Ryan Olson of San Anselmo-based Wee Yogis performed an array of children’s and folk songs at Zelinsky Park during Tiburon’s Earth Day celebration April 27. Participants including Scouts BSA Troop No. 48 then made signs and then paraded to Fountain Plaza, where informational booths were set up for the event. (Francisco Martinez / The Ark)</media:description>
+      <media:content url="https://static.wixstatic.com/media/75283d_b04c281cf6b644b0a034534cf3e578b0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:content url="https://static.wixstatic.com/media/75283d_08110306d76f425a9f4bb368679296fe~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:content url="https://static.wixstatic.com/media/75283d_8f8b1f2e19a649c6a384a12d1a09d3f1~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:content url="https://static.wixstatic.com/media/75283d_7c528b740da3413bb94b35a893496287~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:content url="https://static.wixstatic.com/media/75283d_7b244b37ea7c4411a042ac94224b5714~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+    </item>
+    <item>
+      <title>Belvedere council OKs new fees to generate $594K more each year</title>
+      <link>https://www.thearknewspaper.com/live/belvedere-council-oks-new-fees-to-generate-594k-more-each-year</link>
+      <description>The higher service charges aim to better cover expenses and close growing budget gaps.</description>
+      <content:encoded><![CDATA[<p>Belvedere will increase its building and planning fees beginning July 1, a move aimed at allowing the city to recover more costs from development projects and free up general-fund money for citywide initiatives.</p>
+<p>The City Council voted unanimously at its April 14 meeting to adopt the new fee structure, which is expected to generate an additional $594,000 annually for the city. The council had previously signaled its intent to approve the new fees at its March meeting.</p>
+<p>The increases are based on a study from consultant ClearSource Financial that found Belvedere currently recovers only 53% of costs for services like home remodels and other development projects. The city collects about $1.07 million annually in fee revenues but spends about $2.04 million providing these services, requiring it to pull nearly $968,000 from the general fund to cover the gap.</p>
+<p>The new fee structure would immediately increase cost recovery to 82% with a target of reaching 91% in future years through annual inflationary adjustments. Building services would reach 100% cost recovery in the...</p>]]></content:encoded>
+      <dc:creator>Naomi Friedland</dc:creator>
+      <category>News</category>
+      <category>Belvedere</category>
+      <guid isPermaLink="false">681180641055c34ce1ae2568</guid>
+      <pubDate>Wed, 30 Apr 2025 14:45:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sticker shock pushes Bel Aire to rethink flood-control plans</title>
+      <link>https://www.thearknewspaper.com/live/sticker-shock-pushes-bel-aire-to-rethink-flood-control-plans</link>
+      <description>The projected $1.1 million creek design is nearly three times what was anticipated.</description>
+      <content:encoded><![CDATA[<p>Officials working on a flood-prevention project to restore two creeks in Tiburon’s Bel Aire neighborhood have ordered further studies after projected design and environmental-review costs for the work came back at $1.1 million — nearly three times what was anticipated.</p>
+<p>The five-member Marin Flood Zone 4 advisory board voted 4-1 April 22, with member Carolyn Shadan dissenting, to direct West Sacramento-based firm CBEC, Inc. to spend $15,000-$20,000 to review information and literature surrounding hydrology and hydraulics at the East and West creeks in hopes of reducing the estimated design costs, which the board had budgeted at about $400,000 and which does not include the $2 million planned for constructing the project.</p>
+<p>“It’s a very low-risk investment at this time that could get us closer to … the right direction in terms of overall project costs,” member Liza Gregory Bass said.</p>
+<p>Judd Goodman, senior civil engineer with the water resources division at the Marin Public Works Department and the county’s staff liaison, said during the meeting that CBEC will be ab...</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Tiburon</category>
+      <category>News</category>
+      <guid isPermaLink="false">681180cfd7aab542e7f4f9fc</guid>
+      <pubDate>Wed, 30 Apr 2025 14:30:08 GMT</pubDate>
+    </item>
     <item>
       <title>Block party, trivia night to mark 50th anniversary of The Ranch rec agency</title>
       <link>https://www.thearknewspaper.com/live/block-party-trivia-night-to-mark-50th-anniversary-of-the-ranch-rec-agency</link>
@@ -278,49 +324,6 @@
       <category>Tiburon</category>
       <guid isPermaLink="false">67fe9b9fc9ecd44841490866</guid>
       <pubDate>Wed, 16 Apr 2025 14:45:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tiburon to celebrate 55th Earth Day with parade, enviro fair</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-to-celebrate-55th-earth-day-with-parade-enviro-fair</link>
-      <description>Tiburon’s celebration is set for 10 a.m.-1 p.m. April 27.</description>
-      <content:encoded><![CDATA[<p>Tiburon Peninsula residents can celebrate the 55th annual Earth Day with an April 27 parade from Zelinsky Park to the Angel Island-Tiburon Ferry Co. dock, where several organizations will offer educational booths on environmental topics.</p>
-<p>It’s one of several local events planned to mark Earth Day, including an April 24 fundraiser for San Francisco State University’s Estuary & Ocean Science Center on Paradise Drive; and a Nature Day at the Richardson Bay Audubon Center and Sanctuary and Marin County parks-organized cleanup of Ring Mountain, both on April 26.</p>
-<p>Earth Day falls on April 22 this year, and Tiburon’s belated celebration is set for 10 a.m.-1 p.m.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <guid isPermaLink="false">67fe98a2555ee813e6bcadbf</guid>
-      <pubDate>Wed, 16 Apr 2025 14:30:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tiburon lifts 8-year ban on new utility-burying districts</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-lifts-8-year-ban-on-new-utility-burying-districts</link>
-      <description>The Town Council also agreed to help fund some early planning costs.</description>
-      <content:encoded><![CDATA[<p>Tiburon has lifted its nearly eight-year moratorium on forming new utility-undergrounding districts and will contribute to some preliminary planning costs to help residents obtain accurate project estimates before deciding whether to bury their lines.</p>
-<p>The Town Council voted unanimously April 2 to allow new districts to form, paving the way for Mar West Street neighbors to explore burying their electric infrastructure. The council also decided to help pay for the final engineering report for proposed projects, with the town’s contribution to be determined case by case.</p>
-<p>Under the approved rules, property owners would reimburse Tiburon for its contribution if they vote to form the district and proceed with the project, but the town would lose its funding if residents vote against undergrounding.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">67fe996dc9ecd448414900f6</guid>
-      <pubDate>Wed, 16 Apr 2025 14:15:08 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_d22f2cab018142d7a61e45770b434cf7~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-      <media:description>Preliminary trench locations for a potential utility-undergrounding project along Mar West Street account for 2,323 feet of trench that would impact roughly 39 parcels, according to Public Works Engineering Manager David Eshoo. (via town of Tiburon)</media:description>
-    </item>
-    <item>
-      <title>Man arrested in Denver in connection with 2023 Tiburon armed robbery</title>
-      <link>https://www.thearknewspaper.com/live/man-arrested-in-denver-in-connection-with-2023-tiburon-armed-robbery</link>
-      <description>He's been arraigned on felony charges of robbery and negligent discharge of a firearm, both with special enhancements.</description>
-      <content:encoded><![CDATA[<p>A man wanted in connection with a November 2023 armed robbery in Tiburon was arrested April 5 by Denver police during a traffic stop, authorities said, and has been extradited to Marin.</p>
-<p>Anthony Ledell Yancy III, 21, is facing felony charges of robbery and negligent discharge of a firearm, both with special enhancements for violence, use of a weapon, prior convictions and involving a minor — the then-17-year-old suspected getaway driver who was arrested shortly after the incident.</p>
-<p>The felony complaints against Yancy were filed Aug. 7, 2024, with court records showing he was arraigned in Marin Superior Court on April 11 and was expected to enter a plea on April 15, after The Ark’s press deadline.</p>]]></content:encoded>
-      <dc:creator>Naomi Friedland</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <guid isPermaLink="false">67fe9a9b7658b88efd59d094</guid>
-      <pubDate>Wed, 16 Apr 2025 14:00:28 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_be1c7af424084c0e956f6f1b6e72fdf0~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-      <media:description>The passenger and gunman is seen with the red Kia involved in the November 2023 robbery of a Tiburon resident. (via Tiburon Police Department)</media:description>
     </item>
   </channel>
 </rss>
