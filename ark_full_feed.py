@@ -105,7 +105,7 @@ def merge_broken_paragraphs(html):
     return html
 
 def filter_content(html):
-    """Filter content to remove unwanted text and limit to 1100 characters."""
+    """Filter content to remove unwanted text and limit to 2500 characters."""
     if not html:
         return ""
         
@@ -122,15 +122,15 @@ def filter_content(html):
         
     filtered_html = "\n".join(filtered_paragraphs)
     
-    # Limit to 1100 characters
-    if len(filtered_html) > 1100:
-        # First try to find a paragraph break near 1100 chars
-        match = re.search(r'</p>\s*(?=<p>)', filtered_html[:1200])
+    # Limit to 2500 characters
+    if len(filtered_html) > 2500:
+        # First try to find a paragraph break near 2500 chars
+        match = re.search(r'</p>\s*(?=<p>)', filtered_html[:2600])
         if match and match.end() > 800:  # Only use if we found a decent amount of content
             filtered_html = filtered_html[:match.end()] + '...'
         else:
-            # Otherwise just cut at 1100 and add ellipsis
-            filtered_html = filtered_html[:1100] + '...</p>'
+            # Otherwise just cut at 2500 and add ellipsis
+            filtered_html = filtered_html[:2500] + '...</p>'
     
     return filtered_html
 
