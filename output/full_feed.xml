@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 May 2025 04:25:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 05:12:09 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signs, songs for Earth Day</title>
@@ -73,18 +73,12 @@
       <title>Owner of The Cove apartments defaults on $210 mil loan as its financial troubles grow</title>
       <link>https://www.thearknewspaper.com/live/owner-of-the-cove-apartments-defaults-on-210-mil-loan-as-its-financial-troubles-grow</link>
       <description>The Tiburon Peninsula property is not Maximus Real Estate Partners’ only troubled asset.</description>
-      <content:encoded><![CDATA[<p>The owners of The Cove at Tiburon, a 283-unit luxury apartment complex on Barbaree Road just outside Tiburon town limits, have reportedly defaulted on a $210 million loan, which could force a sale or foreclosure.</p>
-<p>According to multiple Bay Area publications, bond rater Morningstar announced April 1 that San Francisco-based Maximus Real Estate Partners, headed by investor and wine collector Robert “Big Boy” Rosania, defaulted after the loan reached maturity in March.</p>
-<p>The Ark could not independently verify the default with Morningstar after a spokesperson declined to comment, but the San Francisco Chronicle, San Francisco Business Times and real-estate news outlet The Real Deal all cited Morningstar in reporting on the default. The Business Times also cited notes sent to bondholders.</p>
-<p>It remains unclear what future control of the property looks like. Maximus did not respond to multiple emails seeking comment over the past two weeks. Cove complex management also did not respond to messages left by phone or during an impromptu in-person visit to its leasing office l...</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>Tiburon</category>
       <category>News</category>
       <category>Business</category>
       <guid isPermaLink="false">681181d5d7aab542e7f4fdce</guid>
       <pubDate>Wed, 30 Apr 2025 14:00:16 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_47479d91805f44b2b145780c4b1d1236~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>San Francisco-based Maximus Real Estate Partners in April defaulted on a loan backed by The Cove at Tiburon, the 283-unit complex located just outside of town limits, according to multiple news agencies citing credit assessor Morningstar. (Francisco Martinez / The Ark)</media:description>
     </item>
     <item>
       <title>Tiburon resident wins silver in world tennis tournament</title>
@@ -265,11 +259,18 @@
       <title>Everyday Encounters: A dad passes down his love for baseball to his three children</title>
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-dad-passes-down-his-love-for-baseball-to-his-three-children</link>
       <description>Mark Marsella played baseball from age 6 through high school.</description>
+      <content:encoded><![CDATA[<p>Mark Marsella stands beside his 3-year-old daughter Giani, watching as son Troy steps up to bat for the Tiburon Peninsula Little League’s Yankees during an afternoon game against the Diamondbacks April 15 at the Strawberry Recreation District field.</p>
+<p>As Troy, 11, makes it to first base, Marsella smiles with satisfaction. The Tiburon Peninsula Little League president says Giani often accompanies him to games and is learning about baseball through observation. He plans to involve her in softball when she’s old enough.</p>
+<p>“It’s fun,” Marsella, 43, says about Little League. “They play because they love it. The best part is seeing all the kids have a great time.”</p>
+<p>Marsella says he appreciates the parental involvement in the league.</p>
+<p>“A lot of people are focused on the kids and making sure they’re learning, growing and enjoying themselves,” he says.</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>Everyday Encounters</category>
       <category>News</category>
       <guid isPermaLink="false">6807d2b77c84107804b9fa8d</guid>
       <pubDate>Wed, 23 Apr 2025 13:30:54 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Mark Marsella of Tiburon stands by the bleachers at the Strawberry Recreation District watching his son Troy Marsella’s Little League team, the Yankees, play against the Diamondbacks on April 15. (Naomi Friedland / The Ark)</media:description>
     </item>
     <item>
       <title>See collection of ink paintings in new Town Hall exhibit</title>
