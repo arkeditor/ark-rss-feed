@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 May 2025 03:16:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 03:40:58 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signs, songs for Earth Day</title>
@@ -316,6 +316,9 @@
       <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
       <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
       <description>The theater owner's complaint says the operator of the Rafael, Sequoia and Mill Valley Film Fest is hurting his business.</description>
+      <content:encoded><![CDATA[<p>Cinelounge co-founder Christian Meoli is accusing the California Film Institute of “unfair and bullying tactics” for enforcing what he says are three-week exclusivity agreements with art house and specialty film distributors that prevent the downtown Tiburon theater from showing certain movies upon release.</p>
+<p>Meoli on April 3 filed a claim with the Independent Theater Owners Coalition, an arm of the Cinema United trade organization, to end the exclusivity practices and is weighing his legal options, including potentially filing an antitrust claim.</p>
+<p>The move came as Cinelounge’s nonprofit arm, theBelvedere Tiburon Film Society, abruptly launched a $500,000 fundraising campaign on April 14, saying in an email newsletter it needed to raise the cash by April 21 or the theater “could fade to black for good.”</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
