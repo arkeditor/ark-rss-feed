@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 May 2025 17:09:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 18:15:08 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signs, songs for Earth Day</title>
@@ -34,7 +34,7 @@
       <content:encoded><![CDATA[<p>Belvedere will increase its building and planning fees beginning July 1, a move aimed at allowing the city to recover more costs from development projects and free up general-fund money for citywide initiatives.</p>
 <p>The City Council voted unanimously at its April 14 meeting to adopt the new fee structure, which is expected to generate an additional $594,000 annually for the city. The council had previously signaled its intent to approve the new fees at its March meeting.</p>
 <p>The increases are based on a study from consultant ClearSource Financial that found Belvedere currently recovers only 53% of costs for services like home remodels and other development projects. The city collects about $1.07 million annually in fee revenues but spends about $2.04 million providing these services, requiring it to pull nearly $968,000 from the general fund to cover the gap.</p>
-<p>The new fee structure would immediately increase cost recovery to 82% with a target of reaching 91% in future years through annual inflationary adjustments. Building services would reach 100% cost recovery in the...</p>]]></content:encoded>
+<p>The new fee structure would immediately increase cost recovery to 82% with a target of reaching 91% in future years through annual inflationary adjustments. Building services would reach 100% cost recovery in the first year.</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>News</category>
       <category>Belvedere</category>
@@ -48,7 +48,7 @@
       <content:encoded><![CDATA[<p>Officials working on a flood-prevention project to restore two creeks in Tiburon’s Bel Aire neighborhood have ordered further studies after projected design and environmental-review costs for the work came back at $1.1 million — nearly three times what was anticipated.</p>
 <p>The five-member Marin Flood Zone 4 advisory board voted 4-1 April 22, with member Carolyn Shadan dissenting, to direct West Sacramento-based firm CBEC, Inc. to spend $15,000-$20,000 to review information and literature surrounding hydrology and hydraulics at the East and West creeks in hopes of reducing the estimated design costs, which the board had budgeted at about $400,000 and which does not include the $2 million planned for constructing the project.</p>
 <p>“It’s a very low-risk investment at this time that could get us closer to … the right direction in terms of overall project costs,” member Liza Gregory Bass said.</p>
-<p>Judd Goodman, senior civil engineer with the water resources division at the Marin Public Works Department and the county’s staff liaison, said during the meeting that CBEC will be ab...</p>]]></content:encoded>
+<p>Judd Goodman, senior civil engineer with the water resources division at the Marin Public Works Department and the county’s staff liaison, said during the meeting that CBEC will be able to complete their assessment before the board’s next scheduled meeting in July.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>Tiburon</category>
       <category>News</category>
@@ -76,7 +76,7 @@
       <content:encoded><![CDATA[<p>The owners of The Cove at Tiburon, a 283-unit luxury apartment complex on Barbaree Road just outside Tiburon town limits, have reportedly defaulted on a $210 million loan, which could force a sale or foreclosure.</p>
 <p>According to multiple Bay Area publications, bond rater Morningstar announced April 1 that San Francisco-based Maximus Real Estate Partners, headed by investor and wine collector Robert “Big Boy” Rosania, defaulted after the loan reached maturity in March.</p>
 <p>The Ark could not independently verify the default with Morningstar after a spokesperson declined to comment, but the San Francisco Chronicle, San Francisco Business Times and real-estate news outlet The Real Deal all cited Morningstar in reporting on the default. The Business Times also cited notes sent to bondholders.</p>
-<p>It remains unclear what future control of the property looks like. Maximus did not respond to multiple emails seeking comment over the past two weeks. Cove complex management also did not respond to messages left by phone or during an impromptu in-person visit to its leasing office l...</p>]]></content:encoded>
+<p>It remains unclear what future control of the property looks like. Maximus did not respond to multiple emails seeking comment over the past two weeks. Cove complex management also did not respond to messages left by phone or during an impromptu in-person visit to its leasing office last week. One Cove employee said they were unaware of any default involving the complex.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>Tiburon</category>
       <category>News</category>
@@ -159,7 +159,7 @@
 <p>Meoli, who co-owns the theater with his wife Camilla, acknowledged the messaging was a deliberate “Hail Mary” approach after earlier announcements about the theater’s planned transition to nonprofit status failed to gain traction.</p>
 <p>“That’s the decision that I had to make to really jumpstart what we consider to be, so far, a very successful initiative,” Meoli said in an April 16 phone interview.</p>
 <p>The theater’s GoFundMe campaign, titled “Preserve a Community Cinema Born from Love,” warned in an April 14 email that “our beloved Cinelounge could fade to black for good” without reaching its financial goal. But Meoli clarified that people could continue donating after the deadline, adding that meeting even part of the goal would provide a good start over the next couple of months toward resolving the theater’s financial struggles.</p>
-<p>The theater will hold a “Save the Reels,...</p>]]></content:encoded>
+<p>The theater will hold a “Save the Reels, Raise the Roof” fundraiser from 5:30 to 9 p.m. April 29 at Malibu Farm, whose co-owner John Stockwell was Cougar in 1986’s “Top Gun” and directed 2002’s “Blue Crush.”</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
@@ -188,6 +188,10 @@
       <title>Tiburon Councilmember Nikfar misses yet another state financial report deadline</title>
       <link>https://www.thearknewspaper.com/live/tiburon-councilmember-nikfar-misses-yet-another-state-financial-report-deadline</link>
       <description>The failure to file reflects a pattern for Nikfar, who missed three disclosure deadlines August 2023 and November 2024 elections.</description>
+      <content:encoded><![CDATA[<p>Four Tiburon Town Council­members have disclosed economic interests totaling at least $2.84 million for 2024, while Councilmember Isaac Nikfar has once again failed to submit legally required financial reports by the state deadline.</p>
+<p>Councilmember Jack Ryan leads with a minimum of $1.17 million in economic interests, followed by Mayor Holli Thier with at least $1 million. Councilmember Alice Fredericks reported at least $453,013, while Vice Mayor Jon Welner disclosed at least $210,001.</p>
+<p>California law requires these annual economic-interest statements, known as Form 700, to be filed by April 1. The California Fair Political Practices Commission mandates that all elected officials and public employees “who (make) or (influence) governmental decisions” submit these disclosures.</p>
+<p>The failure to file state-mandated financial disclosures for his office reflects a pattern for Nikfar, who missed two deadlines for campaign-finance disclosures related to the November 2024 election, most recently a semiannual report due Jan. 31. Nikfar also missed his initial campaign-finance disclosure requirement in July 2023 before a special election that August, when he was first voted into office. Nikfar has declined to comment on any of the campaign-finance reporting lapses.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
@@ -202,7 +206,7 @@
 <p>The event, set for 6 p.m. at Peacock Gap Golf Club in San Rafael, serves as the foundation’s final big push to meet its $2-million fundraising goal for the 2024-2025 school year, with most of that money going directly to the district to help support art, music, physical education, language and library programs.</p>
 <p>Jen Feldman, the foundation’s director of marketing, communications and events, called the annual gala “a great way to bring the community together.”</p>
 <p>“This is a way for parents to come together and to help raise money and to really instill what the foundation does into the parents that attend,” she said.</p>
-<p>This year’s fundraising efforts also include an online auction, which runs May 1-11 and is open to both district families and the larger community. It will feature a variety of items available for bid, in...</p>]]></content:encoded>
+<p>This year’s fundraising efforts also include an online auction, which runs May 1-11 and is open to both district families and the larger community. It will feature a variety of items available for bid, including grade-level hikes for parents, yoga classes, a gift card to Sam’s Anchor Cafe and a bay boat cruise for dads.</p>]]></content:encoded>
       <dc:creator>Emily Lavin</dc:creator>
       <category>News</category>
       <category>School News</category>
@@ -217,7 +221,7 @@
 <p>The district board of directors unanimously approved separate contracts at its April 17 meeting: $2.84 million with Fort Bragg-based Fort Bragg Electric for the construction and $168,889 with San Rafael-based Nute Engineering for construction management. Both contracts include a 10% contingency. Funding will come from the district’s capital reserves, District Manager Tony Rubio said.</p>
 <p>Construction is targeted for spring 2026 because it will take up to a year to obtain one of the necessary parts for the upgrade, the motor-control center, estimated to cost $628,000, he said.</p>
 <p>The actual work to rehabilitate the station, located at the corner of Cove and Barn roads in Belvedere, will last three to four months.</p>
-<p>Nute Engineering, which also designed the project, found that the station’s electrical switchgear and motor-control center exhibited “age-related conditions, which include difficulty in finding replacement part...</p>]]></content:encoded>
+<p>Nute Engineering, which also designed the project, found that the station’s electrical switchgear and motor-control center exhibited “age-related conditions, which include difficulty in finding replacement parts.” The station was built in 1961 and reconfigured in 1981 to include dry- and wet-weather pumps for respective flows.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Belvedere</category>
@@ -233,7 +237,7 @@
       <content:encoded><![CDATA[<p>Visitors to the Angel Island Immigration Museum can explore a new temporary exhibit examining border-surveillance technologythrough May 25, thanks to a collaboration with the Electronic Frontier Foundation.</p>
 <p>“Border Surveillance: Places, People and Technology,” which opened April 2 at the museum on Angel Island State Park in Tiburon, features panels detailing technologies used to monitor border crossings — from aerostats and drones to fixed cameras and ground sensors. The exhibit also explores emerging surveillance methods, including augmented reality and artificial intelligence.</p>
 <p>Edward Tepporn, executive director of the Angel Island Immigration Station Foundation that oversees the museum, said that while the digital-privacy nonprofit developed the exhibit independently, he was proud the museum serves as its inaugural venue.</p>
-<p>“Part of the interest in hosting it is that the work that we’ve done at the foundation, in collaboration with Angel Island State Park, over the past 40-plus years has been about lifting up the history of immigration through Angel Island, bu...</p>]]></content:encoded>
+<p>“Part of the interest in hosting it is that the work that we’ve done at the foundation, in collaboration with Angel Island State Park, over the past 40-plus years has been about lifting up the history of immigration through Angel Island, but also how it connects to current-day immigration,” Tepporn said.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
@@ -312,6 +316,9 @@
       <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
       <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
       <description>The theater owner's complaint says the operator of the Rafael, Sequoia and Mill Valley Film Fest is hurting his business.</description>
+      <content:encoded><![CDATA[<p>Cinelounge co-founder Christian Meoli is accusing the California Film Institute of “unfair and bullying tactics” for enforcing what he says are three-week exclusivity agreements with art house and specialty film distributors that prevent the downtown Tiburon theater from showing certain movies upon release.</p>
+<p>Meoli on April 3 filed a claim with the Independent Theater Owners Coalition, an arm of the Cinema United trade organization, to end the exclusivity practices and is weighing his legal options, including potentially filing an antitrust claim.</p>
+<p>The move came as Cinelounge’s nonprofit arm, theBelvedere Tiburon Film Society, abruptly launched a $500,000 fundraising campaign on April 14, saying in an email newsletter it needed to raise the cash by April 21 or the theater “could fade to black for good.”</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
