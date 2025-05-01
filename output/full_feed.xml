@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 May 2025 02:42:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 03:16:48 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signs, songs for Earth Day</title>
@@ -73,12 +73,18 @@
       <title>Owner of The Cove apartments defaults on $210 mil loan as its financial troubles grow</title>
       <link>https://www.thearknewspaper.com/live/owner-of-the-cove-apartments-defaults-on-210-mil-loan-as-its-financial-troubles-grow</link>
       <description>The Tiburon Peninsula property is not Maximus Real Estate Partners’ only troubled asset.</description>
+      <content:encoded><![CDATA[<p>The owners of The Cove at Tiburon, a 283-unit luxury apartment complex on Barbaree Road just outside Tiburon town limits, have reportedly defaulted on a $210 million loan, which could force a sale or foreclosure.</p>
+<p>According to multiple Bay Area publications, bond rater Morningstar announced April 1 that San Francisco-based Maximus Real Estate Partners, headed by investor and wine collector Robert “Big Boy” Rosania, defaulted after the loan reached maturity in March.</p>
+<p>The Ark could not independently verify the default with Morningstar after a spokesperson declined to comment, but the San Francisco Chronicle, San Francisco Business Times and real-estate news outlet The Real Deal all cited Morningstar in reporting on the default. The Business Times also cited notes sent to bondholders.</p>
+<p>It remains unclear what future control of the property looks like. Maximus did not respond to multiple emails seeking comment over the past two weeks. Cove complex management also did not respond to messages left by phone or during an impromptu in-person visit to its leasing office l...</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>Tiburon</category>
       <category>News</category>
       <category>Business</category>
       <guid isPermaLink="false">681181d5d7aab542e7f4fdce</guid>
       <pubDate>Wed, 30 Apr 2025 14:00:16 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_47479d91805f44b2b145780c4b1d1236~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>San Francisco-based Maximus Real Estate Partners in April defaulted on a loan backed by The Cove at Tiburon, the 283-unit complex located just outside of town limits, according to multiple news agencies citing credit assessor Morningstar. (Francisco Martinez / The Ark)</media:description>
     </item>
     <item>
       <title>Tiburon resident wins silver in world tennis tournament</title>
@@ -310,9 +316,6 @@
       <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
       <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
       <description>The theater owner's complaint says the operator of the Rafael, Sequoia and Mill Valley Film Fest is hurting his business.</description>
-      <content:encoded><![CDATA[<p>Cinelounge co-founder Christian Meoli is accusing the California Film Institute of “unfair and bullying tactics” for enforcing what he says are three-week exclusivity agreements with art house and specialty film distributors that prevent the downtown Tiburon theater from showing certain movies upon release.</p>
-<p>Meoli on April 3 filed a claim with the Independent Theater Owners Coalition, an arm of the Cinema United trade organization, to end the exclusivity practices and is weighing his legal options, including potentially filing an antitrust claim.</p>
-<p>The move came as Cinelounge’s nonprofit arm, theBelvedere Tiburon Film Society, abruptly launched a $500,000 fundraising campaign on April 14, saying in an email newsletter it needed to raise the cash by April 21 or the theater “could fade to black for good.”</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
