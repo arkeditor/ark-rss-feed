@@ -7,8 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 May 2025 23:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 00:24:02 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiburon police to conduct DUI patrol on Cinco de Mayo</title>
+      <link>https://www.thearknewspaper.com/live/tiburon-police-to-conduct-dui-patrol-on-cinco-de-mayo</link>
+      <description>Tiburon police will conduct a special overnight DUI patrol operation from 7 p.m. to 3 a.m. May 5.</description>
+      <content:encoded><![CDATA[<p>Tiburon police will conduct a special overnight DUI patrol operation from 7 p.m. to 3 a.m. May 5.</p>
+<p>"Impaired driving is preventable," Tiburon Police Captain Jarrod Yee said in a May 2 press release. "It's a choice. If you've been drinking or taken drugs that impair, make the right choice by finding a sober driver or alternate transportation to take you places."</p>
+<p>The department said that impairment can come from sources beyond alcohol, including prescription medications, over-the-counter drugs and marijuana, which remains illegal to use while driving despite being legal for recreational and medicinal use in California.</p>
+<p>First-time DUI offenders face an average of $13,500 in fines and penalties, plus license suspension, according to the release.</p>
+<p>The enforcement effort is funded through a grant from the California Office of Traffic Safety via the National Highway Traffic Safety Administration.</p>]]></content:encoded>
+      <dc:creator>Kevin Hessel</dc:creator>
+      <category>News</category>
+      <category>Tiburon</category>
+      <guid isPermaLink="false">68156138f547f5de526599a4</guid>
+      <pubDate>Sat, 03 May 2025 00:22:24 GMT</pubDate>
+    </item>
     <item>
       <title>Signs, songs for Earth Day</title>
       <link>https://www.thearknewspaper.com/live/signs-songs-for-earth-day</link>
@@ -295,31 +310,12 @@
       <title>Tiburon Mayor Thier launching Assembly bid</title>
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
       <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
-      <content:encoded><![CDATA[<p>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</p>
-<p>Thier, who is in the first year of her third term on the Town Council, announced last week she intended to run for the District 12 seat, which covers all of Marin County and nearly half of Sonoma County, including Petaluma, Rohnert Park and Cotati.</p>
-<p>Connolly, D-San Rafael, was elected in 2022 and has announced his campaign to replace President Pro Tem Mike McGuire, D-Healdsburg, in the state Senate, as McGuire terms out next year.</p>
-<p>Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.</p>
-<p>Thier said she’ll stay on the Town Council “until the successful conclusion” of the Assembly race.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
       <category>Election 2026</category>
       <guid isPermaLink="false">67fe96ead2b5eeef5fc961e7</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-    </item>
-    <item>
-      <title>Cinelounge owner accuses film institute of unfair exclusivity deals</title>
-      <link>https://www.thearknewspaper.com/live/cinelounge-owner-accuses-film-institute-of-unfair-exclusivity-deals</link>
-      <description>The theater owner's complaint says the operator of the Rafael, Sequoia and Mill Valley Film Fest is hurting his business.</description>
-      <content:encoded><![CDATA[<p>Cinelounge co-founder Christian Meoli is accusing the California Film Institute of “unfair and bullying tactics” for enforcing what he says are three-week exclusivity agreements with art house and specialty film distributors that prevent the downtown Tiburon theater from showing certain movies upon release.</p>
-<p>Meoli on April 3 filed a claim with the Independent Theater Owners Coalition, an arm of the Cinema United trade organization, to end the exclusivity practices and is weighing his legal options, including potentially filing an antitrust claim.</p>
-<p>The move came as Cinelounge’s nonprofit arm, theBelvedere Tiburon Film Society, abruptly launched a $500,000 fundraising campaign on April 14, saying in an email newsletter it needed to raise the cash by April 21 or the theater “could fade to black for good.”</p>]]></content:encoded>
-      <dc:creator>Naomi Friedland</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <guid isPermaLink="false">67fe9b9fc9ecd44841490866</guid>
-      <pubDate>Wed, 16 Apr 2025 14:45:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
