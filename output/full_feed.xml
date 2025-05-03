@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 May 2025 00:24:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 01:27:10 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiburon police to conduct DUI patrol on Cinco de Mayo</title>
@@ -46,6 +46,10 @@
       <title>Belvedere council OKs new fees to generate $594K more each year</title>
       <link>https://www.thearknewspaper.com/live/belvedere-council-oks-new-fees-to-generate-594k-more-each-year</link>
       <description>The higher service charges aim to better cover expenses and close growing budget gaps.</description>
+      <content:encoded><![CDATA[<p>Belvedere will increase its building and planning fees beginning July 1, a move aimed at allowing the city to recover more costs from development projects and free up general-fund money for citywide initiatives.</p>
+<p>The City Council voted unanimously at its April 14 meeting to adopt the new fee structure, which is expected to generate an additional $594,000 annually for the city. The council had previously signaled its intent to approve the new fees at its March meeting.</p>
+<p>The increases are based on a study from consultant ClearSource Financial that found Belvedere currently recovers only 53% of costs for services like home remodels and other development projects. The city collects about $1.07 million annually in fee revenues but spends about $2.04 million providing these services, requiring it to pull nearly $968,000 from the general fund to cover the gap.</p>
+<p>The new fee structure would immediately increase cost recovery to 82% with a target of reaching 91% in future years through annual inflationary adjustments. Building services would reach 100% cost recovery in the first year.</p>]]></content:encoded>
       <dc:creator>Naomi Friedland</dc:creator>
       <category>News</category>
       <category>Belvedere</category>
@@ -310,12 +314,18 @@
       <title>Tiburon Mayor Thier launching Assembly bid</title>
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
       <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
+      <content:encoded><![CDATA[<p>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</p>
+<p>Thier, who is in the first year of her third term on the Town Council, announced last week she intended to run for the District 12 seat, which covers all of Marin County and nearly half of Sonoma County, including Petaluma, Rohnert Park and Cotati.</p>
+<p>Connolly, D-San Rafael, was elected in 2022 and has announced his campaign to replace President Pro Tem Mike McGuire, D-Healdsburg, in the state Senate, as McGuire terms out next year.</p>
+<p>Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.</p>
+<p>Thier said she’ll stay on the Town Council “until the successful conclusion” of the Assembly race.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
       <category>Election 2026</category>
       <guid isPermaLink="false">67fe96ead2b5eeef5fc961e7</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
   </channel>
 </rss>
