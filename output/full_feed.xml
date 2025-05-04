@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 May 2025 07:10:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 14:16:22 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiburon police to conduct DUI patrol on Cinco de Mayo</title>
@@ -314,12 +314,18 @@
       <title>Tiburon Mayor Thier launching Assembly bid</title>
       <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
       <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
+      <content:encoded><![CDATA[<p>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</p>
+<p>Thier, who is in the first year of her third term on the Town Council, announced last week she intended to run for the District 12 seat, which covers all of Marin County and nearly half of Sonoma County, including Petaluma, Rohnert Park and Cotati.</p>
+<p>Connolly, D-San Rafael, was elected in 2022 and has announced his campaign to replace President Pro Tem Mike McGuire, D-Healdsburg, in the state Senate, as McGuire terms out next year.</p>
+<p>Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.</p>
+<p>Thier said she’ll stay on the Town Council “until the successful conclusion” of the Assembly race.</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>News</category>
       <category>Tiburon</category>
       <category>Election 2026</category>
       <guid isPermaLink="false">67fe96ead2b5eeef5fc961e7</guid>
       <pubDate>Wed, 16 Apr 2025 15:00:22 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
   </channel>
 </rss>
