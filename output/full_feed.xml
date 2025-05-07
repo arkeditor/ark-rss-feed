@@ -7,8 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 16:46:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 17:08:56 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Town Hall exhibit highlights artists with indigenous roots</title>
+      <link>https://www.thearknewspaper.com/live/town-hall-exhibit-highlights-artists-with-indigenous-roots</link>
+      <description>The show, “We Know Who We Are,” will have an artists’ reception 6-8 p.m. May 13.</description>
+      <content:encoded><![CDATA[<p>From left, ‘The Healing’ by Henry Frank,‘Potato Famine Si! Tortillas No’ by Marty Meadeand ‘Walk’n My Talk’ by Alicia Retes are part of the ‘We Know Who We Are’ exhibit at Tiburon Town Hall featuring artists with indigenous roots.</p>
+<p>Indigenous artists from around the Bay Area have their works on display in “We Know Who We Are,” showing at Tiburon Town Hall through June 24.</p>
+<p>The show, which will have an artists’ reception 6-8 p.m. May 13, is part of an ongoing effort by the Tiburon Heritage and Arts Commission to highlight artists from underrepresented backgrounds, including artists of color, women and LGBTQ+ artists and artists from different socioeconomic backgrounds.</p>
+<p>One of the artists in the show is Novato resident Henry Frank, a 51-year-old who spent 20 years in federal prisons from age 19 to 39.</p>
+<p>Frank’s father was of Yurok and Pomo heritage, while his mother was Yurok, Karuk, Tolowa, Dutch and Spanish. His parents split up when he was 5, and he and his younger brother lived with their mother, who battled substance-abuse issues.</p>
+<p>“I had to learn to cook and take care of my brother because my mother was always high on heroin,” he says.</p>]]></content:encoded>
+      <dc:creator>Diane Smith</dc:creator>
+      <category>Tiburon</category>
+      <category>Entertainment</category>
+      <guid isPermaLink="false">681aa8f88f4ddaefca7b7c17</guid>
+      <pubDate>Wed, 07 May 2025 17:07:34 GMT</pubDate>
+    </item>
     <item>
       <title>New late-afternoon and St. Hilary school-bus routes to launch this fall</title>
       <link>https://www.thearknewspaper.com/live/new-late-afternoon-and-st-hilary-school-bus-routes-to-launch-this-fall</link>
@@ -306,21 +322,6 @@
       <category>Tiburon</category>
       <guid isPermaLink="false">6807ce996b6532964c7ecb41</guid>
       <pubDate>Wed, 23 Apr 2025 14:45:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>School foundation saddling up for rodeo fundraiser</title>
-      <link>https://www.thearknewspaper.com/live/school-foundation-saddling-up-for-rodeo-fundraiser</link>
-      <description>The May 10 event for the Reed Union district will feature dinner, dancing and a live auction.</description>
-      <content:encoded><![CDATA[<p>The Foundation for Reed Schools is asking parents to don their “boots and bling” for the May 10Reed Rodeo, a Western-themed night of dinner and dancing to help raise money for enrichment classes at the Reed Union School District’s three schools.</p>
-<p>The event, set for 6 p.m. at Peacock Gap Golf Club in San Rafael, serves as the foundation’s final big push to meet its $2-million fundraising goal for the 2024-2025 school year, with most of that money going directly to the district to help support art, music, physical education, language and library programs.</p>
-<p>Jen Feldman, the foundation’s director of marketing, communications and events, called the annual gala “a great way to bring the community together.”</p>
-<p>“This is a way for parents to come together and to help raise money and to really instill what the foundation does into the parents that attend,” she said.</p>
-<p>This year’s fundraising efforts also include an online auction, which runs May 1-11 and is open to both district families and the larger community. It will feature a variety of items available for bid, including grade-level hikes for parents, yoga classes, a gift card to Sam’s Anchor Cafe and a bay boat cruise for dads.</p>]]></content:encoded>
-      <dc:creator>Emily Lavin</dc:creator>
-      <category>News</category>
-      <category>School News</category>
-      <guid isPermaLink="false">6807cfcc765eb353ed58fc50</guid>
-      <pubDate>Wed, 23 Apr 2025 14:30:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
