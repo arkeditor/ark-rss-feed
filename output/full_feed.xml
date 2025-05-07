@@ -7,8 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 02:27:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 03:09:35 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Couple sues Belvedere over $254K fine for delayed construction</title>
+      <link>https://www.thearknewspaper.com/live/couple-sues-belvedere-over-254k-fine-for-delayed-construction</link>
+      <description>The claim says the penalty violated their constitutional rights of due process and against excessive fines.</description>
+      <content:encoded><![CDATA[<p>A Belvedere couple has filed a federal lawsuit against the city, challenging a nearly quarter-million-dollar fine imposed after their “dream home” renovation project exceeded the city’s construction time limit by more than eight months.</p>
+<p>Laurent and Marguerite Lefouet filed suit in U.S. District Court for the Northern District of California on April 25, alleging the $254,400 penalty violated their constitutional rights of due process and against excessive fines. The couple claims city officials’ own delays in processing permit revisions caused much of the project’s tardiness, yet they were still penalized.</p>
+<p>“(The Lefouets) worked diligently to complete the project. But their project was repeatedly delayed by Belvedere’s lack of diligence in reviewing and approving project goals, which ultimately led to a failure to complete the project within the arbitrarily short 18-month deadline,” the lawsuit states.</p>
+<p>The suit comes as Belvedere is already litigating another suit filed in Marin Superior Court in October 2022 by Golden Gate Avenue resident David Flaherty. He was hit with a $300,000 construction time-limit penalty after his home-renovation project took more than 4½ years to complete. That alleges the city miscalculated extensions for the 2017 Tubbs fire and the COVID-19 pandemic, also while asserting Belvedere unconstitutionally failed to provide due process and assessed excessive fines.</p>
+<p>“This is basically a windfall for the city of Belvedere,” the Lefouets’ attorney, Greg Walston of San Francisco-based Walston Law Group, said in an interview, calling the fines an illegal raising of revenue untethered from the city’s actual costs or harm. “They’re getting $300,000 out of Mr. Flaherty. They’re getting $254,000 out of Mr. Lefouet. This is just going to the city coffer and being used for whatever they want it to.”</p>]]></content:encoded>
+      <dc:creator>Kevin Hessel</dc:creator>
+      <category>News</category>
+      <category>Belvedere</category>
+      <guid isPermaLink="false">681aa4d130aede3a862880ff</guid>
+      <pubDate>Wed, 07 May 2025 03:00:05 GMT</pubDate>
+    </item>
     <item>
       <title>Officials warn Tiburon Boulevard bike-lane plan risks bus stops, traffic and safety</title>
       <link>https://www.thearknewspaper.com/live/officials-warn-tiburon-boulevard-bike-lane-plan-risks-bus-stops-traffic-and-safety</link>
@@ -308,23 +323,6 @@
       <pubDate>Wed, 23 Apr 2025 13:30:54 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_6fb9f69a30b44b798c3ad8a2bc752668~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>Mark Marsella of Tiburon stands by the bleachers at the Strawberry Recreation District watching his son Troy Marsella’s Little League team, the Yankees, play against the Diamondbacks on April 15. (Naomi Friedland / The Ark)</media:description>
-    </item>
-    <item>
-      <title>See collection of ink paintings in new Town Hall exhibit</title>
-      <link>https://www.thearknewspaper.com/live/see-collection-of-ink-paintings-in-new-town-hall-exhibit</link>
-      <description>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</description>
-      <content:encoded><![CDATA[<p>Corte Madera resident Yue­ying Zhong will show his brush ink paintings in a Town Hall exhibit opening May 1.</p>
-<p>Zhong’s works will be displayed in the upstairs gallery through June 30, with an artist’s reception set for 6-8 p.m. May 6.</p>
-<p>Zhong, 65, has excelled at brush ink painting for more than 40 years. He grew up in northeast China, near the Russian border, during the Chinese Cultural Revolution and was always interested in art. He remembers being fascinated by the paintings on propaganda posters — not the words. By age 10, he was so adept at painting he won a province-wide art contest.</p>
-<p>After graduating from the department of Chinese painting at Lu Xun Academy of Fine Arts in 1984, he stayed on as a faculty member while studying at Peking University for the next two years. He then earned a master’s degree from Lu Xun Academy and became an editor for Art magazine, published by the China Artists Association.</p>]]></content:encoded>
-      <dc:creator>Diane Smith</dc:creator>
-      <category>Entertainment</category>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">6807d391844ea9bbd183f1aa</guid>
-      <pubDate>Wed, 23 Apr 2025 13:30:05 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>The ink-on-rice-paper ‘Scope of the Vision’ is one of several works by Corte Madera artist Yueying Zhong that will be on display at Tiburon Town Hall May 1-June 30. (Yueying Zhong)</media:description>
     </item>
   </channel>
 </rss>
