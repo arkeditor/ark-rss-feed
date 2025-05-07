@@ -7,8 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 01:38:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 02:27:45 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Officials warn Tiburon Boulevard bike-lane plan risks bus stops, traffic and safety</title>
+      <link>https://www.thearknewspaper.com/live/officials-warn-tiburon-boulevard-bike-lane-plan-risks-bus-stops-traffic-and-safety</link>
+      <description>Caltrans’ 2026 project to rehabilitate and repave Tiburon Boulevard includes bike lanes that would eliminate four school-bus stops.</description>
+      <content:encoded><![CDATA[<p>Three local agencies say Caltrans’planned bike lanesalong Tiburon Boulevard will eliminate four school-bus stops, jam up traffic and endanger cyclists, adding to mounting criticism of the project’s design and communication process.</p>
+<p>The Reed Union School District, Marin Transit and the Tiburon Peninsula Traffic Alliance have all submitted letters opposing aspects of the bike lanes planned between Blackfield Drive and Trestle Glen Boulevard.</p>
+<p>In her April 15 letter, Reed district Superintendent Kimberly McGrath said the plan would “imperil bus transportation for a number of students and potentially encourage” them to bike what she calls “a busy transit corridor when a safer route is currently available to all bikes along Greenwood Beach Road.”</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Featured</category>
+      <category>News</category>
+      <category>Tiburon</category>
+      <guid isPermaLink="false">681a59e20ac880cb16655c2e</guid>
+      <pubDate>Wed, 07 May 2025 02:00:11 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_a43311d424604f48ac81677706a0fd94~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Cyclists ride down Greenwood Beach Road, parallel to Tiburon Boulevard, toward Blackie’s Pasture and the Old Rail Trail on May 4. Local officials say bike traffic is better suited to the street than out on Tiburon Boulevard, where as part of its 2026 project to rehabilitate and repave the road, Caltrans wants to create protected bike lanes on the north and south side of the road from Highway 101 to Trestle Glen Boulevard. (Leo Leung / For The Ark)</media:description>
+    </item>
     <item>
       <title>Tiburon police to conduct DUI patrol on Cinco de Mayo</title>
       <link>https://www.thearknewspaper.com/live/tiburon-police-to-conduct-dui-patrol-on-cinco-de-mayo</link>
@@ -309,23 +325,6 @@
       <pubDate>Wed, 23 Apr 2025 13:30:05 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_bf675b7f509d4ff085aa6fad5aa4372a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>The ink-on-rice-paper ‘Scope of the Vision’ is one of several works by Corte Madera artist Yueying Zhong that will be on display at Tiburon Town Hall May 1-June 30. (Yueying Zhong)</media:description>
-    </item>
-    <item>
-      <title>Tiburon Mayor Thier launching Assembly bid</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-mayor-thier-launching-assembly-bid</link>
-      <description>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</description>
-      <content:encoded><![CDATA[<p>Tiburon Mayor Holli Thier will join the crowded 2026 contest to replace Damon Connolly in the California State Assembly.</p>
-<p>Thier, who is in the first year of her third term on the Town Council, announced last week she intended to run for the District 12 seat, which covers all of Marin County and nearly half of Sonoma County, including Petaluma, Rohnert Park and Cotati.</p>
-<p>Connolly, D-San Rafael, was elected in 2022 and has announced his campaign to replace President Pro Tem Mike McGuire, D-Healdsburg, in the state Senate, as McGuire terms out next year.</p>
-<p>Thier confirmed her candidacy to The Ark in an April 11 email, citing issues such as the rising cost of living, insurance companies not writing policies for California homeowners and a need for “strong advocates … who can protect our residents against the dismantling of our democracy” with President Donald Trump in office for a second term.</p>
-<p>Thier said she’ll stay on the Town Council “until the successful conclusion” of the Assembly race.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <category>Election 2026</category>
-      <guid isPermaLink="false">67fe96ead2b5eeef5fc961e7</guid>
-      <pubDate>Wed, 16 Apr 2025 15:00:22 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_86f9550585434043bdbc660e6dabee24~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
   </channel>
 </rss>
