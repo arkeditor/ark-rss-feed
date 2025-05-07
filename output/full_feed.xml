@@ -7,8 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 13:46:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 14:10:40 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everyday Encounters: A LinkedIn executive finds peace, purpose in Tiburon</title>
+      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-linkedin-executive-finds-peace-purpose-in-tiburon</link>
+      <description>Tiburon reminds Laura Parkinson of her hometown of Hallettsville, Texas, about 120 miles east of San Antonio.</description>
+      <content:encoded><![CDATA[<p>Laura Parkinson is taking a break from her busy work and home schedule as she sits on a bench on the banks below McKegney Green April 29.</p>
+<p>As LinkedIn’s head of brand experience, Parkinson had decided to shut off her laptop after an intense workday to walk and meditate — “very uncharacteristic of me,” she says. She says she’s lucky her employer supports discretionary time off, but it’s a busy time of year, and that makes the work-life balance a little tougher to find.</p>
+<p>“The sounds, the smells of the ocean, just the visuals of the blue water … it’s not lost on me,” Parkinson says as she takes in the view. “I feel so fortunate to be able to step away from the computer to this, you know?”</p>
+<p>Tiburon reminds Parkinson of her hometown of Hallettsville, Texas, about 120 miles east of San Antonio. She says the town, settled by Czech and German immigrants, features traditional small-town characteristics with everyone knowing everyone, plus rolling hills, cattle and oil drilling.</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Everyday Encounters</category>
+      <category>News</category>
+      <guid isPermaLink="false">681aa8190ac880cb166644bb</guid>
+      <pubDate>Wed, 07 May 2025 14:00:21 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_5c523a4d5b014880ac45895d20be6f60~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Tiburon resident Laura Parkinson enjoys the weather and views as she takes a break from her busy job in tech on April 29 near McKegney Green. (Francisco Martinez / The Ark)</media:description>
+    </item>
     <item>
       <title>Bluff Point property is back on the market with an 81% markdown</title>
       <link>https://www.thearknewspaper.com/live/bluff-point-property-is-back-on-the-market-with-an-81-markdown</link>
@@ -307,20 +323,6 @@
       <pubDate>Wed, 23 Apr 2025 14:00:13 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>The Angel Island Immigration Station Foundation is hosting an exhibit by the Electronic Frontier Foundation, the San Francisco-based digital-privacy nonprofit, called ‘Border Surveillance: Places, People and Technology’ through May 25. (via Angel Island Immigration Station Foundation)</media:description>
-    </item>
-    <item>
-      <title>Mill Valley principal tapped to lead Reed Elementary School</title>
-      <link>https://www.thearknewspaper.com/live/mill-valley-principal-tapped-to-lead-reed-elementary-school</link>
-      <description>Aubrey O’Connor is the new Reed Elementary School principal, replacing Mary Niesyn, who is retiring.</description>
-      <content:encoded><![CDATA[<p>A longtime teacher and administrator in the Mill Valley School District has been named the next principal at Reed Elementary School.</p>
-<p>Aubrey O’Connor, the current principal at Park Elementary School, will join the Reed Union School District July 1, with a starting annual salary of $200,000. Her hiring was approved by a 4-0 vote of the district board at its April 15 meeting; the item was included in the district’s personnel report as part of the board’s consent agenda, reserved for bulk approval of items deemed noncontroversial. Board member Afsaneh Zolfaghari was absent.</p>
-<p>O’Connor was chosen among seven applicants interviewed to replace Mary Niesyn, who is retiring after a 21-year career at the school that saw her serve as a second-grade teacher and assistant principal before assuming the top job in 2015.</p>]]></content:encoded>
-      <dc:creator>Emily Lavin</dc:creator>
-      <category>News</category>
-      <category>School News</category>
-      <guid isPermaLink="false">6807d1ff7c84107804b9f7d2</guid>
-      <pubDate>Wed, 23 Apr 2025 13:45:06 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_ad4bf4281dab407890334c8aa07ef383~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
     </item>
   </channel>
 </rss>
