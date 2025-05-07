@@ -7,8 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 14:10:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 14:43:01 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiburon teen’s nonprofit aims to raise money for student tech</title>
+      <link>https://www.thearknewspaper.com/live/tiburon-teen-s-nonprofit-aims-to-raise-money-for-student-tech</link>
+      <description>Natty Gove launched the Tech4Youth Foundation in February and is aiming to raise $11,000 to purchase laptops for 30 students in need.</description>
+      <content:encoded><![CDATA[<p>A Tiburon teen has launched a fundraising effort to ensure all students in the Sausalito-Marin City School District have access to a home computer.</p>
+<p>Natty Gove launched the nonprofitTech4Youth Foundationin February and is aiming to raise $11,000 to purchase laptops for 30 students in need.</p>
+<p>The Redwood High School sophomore notes about 90% of his homework requires a computer, making him realize how much more difficult it would be to succeed in school if he didn’t have his own at home.</p>
+<p>“I just realized basically that in an ever more digitized world, access to this technology is not so much of a luxury as it was pre-COVID, it’s more of a necessity,” says Natty, 15, adding that students who don’t have computers at home can easily fall behind through no fault of their own.</p>]]></content:encoded>
+      <dc:creator>Emily Lavin</dc:creator>
+      <category>School News</category>
+      <category>Tiburon</category>
+      <category>News</category>
+      <guid isPermaLink="false">681aa7328f4ddaefca7b76e6</guid>
+      <pubDate>Wed, 07 May 2025 14:30:10 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_157049db29fc4f558006b1f3a3e8dd8f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Tiburon teen Natty Gove, seen at his home May 4, is trying to raise funds to purchase laptops for 30 students in the Sausalito-Marin City School District. (Leo Leung / For The Ark)</media:description>
+    </item>
     <item>
       <title>Everyday Encounters: A LinkedIn executive finds peace, purpose in Tiburon</title>
       <link>https://www.thearknewspaper.com/live/everyday-encounters-a-linkedin-executive-finds-peace-purpose-in-tiburon</link>
@@ -306,23 +323,6 @@
       <pubDate>Wed, 23 Apr 2025 14:15:09 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_67e34418feb24c35b20cb22465784563~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>The Sanitary District No. 5 of Marin will spend $3.3 million to replace its pump station at Cove Road, pictured here April 17, beginning in spring 2026. The pump station, which serves all of Belvedere, is in need of replacement due to aging infrastructure with its motor-control center and generator, District Manager Tony Rubio said. (Francisco Martinez / The Ark)</media:description>
-    </item>
-    <item>
-      <title>Angel Island exhibit looks at border surveillance technology</title>
-      <link>https://www.thearknewspaper.com/live/angel-island-exhibit-looks-at-border-surveillance-technology</link>
-      <description>“Border Surveillance: Places, People and Technology” features panels detailing technologies used to monitor border crossings — from aerostats and drones to fixed cameras and ground sensors.</description>
-      <content:encoded><![CDATA[<p>Visitors to the Angel Island Immigration Museum can explore a new temporary exhibit examining border-surveillance technologythrough May 25, thanks to a collaboration with the Electronic Frontier Foundation.</p>
-<p>“Border Surveillance: Places, People and Technology,” which opened April 2 at the museum on Angel Island State Park in Tiburon, features panels detailing technologies used to monitor border crossings — from aerostats and drones to fixed cameras and ground sensors. The exhibit also explores emerging surveillance methods, including augmented reality and artificial intelligence.</p>
-<p>Edward Tepporn, executive director of the Angel Island Immigration Station Foundation that oversees the museum, said that while the digital-privacy nonprofit developed the exhibit independently, he was proud the museum serves as its inaugural venue.</p>
-<p>“Part of the interest in hosting it is that the work that we’ve done at the foundation, in collaboration with Angel Island State Park, over the past 40-plus years has been about lifting up the history of immigration through Angel Island, but also how it connects to current-day immigration,” Tepporn said.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <category>Entertainment</category>
-      <guid isPermaLink="false">6807d11b7c84107804b9f48e</guid>
-      <pubDate>Wed, 23 Apr 2025 14:00:13 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_41fc69158ca9465bacbfdb4e8b58dd6e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>The Angel Island Immigration Station Foundation is hosting an exhibit by the Electronic Frontier Foundation, the San Francisco-based digital-privacy nonprofit, called ‘Border Surveillance: Places, People and Technology’ through May 25. (via Angel Island Immigration Station Foundation)</media:description>
     </item>
   </channel>
 </rss>
