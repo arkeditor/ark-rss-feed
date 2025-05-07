@@ -7,8 +7,23 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 May 2025 14:43:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 15:10:55 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New late-afternoon and St. Hilary school-bus routes to launch this fall</title>
+      <link>https://www.thearknewspaper.com/live/new-late-afternoon-and-st-hilary-school-bus-routes-to-launch-this-fall</link>
+      <description>The agency behind the Yellow Bus Challenge will introduce a pilot late-afternoon route next school year to bring Reed Union district...</description>
+      <content:encoded><![CDATA[<p>The agency behind the Yellow Bus Challenge will introduce a pilot late-afternoon route next school year to bring Reed Union district students home from after-school programs and tutoring sessions.</p>
+<p>The new route, unanimously approved by the newly renamed Tiburon Peninsula Traffic Alliance board May 2, will leave Bel Aire Elementary School at 4 p.m. and make five stops along Tiburon Boulevard before reaching Reed Elementary School. The bus will then make eight more stops on its return journey before heading out to Paradise Drive via Highway 101, dropping remaining riders in east Corte Madera and Paradise Cay.</p>
+<p>It will be the day’s last service for the same bus used earlier in the afternoon to take home St. Hilary Catholic School students, another service that received unanimous approval at the meeting.</p>
+<p>Alongside the route expansions, the agency recently announced its rebranding as the Tiburon Peninsula Traffic Alliance to better reflect its broader mission, though the Tiburon Peninsula Traffic Relief Joint Powers Agency, formed in 2016, remains its formal name.</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Tiburon</category>
+      <category>News</category>
+      <category>School News</category>
+      <guid isPermaLink="false">681aa6f030aede3a862886e2</guid>
+      <pubDate>Wed, 07 May 2025 14:59:06 GMT</pubDate>
+    </item>
     <item>
       <title>Tiburon teen’s nonprofit aims to raise money for student tech</title>
       <link>https://www.thearknewspaper.com/live/tiburon-teen-s-nonprofit-aims-to-raise-money-for-student-tech</link>
@@ -306,23 +321,6 @@
       <category>School News</category>
       <guid isPermaLink="false">6807cfcc765eb353ed58fc50</guid>
       <pubDate>Wed, 23 Apr 2025 14:30:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sani 5 OKs $3-mil rehab of aging Cove Road pump station</title>
-      <link>https://www.thearknewspaper.com/live/sani-5-oks-3-mil-rehab-of-aging-cove-road-pump-station</link>
-      <description>Construction is targeted for spring 2026 because it will take up to a year to obtain one of the necessary parts for the upgrade.</description>
-      <content:encoded><![CDATA[<p>The Sanitary District No. 5 of Marin will spend $3.3 million to rehabilitate its Cove Road pump station, with work set to begin in spring 2026.</p>
-<p>The district board of directors unanimously approved separate contracts at its April 17 meeting: $2.84 million with Fort Bragg-based Fort Bragg Electric for the construction and $168,889 with San Rafael-based Nute Engineering for construction management. Both contracts include a 10% contingency. Funding will come from the district’s capital reserves, District Manager Tony Rubio said.</p>
-<p>Construction is targeted for spring 2026 because it will take up to a year to obtain one of the necessary parts for the upgrade, the motor-control center, estimated to cost $628,000, he said.</p>
-<p>The actual work to rehabilitate the station, located at the corner of Cove and Barn roads in Belvedere, will last three to four months.</p>
-<p>Nute Engineering, which also designed the project, found that the station’s electrical switchgear and motor-control center exhibited “age-related conditions, which include difficulty in finding replacement parts.” The station was built in 1961 and reconfigured in 1981 to include dry- and wet-weather pumps for respective flows.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>News</category>
-      <category>Belvedere</category>
-      <guid isPermaLink="false">6807d0516b6532964c7ed198</guid>
-      <pubDate>Wed, 23 Apr 2025 14:15:09 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_67e34418feb24c35b20cb22465784563~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>The Sanitary District No. 5 of Marin will spend $3.3 million to replace its pump station at Cove Road, pictured here April 17, beginning in spring 2026. The pump station, which serves all of Belvedere, is in need of replacement due to aging infrastructure with its motor-control center and generator, District Manager Tony Rubio said. (Francisco Martinez / The Ark)</media:description>
     </item>
   </channel>
 </rss>
