@@ -7,8 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 May 2025 14:40:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 15:10:18 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medical drama hits home for ER chief shaped by Columbine and Aurora tragedies</title>
+      <link>https://www.thearknewspaper.com/live/medical-drama-hits-home-for-er-chief-shaped-by-columbine-and-aurora-tragedies</link>
+      <description>Tiburon's Christopher Colwell is chief of emergency medicine at Zuckerberg San Francisco General Hospital and Trauma Center.</description>
+      <content:encoded><![CDATA[<p>For Christopher Colwell, watching an episode of “The Pitt” isn’t just entertainment — it’s a reflection of his reality. The medical drama streaming on Max takes place inside an overcrowded, underfunded emergency room, and it features real cases, he says, even if there’s some added theatrics.</p>
+<p>“What ‘The Pitt’ does is the closest thing to what I do that I’ve ever seen,” says the 59-year-old Tiburon resident, who serves as chief of emergency medicine at Zuckerberg San Francisco General Hospital and Trauma Center.</p>
+<p>Colwell speaks from extensive experience. Before moving to the Bay Area in 2016, he served as emergency-medicine director at Denver Health hospital from 2010 to 2016, where he earlier worked as medical director for both the Denver Fire Department and Denver Health’s paramedic division.</p>
+<p>It was during his Denver tenure that Colwell responded to the 1999 Columbine High School massacre that left 14 dead and the 2012 Aurora, Colorado, movie-theater shooting that killed 13. He was in San Francisco for the 2017 UPS-facility shooting where three died.</p>
+<p>His expertise from these tragedies informs his work overseeing an emergency department that treats 76,000 patients a year and has shaped him into an authoritative voice on disaster management, mass-casualty events, COVID-19 responses and wildfire health impacts. He’s sought out to speak at medical conferences, as an expert voice in the press and even to review TV shows for medical accuracy, as he did for “The Pitt” in online magazine Slate in March.</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Tiburon</category>
+      <category>News</category>
+      <guid isPermaLink="false">6823f682e93599d9de543a6b</guid>
+      <pubDate>Wed, 14 May 2025 14:59:06 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_4aca0320f8b343f498b320291491d81c~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Tiburon resident Christopher Colwell is the chief of the emergency-medicine department at the Zuckerberg San Francisco General Hospital and Trauma Center, a position he’s held since 2016. Prior to that, he spent nearly 20 years at Denver Health, including six years as emergency-medicine chief from 2010 to 2016. At Denver Health, he was on the scene during the 1999 Columbine High School shooting and led the response to the 2012 Aurora movie theater killings. He’s become a leader in discussing how to handle mass-casualty events from a medical standpoint, talking at conferences and to news outlets. (Francisco Martinez / The Ark)</media:description>
+    </item>
     <item>
       <title>Tiburon resident trades tech career for Detroit-style pizza</title>
       <link>https://www.thearknewspaper.com/live/tiburon-resident-trades-tech-career-for-detroit-style-pizza</link>
@@ -310,21 +327,6 @@
       <pubDate>Wed, 07 May 2025 02:00:11 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_a43311d424604f48ac81677706a0fd94~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>Cyclists ride down Greenwood Beach Road, parallel to Tiburon Boulevard, toward Blackie’s Pasture and the Old Rail Trail on May 4. Local officials say bike traffic is better suited to the street than out on Tiburon Boulevard, where as part of its 2026 project to rehabilitate and repave the road, Caltrans wants to create protected bike lanes on the north and south side of the road from Highway 101 to Trestle Glen Boulevard. (Leo Leung / For The Ark)</media:description>
-    </item>
-    <item>
-      <title>Tiburon police to conduct DUI patrol on Cinco de Mayo</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-police-to-conduct-dui-patrol-on-cinco-de-mayo</link>
-      <description>Tiburon police will conduct a special overnight DUI patrol operation from 7 p.m. to 3 a.m. May 5.</description>
-      <content:encoded><![CDATA[<p>Tiburon police will conduct a special overnight DUI patrol operation from 7 p.m. to 3 a.m. May 5.</p>
-<p>"Impaired driving is preventable," Capt. Jarrod Yee said in a May 2 press release. "It's a choice. If you've been drinking or taken drugs that impair, make the right choice by finding a sober driver or alternate transportation to take you places."</p>
-<p>The department said that impairment can come from sources beyond alcohol, including prescription medications, over-the-counter drugs and marijuana, which remains illegal to use while driving despite being legal for recreational and medicinal use in California.</p>
-<p>First-time DUI offenders face an average of $13,500 in fines and penalties, plus license suspension, according to the release.</p>
-<p>The enforcement effort is funded through a grant from the California Office of Traffic Safety via the National Highway Traffic Safety Administration.</p>]]></content:encoded>
-      <dc:creator>Kevin Hessel</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <guid isPermaLink="false">68156138f547f5de526599a4</guid>
-      <pubDate>Sat, 03 May 2025 00:22:24 GMT</pubDate>
     </item>
   </channel>
 </rss>
