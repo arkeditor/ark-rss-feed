@@ -7,8 +7,24 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 May 2025 02:27:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 03:27:57 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agency pulls two tons of debris from Richardson Bay</title>
+      <link>https://www.thearknewspaper.com/live/agency-pulls-two-tons-of-debris-from-richardson-bay</link>
+      <description>The cleanup is in support of a plan to revitalize ecologically vital eelgrass beds damaged by long-term anchoring.</description>
+      <content:encoded><![CDATA[<p>Two small boats, a shopping cart, a PlayStation, outboard engines, portable generators, a baseball bat, an office chair, a floor lamp, an electric keyboard, multiple anchors and a microwave.</p>
+<p>Those items were among the more than two tons of debris scuba divers working for the Richardson Bay Regional Agency pulled up from the bay floor last month during a weeklong cleanup of the newly established eelgrass protection zone, according to officials.</p>
+<p>The cleanup is in support of a plan to revitalize ecologically vital eelgrass beds damaged by long-term anchoring on Richardson Bay. Last October, the agency officially declared a 300-acre portion of the bay off limits to anchoring and has committed to restoring 15 acres of eelgrass by 2027.</p>
+<p>The April cleanup targeted only one acre of bay floor, but future cleanups are planned for later in May and in the summer, officials said.</p>
+<p>“Sadly, I’m not surprised at the amount of debris and discarded items we removed from the bay floor,” regional agency Executive Director Brad Gross said in a prepared statement. “We are not accusing anyone of deliberately discarding items overboard. That said, the type and amount of debris littering the bay floor … reinforces the fact that an environmentally sensitive area like Richardson Bay is no place for mariners to permanently reside on vessels at anchor.”</p>]]></content:encoded>
+      <dc:creator>Gretchen Lang</dc:creator>
+      <category>Tiburon</category>
+      <category>News</category>
+      <category>Belvedere</category>
+      <guid isPermaLink="false">6823f625e93599d9de54397c</guid>
+      <pubDate>Wed, 14 May 2025 03:00:13 GMT</pubDate>
+    </item>
     <item>
       <title>‘Utter disgrace’: Peninsula residents vent over latest power failure</title>
       <link>https://www.thearknewspaper.com/live/utter-disgrace-peninsula-residents-vent-over-latest-power-failure</link>
@@ -301,22 +317,6 @@
       <category>News</category>
       <guid isPermaLink="false">681183a664c9793e866a7545</guid>
       <pubDate>Wed, 30 Apr 2025 13:30:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tiburon girls help Marin Volleyball team win trip to nationals</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-girls-help-marin-volleyball-team-win-trip-to-nationals</link>
-      <description>The event included more than 100 other regional teams, with just one team advancing from the American division.</description>
-      <content:encoded><![CDATA[<p>Tiburon middle blocker Lola Belluomini and opposite-side hitter Chloe Weibel helped the Marin Volleyball’s 14 Green girls team win a shot at the American division 2025 USA Volleyball Girls Junior National Championship in Dallas in June.</p>
-<p>The team had a dominating performance at the Red Rock Rave Junior National Qualifier in Las Vegas April 19-21, where 14 Green won 100% of their sets, 24-0, to win 12 consecutive games.</p>
-<p>The event included more than 100 other regional teams, with just one team advancing from the American division, which is the fifth-tier grouping.</p>
-<p>The 14 Green team will go on to face the American division winners of the 12 other regional national-qualifier events at the championships June 25-July 3.</p>
-<p>— Submitted by Laura Belluomini, with Kevin Hessel</p>]]></content:encoded>
-      <dc:creator>Reader submitted</dc:creator>
-      <category>Sports</category>
-      <guid isPermaLink="false">68118433817ff566b37d4532</guid>
-      <pubDate>Wed, 30 Apr 2025 13:15:05 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_5e9531e06c4a438caed81c4c24acc2b7~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Marin Volleyball’s 14 Green team, at rear from right, includes coach JP Tan, Lola Belluomini of Tiburon, Charlotte Pacheco, Kennedy Milener, Sasha Fulford, Chloe Weibel of Tiburon, Payton Meyers, Wrenn Hold, Devon Humes and Kate Craine with assistant coach Tyler Finley. In front are Harlow Huston, Noah Zalayet and Christine Lin. (Joe Belluomini photo)</media:description>
     </item>
   </channel>
 </rss>
