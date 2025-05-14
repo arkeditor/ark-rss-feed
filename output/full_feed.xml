@@ -7,8 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 May 2025 11:08:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 11:33:36 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garden Plot: Think carefully about how to conserve water</title>
+      <link>https://www.thearknewspaper.com/live/garden-plot-think-carefully-about-how-to-conserve-water</link>
+      <description>No rain means no option except to turn on the spigot, unless you were smart — or hardworking — enough to have set up a system of capturing water from your downspouts.</description>
+      <content:encoded><![CDATA[<p>We’re entering our annual drought season. You can count on no rain of any consequence from May until October or November at the earliest. This leaves us with no option except to turn on the spigot, unless you were smart — or hardworking — enough to have set up a system of capturing water from your downspouts. This would be something to plan now for next winter’s rains. Most of Marin’s water comes from the Mount Tamalpais watershed, which feeds five of the seven reservoirs in the county. About 75% of the county’s water supply is stored in these reservoirs, and the remainder comes from the Russian River.</p>]]></content:encoded>
+      <dc:creator>Diane Lynch</dc:creator>
+      <category>News</category>
+      <category>Entertainment</category>
+      <guid isPermaLink="false">6823fb2a006060867869b841</guid>
+      <pubDate>Wed, 14 May 2025 11:30:08 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_8f26295d291640dd82978e47b515483f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>My now-retired water storage system. (Diane Lynch / For The Ark)</media:description>
+    </item>
     <item>
       <title>Agency pulls two tons of debris from Richardson Bay</title>
       <link>https://www.thearknewspaper.com/live/agency-pulls-two-tons-of-debris-from-richardson-bay</link>
@@ -303,20 +316,6 @@
       <pubDate>Wed, 30 Apr 2025 13:45:07 GMT</pubDate>
       <media:content url="https://static.wixstatic.com/media/75283d_6afadc2399bf4fb6bf684e32a88b348f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
       <media:description>Tiburon resident Angela Lawrence-Hendy (second left) took home silver in the 40-and-up women’s doubles competitions at the International Tennis Federation’s World Individual Championship, held March 15-22 in Manavgat, Turkey. At the event, she partnered with teammate and Corte Madera resident Mariko Fritz-Krockow (left), where the pair lost to, from left, Slovakia’s Silvia Chuda and Germany’s Manon Kruse, in the final. Their opponents won the match 4-6, 6-4, 14-12. (via Angela Lawrence-Hendy)</media:description>
-    </item>
-    <item>
-      <title>Dance, music and martial arts to highlight Asian American, Pacific Islander festival</title>
-      <link>https://www.thearknewspaper.com/live/dance-music-and-martial-arts-to-highlight-asian-american-pacific-islander-festival</link>
-      <description>The event is scheduled for 1-4 p.m. May 17 at Zelinsky Park.</description>
-      <content:encoded><![CDATA[<p>Dance performances, taiko drumming and martial-arts demonstrations are among the activities on tap for Tiburon’s second annual Asian American and Pacific Islander Heritage Festival May 17.</p>
-<p>The event, scheduled for 1-4 p.m. at Zelinsky Park behind Town Hall and the Belvedere-Tiburon Library, marks Asian American and Pacific Islander Heritage Month and is sponsored by the town’s Diversity Inclusion Task Force.</p>
-<p>Tiburon resident Anne Marie Siu Yuan, who also organized the event last year, is co-chairing this year’s celebration with Sue Lim Yee of the Asian American Alliance of Marin.</p>
-<p>“America is still a very multicultural country, and I think it’s just really important to celebrate all the different cultures and peoples that are here,” Siu Yuan said.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">681183a664c9793e866a7545</guid>
-      <pubDate>Wed, 30 Apr 2025 13:30:22 GMT</pubDate>
     </item>
   </channel>
 </rss>
