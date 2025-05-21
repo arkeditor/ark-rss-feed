@@ -7,8 +7,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 May 2025 13:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 14:10:28 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everyday Encounters: A retiree finds joy in the simple pleasures of living in Belvedere</title>
+      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-retiree-finds-joy-in-the-simple-pleasures-of-living-in-belvedere</link>
+      <description>The former contract-furniture executive moved from San Anselmo seeking a one-story home with a two-car garage on the water.</description>
+      <content:encoded><![CDATA[<p>Bill Watson has embraced life in Belvedere, where the 80-year-old retiree says he’s been busy enjoying his days since moving to the city in 2021.</p>
+<p>“I don’t know what we do every day, but we’re busy,” says Watson, who celebrated his birthday May 15. “I mean, there’s always stuff to do.”</p>
+<p>The former contract-furniture executive moved from San Anselmo seeking a one-story home with a two-car garage on the water. Four years later, he says he appreciates the peninsula environment, his neighbors and local amenities.</p>
+<p>“We have all the facilities we need,” Watson says.</p>
+<p>On May 14, he was strolling down San Rafael Avenue near Community Park after taking his 23-pound rescue dog, Ike — named after President Dwight D. Eisenhower — to the vet for a teeth cleaning. Watson has had the dog for the better part of 13 years and calls him “one of those good friends over the years.”</p>
+<p>“You know, they invented love — dogs,” Watson says.</p>]]></content:encoded>
+      <dc:creator>Francisco Martinez</dc:creator>
+      <category>Everyday Encounters</category>
+      <category>News</category>
+      <guid isPermaLink="false">682d1a66f1f18e441cefb065</guid>
+      <pubDate>Wed, 21 May 2025 14:00:22 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_1a2516ad24a546d28a14952daada7877~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Belvedere resident Bill Watson, pictured here May 14 at Belvedere Community Park, celebrated his 80th birthday May 15. He’s retired following a career in office-furniture sales, selling to Wells Fargo and Visa. (Francisco Martinez / The Ark)</media:description>
+    </item>
     <item>
       <title>Teachers to get 8% in raises – not enough, union says</title>
       <link>https://www.thearknewspaper.com/live/teachers-to-get-8-in-raises-not-enough-union-says</link>
@@ -309,23 +327,6 @@
       <category>School News</category>
       <guid isPermaLink="false">681aa6f030aede3a862886e2</guid>
       <pubDate>Wed, 07 May 2025 14:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tiburon teen’s nonprofit aims to raise money for student tech</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-teen-s-nonprofit-aims-to-raise-money-for-student-tech</link>
-      <description>Natty Gove launched the Tech4Youth Foundation in February and is aiming to raise $11,000 to purchase laptops for 30 students in need.</description>
-      <content:encoded><![CDATA[<p>A Tiburon teen has launched a fundraising effort to ensure all students in the Sausalito-Marin City School District have access to a home computer.</p>
-<p>Natty Gove launched the nonprofitTech4Youth Foundationin February and is aiming to raise $11,000 to purchase laptops for 30 students in need.</p>
-<p>The Redwood High School sophomore notes about 90% of his homework requires a computer, making him realize how much more difficult it would be to succeed in school if he didn’t have his own at home.</p>
-<p>“I just realized basically that in an ever more digitized world, access to this technology is not so much of a luxury as it was pre-COVID, it’s more of a necessity,” says Natty, 15, adding that students who don’t have computers at home can easily fall behind through no fault of their own.</p>]]></content:encoded>
-      <dc:creator>Emily Lavin</dc:creator>
-      <category>School News</category>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">681aa7328f4ddaefca7b76e6</guid>
-      <pubDate>Wed, 07 May 2025 14:30:10 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_157049db29fc4f558006b1f3a3e8dd8f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Tiburon teen Natty Gove, seen at his home May 4, is trying to raise funds to purchase laptops for 30 students in the Sausalito-Marin City School District. (Leo Leung / For The Ark)</media:description>
     </item>
   </channel>
 </rss>
