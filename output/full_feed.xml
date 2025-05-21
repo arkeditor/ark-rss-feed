@@ -7,8 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 May 2025 16:12:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 16:46:08 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wildflower Watch: Silver lupine among the wildflowers in bloom at Rodeo Beach</title>
+      <link>https://www.thearknewspaper.com/live/wildflower-watch-silver-lupine-among-the-wildflowers-in-bloom-at-rodeo-beach</link>
+      <description>Silver lupine enriches the soil by holding atmospheric nitrogen and nurtures a relationship with other flora.</description>
+      <content:encoded><![CDATA[<p>Don’t miss spring at Rodeo Beach, just 13 or so miles from the Tiburon Peninsula. Silver lupine,Lupinus albifrons, is in bloom on the hillside just above the beach, an easy walk. This is a marvelous wildflower.</p>
+<p>Silver lupine enriches the soil by holding atmospheric nitrogen and nurtures a relationship with other flora, such as morning glory, sun cups, checkerbloom, mule’s ear sunflower, scarlet pimpernel, coast Indian paintbrush, footsteps of spring and other wildflowers now in bloom on the hillside.</p>]]></content:encoded>
+      <dc:creator>Joan Linn Bekins</dc:creator>
+      <category>Entertainment</category>
+      <guid isPermaLink="false">682d1b18f1f18e441cefb191</guid>
+      <pubDate>Wed, 21 May 2025 16:14:40 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_091981ea94bd4ad8a775d48e84889a8f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+      <media:description>Silver lupine, Lupinus albifrons, grows along the hillside above Rodeo Beach, a quick drive to the coast from the Tiburon Peninsula. (Joan Linn Bekins / For The Ark)</media:description>
+    </item>
     <item>
       <title>Belvedere settles profiling suit with Yema shop owners for $10k</title>
       <link>https://www.thearknewspaper.com/live/belvedere-settles-profiling-suit-with-yema-shop-owners-for-10k</link>
@@ -315,24 +328,6 @@
       <category>Belvedere</category>
       <guid isPermaLink="false">6823f625e93599d9de54397c</guid>
       <pubDate>Wed, 14 May 2025 03:00:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>‘Utter disgrace’: Peninsula residents vent over latest power failure</title>
-      <link>https://www.thearknewspaper.com/live/utter-disgrace-peninsula-residents-vent-over-latest-power-failure</link>
-      <description>A fallen tree in Strawberry knocked out power to more than 4,000 Pacific Gas and Electric Co. customers across the Tiburon Peninsula.</description>
-      <content:encoded><![CDATA[<p>A fallen tree in Strawberry knocked out power to more than 4,000 Pacific Gas and Electric Co. customers across the Tiburon Peninsula May 6-7, leaving residents frustrated with what they describe as deteriorating service despite rising utility bills.</p>
-<p>Customers across all of Belvedere, segments of Strawberry, Greenwood Cove Drive, Greenwood Beach Road, and the Old Tiburon, downtown Tiburon, Round Hill, Del Mar and Hawthorne Terrace neighborhoods lost power beginning about 8:50 p.m., according to PG&E’s online outage tracker. Most of the peninsula had power restored by 11:43 p.m., nearly three hours after the outage was first logged, though several reported power fluctuations throughout the evening.</p>
-<p>Some 486 customers near 45 Reed Blvd., where the tree fell onto the power line, didn’t see their electricity restored until about 6:45 a.m. May 7, nearly 10 hours after the outage began, according to PG&E incident reports.</p>
-<p>“What is going on with back-to-back power cuts in Belvedere and Tiburon?” Round Hill resident Annie Joseph posted on community forum Nextdoor, later adding: “The infrastructure is an utter disgrace.”</p>
-<p>The social media platform filled with complaints from residents, including some who missed the Golden State Warriors’ playoff victory that evening because of the blackout.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">6823f583345cfad74148ccff</guid>
-      <pubDate>Wed, 14 May 2025 02:20:06 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_79b8d04023fd4b77a583b37193ea1531~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>This screengrab from Pacific Gas and Electric Co.’s outage map shows more than 4,000 Tiburon Peninsula customers without power late May 6. (via PG&amp;E)</media:description>
     </item>
   </channel>
 </rss>
