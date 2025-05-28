@@ -1,166 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-  <channel>
-    <title>The Ark</title>
-    <link>https://www.thearknewspaper.com/blog-feed.xml</link>
-    <description>The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry</description>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 18:12:35 +0000</lastBuildDate>
-    <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Town to hold first Native American festival in June</title>
-      <link>https://www.thearknewspaper.com/live/town-to-hold-first-native-american-festival-in-june</link>
-      <description>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park.</description>
-      <content:encoded><![CDATA[<p>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park, tentatively set for June 21, the day before the town’s fifth annual Juneteenth festival on lower Main Street.</p>
+ <channel>
+   <title>The Ark</title>
+   <link>https://www.thearknewspaper.com/blog-feed.xml</link>
+   <description>The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry</description>
+   <docs>http://www.rssboard.org/rss-specification</docs>
+   <generator>Ark RSS Feed Generator (Rebuilt)</generator>
+   <language>en</language>
+   <lastBuildDate>Wed, 28 May 2025 18:20:38 +0000</lastBuildDate>
+   <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Town to hold first Native American festival in June</title>
+     <link>https://www.thearknewspaper.com/live/town-to-hold-first-native-american-festival-in-june</link>
+     <description>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park.</description>
+     <content:encoded><![CDATA[<p>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park, tentatively set for June 21, the day before the town’s fifth annual Juneteenth festival on lower Main Street.</p>
 <p>The Town Council approved nearly $20,000 in funding for both events, voting 4-0-1 to grant $6,000 for the Native American heritage festival and $13,497 for Juneteenth; Vice Mayor Jon Welner abstained over ballooning cost concerns for the latter event. Earlier in the evening, the Diversity Inclusion Task Force recommended approval of the funding in 8-0 vote, with one vacancy and at-large appointee Nooshin Navidi Latour absent.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">68374d8e5769d7bf1fb6ecfd</guid>
-      <pubDate>Wed, 28 May 2025 17:53:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Caltrans to address bike-lane plan at special forum</title>
-      <link>https://www.thearknewspaper.com/live/caltrans-to-address-bike-lane-plan-at-special-forum</link>
-      <description>Assemblymember Damon Connolly, D-San Rafael, urged Caltrans to pause advancement of the controversial project.</description>
-      <content:encoded><![CDATA[<p>Caltrans officials will address mounting public concerns about planned bike lanes on Tiburon Boulevard at a special meeting with the Town Council and Southern Marin Supervisor Stephanie Moulton-Peters from 5 to 6:30 p.m. June 4 at Town Hall.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68374d8e5769d7bf1fb6ecfd</guid>
+     <pubDate>Wed, 28 May 2025 17:53:47 GMT</pubDate>
+   </item>
+   <item>
+     <title>Caltrans to address bike-lane plan at special forum</title>
+     <link>https://www.thearknewspaper.com/live/caltrans-to-address-bike-lane-plan-at-special-forum</link>
+     <description>Assemblymember Damon Connolly, D-San Rafael, urged Caltrans to pause advancement of the controversial project.</description>
+     <content:encoded><![CDATA[<p>Caltrans officials will address mounting public concerns about planned bike lanes on Tiburon Boulevard at a special meeting with the Town Council and Southern Marin Supervisor Stephanie Moulton-Peters from 5 to 6:30 p.m. June 4 at Town Hall.</p>
 <p>The forum comes as Assemblymember Damon Connolly, D-San Rafael, urged Caltrans to pause advancement of the controversial project, citing safety concerns and insufficient community engagement in a May 19 letter to the state transportation agency.</p>
 <p>“Our residents and stakeholders will have an opportunity to discuss this very important project with Caltrans,” Mayor Holli Thier said in an email. “Caltrans will address the multiple safety and other concerns expressed and will discuss the path forward.”</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">68374ac882d9fb86faaf6f26</guid>
-      <pubDate>Wed, 28 May 2025 17:42:46 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-      <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to Tiburon’s downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
-    </item>
-    <item>
-      <title>Noise rules at Art &amp;#38; Garden Center tightened following neighbor appeal</title>
-      <link>https://www.thearknewspaper.com/live/noise-rules-at-art-garden-center-tightened-following-neighbor-appeal</link>
-      <description>The Tiburon Town Council partially granted an appeal from the so-called Art &amp;#38; Garden Neighborhood Collective.</description>
-      <content:encoded><![CDATA[<p>The Belvedere-Tiburon Landmarks Society will have to get third-party monitoring if it wants to keep using amplified music for Art & Garden Center events after neighbors appealed the venue’s conditional-use permit.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68374ac882d9fb86faaf6f26</guid>
+     <pubDate>Wed, 28 May 2025 17:42:46 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to Tiburon’s downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
+   </item>
+   <item>
+     <title>Noise rules at Art &amp; Garden Center tightened following neighbor appeal</title>
+     <link>https://www.thearknewspaper.com/live/noise-rules-at-art-garden-center-tightened-following-neighbor-appeal</link>
+     <description>The Tiburon Town Council partially granted an appeal from the so-called Art &amp; Garden Neighborhood Collective.</description>
+     <content:encoded><![CDATA[<p>The Belvedere-Tiburon Landmarks Society will have to get third-party monitoring if it wants to keep using amplified music for Art & Garden Center events after neighbors appealed the venue’s conditional-use permit.</p>
 <p>The Tiburon Town Council voted unanimously to implement the requirement during a May 21 hearing that extended past midnight, partially granting an appeal from the so-called Art & Garden Neighborhood Collective. The group of seven neighbors living near the center, at 841 Tiburon Blvd., sought stricter noise controls for events with amplified music, primarily weddings.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">68374a07dc69d18047f8c728</guid>
-      <pubDate>Wed, 28 May 2025 17:40:39 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_3281ea806f43421eb2d0c33dfe54dacd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>The Belvedere-Tiburon Landmarks Society’s Art &amp; Garden Center in Tiburon is a popular wedding venue, but the nonprofit historical society was operating without a permit for amplified music for nearly three decades. Neighbors partially won an appeal of the new permit, requiring third-party monitoring to ensure decibel levels don’t exceed 60 at the property line. (Yuliya Jul Photography via Belvedere-Tiburon Landmarks Society)</media:description>
-    </item>
-    <item>
-      <title>Reed district honors teachers, staff at end-of-year ceremony</title>
-      <link>https://www.thearknewspaper.com/live/reed-district-honors-teachers-staff-at-end-of-year-ceremony</link>
-      <description>First-grade teacher Patty Ryan was named the Reed Union School District’s Teacher of the Year for 2024-2025.</description>
-      <content:encoded><![CDATA[<p>Reed Elementary School first-grade teacher Patty Ryan is known among her colleagues as humble, soft-spoken and compassionate, said Principal Mary Niesyn.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68374a07dc69d18047f8c728</guid>
+     <pubDate>Wed, 28 May 2025 17:40:39 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_3281ea806f43421eb2d0c33dfe54dacd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Belvedere-Tiburon Landmarks Society’s Art &amp; Garden Center in Tiburon is a popular wedding venue, but the nonprofit historical society was operating without a permit for amplified music for nearly three decades. Neighbors partially won an appeal of the new permit, requiring third-party monitoring to ensure decibel levels don’t exceed 60 at the property line. (Yuliya Jul Photography via Belvedere-Tiburon Landmarks Society)</media:description>
+   </item>
+   <item>
+     <title>Reed district honors teachers, staff at end-of-year ceremony</title>
+     <link>https://www.thearknewspaper.com/live/reed-district-honors-teachers-staff-at-end-of-year-ceremony</link>
+     <description>First-grade teacher Patty Ryan was named the Reed Union School District’s Teacher of the Year for 2024-2025.</description>
+     <content:encoded><![CDATA[<p>Reed Elementary School first-grade teacher Patty Ryan is known among her colleagues as humble, soft-spoken and compassionate, said Principal Mary Niesyn.</p>
 <p>Ryan already has 25 years of teaching at Reed under her belt but is hoping for enough to become a “grand-teacher,” Niesyn said, which means having a student in her class who is the child of a former student.</p>
 <p>For her efforts, Ryan was named the Reed Union School District’s Teacher of the Year for 2024-2025. She was one of more than a dozen teachers, classified staff and retirees honored at the district’s year-end Celebration of Education, which was held May 21 at St. Stephen’s Episcopal Church in Belvedere.</p>]]></content:encoded>
-      <dc:creator>Tyler Callister</dc:creator>
-      <category>School News</category>
-      <category>News</category>
-      <guid isPermaLink="false">6837494a82d9fb86faaf6b25</guid>
-      <pubDate>Wed, 28 May 2025 17:37:27 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_08910f96e6b846febef5637a2785afdd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Teachers and staff honored at the Reed Union School District’s annual Celebration of Education event May 21 in Belvedere included, front from left, Patty Ryan, Karyn McKay, Judy Tuatagaloa, Kendra Bontz and Kathleen Gaine; middle from left, Mary Niesyn, Jay Rhodes, Nicole Ford, Kelly Casey, Amanda Ingram, Carolyn Balfe, David Kover and Keith Woodard; and back from left, Lindsey McDonald and Nathan Grebil. Not pictured are honorees Khanh Tu, DJ Wade, Therese Haddad and Mary Marshall. (Tyler Callister / The Ark)</media:description>
-    </item>
-    <item>
-      <title>Tiburon OKs $1.8M to repave Paradise Drive stretch near downtown</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-oks-1-8m-to-repave-paradise-drive-stretch-near-downtown</link>
-      <description>Repaving will start at the intersection with Mar West Street and end at town limits near Agreste Way.</description>
-      <content:encoded><![CDATA[<p>Tiburon plans to spend up to $1.81 million to repave a half-mile stretch of Paradise Drive, with work tentatively set to begin in late June.</p>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>School News</category>
+     <category>News</category>
+     <guid isPermaLink="false">6837494a82d9fb86faaf6b25</guid>
+     <pubDate>Wed, 28 May 2025 17:37:27 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_08910f96e6b846febef5637a2785afdd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Teachers and staff honored at the Reed Union School District’s annual Celebration of Education event May 21 in Belvedere included, front from left, Patty Ryan, Karyn McKay, Judy Tuatagaloa, Kendra Bontz and Kathleen Gaine; middle from left, Mary Niesyn, Jay Rhodes, Nicole Ford, Kelly Casey, Amanda Ingram, Carolyn Balfe, David Kover and Keith Woodard; and back from left, Lindsey McDonald and Nathan Grebil. Not pictured are honorees Khanh Tu, DJ Wade, Therese Haddad and Mary Marshall. (Tyler Callister / The Ark)</media:description>
+   </item>
+   <item>
+     <title>Tiburon OKs $1.8M to repave Paradise Drive stretch near downtown</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-oks-1-8m-to-repave-paradise-drive-stretch-near-downtown</link>
+     <description>Repaving will start at the intersection with Mar West Street and end at town limits near Agreste Way.</description>
+     <content:encoded><![CDATA[<p>Tiburon plans to spend up to $1.81 million to repave a half-mile stretch of Paradise Drive, with work tentatively set to begin in late June.</p>
 <p>The 2,800 linear feet of repaving will start at the intersection with Mar West Street and end at town limits near Agreste Way. The work includes replacing curbs, gutters, sidewalks, curb ramps and valley gutters, pruning and removing tree roots and replacing traffic striping and pavement markings.</p>
 <p>The project, part of Tiburon’s capital-improvement program for fiscal year 2025-2026, is scheduled to last 45 working days, Public Works Engineering Director David Eshoo said in an email.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">683748ed88b2d7eec726277d</guid>
-      <pubDate>Wed, 28 May 2025 17:34:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Everyday Encounters: A finance exec finds his ideal family life in Belvedere</title>
-      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-finance-exec-finds-his-ideal-family-life-in-belvedere</link>
-      <description>Mario Valente, a former member of Belvedere’s Parks, Open Spaces and Lanes Committee, serves as deputy chief investment officer with Stansberry Asset Management.</description>
-      <content:encoded><![CDATA[<p>Mario Valente moved to Belvedere seven years ago seeking excellent schools and waterfront living for his family. The 49-year-old chief investment officer says he found both.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">683748ed88b2d7eec726277d</guid>
+     <pubDate>Wed, 28 May 2025 17:34:18 GMT</pubDate>
+   </item>
+   <item>
+     <title>Everyday Encounters: A finance exec finds his ideal family life in Belvedere</title>
+     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-finance-exec-finds-his-ideal-family-life-in-belvedere</link>
+     <description>Mario Valente, a former member of Belvedere’s Parks, Open Spaces and Lanes Committee, serves as deputy chief investment officer with Stansberry Asset Management.</description>
+     <content:encoded><![CDATA[<p>Mario Valente moved to Belvedere seven years ago seeking excellent schools and waterfront living for his family. The 49-year-old chief investment officer says he found both.</p>
 <p>Valente, his wife and their three daughters relocated from Southern California, drawn by the community’s reputation and educational opportunities.</p>
 <p>“We were looking for a family-friendly community, and Belvedere exceeded our expectations,” Valente says.</p>]]></content:encoded>
-      <dc:creator>Tyler Callister</dc:creator>
-      <category>Everyday Encounters</category>
-      <category>News</category>
-      <guid isPermaLink="false">683748555769d7bf1fb6de8f</guid>
-      <pubDate>Wed, 28 May 2025 17:32:20 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_45aa968a65e340288e050080bebf4340~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Mario Valente, a former member of the Belvedere Parks, Open Spaces and Lanes Committee, is deputy chief investment officer with Stansberry Asset Management. He moved to the city from Southern California with his wife and their three daughters. (Tyler Callister / The Ark)</media:description>
-    </item>
-    <item>
-      <title>Crib Notes: Belvedere villa with yacht asks $22 million</title>
-      <link>https://www.thearknewspaper.com/live/crib-notes-belvedere-villa-with-yacht-asks-22-million</link>
-      <description>A Mediterranean villa with San Francisco skyline views hit the market with an 800-square-foot guest house, a “hillevator” — and a 51-foot yacht.</description>
-      <content:encoded><![CDATA[<p>A 5,100-square-foot Mediterranean villa with San Francisco skyline views hit the market last month for $22 million, complete with an 800-square-foot guest house, a “hillevator” — and a 51-foot yacht.</p>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Everyday Encounters</category>
+     <category>News</category>
+     <guid isPermaLink="false">683748555769d7bf1fb6de8f</guid>
+     <pubDate>Wed, 28 May 2025 17:32:20 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_45aa968a65e340288e050080bebf4340~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Mario Valente, a former member of the Belvedere Parks, Open Spaces and Lanes Committee, is deputy chief investment officer with Stansberry Asset Management. He moved to the city from Southern California with his wife and their three daughters. (Tyler Callister / The Ark)</media:description>
+   </item>
+   <item>
+     <title>Crib Notes: Belvedere villa with yacht asks $22 million</title>
+     <link>https://www.thearknewspaper.com/live/crib-notes-belvedere-villa-with-yacht-asks-22-million</link>
+     <description>A Mediterranean villa with San Francisco skyline views hit the market with an 800-square-foot guest house, a “hillevator” — and a 51-foot yacht.</description>
+     <content:encoded><![CDATA[<p>A 5,100-square-foot Mediterranean villa with San Francisco skyline views hit the market last month for $22 million, complete with an 800-square-foot guest house, a “hillevator” — and a 51-foot yacht.</p>
 <p>The waterfront estate at 125 Belvedere Ave., on the backside of Belvedere Island, was built in 1978 and fully remodeled in 2007 by architect Andrew Skurman. Known as “Casa dei Sogni,” Italian for “the house of dreams,” the property mirrors the design of Belvedere’s official sister city, Portofino, Italy.</p>]]></content:encoded>
-      <dc:creator>Tyler Callister</dc:creator>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">683747d788b2d7eec7262446</guid>
-      <pubDate>Wed, 28 May 2025 17:30:18 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_a2b3c751502641999d4408439d83996a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>The 5,100-square-foot Mediterranean-style home on the back side of Belvedere Island comes with a funicular to get down from the street and a 61-foot yacht. (via Thomas Henthorne / Golden Gate Sotheby’s International Realty)</media:description>
-    </item>
-    <item>
-      <title>In Memoriam: Martin J. Lipton, MD (1936–2025)</title>
-      <link>https://www.thearknewspaper.com/live/in-memoriam-martin-j-lipton-md-1936-2025</link>
-      <description>Martin J. Lipton, MD, Professor Emeritus and former Chair of the Department of Radiology at the University of Chicago, passed away on April 25, 2025, at the age of 89.</description>
-      <content:encoded><![CDATA[<p>Martin J. Lipton, MD, Professor Emeritus and former Chair of the Department of Radiology at the University of Chicago, passed away on April 25, 2025, at the age of 89.</p>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">683747d788b2d7eec7262446</guid>
+     <pubDate>Wed, 28 May 2025 17:30:18 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_a2b3c751502641999d4408439d83996a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The 5,100-square-foot Mediterranean-style home on the back side of Belvedere Island comes with a funicular to get down from the street and a 61-foot yacht. (via Thomas Henthorne / Golden Gate Sotheby’s International Realty)</media:description>
+   </item>
+   <item>
+     <title>In Memoriam: Martin J. Lipton, MD (1936–2025)</title>
+     <link>https://www.thearknewspaper.com/live/in-memoriam-martin-j-lipton-md-1936-2025</link>
+     <description>Martin J. Lipton, MD, Professor Emeritus and former Chair of the Department of Radiology at the University of Chicago, passed away on April 25, 2025, at the age of 89.</description>
+     <content:encoded><![CDATA[<p>Martin J. Lipton, MD, Professor Emeritus and former Chair of the Department of Radiology at the University of Chicago, passed away on April 25, 2025, at the age of 89.</p>
 <p>Known affectionately as “Marty” to friends and colleagues, Dr. Lipton was a pioneering radiologist, a devoted educator, and a deeply respected mentor whose work helped shape the field of cardiac imaging and MRI. But beyond his professional accomplishments, he will be remembered most for his warmth, his generosity, and his unmistakable sense of humor. Marty had a way of lighting up a room — he was kind, caring, and always quick with a clever joke or wry remark that brought a smile, even in the most serious moments.</p>
 <p>Born in Liverpool, England, Marty trained in medicine at the University of Liverpool and completed postgraduate work at several of London’s most esteemed institutions, including Royal Postgraduate Medical School, Hammersmith Hospital, and the National Heart/Royal Brompton Hospital.</p>
 <p>In 1969, he moved to the United States — a leap that would help define the future of modern radiology. He began at Stanford University, where he spent eight years on the faculty, then joined UCSF in 1977 as a tenured professor in radiology and medicine, also serving as section chief for Cardiovascular Imaging.</p>
 <p>Marty arrived at the University of Chicago in 1988 to chair the Department of Radiology, a role he held for 12 years. Under his leadership, the department flourished. He recruited top-tier faculty, expanded the residency and fellowship programs, and developed international training opportunities that drew bright minds from around the world. After his tenure at UChicago, he served for three more years on the faculty at Harvard Medical School and Brigham and Women’s Hospital.</p>
 <p>Throughout his career, Marty was at the forefront of innovation. His research — much of it funded by the National Institutes of Health — focused on advancing non-invasive imaging for cardiovascular disease, including pioneering work in high-speed CT and MRI to assess myocardial ischemia. He authored nearly 250 peer-reviewed articles and contributed to more than 70 medical books and chapters. His insights and expertise were sought after worldwide.</p>
 <p>After retiring, Marty and his beloved wife, Jacquie, returned to California, settling in Marin County. Even in retirement, he remained a mentor and friend to many, remembered not just for his brilliant mind and visionary leadership, but for t...</p>]]></content:encoded>
-      <dc:creator>Reader submitted</dc:creator>
-      <category>Obituaries</category>
-      <guid isPermaLink="false">683747645769d7bf1fb6dc19</guid>
-      <pubDate>Wed, 28 May 2025 17:27:49 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_0d811a14bf514ca5b9db15956d84fa1e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-    </item>
-    <item>
-      <title>Vera Gertler</title>
-      <link>https://www.thearknewspaper.com/live/vera-gertler</link>
-      <description>Vera Gertler passed away peacefully on May 14 in San Francisco at the age of 91, with her son and grandchildren by her side.</description>
-      <content:encoded><![CDATA[<p>Vera Gertler passed away peacefully on May 14 in San Francisco at the age of 91, with her son and grandchildren by her side.</p>
+     <dc:creator>Reader submitted</dc:creator>
+     <category>Obituaries</category>
+     <guid isPermaLink="false">683747645769d7bf1fb6dc19</guid>
+     <pubDate>Wed, 28 May 2025 17:27:49 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_0d811a14bf514ca5b9db15956d84fa1e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
+   <item>
+     <title>Vera Gertler</title>
+     <link>https://www.thearknewspaper.com/live/vera-gertler</link>
+     <description>Vera Gertler passed away peacefully on May 14 in San Francisco at the age of 91, with her son and grandchildren by her side.</description>
+     <content:encoded><![CDATA[<p>Vera Gertler passed away peacefully on May 14 in San Francisco at the age of 91, with her son and grandchildren by her side.</p>
 <p>Born in Milan, Italy, on June 23, 1933, Vera escaped the Holocaust as a young girl and resettled in Zurich, Switzerland, where she trained as a nurse. After liberation, as a skilled nurse and fluent in German, French and Italian, she rescued Jewish children in North Africa for their resettlement in Israel. While in Israel, she met her husband, Siegmund (“Sigi”) Gertler, and lived in Haifa, where Vera worked as a nurse.</p>
 <p>In 1959, Vera and Sigi immigrated to San Francisco, the year their son, Peter, was born. Vera worked at California Blue Shield over 30 years, managing a claims department. After Sigi’s passing, Vera retired and moved to Belvedere in 1998 to be near her sisters, Gabriella Isaacson and Eva Hudson. She volunteered for over 25 years with Jewish Family and Children’s Services and served on several Belvedere civic committees. She was affectionately known as the Ambassador of Tamalpais Avenue. In 2013, she was honored as Belvedere’s Citizen of the Year.</p>
 <p>In 2019, Vera returned to San Francisco. She was deeply loving and caring to her family and friends. She is survived by her son, Peter; grandchildren, Simon and Ellie; and sisters, Gabriella and Eva.</p>
 <p>Memorial contributions can be made to:</p>
 <p>• Jewish Family and Children’s Services of SF:https://donate.jfcs.org</p>
 <p>• Belvedere Tiburon Library Foundation:https://www.beltiblibrary.org/library-foundation/donate</p>]]></content:encoded>
-      <dc:creator>Reader submitted</dc:creator>
-      <category>Obituaries</category>
-      <guid isPermaLink="false">683746815769d7bf1fb6d8e0</guid>
-      <pubDate>Wed, 28 May 2025 17:25:02 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_91346c4bc2c44916bf3738a88a140c74~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-    </item>
-    <item>
-      <title>Tiburon explores beach volleyball, basketball at ex-sanitation ponds site</title>
-      <link>https://www.thearknewspaper.com/live/tiburon-explores-beach-volleyball-basketball-at-ex-sanitation-ponds-site</link>
-      <description>The Town Council voted to hire a landscape designer to explore installing beach volleyball and basketball courts and a shaded outdoor lounge.</description>
-      <content:encoded><![CDATA[<p>Tiburon plans to hire a landscape designer to explore installing beach volleyball and basketball courts and a shaded outdoor lounge at the site of the former sanitation ponds near McKegney Green.</p>
+     <dc:creator>Reader submitted</dc:creator>
+     <category>Obituaries</category>
+     <guid isPermaLink="false">683746815769d7bf1fb6d8e0</guid>
+     <pubDate>Wed, 28 May 2025 17:25:02 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_91346c4bc2c44916bf3738a88a140c74~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
+   <item>
+     <title>Tiburon explores beach volleyball, basketball at ex-sanitation ponds site</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-explores-beach-volleyball-basketball-at-ex-sanitation-ponds-site</link>
+     <description>The Town Council voted to hire a landscape designer to explore installing beach volleyball and basketball courts and a shaded outdoor lounge.</description>
+     <content:encoded><![CDATA[<p>Tiburon plans to hire a landscape designer to explore installing beach volleyball and basketball courts and a shaded outdoor lounge at the site of the former sanitation ponds near McKegney Green.</p>
 <p>The Town Council voted 4-0-1 during its May 21 meeting, with Councilmember Alice Fredericks abstaining, to direct staff to send out requests for proposals to landscape designers, who will then bid on how much it will cost to design the space. The council vote came on a recommendation from the Parks, Open Space and Trails Commission and feedback from a parks commission subcommittee studying the Richardson Bay Lineal Park system, which spans from Blackie’s Pasture to South of the Knoll Park.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>News</category>
-      <category>Tiburon</category>
-      <category>Featured</category>
-      <guid isPermaLink="false">683745b9dc69d18047f8ba4d</guid>
-      <pubDate>Wed, 28 May 2025 17:21:56 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_6f63fcd11b794dc69fb2aa471f3ccce5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>On recommendations from the Parks, Open Space and Trails Commission, Tiburon will send out requests for proposals for park designs for the new town-owned open space between the Richardson Bay Sanitary District and McKegney Green along Richardson Bay. (Francisco Martinez / For The Ark)</media:description>
-    </item>
-    <item>
-      <title>The Ark wins 28 California Journalism Awards, most-decorated small publication of 2024</title>
-      <link>https://www.thearknewspaper.com/live/the-ark-wins-28-california-journalism-awards-most-decorated-small-publication-of-2024</link>
-      <description>The awards included five first-place honors for breaking news, writing, travel writing, photojournalism and feature photo, as well as recognition for public-service journalism.</description>
-      <content:encoded><![CDATA[<p>First place, photojournalism:The Ark won first place based on images captured by contributing photographers Leo Leung, Clara Lu, Ted McDonnell and Nick Shorten Jr. along with Friedland and Martinez.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>News</category>
+     <category>Tiburon</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">683745b9dc69d18047f8ba4d</guid>
+     <pubDate>Wed, 28 May 2025 17:21:56 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_6f63fcd11b794dc69fb2aa471f3ccce5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>On recommendations from the Parks, Open Space and Trails Commission, Tiburon will send out requests for proposals for park designs for the new town-owned open space between the Richardson Bay Sanitary District and McKegney Green along Richardson Bay. (Francisco Martinez / For The Ark)</media:description>
+   </item>
+   <item>
+     <title>The Ark wins 28 California Journalism Awards, most-decorated small publication of 2024</title>
+     <link>https://www.thearknewspaper.com/live/the-ark-wins-28-california-journalism-awards-most-decorated-small-publication-of-2024</link>
+     <description>The awards included five first-place honors for breaking news, writing, travel writing, photojournalism and feature photo, as well as recognition for public-service journalism.</description>
+     <content:encoded><![CDATA[<p>First place, photojournalism:The Ark won first place based on images captured by contributing photographers Leo Leung, Clara Lu, Ted McDonnell and Nick Shorten Jr. along with Friedland and Martinez.</p>
 <p>The Ark is the California News Publishers Association’s most-decorated small publication of 2024, winning 28 California Journalism Awards for its coverage of the Tiburon Peninsula, including five first-place honors for breaking news, writing, photojournalism and feature photo, with a category sweep for travel writing as well as recognition for public-service journalism.</p>
 <p>The awards were announced by the 137-year-old nonprofit trade association, which represents more than 700 newspapers across the state, at its annual conference May 17 in Universal City and online over several days following.</p>
 <p>The Ark, which has about 2,500 subscribers, generally competes against other printed weeklies with a circulation of 4,300 or fewer that publish three or fewer times a week. As of last year, it also now competes against online publications with 199,000 or fewer unique monthly visitors, where The Ark averages about 5,500.</p>
@@ -170,155 +170,153 @@
 <p>• Photojournalism:The Ark won first place based on images captured by contributing photographers Leo Leung, Clara Lu, Ted McDonnell and Nick Shorten Jr. along with Friedland and Martinez.</p>
 <p>• Feature photo:McDonnell also won first place for his image of Jennifer Torres at the counter of The Candy Store on Main Street in the final days before she closed her shop due to rent increases.</p>
 <p>• To...</p>]]></content:encoded>
-      <dc:creator>The Ark</dc:creator>
-      <category>News</category>
-      <guid isPermaLink="false">682e117d7d7e1977531dd041</guid>
-      <pubDate>Wed, 21 May 2025 18:18:26 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_cd8a98784704405fa32ad65aecea88e3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>First place, feature photo:Jennifer Torres, 33, the owner of The Candy Store on Main Street, stands at the counter of her downtown Tiburon shop on April 18. She says a base rent hike and a new monthly maintenance fee will increase her rent by more than 60%, forcing her to close the business after 27 years. (Ted McDonnell / For The Ark)</media:description>
-      <media:content url="https://static.wixstatic.com/media/75283d_2fb69819a6e54b0faf99fdfd74f39028~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Fifth place, artistic photo:Racoon Strait, Angel Island and the San Francisco skyline are part of the views from Easton Point, 110 acres newly annexed to the Old St. Hilary's Open Space Preserve. (Leo Leung / For The Ark)</media:description>
-    </item>
-    <item>
-      <title>Wildflower Watch: Silver lupine among the wildflowers in bloom at Rodeo Beach</title>
-      <link>https://www.thearknewspaper.com/live/wildflower-watch-silver-lupine-among-the-wildflowers-in-bloom-at-rodeo-beach</link>
-      <description>Silver lupine enriches the soil by holding atmospheric nitrogen and nurtures a relationship with other flora.</description>
-      <content:encoded><![CDATA[<p>Don’t miss spring at Rodeo Beach, just 13 or so miles from the Tiburon Peninsula. Silver lupine,Lupinus albifrons, is in bloom on the hillside just above the beach, an easy walk. This is a marvelous wildflower.</p>
+     <dc:creator>The Ark</dc:creator>
+     <category>News</category>
+     <guid isPermaLink="false">682e117d7d7e1977531dd041</guid>
+     <pubDate>Wed, 21 May 2025 18:18:26 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_cd8a98784704405fa32ad65aecea88e3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>First place, feature photo:Jennifer Torres, 33, the owner of The Candy Store on Main Street, stands at the counter of her downtown Tiburon shop on April 18. She says a base rent hike and a new monthly maintenance fee will increase her rent by more than 60%, forcing her to close the business after 27 years. (Ted McDonnell / For The Ark)</media:description>
+   </item>
+   <item>
+     <title>Wildflower Watch: Silver lupine among the wildflowers in bloom at Rodeo Beach</title>
+     <link>https://www.thearknewspaper.com/live/wildflower-watch-silver-lupine-among-the-wildflowers-in-bloom-at-rodeo-beach</link>
+     <description>Silver lupine enriches the soil by holding atmospheric nitrogen and nurtures a relationship with other flora.</description>
+     <content:encoded><![CDATA[<p>Don’t miss spring at Rodeo Beach, just 13 or so miles from the Tiburon Peninsula. Silver lupine,Lupinus albifrons, is in bloom on the hillside just above the beach, an easy walk. This is a marvelous wildflower.</p>
 <p>Silver lupine enriches the soil by holding atmospheric nitrogen and nurtures a relationship with other flora, such as morning glory, sun cups, checkerbloom, mule’s ear sunflower, scarlet pimpernel, coast Indian paintbrush, footsteps of spring and other wildflowers now in bloom on the hillside.</p>]]></content:encoded>
-      <dc:creator>Joan Linn Bekins</dc:creator>
-      <category>Entertainment</category>
-      <guid isPermaLink="false">682d1b18f1f18e441cefb191</guid>
-      <pubDate>Wed, 21 May 2025 16:14:40 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_091981ea94bd4ad8a775d48e84889a8f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Silver lupine, Lupinus albifrons, grows along the hillside above Rodeo Beach, a quick drive to the coast from the Tiburon Peninsula. (Joan Linn Bekins / For The Ark)</media:description>
-    </item>
-    <item>
-      <title>Belvedere settles profiling suit with Yema shop owners for $10k</title>
-      <link>https://www.thearknewspaper.com/live/belvedere-settles-profiling-suit-with-yema-shop-owners-for-10k</link>
-      <description>The city denies wrongdoing in a deal that ends all legal actions related to 2020 incident.</description>
-      <content:encoded><![CDATA[<p>Belvedere has agreed to pay $10,000 to settle a lawsuit filed by residents Yema Khalif and Hawi Awash over an incident of alleged racial profiling by police at the couple’s Main Street clothing store in August 2020.</p>
+     <dc:creator>Joan Linn Bekins</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">682d1b18f1f18e441cefb191</guid>
+     <pubDate>Wed, 21 May 2025 16:14:40 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_091981ea94bd4ad8a775d48e84889a8f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Silver lupine, Lupinus albifrons, grows along the hillside above Rodeo Beach, a quick drive to the coast from the Tiburon Peninsula. (Joan Linn Bekins / For The Ark)</media:description>
+   </item>
+   <item>
+     <title>Belvedere settles profiling suit with Yema shop owners for $10k</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-settles-profiling-suit-with-yema-shop-owners-for-10k</link>
+     <description>The city denies wrongdoing in a deal that ends all legal actions related to 2020 incident.</description>
+     <content:encoded><![CDATA[<p>Belvedere has agreed to pay $10,000 to settle a lawsuit filed by residents Yema Khalif and Hawi Awash over an incident of alleged racial profiling by police at the couple’s Main Street clothing store in August 2020.</p>
 <p>The suit, filed in April 2024 in Marin Superior Court, was dismissed April 17 with prejudice, meaning Khalif and Awash can’t sue the city in the future for related claims. In settling, Belvedere made no admission of liability. Each party is responsible for their own attorney’s fees.</p>
 <p>Belvedere paid $5,000 each to Khalif and Awash through its insurer, the California Intergovernmental Risk Authority, City Manager Robert Zadnik said. In a statement, Zadnik said the city “fully supports its Police Department” as well as Chief Jason Wu and Sgt. Jeremy Clark, all of whom were named as defendants in the suit alongside the city.</p>
 <p>Clark did not respond to an email seeking comment by The Ark’s press time. Wu referred The Ark to Zadnik’s comment.</p>
 <p>Neither Khalif nor Awash responded to voicemails seeking comment on the settlement. Their attorney, David C. Anderson, said in a phone interview Awash and Khalif “decided they had accomplished their primary purpose with litigation anyway with Tiburon.”</p>
 <p>“Hopefully Belvedere will make the same kinds of changes Tiburon made on its own,” he said.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d1755f1f18e441cefab3f</guid>
-      <pubDate>Wed, 21 May 2025 14:55:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Navigation app alert system aims to protect firefighters</title>
-      <link>https://www.thearknewspaper.com/live/navigation-app-alert-system-aims-to-protect-firefighters</link>
-      <description>It sends alerts to drivers’ phones when they’re approaching an emergency vehicle on the roadside or when an emergency vehicle is coming up behind them.</description>
-      <content:encoded><![CDATA[<p>Responding to accidents on the freeway is one of the most dangerous situations firefighters face, according to Tiburon Fire Chief Tommy Hellyer. As emergency responders aid victims of car accidents, freeway traffic continues to pass by — creating a significant hazard.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d1755f1f18e441cefab3f</guid>
+     <pubDate>Wed, 21 May 2025 14:55:12 GMT</pubDate>
+   </item>
+   <item>
+     <title>Navigation app alert system aims to protect firefighters</title>
+     <link>https://www.thearknewspaper.com/live/navigation-app-alert-system-aims-to-protect-firefighters</link>
+     <description>It sends alerts to drivers’ phones when they’re approaching an emergency vehicle on the roadside or when an emergency vehicle is coming up behind them.</description>
+     <content:encoded><![CDATA[<p>Responding to accidents on the freeway is one of the most dangerous situations firefighters face, according to Tiburon Fire Chief Tommy Hellyer. As emergency responders aid victims of car accidents, freeway traffic continues to pass by — creating a significant hazard.</p>
 <p>“We have procedures to block vehicle accidents, but drivers need to slow down and move over,” Hellyer said.</p>
 <p>To address this danger, the Tiburon and Southern Marin fire protection districts implemented the HAAS Alert Safety Cloud in April. It sends alerts to drivers’ phones when they’re approaching an emergency vehicle on the roadside or when an emergency vehicle is coming up behind them — potentially before a driver notices the flashing lights or hears the sirens.</p>
 <p>“Many drivers these days are distracted or their vehicles have thick windows,” Hellyer said. “We hope this mitigates some of the risk.”</p>
 <p>According to the Chicago-based HAAS company, the new system — which Hellyer said costs the Tiburon agency $1,895 per year — could reduce accidents between emergency responders and the public by up to 90%.</p>]]></content:encoded>
-      <dc:creator>Tyler Callister</dc:creator>
-      <category>Tiburon</category>
-      <category>Strawberry</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d17d07d7e1977531c4f0b</guid>
-      <pubDate>Wed, 21 May 2025 14:45:11 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_d7d3d81beccc4223b75144e540f73e6f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>In this image from HAAS Alert, a driver receives a notification that an emergency vehicle is on scene nearby. The Tiburon and Southern Marin fire protection districts are integrating the new Safety Cloud alert system, which uses Apple Maps and Waze to tell drivers of approaching or stopped emergency vehicles, even if the driver isn’t actively using the GPS system.</media:description>
-    </item>
-    <item>
-      <title>Playground experts emphasize accessibility, nature-based play at Tiburon parks forum</title>
-      <link>https://www.thearknewspaper.com/live/playground-experts-emphasize-accessibility-nature-based-play-at-tiburon-parks-forum</link>
-      <description>The town wants to upgrade the playground at Cypress Hollow Park, potentially put one at Zelinsky Park and make other improvements to the lineal system.</description>
-      <content:encoded><![CDATA[<p>Experts urged Tiburon to prioritize accessibility and nature-based designs in playground renovations during a May 12 forum hosted by the town’s parks board.</p>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Tiburon</category>
+     <category>Strawberry</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d17d07d7e1977531c4f0b</guid>
+     <pubDate>Wed, 21 May 2025 14:45:11 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_d7d3d81beccc4223b75144e540f73e6f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>In this image from HAAS Alert, a driver receives a notification that an emergency vehicle is on scene nearby. The Tiburon and Southern Marin fire protection districts are integrating the new Safety Cloud alert system, which uses Apple Maps and Waze to tell drivers of approaching or stopped emergency vehicles, even if the driver isn’t actively using the GPS system.</media:description>
+   </item>
+   <item>
+     <title>Playground experts emphasize accessibility, nature-based play at Tiburon parks forum</title>
+     <link>https://www.thearknewspaper.com/live/playground-experts-emphasize-accessibility-nature-based-play-at-tiburon-parks-forum</link>
+     <description>The town wants to upgrade the playground at Cypress Hollow Park, potentially put one at Zelinsky Park and make other improvements to the lineal system.</description>
+     <content:encoded><![CDATA[<p>Experts urged Tiburon to prioritize accessibility and nature-based designs in playground renovations during a May 12 forum hosted by the town’s parks board.</p>
 <p>About 15 people attended the forum, held at the Belvedere-Tiburon Library and via Zoom. It featured play researchers, an accessibility advocate, playground-equipment representatives and community members who have had success introducing recreation facilities. The event was part of ongoing efforts by the Tiburon Parks, Open Space and Trails Commission to gather community feedback as the town works to implement its parks master plan, a long-term guide for the use of its 56 acres of parks and 316 acres of open space.</p>
 <p>“As a community, we have a lot of data, we need to start moving things forward and setting up timelines and deliverables to meet the community’s desires,” commission Chair Chuck Hornbrook said after the meeting. “That said, we will have additional community engagement before people begin to disappear in the summer, where needed, to move improvements forward.”</p>
 <p>The Tiburon Town Council at its March 20 meeting indicated it wants to upgrade the playground at Cypress Hollow Park and is examining the feasibility of a play structure at Zelinsky Park, behind the library and Town Hall, while seeking feedback for larger-scale improvements across the Richardson Bay Lineal Park system.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Tiburon</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d1856bc5e4bf8ae92e790</guid>
-      <pubDate>Wed, 21 May 2025 14:30:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Belvedere taps architect, policy expert for planning, rec boards</title>
-      <link>https://www.thearknewspaper.com/live/belvedere-taps-architect-policy-expert-for-planning-rec-boards</link>
-      <description>Ghazaleh Jamei has been appointed to the Planning Commission and Brian Chase to The Ranch board.</description>
-      <content:encoded><![CDATA[<p>An architect with more than 25 years of experience is the newest member of the Belvedere Planning Commission, while a public-affairs consultant with a passion for sports has been named to the board that oversees Tiburon and Belvedere’s joint recreation agency.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d1856bc5e4bf8ae92e790</guid>
+     <pubDate>Wed, 21 May 2025 14:30:17 GMT</pubDate>
+   </item>
+   <item>
+     <title>Belvedere taps architect, policy expert for planning, rec boards</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-taps-architect-policy-expert-for-planning-rec-boards</link>
+     <description>Ghazaleh Jamei has been appointed to the Planning Commission and Brian Chase to The Ranch board.</description>
+     <content:encoded><![CDATA[<p>An architect with more than 25 years of experience is the newest member of the Belvedere Planning Commission, while a public-affairs consultant with a passion for sports has been named to the board that oversees Tiburon and Belvedere’s joint recreation agency.</p>
 <p>The City Council unanimously appointed Ghazaleh Jamei to the commission and Brian Chase to The Ranch’s board of directors at its May 12 meeting.</p>
 <p>Jamei will replace Ashley Johnson, who is moving to the East Coast, and will serve the remainder of Johnson’s term through June 30, 2026. She would then be eligible for appointment to a full four-year term on the five-member board.</p>
 <p>Chase will replace Jeff Aguero, who is moving to Connecticut, as one of three Belvedere representatives on the nine-member Ranch board and will serve out the remainder of Aguero’s term, which ends May 31, 2028.</p>]]></content:encoded>
-      <dc:creator>Tyler Callister</dc:creator>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d199fbc5e4bf8ae92e9f7</guid>
-      <pubDate>Wed, 21 May 2025 14:15:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Everyday Encounters: A retiree finds joy in the simple pleasures of living in Belvedere</title>
-      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-retiree-finds-joy-in-the-simple-pleasures-of-living-in-belvedere</link>
-      <description>The former contract-furniture executive moved from San Anselmo seeking a one-story home with a two-car garage on the water.</description>
-      <content:encoded><![CDATA[<p>Bill Watson has embraced life in Belvedere, where the 80-year-old retiree says he’s been busy enjoying his days since moving to the city in 2021.</p>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d199fbc5e4bf8ae92e9f7</guid>
+     <pubDate>Wed, 21 May 2025 14:15:03 GMT</pubDate>
+   </item>
+   <item>
+     <title>Everyday Encounters: A retiree finds joy in the simple pleasures of living in Belvedere</title>
+     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-retiree-finds-joy-in-the-simple-pleasures-of-living-in-belvedere</link>
+     <description>The former contract-furniture executive moved from San Anselmo seeking a one-story home with a two-car garage on the water.</description>
+     <content:encoded><![CDATA[<p>Bill Watson has embraced life in Belvedere, where the 80-year-old retiree says he’s been busy enjoying his days since moving to the city in 2021.</p>
 <p>“I don’t know what we do every day, but we’re busy,” says Watson, who celebrated his birthday May 15. “I mean, there’s always stuff to do.”</p>
 <p>The former contract-furniture executive moved from San Anselmo seeking a one-story home with a two-car garage on the water. Four years later, he says he appreciates the peninsula environment, his neighbors and local amenities.</p>
 <p>“We have all the facilities we need,” Watson says.</p>
 <p>On May 14, he was strolling down San Rafael Avenue near Community Park after taking his 23-pound rescue dog, Ike — named after President Dwight D. Eisenhower — to the vet for a teeth cleaning. Watson has had the dog for the better part of 13 years and calls him “one of those good friends over the years.”</p>
 <p>“You know, they invented love — dogs,” Watson says.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Everyday Encounters</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d1a66f1f18e441cefb065</guid>
-      <pubDate>Wed, 21 May 2025 14:00:22 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_1a2516ad24a546d28a14952daada7877~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-      <media:description>Belvedere resident Bill Watson, pictured here May 14 at Belvedere Community Park, celebrated his 80th birthday May 15. He’s retired following a career in office-furniture sales, selling to Wells Fargo and Visa. (Francisco Martinez / The Ark)</media:description>
-    </item>
-    <item>
-      <title>Teachers to get 8% in raises – not enough, union says</title>
-      <link>https://www.thearknewspaper.com/live/teachers-to-get-8-in-raises-not-enough-union-says</link>
-      <description>Reed Union School District teachers are set to receive an 8.15% salary boost over the next two school years — though the president of the...</description>
-      <content:encoded><![CDATA[<p>Reed Union School District teachers are set to receive an 8.15% salary boost over the next two school years — though the president of the teachers’ union says the increase still falls short of what’s needed to keep pace with the high cost of living in the Bay Area.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Everyday Encounters</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d1a66f1f18e441cefb065</guid>
+     <pubDate>Wed, 21 May 2025 14:00:22 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_1a2516ad24a546d28a14952daada7877~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Belvedere resident Bill Watson, pictured here May 14 at Belvedere Community Park, celebrated his 80th birthday May 15. He’s retired following a career in office-furniture sales, selling to Wells Fargo and Visa. (Francisco Martinez / The Ark)</media:description>
+   </item>
+   <item>
+     <title>Teachers to get 8% in raises – not enough, union says</title>
+     <link>https://www.thearknewspaper.com/live/teachers-to-get-8-in-raises-not-enough-union-says</link>
+     <description>Reed Union School District teachers are set to receive an 8.15% salary boost over the next two school years — though the president of the...</description>
+     <content:encoded><![CDATA[<p>Reed Union School District teachers are set to receive an 8.15% salary boost over the next two school years — though the president of the teachers’ union says the increase still falls short of what’s needed to keep pace with the high cost of living in the Bay Area.</p>
 <p>Under the terms of the agreement, reached after several months of negotiations between the district and the Reed District Teachers Association, certificated teachers will receive a 5% raise for the 2025-2026 school year, effective July 1.</p>
 <p>That will be followed by a 3% increase for the 2026-2027 school year, effective July 1, 2026.</p>
 <p>The contract was unanimously approved by the district’s board of trustees on May 13.</p>
 <p>“The agreed-upon salary increases reflect the district’s deep commitment to attracting and retaining the best educators, recognizing their immense value, while also ensuring we are responsible stewards of our financial resources to best serve our students and community,” Superintendent Kimberly McGrath said.</p>
 <p>However, Reed District Teachers Association President Shea O’Brien, a science teacher at Del Mar Middle School, said that while the union was glad to have reached an agreement, “we believe the contract still falls short of ensuring housing security for all teachers in the Reed Union School District.”</p>]]></content:encoded>
-      <dc:creator>Emily Lavin</dc:creator>
-      <category>News</category>
-      <category>School News</category>
-      <guid isPermaLink="false">682d16f953176812d1acb83d</guid>
-      <pubDate>Wed, 21 May 2025 02:00:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Belvedere to ban throttle e-bikes for kids</title>
-      <link>https://www.thearknewspaper.com/live/belvedere-to-ban-throttle-e-bikes-for-kids</link>
-      <description>The city will join Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</description>
-      <content:encoded><![CDATA[<p>Belvedere will ban riders under age 16 from using throttle-assisted e-bikes starting in July, joining Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</p>
+     <dc:creator>Emily Lavin</dc:creator>
+     <category>News</category>
+     <category>School News</category>
+     <guid isPermaLink="false">682d16f953176812d1acb83d</guid>
+     <pubDate>Wed, 21 May 2025 02:00:21 GMT</pubDate>
+   </item>
+   <item>
+     <title>Belvedere to ban throttle e-bikes for kids</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-to-ban-throttle-e-bikes-for-kids</link>
+     <description>The city will join Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</description>
+     <content:encoded><![CDATA[<p>Belvedere will ban riders under age 16 from using throttle-assisted e-bikes starting in July, joining Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</p>
 <p>The City Council voted unanimously May 12 to establish an ordinance with the age restriction and a rule requiring all legal riders of throttle-assisted bikes to wear helmets. Councilmembers will conduct their second, required vote for adoption at their June 9 meeting.</p>
 <p>“I’m really pleased that Belvedere’s joining the rest of the county in this effort,” Mayor Jane Cooper said. “It’s, I think, keeping children safe and keeping community members safe. We’ve heard a lot about it from the community and the concern with the e-bike riders being a little bit wild.”</p>
 <p>The county-specific pilot program runs through 2029 under Assembly Bill 1778, authored by Assemblymember Damon Connolly, D-San Rafael, and signed into law by Gov. Gavin Newsom last year.</p>
 <p>The Marin Board of Supervisors in March voted to implement the same age-restriction and helmet rules on throttle-assisted Class 2 e-bikes — which can reach speeds of 20 mph without pedaling, though easily accessible hacks allow them to travel significantly faster — in unincorporated areas, including Strawberry and Paradise Cay.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d16527d7e1977531c4c9b</guid>
-      <pubDate>Wed, 21 May 2025 01:45:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>City joins campaign against boulevard bike lanes</title>
-      <link>https://www.thearknewspaper.com/live/city-joins-campaign-against-boulevard-bike-lanes</link>
-      <description>Belvedere is again raising safety concerns, this time taking its appeal directly to the state.</description>
-      <content:encoded><![CDATA[<p>The Belvedere City Council is again raising safety concerns about Caltrans’ plans to add bike lanes along Tiburon Boulevard as part of a wider repaving project next year — this time taking its appeal directly to the state.</p>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d16527d7e1977531c4c9b</guid>
+     <pubDate>Wed, 21 May 2025 01:45:08 GMT</pubDate>
+   </item>
+   <item>
+     <title>City joins campaign against boulevard bike lanes</title>
+     <link>https://www.thearknewspaper.com/live/city-joins-campaign-against-boulevard-bike-lanes</link>
+     <description>Belvedere is again raising safety concerns, this time taking its appeal directly to the state.</description>
+     <content:encoded><![CDATA[<p>The Belvedere City Council is again raising safety concerns about Caltrans’ plans to add bike lanes along Tiburon Boulevard as part of a wider repaving project next year — this time taking its appeal directly to the state.</p>
 <p>But Caltrans’ officials have made it clear: “The bike lanes will stay.”</p>
 <p>In Belvedere’s latest letter, to Caltrans Bay Area district chief Dina El-Tawansy, Mayor Jane Cooper and City Manager Robert Zadnik cited “safety hazards” from “unprotected bike lanes,” particularly near Reed Ranch Road, Blackie’s Pasture and the Highway 101 interchange. The letter also cited impacts to Marin Transit bus stops, likely loss of school-bus stops between Blackfield Drive and Trestle Glen Boulevard, emergency-response risks and “increased congestion and commuter disruption.”</p>
 <p>“The pace and lack of transparency have blindsided key stakeholders and left critical concerns unresolved,” it says. “We also question whether early letters of support from county and state officials were based on a complete understanding of the project’s real-world impacts — and whether that support still stands in light of current agency and community objections.”</p>
 <p>The $23 million project’s design is 95% complete as of Feb. 28, with finalization expected by mid-summer, when it will go out to bid. Construction is planned to begin in winter 2026 and last one year.</p>]]></content:encoded>
-      <dc:creator>Francisco Martinez</dc:creator>
-      <category>Belvedere</category>
-      <category>News</category>
-      <guid isPermaLink="false">682d1442f1f18e441cefa622</guid>
-      <pubDate>Wed, 21 May 2025 01:30:11 GMT</pubDate>
-      <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-      <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
-    </item>
-  </channel>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">682d1442f1f18e441cefa622</guid>
+     <pubDate>Wed, 21 May 2025 01:30:11 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
+   </item>
+ </channel>
 </rss>
