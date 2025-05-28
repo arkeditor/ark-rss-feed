@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Ark RSS Feed Generator (Rebuilt)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 May 2025 17:57:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 18:12:35 +0000</lastBuildDate>
     <atom:link href="https://www.thearknewspaper.com/blog-feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Town to hold first Native American festival in June</title>
@@ -25,11 +25,16 @@
       <title>Caltrans to address bike-lane plan at special forum</title>
       <link>https://www.thearknewspaper.com/live/caltrans-to-address-bike-lane-plan-at-special-forum</link>
       <description>Assemblymember Damon Connolly, D-San Rafael, urged Caltrans to pause advancement of the controversial project.</description>
+      <content:encoded><![CDATA[<p>Caltrans officials will address mounting public concerns about planned bike lanes on Tiburon Boulevard at a special meeting with the Town Council and Southern Marin Supervisor Stephanie Moulton-Peters from 5 to 6:30 p.m. June 4 at Town Hall.</p>
+<p>The forum comes as Assemblymember Damon Connolly, D-San Rafael, urged Caltrans to pause advancement of the controversial project, citing safety concerns and insufficient community engagement in a May 19 letter to the state transportation agency.</p>
+<p>“Our residents and stakeholders will have an opportunity to discuss this very important project with Caltrans,” Mayor Holli Thier said in an email. “Caltrans will address the multiple safety and other concerns expressed and will discuss the path forward.”</p>]]></content:encoded>
       <dc:creator>Francisco Martinez</dc:creator>
       <category>Tiburon</category>
       <category>News</category>
       <guid isPermaLink="false">68374ac882d9fb86faaf6f26</guid>
       <pubDate>Wed, 28 May 2025 17:42:46 GMT</pubDate>
+      <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+      <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to Tiburon’s downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
     </item>
     <item>
       <title>Noise rules at Art &amp;#38; Garden Center tightened following neighbor appeal</title>
