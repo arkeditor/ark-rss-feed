@@ -148,6 +148,21 @@ def transform_media_url(url):
         return f"https://static.wixstatic.com/media/{media_id}/v1/fit/w_1000,h_999,al_c,q_80/file.{ext}"
     return url
 
+def safe_xml_text(text):
+    """Safely escape text for XML, handling & and &#38; properly."""
+    if not text:
+        return ""
+    # First convert &#38; to & to normalize
+    text = text.replace("&#38;", "&")
+    # Then escape all & to &amp;
+    text = text.replace("&", "&amp;")
+    # Escape other XML entities
+    text = text.replace("<", "&lt;")
+    text = text.replace(">", "&gt;")
+    text = text.replace('"', "&quot;")
+    text = text.replace("'", "&apos;")
+    return text
+
 # For storing the feed entries before we create the final XML
 all_entries = []
 
@@ -276,56 +291,50 @@ for entry in feed.entries:
 output_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
 output_xml += '<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" '
 output_xml += 'xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">\n'
-output_xml += '  <channel>\n'
-output_xml += f'    <title>{feed.feed.get("title", "The Ark")}</title>\n'
-output_xml += f'    <link>{blog_feed_url}</link>\n'
-output_xml += f'    <description>{feed.feed.get("description", "The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry")}</description>\n'
-output_xml += '    <docs>http://www.rssboard.org/rss-specification</docs>\n'
-output_xml += '    <generator>Ark RSS Feed Generator (Rebuilt)</generator>\n'
-output_xml += '    <language>en</language>\n'
-output_xml += f'    <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
-output_xml += f'    <atom:link href="{blog_feed_url}" rel="self" type="application/rss+xml" />\n'
+output_xml += ' <channel>\n'
+output_xml += f'   <title>{safe_xml_text(feed.feed.get("title", "The Ark"))}</title>\n'
+output_xml += f'   <link>https://www.thearknewspaper.com/blog-feed.xml</link>\n'
+output_xml += f'   <description>{safe_xml_text(feed.feed.get("description", "The Ark is the weekly newspaper of Tiburon, Belvedere and Strawberry"))}</description>\n'
+output_xml += '   <docs>http://www.rssboard.org/rss-specification</docs>\n'
+output_xml += '   <generator>Ark RSS Feed Generator (Rebuilt)</generator>\n'
+output_xml += '   <language>en</language>\n'
+output_xml += f'   <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
+# Fixed self-reference URL
+output_xml += f'   <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />\n'
 
 # Add each entry
 for entry in all_entries:
-    # Ensure XML-safe text by escaping special characters
-    safe_title = entry["title"].replace("&", "&amp;")
-    safe_description = entry["description"].replace("&", "&amp;")
-    
-    output_xml += '    <item>\n'
-    output_xml += f'      <title>{safe_title}</title>\n'
-    output_xml += f'      <link>{entry["link"]}</link>\n'
-    output_xml += f'      <description>{safe_description}</description>\n'
+    output_xml += '   <item>\n'
+    output_xml += f'     <title>{safe_xml_text(entry["title"])}</title>\n'
+    output_xml += f'     <link>{entry["link"]}</link>\n'
+    output_xml += f'     <description>{safe_xml_text(entry["description"])}</description>\n'
     
     # Add content:encoded if we have it
     if entry['content_encoded']:
-        output_xml += f'      <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
+        output_xml += f'     <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
     
     # Add dc:creator if available
     if entry['creator']:
-        safe_creator = entry['creator'].replace("&", "&amp;")
-        output_xml += f'      <dc:creator>{safe_creator}</dc:creator>\n'
+        output_xml += f'     <dc:creator>{safe_xml_text(entry["creator"])}</dc:creator>\n'
     
     # Add categories if available
     for category in entry['categories']:
-        safe_category = category.replace("&", "&amp;")
-        output_xml += f'      <category>{safe_category}</category>\n'
+        output_xml += f'     <category>{safe_xml_text(category)}</category>\n'
     
-    output_xml += f'      <guid isPermaLink="false">{entry["guid"]}</guid>\n'
-    output_xml += f'      <pubDate>{entry["pubDate"]}</pubDate>\n'
+    output_xml += f'     <guid isPermaLink="false">{entry["guid"]}</guid>\n'
+    output_xml += f'     <pubDate>{entry["pubDate"]}</pubDate>\n'
     
-    # Add media items with the new format
-    for media in entry['media_items']:
-        output_xml += f'      <media:content url="{media["url"]}" medium="{media["type"]}"/>\n'
+    # Add only the first media item to avoid validation errors
+    if entry['media_items']:
+        media = entry['media_items'][0]  # Only use first image
+        output_xml += f'     <media:content url="{media["url"]}" medium="{media["type"]}"/>\n'
         if media['caption']:
-            # Escape & in captions
-            safe_caption = media['caption'].replace("&", "&amp;")
-            output_xml += f'      <media:description>{safe_caption}</media:description>\n'
+            output_xml += f'     <media:description>{safe_xml_text(media["caption"])}</media:description>\n'
     
-    output_xml += '    </item>\n'
+    output_xml += '   </item>\n'
 
 # Close the channel and rss tags
-output_xml += '  </channel>\n'
+output_xml += ' </channel>\n'
 output_xml += '</rss>\n'
 
 # Write the final RSS feed to file
