@@ -7,12 +7,14 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 29 May 2025 09:11:47 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 29 May 2025 09:38:58 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Town to hold first Native American festival in June</title>
      <link>https://www.thearknewspaper.com/live/town-to-hold-first-native-american-festival-in-june</link>
      <description>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park.</description>
+     <content:encoded><![CDATA[<p>Native American food dishes, interactive exhibits and a drum troupe powwow will be part of Tiburon’s newest cultural celebration coming to Zelinsky Park, tentatively set for June 21, the day before the town’s fifth annual Juneteenth festival on lower Main Street.</p>
+<p>The Town Council approved nearly $20,000 in funding for both events, voting 4-0-1 to grant $6,000 for the Native American heritage festival and $13,497 for Juneteenth; Vice Mayor Jon Welner abstained over ballooning cost concerns for the latter event. Earlier in the evening, the Diversity Inclusion Task Force recommended approval of the funding in 8-0 vote, with one vacancy and at-large appointee Nooshin Navidi Latour absent.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -38,11 +40,15 @@
      <title>Noise rules at Art &amp; Garden Center tightened following neighbor appeal</title>
      <link>https://www.thearknewspaper.com/live/noise-rules-at-art-garden-center-tightened-following-neighbor-appeal</link>
      <description>The Tiburon Town Council partially granted an appeal from the so-called Art &amp; Garden Neighborhood Collective.</description>
+     <content:encoded><![CDATA[<p>The Belvedere-Tiburon Landmarks Society will have to get third-party monitoring if it wants to keep using amplified music for Art & Garden Center events after neighbors appealed the venue’s conditional-use permit.</p>
+<p>The Tiburon Town Council voted unanimously to implement the requirement during a May 21 hearing that extended past midnight, partially granting an appeal from the so-called Art & Garden Neighborhood Collective. The group of seven neighbors living near the center, at 841 Tiburon Blvd., sought stricter noise controls for events with amplified music, primarily weddings.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">68374a07dc69d18047f8c728</guid>
      <pubDate>Wed, 28 May 2025 17:40:39 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_3281ea806f43421eb2d0c33dfe54dacd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Belvedere-Tiburon Landmarks Society’s Art &amp; Garden Center in Tiburon is a popular wedding venue, but the nonprofit historical society was operating without a permit for amplified music for nearly three decades. Neighbors partially won an appeal of the new permit, requiring third-party monitoring to ensure decibel levels don’t exceed 60 at the property line. (Yuliya Jul Photography via Belvedere-Tiburon Landmarks Society)</media:description>
    </item>
    <item>
      <title>Reed district honors teachers, staff at end-of-year ceremony</title>
@@ -188,6 +194,12 @@
      <title>Belvedere settles profiling suit with Yema shop owners for $10k</title>
      <link>https://www.thearknewspaper.com/live/belvedere-settles-profiling-suit-with-yema-shop-owners-for-10k</link>
      <description>The city denies wrongdoing in a deal that ends all legal actions related to 2020 incident.</description>
+     <content:encoded><![CDATA[<p>Belvedere has agreed to pay $10,000 to settle a lawsuit filed by residents Yema Khalif and Hawi Awash over an incident of alleged racial profiling by police at the couple’s Main Street clothing store in August 2020.</p>
+<p>The suit, filed in April 2024 in Marin Superior Court, was dismissed April 17 with prejudice, meaning Khalif and Awash can’t sue the city in the future for related claims. In settling, Belvedere made no admission of liability. Each party is responsible for their own attorney’s fees.</p>
+<p>Belvedere paid $5,000 each to Khalif and Awash through its insurer, the California Intergovernmental Risk Authority, City Manager Robert Zadnik said. In a statement, Zadnik said the city “fully supports its Police Department” as well as Chief Jason Wu and Sgt. Jeremy Clark, all of whom were named as defendants in the suit alongside the city.</p>
+<p>Clark did not respond to an email seeking comment by The Ark’s press time. Wu referred The Ark to Zadnik’s comment.</p>
+<p>Neither Khalif nor Awash responded to voicemails seeking comment on the settlement. Their attorney, David C. Anderson, said in a phone interview Awash and Khalif “decided they had accomplished their primary purpose with litigation anyway with Tiburon.”</p>
+<p>“Hopefully Belvedere will make the same kinds of changes Tiburon made on its own,” he said.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
@@ -230,6 +242,10 @@
      <title>Belvedere taps architect, policy expert for planning, rec boards</title>
      <link>https://www.thearknewspaper.com/live/belvedere-taps-architect-policy-expert-for-planning-rec-boards</link>
      <description>Ghazaleh Jamei has been appointed to the Planning Commission and Brian Chase to The Ranch board.</description>
+     <content:encoded><![CDATA[<p>An architect with more than 25 years of experience is the newest member of the Belvedere Planning Commission, while a public-affairs consultant with a passion for sports has been named to the board that oversees Tiburon and Belvedere’s joint recreation agency.</p>
+<p>The City Council unanimously appointed Ghazaleh Jamei to the commission and Brian Chase to The Ranch’s board of directors at its May 12 meeting.</p>
+<p>Jamei will replace Ashley Johnson, who is moving to the East Coast, and will serve the remainder of Johnson’s term through June 30, 2026. She would then be eligible for appointment to a full four-year term on the five-member board.</p>
+<p>Chase will replace Jeff Aguero, who is moving to Connecticut, as one of three Belvedere representatives on the nine-member Ranch board and will serve out the remainder of Aguero’s term, which ends May 31, 2028.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
