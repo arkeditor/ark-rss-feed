@@ -7,8 +7,20 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 03 Jun 2025 20:39:34 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 03 Jun 2025 21:10:02 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Pick of the Week: Charged Particles playing jazz June 8 at Old St. Hilary’s</title>
+     <link>https://www.thearknewspaper.com/live/pick-of-the-week-charged-particles-playing-jazz-june-8-at-old-st-hilary-s</link>
+     <description>Charged Particles jazz trio featuring saxophonist Tod Dickow will play a concert 4 p.m. June 8 at Old St. Hilary’s Landmark.</description>
+     <content:encoded><![CDATA[<p>Charged Particles jazz trio featuring saxophonist Tod Dickow will play a concert 4 p.m. June 8 at Old St. Hilary’s Landmark. They will be playing the music of late saxophone great Michael Brecker, the composer and bandleader who won 15 Grammys from the 1970s to his death in 2007. Tickets are $20-$25 in advance online or at the Landmarks Society office, $25-$30 at the door if not sold out. There is no parking at Old St. Hilary’s Landmark; free parking is at The Boardwalk shopping center, with a shuttle running from in front of Rustic Bakery beginning half an hour before the show. 415-435-1853 orlandmarkssociety.com.</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">683f367dc81ffc3560e6ea70</guid>
+     <pubDate>Tue, 03 Jun 2025 20:47:14 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_1bd2753003af495495bc7b99a8b0efcd~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Saxophone player Tod Dickow joins the jazz trio Charged Particles for a concert at Old St. Hilary’s Landmark June 8. (Pat Johnson)</media:description>
+   </item>
    <item>
      <title>Town to hold first Native American festival in June</title>
      <link>https://www.thearknewspaper.com/live/town-to-hold-first-native-american-festival-in-june</link>
@@ -300,23 +312,6 @@
      <category>News</category>
      <guid isPermaLink="false">682d16527d7e1977531c4c9b</guid>
      <pubDate>Wed, 21 May 2025 01:45:08 GMT</pubDate>
-   </item>
-   <item>
-     <title>City joins campaign against boulevard bike lanes</title>
-     <link>https://www.thearknewspaper.com/live/city-joins-campaign-against-boulevard-bike-lanes</link>
-     <description>Belvedere is again raising safety concerns, this time taking its appeal directly to the state.</description>
-     <content:encoded><![CDATA[<p>The Belvedere City Council is again raising safety concerns about Caltrans’ plans to add bike lanes along Tiburon Boulevard as part of a wider repaving project next year — this time taking its appeal directly to the state.</p>
-<p>But Caltrans’ officials have made it clear: “The bike lanes will stay.”</p>
-<p>In Belvedere’s latest letter, to Caltrans Bay Area district chief Dina El-Tawansy, Mayor Jane Cooper and City Manager Robert Zadnik cited “safety hazards” from “unprotected bike lanes,” particularly near Reed Ranch Road, Blackie’s Pasture and the Highway 101 interchange. The letter also cited impacts to Marin Transit bus stops, likely loss of school-bus stops between Blackfield Drive and Trestle Glen Boulevard, emergency-response risks and “increased congestion and commuter disruption.”</p>
-<p>“The pace and lack of transparency have blindsided key stakeholders and left critical concerns unresolved,” it says. “We also question whether early letters of support from county and state officials were based on a complete understanding of the project’s real-world impacts — and whether that support still stands in light of current agency and community objections.”</p>
-<p>The $23 million project’s design is 95% complete as of Feb. 28, with finalization expected by mid-summer, when it will go out to bid. Construction is planned to begin in winter 2026 and last one year.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">682d1442f1f18e441cefa622</guid>
-     <pubDate>Wed, 21 May 2025 01:30:11 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_be07f6d9034b4e1d9e7ed214743065eb~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-     <media:description>Caltrans plans to create bikeways on the north and south sides of Tiburon Boulevard as part of its 2026 repaving and rehabilitation project that extends from Mill Valley to downtown Paradise Drive. The blue segments represent Class-2 bike lanes, or marked on-road lanes alongside traffic that don’t have a physical barrier; the red segments are Class-4 separated bikeways, which are also on the roadway but protected from traffic; and the gold segment is a Class-1 bike path, which is away from the road, like the Old Rail Trail. (The Ark graphic; Apple Maps)</media:description>
    </item>
  </channel>
 </rss>
