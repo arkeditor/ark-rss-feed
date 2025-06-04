@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 04 Jun 2025 11:36:25 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 04 Jun 2025 12:19:20 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Garden Plot: Native plant society offers education, volunteer opportunities</title>
+     <link>https://www.thearknewspaper.com/live/garden-plot-native-plant-society-offers-education-volunteer-opportunities</link>
+     <description>The organization has a plethora of activities and learning experiences in and around the county’s amazing native-plant communities.</description>
+     <content:encoded><![CDATA[<p>If you have space on your calendar to be involved in an organization, you might consider joining the Marin chapter of the California Native Plant Society. The organization has a plethora of activities and learning experiences in and around the county’s amazing native-plant communities. Visitcnpsmarin.orgto learn more.</p>
+<p>The monthly chapter meeting is at 7:30 p.m. June 9 via Zoom, featuring Meg Marriott, a wildlife biologist with U.S. Fish and Wildlife Service. Marriott will talk about Marin Islands National Wildlife Refuge, an unpopulated reserve that serves as the largest heron and egret rookery in the Bay Area.</p>
+<p>While the islands are not open to the public, volunteers can participate in stewardship activities. Participants take a motorboat from Loch Lomond in San Rafael to work on conservation tasks. This sounds like so much fun; I don’t qualify, as I clomp around on my walking stick, but you might.</p>]]></content:encoded>
+     <dc:creator>Diane Lynch</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">683f3745c81ffc3560e6eca7</guid>
+     <pubDate>Wed, 04 Jun 2025 12:15:08 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_2935c7c047a04cc5989a744162c9f392~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Tiburon mariposa lily is just one of many native pollinators. (Diane Lynch / For The Ark)</media:description>
+   </item>
    <item>
      <title>Pick of the Week: Charged Particles playing jazz June 8 at Old St. Hilary’s</title>
      <link>https://www.thearknewspaper.com/live/pick-of-the-week-charged-particles-playing-jazz-june-8-at-old-st-hilary-s</link>
@@ -297,21 +311,6 @@
      <category>School News</category>
      <guid isPermaLink="false">682d16f953176812d1acb83d</guid>
      <pubDate>Wed, 21 May 2025 02:00:21 GMT</pubDate>
-   </item>
-   <item>
-     <title>Belvedere to ban throttle e-bikes for kids</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-to-ban-throttle-e-bikes-for-kids</link>
-     <description>The city will join Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</description>
-     <content:encoded><![CDATA[<p>Belvedere will ban riders under age 16 from using throttle-assisted e-bikes starting in July, joining Tiburon and other Marin municipalities in a countywide pilot program meant to make trails and roads safer for all riders.</p>
-<p>The City Council voted unanimously May 12 to establish an ordinance with the age restriction and a rule requiring all legal riders of throttle-assisted bikes to wear helmets. Councilmembers will conduct their second, required vote for adoption at their June 9 meeting.</p>
-<p>“I’m really pleased that Belvedere’s joining the rest of the county in this effort,” Mayor Jane Cooper said. “It’s, I think, keeping children safe and keeping community members safe. We’ve heard a lot about it from the community and the concern with the e-bike riders being a little bit wild.”</p>
-<p>The county-specific pilot program runs through 2029 under Assembly Bill 1778, authored by Assemblymember Damon Connolly, D-San Rafael, and signed into law by Gov. Gavin Newsom last year.</p>
-<p>The Marin Board of Supervisors in March voted to implement the same age-restriction and helmet rules on throttle-assisted Class 2 e-bikes — which can reach speeds of 20 mph without pedaling, though easily accessible hacks allow them to travel significantly faster — in unincorporated areas, including Strawberry and Paradise Cay.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">682d16527d7e1977531c4c9b</guid>
-     <pubDate>Wed, 21 May 2025 01:45:08 GMT</pubDate>
    </item>
  </channel>
 </rss>
