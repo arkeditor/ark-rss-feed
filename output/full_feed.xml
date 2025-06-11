@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 11 Jun 2025 13:47:33 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 11 Jun 2025 14:09:54 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Video showing new sorted waste bins dumped together sparks backlash online</title>
+     <link>https://www.thearknewspaper.com/live/video-showing-new-sorted-waste-bins-dumped-together-sparks-backlash-online</link>
+     <description>Mill Valley Refuse Service says the incident was an isolated mistake, but the resident who took the video doesn&apos;t buy it.</description>
+     <content:encoded><![CDATA[<p>A video posted online showing a refuse collector emptying downtown Tiburon’s separate trash, recycling and compost bins into a single container has sparked controversy among residents, though contractor Mill Valley Refuse Service says the incident was an isolated mistake.</p>
+<p>Posted on Nextdoor June 2 by Belvedere resident Ken Simpson, the video has drawn more than 50 comments, with many questioning whether waste-separation efforts are meaningful.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>News</category>
+     <category>Tiburon</category>
+     <guid isPermaLink="false">6848708214f5ed112188f608</guid>
+     <pubDate>Wed, 11 Jun 2025 14:00:24 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_82132ba3ddb747c8a0ae2407a4c7f580~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>In this screengrab from a video posted on Nextdoor by Ken Simpson, a Mill Valley Refuse Service worker is seen dumping presorted trash, recycling and compost bins in downtown Tiburon into the same can before then dumping that can into his truck. The video sparked controversy online, while the company says the worker made a mistake and has been retrained.</media:description>
+   </item>
    <item>
      <title>Longtime nursery schools leader Marilyn Knight was civic volunteer, helped launch The Ark</title>
      <link>https://www.thearknewspaper.com/live/longtime-nursery-schools-leader-marilyn-knight-was-civic-volunteer-helped-launch-the-ark</link>
@@ -351,22 +365,6 @@
      <pubDate>Wed, 04 Jun 2025 13:00:27 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_5dcbbfaddf304e418fb9e48a030c2dcc~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Nancy Simmons of Tiburon led off her team’s world-record-setting 4x800-meter relay race May 24 in Virginia. (Nathan Lopez Pictures)</media:description>
-   </item>
-   <item>
-     <title>Everyday Encounters: A new couple bonds over their shared love of food</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-new-couple-bonds-over-their-shared-love-of-food</link>
-     <description>The couple, who have been dating since August, say they enjoy date night at local restaurants such as Servino Trattoria, Malibu Farm and The Bungalow Kitchen, but they also love cooking together.</description>
-     <content:encoded><![CDATA[<p>Tiburon residents Eric Hagerman and Alfiya Nachtigall say food is their shared love language.</p>
-<p>The couple, who have been dating since August, say they enjoy date night at local restaurants such as Servino Trattoria, Malibu Farm and The Bungalow Kitchen, but they also love cooking together, with Hagerman turning up the heat in the kitchen.</p>
-<p>He says he previously took classes at the now-closed Tante Marie’s Cooking School in North Beach to both improve his own cooking skill and to impress others.</p>
-<p>“You can’t just show up and say, ‘What’s for dinner?’” Hagerman says as he and Nachtigall take Teddy, their 11-month-old cavapoo, for a walk at Shoreline Park on May 27. “You got to say, ‘Hey, look what I made!’”</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Everyday Encounters</category>
-     <category>News</category>
-     <guid isPermaLink="false">683f35b5da05b0dd55149df3</guid>
-     <pubDate>Wed, 04 Jun 2025 12:45:07 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_e8098ae2a63d4c3eb25c65640c11abc6~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon residents Eric Hagerman and Alfiya Nachtigall take Teddy, an 11-month-old cavapoo, for a walk along Shoreline Park on May 27. The two longtime friends have been dating since August. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
