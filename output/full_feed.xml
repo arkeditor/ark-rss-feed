@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 11 Jun 2025 15:11:07 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 11 Jun 2025 15:40:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Town adds $500,000 to parks fund in $26 mil draft budget</title>
@@ -118,10 +118,15 @@
      <title>Pirates defeat Cubs 8-5 to win Little League Majors title</title>
      <link>https://www.thearknewspaper.com/live/pirates-defeat-cubs-8-5-to-win-little-league-majors-title</link>
      <description>The Pirates battled back through the losers’ bracket while avenging the loss that sent them there.</description>
+     <content:encoded><![CDATA[<p>The Pirates captured the Tiburon Peninsula Little League Majors division championship with an 8-5 victory over the Cubs at Strawberry Field on June 7, battling back through the losers’ bracket while avenging the loss that sent them there.</p>
+<p>The No. 2 Pirates, led by 12-year-olds Connor Etchevers, TJ Fleischman, James Malloy, Jack Mason, Greyson Steele, Taylor Thomsen and Jake Wangenheim, completed a four-game winning streak to earn the title.</p>
+<p>In the championship game, their three All-Star pitchers combined for 10 strikeouts. Steele, Malloy and Fleischman shared mound duties, with Fleischman sealing the championship by striking out the final Cubs batter to send the Pirates into celebration. The Cubs came in as the fifth seed and had gone undefeated through the playoffs to that point.</p>]]></content:encoded>
      <dc:creator>Reader submitted</dc:creator>
      <category>School News</category>
      <guid isPermaLink="false">68487247ae056a9187d20862</guid>
      <pubDate>Wed, 11 Jun 2025 13:15:09 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_9de53362710d4130a3233b1400def901~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Pirates celebrate the Tiburon Peninsula Little League’s Majors division championship on June 7 after defeating the Cubs 8-5. (Oren Weingarten photo)</media:description>
    </item>
    <item>
      <title>Everyday Encounters: A Tiburon mom reflects on global path to local life</title>
