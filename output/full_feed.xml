@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 14 Jun 2025 00:47:18 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 14 Jun 2025 02:27:40 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere: State poised to accept latest housing plan</title>
@@ -88,7 +88,8 @@
      <title>Video showing new sorted waste bins dumped together sparks backlash online</title>
      <link>https://www.thearknewspaper.com/live/video-showing-new-sorted-waste-bins-dumped-together-sparks-backlash-online</link>
      <description>Mill Valley Refuse Service says the incident was an isolated mistake, but the resident who took the video doesn&apos;t buy it.</description>
-     <content:encoded><![CDATA[<p>A video posted online showing a refuse collector emptying downtown Tiburon’s separate trash, recycling and compost bins into a single container has sparked controversy among residents, though contractor Mill Valley Refuse Service says the incident was an isolated mistake.</p>
+     <content:encoded><![CDATA[<p>Updated:2 minutes ago</p>
+<p>A video posted online showing a refuse collector emptying downtown Tiburon’s separate trash, recycling and compost bins into a single container has sparked controversy among residents, though contractor Mill Valley Refuse Service says the incident was an isolated mistake.</p>
 <p>Posted on Nextdoor June 2 by Belvedere resident Ken Simpson, the video has drawn more than 50 comments, with many questioning whether waste-separation efforts are meaningful.</p>
 <p>“Unbelievably repugnant. A complete lack of efficiency on all sides. How many parents have taught our kids to properly sort and save our environment to then see this complete incompetence?” Juliette Decker Rodenbeck of Belvedere posted in reply.</p>
 <p>“Thank you for posting this,” wrote Eliza Jewett-Hall of Strawberry. “I’m horrified and disheartened.”</p>
@@ -101,7 +102,7 @@
 <p>Video sparks trash talk</p>
 <p>In his initial post on Nextdoor, Simpson suggested his video was evidence of “another recycling scam” and asked, “Who profits from this?”</p>
 <p>In follow-up comments, he went on to criticize the waste-management system.</p>
-<p>“(The bins) certainly do not do what reasonable people expect. They’re deceiving,” he wrote. “If everything is going to be mixed in the truck and resorted later, then the only reaso...</p>]]></content:encoded>
+<p>“(The bins) certainly do not do what reasonable people expect. They’re deceiving,” he wrote. “If everything is going to be mixed in the truck and resort...</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>News</category>
      <category>Tiburon</category>
