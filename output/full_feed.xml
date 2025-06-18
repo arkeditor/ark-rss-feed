@@ -7,18 +7,23 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 18 Jun 2025 18:03:46 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 18 Jun 2025 18:14:07 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Teen makes history with Dipsea victory</title>
      <link>https://www.thearknewspaper.com/live/teen-makes-history-with-dipsea-victory</link>
      <description>Tiburon’s Audrey MacLean, 19, is first female runner between 10 and 33 to win the nation’s oldest trail race.</description>
+     <content:encoded><![CDATA[<p>Audrey MacLean had long been obsessed with the Dipsea Race, the nation’s oldest trail race, since she first learned about it as a seventh grader.</p>
+<p>She first ran the race in the summer before eighth grade, though she notes at the time she “wasn’t that good at running.”</p>
+<p>That’s since changed. The Tiburon resident, now 19, was crowned the winner of the 114th Dipsea Race on June 8 with a time of 46 minutes, 28 seconds — 20 seconds ahead of runner-up Mark Tatum and 1 minute, 41 seconds ahead of third-place finisher and defending champion Chris Lundy. MacLean, who graduated from Redwood High School in 2023 and attended Reed Union School District schools, made history as the first female runner between the ages of 10 and 33 to win the race.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Sports</category>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">6852fd7405d47c18c468c5d2</guid>
      <pubDate>Wed, 18 Jun 2025 17:56:48 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_4037da5c25934a50ab9dde577d35fb6d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon’s Audrey Mac­Lean, 19, won the 114th Dipsea Race on June 8, a first for female runners ages 10-33. (Steve Disenhof /marinpix.com)</media:description>
    </item>
    <item>
      <title>Belvedere tackling fixes for police staff shortage</title>
@@ -51,6 +56,10 @@
      <title>Reed district projects $1.8-mil deficit on $33.2-mil budget</title>
      <link>https://www.thearknewspaper.com/live/reed-district-projects-1-8-mil-deficit-on-33-2-mil-budget</link>
      <description>Several factors are driving the projected deficit, including rising special-education costs, increased personnel costs and a funding gap for foundation-sponsored programs.</description>
+     <content:encoded><![CDATA[<p>The Reed Union School District is projecting a $1.83-million deficit in fiscal 2026 as it provides 5% raises to its teachers and staff and plans to spend an extra $1.18 million to close a funding gap for the arts, library and technology programs partially funded by the Foundation for Reed Schools.</p>
+<p>The district’s board of trustees voted unanimously at its June 10 meeting to approve the $33.15-million budget against $31.51 million in revenue for the 2025-2026 fiscal year, which begins July 1.</p>
+<p>While the district is projecting slight increases in its major sources of revenue, property and parcel taxes, it’s not expecting that to be enough to keep pace with its expenditures next year and will dip into its reserves to make up the difference.</p>
+<p>Chief Business Official Chris Kim said several factors are driving the projected deficit, including rising special-education costs, increased personnel costs and the funding gap between the $1.75 million raised by the foundation and the estimated $2.93-million cost of its sponsored programs.</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>School News</category>
      <category>News</category>
