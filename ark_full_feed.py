@@ -4,6 +4,7 @@ The Ark Newspaper Full RSS Feed Generator (Rebuilt)
 
 This script enriches the RSS feed by:
 - Pulling titles and descriptions from the blog feed.
+- Filtering out items with titles starting with 'Public Notices'.
 - Cleaning punctuation and merging paragraph fragments.
 - Scraping full article content under <div class="tETUs"> for 
   <content:encoded> output.
@@ -171,6 +172,12 @@ for entry in feed.entries:
     post_url = entry.link
     # Use original title and description directly from the feed
     title = entry.title
+    
+    # Filter out entries with titles starting with 'Public Notices'
+    if title.startswith('Public Notices'):
+        logging.info(f"Skipping Public Notices entry: {title}")
+        continue
+    
     desc = entry.get('description', '')
     guid = entry.get('id', post_url)
     published = entry.get('published', datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000'))
