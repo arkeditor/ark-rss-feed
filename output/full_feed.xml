@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 18 Jun 2025 18:47:16 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 18 Jun 2025 19:07:56 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Teen makes history with Dipsea victory</title>
@@ -20,6 +20,7 @@
      <category>Sports</category>
      <category>Tiburon</category>
      <category>News</category>
+     <category>Featured</category>
      <guid isPermaLink="false">6852fd7405d47c18c468c5d2</guid>
      <pubDate>Wed, 18 Jun 2025 17:56:48 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_4037da5c25934a50ab9dde577d35fb6d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
