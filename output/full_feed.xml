@@ -7,8 +7,27 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 24 Jun 2025 00:50:46 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 24 Jun 2025 02:42:03 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Council divided in bike-lane letter to Caltrans</title>
+     <link>https://www.thearknewspaper.com/live/council-divided-in-bike-lane-letter-to-caltrans</link>
+     <description>Tiburon officials met with Caltrans officials on Monday and want to see safety revisions in first phase.</description>
+     <content:encoded><![CDATA[<p>Tiburon officials have asked Caltrans to address the impacts of planned Tiburon Boulevard bike lanes on safety, public transit, school buses and traffic, with an agency representative confirming June 23 that it was “coordinating with the town of Tiburon and discussing several options internally.”</p>
+<p>The Town Council had voted 3-2 to send the 143-word letter, with Mayor Holli Thier and Councilmember Jack Ryan dissenting, afternearly three hoursof public comment and discussion June 18. Ryan wants the entire bike-lane segment between Blackfield Drive and Trestle Glen removed, while Thier said without further elaboration that the letter didn’t address all her safety concerns.</p>
+<p>At a special June 4 forum with councilmembers, Southern Marin Supervisor Stephanie Moulton-Peters and residents, Caltrans had said the$12.7-million preventive-maintenance projectmust proceed as planned because of funding deadlines and concerns that winter storms could further damage the deteriorating roadway. The agency announced the project would come intwo phases, with the original plan as phase one.</p>
+<p>In its presentation, the agency initially signaled it was open to revisions — phase one included “work with community and stakeholders,” next steps were to “update plans for phase one” and said “we want to hear from you” — but it became clear as the meeting progressed that any major revisions were planned for phase two.</p>
+<p>The project as it stands</p>
+<p>The yearlong first phase, to start in 2026, would repave the 4.6 miles of state-owned Highway 131 from Mill Valley city limits to Tiburon Boulevard’s intersection with Main Street, upgrading drainage systems, guardrails, curb ramps, signs, traffic signals, lighting, crosswalks and intersections. Officials also said the plan would now incorporate afiber-optic broadband conduitat Tiburon’s request and preserve medians that would have been eliminated.</p>
+<p>For the bike lanes, a multiuse path would connect East Strawberry Drive to Greenwood Cove Drive, which serves as the current bike route to the Old Rail Trail. Otherwise, there would be separated and protected Class-4 bikeways west of Blackie’s Pasture to the south and west of Reed Ranch Road to the north. A one-block segment of standard Class-2 bike lanes would stretch from Reed Ranch to Jefferson Drive, connecting to an existing protected path to Trestle Glen Boulevard.</p>
+<p>Caltrans spokesperson Matt O’Donnell, who confirmed this week’s meeting with Tiburon, ha...</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>School News</category>
+     <guid isPermaLink="false">685a09904b45cd8de131e1db</guid>
+     <pubDate>Tue, 24 Jun 2025 02:34:49 GMT</pubDate>
+   </item>
    <item>
      <title>Teen makes history with Dipsea victory</title>
      <link>https://www.thearknewspaper.com/live/teen-makes-history-with-dipsea-victory</link>
@@ -292,19 +311,6 @@
      <pubDate>Wed, 11 Jun 2025 13:00:19 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_50629a3846f84aa2a13a504eacfedd29~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon resident Jennifer Freker sits with dog Disney on June 4 at Belvedere Community Park. (Tyler Callister / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Reed district to revamp free meals with healthier and better-tasting food</title>
-     <link>https://www.thearknewspaper.com/live/reed-district-to-revamp-free-meals-with-healthier-and-better-tasting-food</link>
-     <description>Officials noted complaints about both the overall quality of the food and the amount of waste in much of the packaging.</description>
-     <content:encoded><![CDATA[<p>The Reed Union School District is revamping its free breakfast and lunch program for the 2025-2026 school year in hopes of providing healthier, better-tasting meals to its students.</p>
-<p>The district has ended its contract with current food vendor, San Carlos-based The LunchMaster, and will instead contract with local catering company Dee’s Organics, which operates out of Kentfield, to run its on-campus meal program. The district’s board of directors voted unanimously at its June 3 meeting to approve the estimated $715,646 contract with Dee’s Organics to provide some 132,271 lunches and 100,553 breakfasts between August and June.</p>
-<p>That accounts for not only the Reed students expected to take advantage of the meal program but also covers breakfast and lunch distribution in the Ross and Kentfield school districts, which go through the Reed district to obtain their meals. The free meal program is fully funded through state and federal reimbursements.</p>]]></content:encoded>
-     <dc:creator>Emily Lavin</dc:creator>
-     <category>School News</category>
-     <category>News</category>
-     <guid isPermaLink="false">6848732814f5ed112188fd19</guid>
-     <pubDate>Wed, 11 Jun 2025 12:45:34 GMT</pubDate>
    </item>
  </channel>
 </rss>
