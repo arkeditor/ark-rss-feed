@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 01 Jul 2025 23:09:31 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 01 Jul 2025 23:37:13 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>July 4 holiday: what’s open, what’s closed</title>
@@ -76,12 +76,18 @@
      <title>Tiburon couple brings art, film to Marin County Fair</title>
      <link>https://www.thearknewspaper.com/live/tiburon-couple-brings-art-film-to-marin-county-fair</link>
      <description>In duo’s first exhibit together, recycled insect installation and a life-spanning short reflect decades of creative work.</description>
+     <content:encoded><![CDATA[<p>A creative Tiburon couple — one a filmmaker and the other a sculptor — will each be featured at this year’sMarin County Fair, which runs July 2-6.</p>
+<p>Cynthia Jensen, 77, widely known for her eco-inspired sculpture work, will display a series of insect sculptures made from recycled materials. Her husband, Harris Cohen, 88, whose decades-long film work includes editing Vietnam War footage for CBS and production for local station KPIX Channel 5, will show a short documentary at the fair. The exhibit coincides with this year’s fair theme, “Bug-Tastic.”</p>
+<p>Cohen’s short film, “Passages: A Video Memoir,” shows at 6:15 p.m. July 3 at the Showcase Theater during the three-film Doc-Fest, part of the fair’s daily film festival. It traces his career as a videographer, producer and filmmaker. Originally created as a retrospective for his 87th birthday, Cohen said the film was intended for his grandchildren to understand more about his background.</p>
+<p>Jensen’s artwork, which explores humankind’s impact on insect populations, will be displayed from 11 a.m. to 9 p.m. July 2-6 in John MacLeod’s Virtual Reality booth in the fair’s exhibit hall. She said visitors can scan QR codes for information about various bugs. Her sculptures span more than 40 insects, including dragonflies, beetles, mosquitos and ladybugs. The display will also feature deep-sea exploration, including footage of the Cordell Bank off Point Reyes National Seashore, coral reefs and marine sanctuaries.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <category>Featured</category>
      <guid isPermaLink="false">68644c00f5ef6aa5147040b8</guid>
      <pubDate>Tue, 01 Jul 2025 21:07:47 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_47e0e00cc3154c7faba181c651295b32~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Artist Cynthia Jensen and filmmaker Harris Cohen are seen June 29 at their Tiburon home. (Leo Leung / For The Ark)</media:description>
    </item>
    <item>
      <title>Juneteenth jams in Tiburon</title>
@@ -217,14 +223,15 @@
      <title>Tiburon Town Council divided in bike-lane letter to Caltrans</title>
      <link>https://www.thearknewspaper.com/live/council-divided-in-bike-lane-letter-to-caltrans</link>
      <description>Tiburon officials want to see safety revisions in the first phase, and Caltrans is mulling its options.</description>
-     <content:encoded><![CDATA[<p>Tiburon officials have asked Caltrans to address the impacts of planned Tiburon Boulevard bike lanes on safety, public transit, school buses and traffic, with an agency representative confirming June 23 that it was “coordinating with the town of Tiburon and discussing several options internally.”</p>
+     <content:encoded><![CDATA[<p>Updated:24 minutes ago</p>
+<p>Tiburon officials have asked Caltrans to address the impacts of planned Tiburon Boulevard bike lanes on safety, public transit, school buses and traffic, with an agency representative confirming June 23 that it was “coordinating with the town of Tiburon and discussing several options internally.”</p>
 <p>The Town Council had voted 3-2 to send the 143-word letter, with Mayor Holli Thier and Councilmember Jack Ryan dissenting, afternearly three hoursof public comment and discussion June 18. Ryan wants the entire bike-lane segment between Blackfield Drive and Trestle Glen removed, while Thier said without further elaboration that the letter didn’t address all her safety concerns.</p>
 <p>At a special June 4 forum with councilmembers, Southern Marin Supervisor Stephanie Moulton-Peters and residents, Caltrans had said the$12.7-million preventive-maintenance projectmust proceed as planned because of funding deadlines and concerns that winter storms could further damage the deteriorating roadway. The agency announced the project would come intwo phases, with the original plan as phase one.</p>
 <p>In its presentation, the agency initially signaled it was open to revisions — phase one included “work with community and stakeholders,” next steps were to “update plans for phase one” and said “we want to hear from you” — but it became clear as the meeting progressed that any major revisions were planned for phase two.</p>
 <p>The project as it stands</p>
 <p>The yearlong first phase, to start in 2026, would repave the 4.6 miles of state-owned Highway 131 from Mill Valley city limits to Tiburon Boulevard’s intersection with Main Street, upgrading drainage systems, guardrails, curb ramps, signs, traffic signals, lighting, crosswalks and intersections. Officials also said the plan would now incorporate afiber-optic broadband conduitat Tiburon’s request and preserve medians that would have been eliminated.</p>
 <p>For the bike lanes, a multiuse path would connect East Strawberry Drive to Greenwood Cove Drive, which serves as the current bike route to the Old Rail Trail. Otherwise, there would be separated and protected Class-4 bikeways west of Blackie’s Pasture to the south and west of Reed Ranch Road to the north. A one-block segment of standard Class-2 bike lanes would stretch from Reed Ranch to Jefferson Drive, connecting to an existing protected path to Trestle Glen Boulevard.</p>
-<p>Caltrans spokesperson Matt O’Donnell, who confirmed this week’s discussions, has said bi...</p>]]></content:encoded>
+<p>Caltrans spokesperson Matt O’Donnell, who confirmed this w...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
