@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 02 Jul 2025 13:47:08 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 02 Jul 2025 14:10:03 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Exhibit showcases artist’s portraits, panoramas, playing cards</title>
+     <link>https://www.thearknewspaper.com/live/exhibit-showcases-artist-s-portraits-panoramas-playing-cards</link>
+     <description>“The Art of Kathy Gray” is on display in at Tiburon Town Hall July 7-Aug. 27. An artist’s reception is planned for 6-8 p.m. July 8.</description>
+     <content:encoded><![CDATA[<p>Back when Kathy Gray was painting commissioned portraits, she started to think about ways to show prospective clients how true-to-life she could make her art look. She figured if people didn’t know the person she painted, they would not know if it was a good likeness, so she chose to paint a man almost everyone would recognize: Abraham Lincoln.</p>
+<p>That portrait, which measures about 4 feet by 6 feet, greets visitors to a new Tiburon Town Hall exhibit of Gray’s work, “The Art of Kathy Gray,” on display in the upstairs gallery July 7-Aug. 27. An artist’s reception is planned for 6-8 p.m. July 8.</p>
+<p>Among the other paintings on display in the show will be a portrait of Walt Disney. Gray says she happened to be thinking of all the joy Disney had brought to the world when she saw a photograph of the entrepreneur. In that photo, Disney is holding some papers, but Gray substituted Mickey Mouse in her painting.</p>]]></content:encoded>
+     <dc:creator>Diane Smith</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">6864556d5a8ba1bc5a4fe19f</guid>
+     <pubDate>Wed, 02 Jul 2025 14:01:44 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_4ab275d41e5543cf97ef1b2a1a6c17ff~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Corte Madera artist Kathy Gray’s portrait of Walt Disney with Mickey Mouse is displayed at Tiburon Town Hall as part of ‘The Art of Kathy Gray’ exhibit running through Aug. 27.</media:description>
+   </item>
    <item>
      <title>July 4 holiday: what’s open, what’s closed</title>
      <link>https://www.thearknewspaper.com/live/july-4-holiday-what-s-open-what-s-closed</link>
@@ -309,25 +323,6 @@
      <category>News</category>
      <guid isPermaLink="false">6852faafd8437c49c9cdf64e</guid>
      <pubDate>Wed, 18 Jun 2025 17:45:12 GMT</pubDate>
-   </item>
-   <item>
-     <title>New Business: Istanbul natives bring Troya Mediterranean restaurant to Cove</title>
-     <link>https://www.thearknewspaper.com/live/new-business-istanbul-natives-bring-troya-mediterranean-restaurant-to-cove</link>
-     <description>In May, the Kinalilars opened Troya restaurant in The Cove shopping center, serving Turkish and Mediterranean fare.</description>
-     <content:encoded><![CDATA[<p>When husband-wife duo Berk and Betul Kinalilar would speak with Marin diners visiting their 19-year-old San Francisco restaurant,Troya, they’d often receive the same comment: “Open the restaurant in Marin.”</p>
-<p>Living in the most diverse and dense culinary city in the nation, they said the request didn’t make much sense.</p>
-<p>“We didn’t know anything about this area,” Betul says.</p>
-<p>It wasn’t until they moved to Marin in 2018, and to Corte Madera on New Year’s Eve 2020, that they noticed that sit-down options for Turkish or Mediterranean were few.</p>
-<p>“Now, it makes sense,” Betul says. “Tiburon and Marin needs more Mediterranean.”</p>
-<p>So the Kinalilars acted on what their customers had been telling them all along. In May, they opened a second Troya restaurant serving Turkish and Mediterranean fare in The Cove shopping center, replacing fried-chicken sandwich shop Flybird. The restaurant served its first meal May 1 and expanded dinner service to Sundays through Thursdays on June 15.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Business</category>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6852f222a3f6bfa226173537</guid>
-     <pubDate>Wed, 18 Jun 2025 17:41:53 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_08b7a8f7864949fbaf700560f96cdc2b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Corte Madera residents Berk and Betul Kinalilar, pictured here June 9, are the owners of Troya, located at The Cove shopping center in Tiburon. The eatery, which Betul calls a ‘sister restaurant’ to Troya’s San Francisco location, had its first meal service May 1. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
