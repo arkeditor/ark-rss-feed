@@ -7,8 +7,21 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 09 Jul 2025 14:10:35 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 09 Jul 2025 14:42:40 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Laurie Ann Sanders Kenney</title>
+     <link>https://www.thearknewspaper.com/live/laurie-ann-sanders-kenney</link>
+     <description>Laurie Ann Sanders Kenney died June 21, 2025 in Tiburon, California.</description>
+     <content:encoded><![CDATA[<p>Laurie Ann Sanders Kenney, born in November 1942 at Rochester, New York, died June 21, 2025 in Tiburon, California. She grew up in Geneseo, NY, with her older brothers, Walter (deceased) and Donald, now in Houston, Texas. Her mother Katherine Coleman and father Donald Rowell died earlier. She attended Geneseo schools through 10th grade, then two years at Convent of the Sacred Heart in Rochester, NY, four years at Marymount College in Tarrytown, NY, with a BA in Philosophy, then two years at Syracuse University for a Master’s in Education, off to California, and then two years teaching in Naples, CA.</p>
+<p>In 1996, she moved to San Francisco, CA, and taught first through third grade then special education for 28 years in South San Francisco, first through third grade, then special education. She then went back to school at San Francisco State University for a master’s in administration. She was a principal until her retirement in 2004.</p>
+<p>She married Jack Kenney on July 31, 1993, at St. Mary’s church in Geneseo, NY. After two years in the San Francisco Marina District, they moved to Tiburon. She volunteered at St. Hilary’s Church in Tiburon for many activities, among them being lector, associates, Dante Club, and chapel time. She will be buried in Geneseo. Survived by her husband; brother Donald; nieces Kristin, Smara, Ami; and nephew Scott. Laurie Ann lived her life with faith, family, and friends. She asked for no services. Please make donations to your favorite charity in honor of teaching.</p>]]></content:encoded>
+     <dc:creator>Reader submitted</dc:creator>
+     <category>Obituaries</category>
+     <guid isPermaLink="false">686dcd215bbe06ef4d87a861</guid>
+     <pubDate>Wed, 09 Jul 2025 14:31:24 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_56cfa87c6ded466da0373ad58415201f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Picks of the Week: Caviar Crawl along Main Street Tiburon; Hip Service plays the hits at free concert at Community Park</title>
      <link>https://www.thearknewspaper.com/live/picks-of-the-week-caviar-crawl-along-main-street-tiburon-hip-service-plays-the-hits-at-free-concer</link>
@@ -319,23 +332,6 @@ spot fires; agencies promote defensible space to minimize risks</description>
      <category>News</category>
      <guid isPermaLink="false">685b48e71fc4e9a7f8d45a30</guid>
      <pubDate>Wed, 25 Jun 2025 00:57:24 GMT</pubDate>
-   </item>
-   <item>
-     <title>Everyday Encounters: A pair of budding entrepreneurs squeeze out summer profits</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-pair-of-budding-entrepreneurs-squeeze-out-summer-profits</link>
-     <description>Both say they’d consider professional sports if the lemonade industry turns sour.</description>
-     <content:encoded><![CDATA[<p>Sixth-grader Harry Hamilton says the amount of money he makes at his lemonade stand is a secret.</p>
-<p>“It depends on the day,” he says. “It depends on how many walkers are out.”</p>
-<p>Situated on the trail along Richardson Bay on June 18, Harry and his business partner, classmate Cole Peters, stand behind a white table blanketed with their merchandise: Hefty cups, clear pitchers of lemonade and a tray of cookies.</p>
-<p>Harry says they’re popular due to the boys’ special recipe.</p>
-<p>“It’s made from scratch. … Well, actually it’s from a package,” he says, though they add real lemons to make the juice “more lemony.”</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Everyday Encounters</category>
-     <category>News</category>
-     <guid isPermaLink="false">685b4814e52736d3e361b084</guid>
-     <pubDate>Wed, 25 Jun 2025 00:53:41 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_ea9fc4a65669418b990e043b17287536~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Eleven-year-olds Harry Hamilton (left) and Cole Peters are trying their hands at a summer classic, with a lemonade stand set up on the bayside trail in Belvedere. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
