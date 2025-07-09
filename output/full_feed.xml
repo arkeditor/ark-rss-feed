@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 09 Jul 2025 20:11:23 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 09 Jul 2025 20:40:59 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Everyday Encounters: An ad sales rep has an open-door policy for his Belvedere garage office</title>
@@ -192,13 +192,10 @@ spot fires; agencies promote defensible space to minimize risks</description>
      <title>Notes from an Appraiser: Playful skeleton imagery marks unique period in Japanese garment design</title>
      <link>https://www.thearknewspaper.com/live/notes-from-an-appraiser-playful-skeleton-imagery-marks-unique-period-in-japanese-garment-design</link>
      <description>Most of the kimono designs featuring skulls seem to be a nod to the literary world. The skeletons, on the other hand, are humorous and playful, like those seen in the sketches of Japanese painter and caricaturist.</description>
-     <content:encoded><![CDATA[<p>The last two months I have been obsessed with Japanese skeleton kimonos. I was approached by a collector to appraise his 47-piece textile collection, all detailed in the scholarly essay “As We Are Now So Shall You One Day Be” by Jacqueline Atkins. Each of the kimonos has at least two photos, if not more, with commentary by Atkins discussing the motif or a link to an artist known for similar images. These kimonos are very rare and appeared on the Japanese market from 1920 to 1930, the Taishō period to the start of the Shōwa period. It was a time of world peace and exchange of ideas, architecture and modes of travel.</p>]]></content:encoded>
      <dc:creator>Cynthia Shaver</dc:creator>
      <category>Entertainment</category>
      <guid isPermaLink="false">686454d6a535475640a804f8</guid>
      <pubDate>Wed, 02 Jul 2025 14:16:47 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_655c6cb41e0644fbaf647aaff726d92d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A nagajuban kimono features a dancing skeleton with a fan. (via Cynthia Shaver)</media:description>
    </item>
    <item>
      <title>Exhibit showcases artist’s portraits, panoramas, playing cards</title>
