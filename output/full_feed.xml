@@ -7,8 +7,23 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 16 Jul 2025 13:52:20 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 16 Jul 2025 14:10:37 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Travel Bug: Mediterranean cruise crosses continents and cultures</title>
+     <link>https://www.thearknewspaper.com/live/travel-bug-mediterranean-cruise-crosses-continents-and-cultures</link>
+     <description>Over 11 days, the Travel Bug explored two continents and four countries, immersing ourselves in rich culture and history while celebrating a milestone anniversary.</description>
+     <content:encoded><![CDATA[<p>From Gaudí’s whimsical architecture in Barcelona and the red-and-white arches of Córdoba’s Great Mosque to the soaring Gothic cathedral of Seville and the vibrant souks of Marrakesh, our Windstar cruise from Barcelona to Lisbon fed my husband’s and my wanderlust in every way. Over 11 days aboard the intimate Star Legend, we explored two continents and four countries — Spain, Gibraltar, Morocco and Portugal — immersing ourselves in rich culture and history while celebrating a milestone anniversary.</p>
+<p>We began our journey with a blissfully relaxing sea day, a much-needed pause after the hustle of getting to Barcelona. We buzzed around the city for two full days to take in Gaudí’s masterpieces, including the awe-inspiring Sagrada Família and his whimsical home-turned-museum. Once aboard the ship, the pace shifted. I slipped easily into vacation mode, rotating between naps, reading, grazing at the buffet and lounging by the pool. Others booked spa treatments, played dominoes or joined enriching onboard lectures.</p>
+<p>The Star Legend, a luxury small ship with only 156 suites and a maximum of 312 guests, felt intimate and friendly. We weren’t the only ones celebrating something special. Birthdays, retirements, anniversaries — almost every table had a story. On our second night, we toasted with Dave and Jenny, a retired couple from North Carolina who were on their third Windstar cruise. As we sailed along Spain’s glittering coast, it was easy to see why they kept coming back.</p>]]></content:encoded>
+     <dc:creator>Marybeth Bond-Sheppard</dc:creator>
+     <category>News</category>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">687697c832c2554b5324ad33</guid>
+     <pubDate>Wed, 16 Jul 2025 14:00:48 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_558597b88d914ae4b02dd4a858170140~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Ark Travel Bug Marybeth Bond-Sheppard visited the Roman Theater of Cartagena during her cruise.</media:description>
+   </item>
    <item>
      <title>Belvedere probes cyberattack as report warns of rising risks</title>
      <link>https://www.thearknewspaper.com/live/belvedere-probes-cyberattack-as-report-warns-of-rising-risks</link>
@@ -328,23 +343,6 @@ spot fires; agencies promote defensible space to minimize risks</description>
      <category>Belvedere</category>
      <guid isPermaLink="false">68644f9aa535475640a7f8b9</guid>
      <pubDate>Tue, 01 Jul 2025 21:15:08 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon teen helps row youth four boat to national title</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-teen-helps-row-youth-four-boat-to-national-title</link>
-     <description>Marin finished the championship race with a time of 7:04.67, defeating second-place Connecticut by nearly five seconds.</description>
-     <content:encoded><![CDATA[<p>Redwood High School graduateChloe Grimes Frushtickhelped the Marin Rowing Association capture the women’s youth four national title at the 2025 USRowing Youth National Championships.</p>
-<p>Frushtick, who graduated early and missed commencement to compete, rowed in the three seat as Marin swept through competition June 12-15 at Nathan Benderson Park in Sarasota, Florida. The crew won their time trial, semifinal and final to claim the national title.</p>
-<p>Marin finished the championship race with a time of 7:04.67, defeating second-place Connecticut by nearly five seconds. The crew also included Ava Brooks, Lindsay Harrison and Isabella Warner, with Sandy Armstrong as coach.</p>
-<p>A Reed district alumna who committed to Cal some two years ago, the Tiburon rower’s goal is to be on the U23 national team and represent the U.S. at an Olympics.</p>]]></content:encoded>
-     <dc:creator>Kevin Hessel</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Sports</category>
-     <guid isPermaLink="false">68644e57f2f431b5b2691edd</guid>
-     <pubDate>Tue, 01 Jul 2025 21:11:18 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_51a132fa13714bc09e3094250a8dc0f0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Chloe Grimes Frushtick of Tiburon cheers in her women’s youth four boat on June 15 at Nathan Benderson Park in Sarasota, Florida. (Row2K via Jessica Grimes)</media:description>
    </item>
  </channel>
 </rss>
