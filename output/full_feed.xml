@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 21 Jul 2025 09:18:40 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 21 Jul 2025 09:47:29 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Jazz guitarist returning home for Old St. Hilary’s concert July 25</title>
@@ -323,17 +323,11 @@ spot fires; agencies promote defensible space to minimize risks</description>
      <title>Strawberry rec district plans for deficit to finance new playground</title>
      <link>https://www.thearknewspaper.com/live/strawberry-rec-district-plans-for-deficit-to-finance-new-playground</link>
      <description>The district aims to have the new playground complete by summer 2026.</description>
-     <content:encoded><![CDATA[<p>The Strawberry Recreation District is projecting a nearly $850,000 deficit this fiscal year, driven primarily by the cost of building a new playground at its East Strawberry Drive facility.</p>
-<p>The district’s board of directors voted unanimously in May to approve the $4.32 million budget for fiscal 2025-2026, which began July 1. That’s against an anticipated $3.47 million in revenue, for a deficit of $848,372.</p>
-<p>General Manager Nancy Shapiro said the deficit is planned, as the district knew it would have to dip into reserves to pay for the new play area. The playground is planned for the second floor of the facility outside the gym’s south entrance, to replace Reggie Park. That playground, located between the main building and tennis courts, was removed to make way for a new sport court for pickleball and basketball that opened in September 2024.</p>
-<p>The playground cost is estimated at about $1 million, which Shapiro said is based on observing excavation costs to build the sport court and her conversations with playground companies. The district aims to have the new playground complete by summer 2026, though there’s currently no firm timeline for construction.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
      <guid isPermaLink="false">6864541ba535475640a80335</guid>
      <pubDate>Wed, 02 Jul 2025 14:31:15 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_2e55d68a8b3e4fb7b1e8323a275df455~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>An outdoor patio area at the Strawberry Recreation District facility on East Strawberry Drive shows where a new playground will be constructed. The district estimates it will spend about $1 million for the playground, planned for completion by summer 2026, to replace the former Reggie Park playground that was removed for a sport court. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
