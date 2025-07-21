@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 21 Jul 2025 17:12:52 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 21 Jul 2025 17:43:02 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Jazz guitarist returning home for Old St. Hilary’s concert July 25</title>
@@ -309,11 +309,15 @@ spot fires; agencies promote defensible space to minimize risks</description>
      <title>Everyday Encounters: A Tiburon resident reflects on a lifetime of creative endeavors</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-tiburon-resident-reflects-on-a-lifetime-of-creative-endeavors</link>
      <description>Tiburon resident Rand Crook is a writer and film producer whose credits include the 1996 indie movie ‘Chalk.&apos;</description>
+     <content:encoded><![CDATA[<p>Growing up in Charlotte, North Carolina, and moving to the Bay Area at 19, Rand Crook says he was inspired to attend film school by his experiences as a child actor in commercials. He appeared in ads for St. Joseph Aspirin and MasterCard, back when it was known as Master Charge. He says he’s still looking on YouTube to find the ads he filmed.</p>
+<p>He attended San Francisco State University’s film program, leading him to connect with director Rob Nilsson, with whom he worked on films including “On the Edge,” “Heat and Sunlight” and “Chalk,” an indie classic involving a lazy yet gifted pool hustler who takes on a high-stakes contender after learning his stepfather has cancer. Crook also produced “Chalk,” which featured amateur actors from the Tenderloin Action Group, a actors’ workshop for the homeless in San Francisco.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">6864530df5ef6aa514705192</guid>
      <pubDate>Wed, 02 Jul 2025 14:45:22 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_658a385ba7c84fb7a40594fdbdc6813b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon resident Rand Crook, seen June 24 at Peet’s Coffee in Tiburon, is a writer and film producer whose credits include the 1996 indie movie ‘Chalk,’ which received positive reviews from Roger Ebert, Variety and San Francisco newspapers the Chronicle and Examiner. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Strawberry rec district plans for deficit to finance new playground</title>
