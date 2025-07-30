@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 30 Jul 2025 11:37:39 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 30 Jul 2025 12:21:12 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Golda Clarkin Boeck</title>
+     <link>https://www.thearknewspaper.com/live/golda-clarkin-boeck</link>
+     <description>June 30, 1933 – July 7, 2025   Golda Clarkin Boeck, beloved mother, grandmother, great-grandmother, aunt, and community pillar, passed...</description>
+     <content:encoded><![CDATA[<p>June 30, 1933 – July 7, 2025</p>
+<p>Golda Clarkin Boeck, beloved mother, grandmother, great-grandmother, aunt, and community pillar, passed away peacefully at the age of 92 on July 7, 2025. Born June 30, 1933, to Joseph and Golda Clarkin in Denver, Colorado, Golda was a gifted pianist from an early age, and began performing by 12. She studied Finance with a minor in Music and Literature at the University of Colorado at Boulder, and graduated on the Dean’s List. After college, she worked in Chicago, eventually settling in the Bay Area with her husband, Lawrence Boeck.</p>
+<p>For over five decades, Golda made her home in Belvedere, where she raised her family and became a treasured presence in the community. Her life was defined by her devotion to music, her passion for service, and her deep commitment to family. Golda took pride in her work as a real estate broker for over 45 years. She was involved in many civic and musical endeavors — directing and accompanying local theater productions, serving on music committees and fundraising boards, and welcoming new neighbors with her signature hospitality and homemade gifts.</p>
+<p>She was Iconic — always elegant and engaged with friends as well as the mah jong, bridge and book club groups whose ages spanned generations. Golda infused holidays and occasions with care and attention, creating meals and moments that brought people together with warmth and style.</p>
+<p>She passed on her deep love of the outdoors, her remarkable work ethic, and a strong sense of independence to her children. She encouraged an active life filled with purpose, adventure, and time in nature, including skiing, tennis, swimming, boating, and simply being outdoors.</p>
+<p>Golda is predeceased by her step-siblings Joe and Mary, and her younger brother Paul. She is survived by her son, Larry Boeck (Susanna), and grandsons Daniel (Ariella), Eli, and Thomas (and partner Haley); her daughter, Cynthia Boeck Hardy (John), and granddaughters Carina (and partner Tavish) and Chiara; two great-grandchildren, Ellery and Alder Boeck; and beloved nieces, nephews, and their families.</p>
+<p>The family is ever thankful to her dedicated caretakers, Gina, and recently, JayVee, and to the numerous friends who brought her much joy. She is certainly writing you all thank you notes as you read this! She will be remembered for her wisdom, humor, generosity, and as a woman of extraordinary capability — someone who made those around her feel seen, valued, and de...</p>]]></content:encoded>
+     <dc:creator>Reader submitted</dc:creator>
+     <category>Obituaries</category>
+     <guid isPermaLink="false">68882b2fe2fb1aad7071b7d9</guid>
+     <pubDate>Wed, 30 Jul 2025 12:00:20 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_879de452e54e447e985b41263e21a35e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Tsunami alert upgraded to advisory for Tiburon Peninsula after Russia earthquake</title>
      <link>https://www.thearknewspaper.com/live/tsunami-alert-upgraded-to-advisory-for-tiburon-peninsula-after-russia-earthquake</link>
@@ -317,24 +334,6 @@
      <category>News</category>
      <guid isPermaLink="false">687696e897051c95031fdfb6</guid>
      <pubDate>Wed, 16 Jul 2025 01:30:47 GMT</pubDate>
-   </item>
-   <item>
-     <title>The Ranch is named Tiburon Peninsula’s business of the year</title>
-     <link>https://www.thearknewspaper.com/live/the-ranch-is-named-tiburon-peninsula-s-business-of-the-year</link>
-     <description>The Ranch has been named the Tiburon Peninsula Chamber of Commerce’s Business of the Year.</description>
-     <content:encoded><![CDATA[<p>The Ranch has been named the Tiburon Peninsula Chamber of Commerce’s Business of the Year, recognizing the joint recreation agency’s 50 years of serving the community.</p>
-<p>The agency will be honored at Bank of Marin’s annual Spirit of Marin luncheon Sept. 26 in San Rafael and at a local chamber event Nov. 18.</p>
-<p>“It takes a team to create this ideal community, and we are proud of the work that The Ranch staff and our fellow businesses do to make it the best,” Executive Director Jessica Hotchkiss said in an email. She said it was touching to provide programming that residents have come to see as family traditions.</p>
-<p>Chamber Executive Director Melanie Haddad said in an email that The Ranch in its five decades of operation has “helped define what it means to be a community on the Tiburon Peninsula.”</p>
-<p>“Its inclusive, self-sustaining approach to recreation and community engagement is inspiring,” she said.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>Business</category>
-     <category>News</category>
-     <guid isPermaLink="false">687696c5f5060078a297b13b</guid>
-     <pubDate>Wed, 16 Jul 2025 01:16:04 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_47b31921f506419cbcd15538971210e8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>The Ranch’s adult programs include acrylic painting, such as this session in March. The joint recreation agency has been named the Business of the Year by the Tiburon Peninsula Chamber of Commerce in recognition of 50 years of providing classes, camps and other programs to the community. (Heather Wilson / The Ranch)</media:description>
    </item>
  </channel>
 </rss>
