@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 30 Jul 2025 21:09:50 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 30 Jul 2025 21:39:44 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon panel wants community feedback for positive-message street-sign art</title>
@@ -122,8 +122,7 @@
      <title>Tsunami alert upgraded to advisory for Tiburon Peninsula after Russia earthquake</title>
      <link>https://www.thearknewspaper.com/live/tsunami-alert-upgraded-to-advisory-for-tiburon-peninsula-after-russia-earthquake</link>
      <description>Tsunami advisory in effect for Tiburon Peninsula after 8.7 quake off Russia. Residents urged to avoid beaches and waterways.</description>
-     <content:encoded><![CDATA[<p>Note: The MarinOffice of Emergency Managementissued a notice at 10:55 a.m. July 30 that the warning has been canceled.</p>
-<p>The Tiburon Peninsula is under a tsunami advisory following an 8.7-magnitude earthquake that struck near Russia’s Kamchatka Peninsula at 4:25 today, July 29.</p>
+     <content:encoded><![CDATA[<p>The Tiburon Peninsula is under a tsunami advisory following an 8.7-magnitude earthquake that struck near Russia’s Kamchatka Peninsula at 4:25 today, July 29.</p>
 <p>A tsunami watch initially issued for the West Coast wasupgraded to an advisoryabout 6:30 p.m. for California, with the National Weather Service warning residents to stay away from beaches and waterways until further notice. The advisory is the middle level of the warning center’s three-tier alert system: watch, advisory and warning.</p>
 <p>Should a tsunami materialize, it would hit San Francisco overnight, at 12:40 a.m. July 30. In the Bay Area, the weather service is forecasting peak tsunami wave heights at less than 1 foot and can arrive as a series of waves or surges over several hours. No evacuations are advised at this time.</p>
 <p>“Stay away from the water! Stay away from beaches and waterways! Remain away from shore until local officials say that it is OK to return,” theNational Weather Service Bay Areawarned on social media.</p>
@@ -132,7 +131,7 @@
 <p>Marin County residents should register for Alert Marin, the county’s emergency notification system that delivers critical information during disasters, viaalertmarin.org. The free service sends alerts by phone, text, email or smartphone app to registered users when evacuation or other emergency actions are required. Updates are also available at theMarin Public Emergency Portal.</p>
 <p>AlertMarin allows registration of up to five addresses including home, work and schools. Listed landline numbers are automatically included, but cellphones and internet-based phone services require manual registration.</p>
 <p>If emergency sirens sound on the Tiburon Peninsula, residents should tune to 840AM for emergency information broadcasts. The SNAP radio system — Siren Notification Alerting the Peninsula — provides real-time updates when the peninsula is cut off from outside resources or faces immediate danger.</p>
-<p>Tuesday...</p>]]></content:encoded>
+<p>Tuesday’s earthquake struck about 80 miles southeast of Petropavlovsk-Kamchatka at a depth of 46 miles. The 8.7 magnitude quake is th...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Belvedere</category>
      <category>Tiburon</category>
