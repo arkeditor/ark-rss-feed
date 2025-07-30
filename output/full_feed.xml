@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 30 Jul 2025 13:10:56 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 30 Jul 2025 13:54:47 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon Town Hall exhibit features art from seniors dealing with memory loss</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-town-hall-exhibit-features-art-from-seniors-dealing-with-memory-loss</link>
+     <description>New exhibit at Tiburon Town Hall displays artwork from seniors with dementia, highlighting healing through art and connection.</description>
+     <content:encoded><![CDATA[<p>The latest art exhibit at Tiburon Town Hall features pieces created by participants of Tiburon Together, a weekly meetup hosted by Chabad of Tiburon for those living with dementia or Alzheimer’s disease.</p>
+<p>“The World is a Garden” will be on view in the downstairs lobby and council chambers Aug. 5-28, with an artists’ reception set for 6-8 p.m. Aug. 19. It includes 30 pieces created by three senior group participants, along with works by their caregivers, Tiburon Together program coordinator Judy Dick of Tiburon and the group’s art teacher, Jackie Datnow. The participants’ names are being kept anonymous for the show, hosted by the Heritage and Arts Commission, at the request of their families.</p>
+<p>Tiburon Together was founded in May 2024 by Chabad of Tiburon co-directors Rabbi Levi Mintz and his wife, Mirel. The group meets each Wednesday at Chabad of Tiburon’s community center at 1640 Tiburon Blvd. One of the activities offered is an afternoon of painting and chair yoga led by Dick, who says her mother had dementia.</p>]]></content:encoded>
+     <dc:creator>Diane Smith</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">68882c92e2fb1aad7071bba7</guid>
+     <pubDate>Wed, 30 Jul 2025 13:45:07 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_47aa39f693e9489c985cffebedb48727~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>A painting created by a participant in Tiburon Together, a weekly program for those living with dementia or Alzheimer’s disease, is featured in ‘The World is a Garden’ exhibit at Tiburon Town Hall Aug. 5-28. (via Belvedere-Tiburon Library)</media:description>
+   </item>
    <item>
      <title>Golda Clarkin Boeck</title>
      <link>https://www.thearknewspaper.com/live/golda-clarkin-boeck</link>
@@ -319,21 +333,6 @@
      <pubDate>Wed, 16 Jul 2025 14:00:48 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_558597b88d914ae4b02dd4a858170140~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Ark Travel Bug Marybeth Bond-Sheppard visited the Roman Theater of Cartagena during her cruise.</media:description>
-   </item>
-   <item>
-     <title>Belvedere probes cyberattack as report warns of rising risks</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-probes-cyberattack-as-report-warns-of-rising-risks</link>
-     <description>The May 28 breach occurred just a month before a Marin civil grand jury report about vulnerabilities across the county&apos;s independent networks.</description>
-     <content:encoded><![CDATA[<p>Belvedere is investigating a May cybersecurity incident that prompted the city to temporarily shut down its servers and network systems as officials work to determine whether any sensitive data was compromised.</p>
-<p>The May 28 breach occurred just one month before the Marin County civil grand jury released a June 27 report documenting two major cyberattacks since 2024 that cost local agencies nearly $1 million and exposed vulnerabilities across the county’s independent networks.</p>
-<p>City Manager Robert Zadnik said officials have identified the type of cyberattack but declined to share additional details, citing security risks. The city is working with the California Intergovernmental Risk Authority to investigate the incident, including whether any resident data or financial information was compromised.</p>
-<p>“It was an annoying inconvenience,” Zadnik said. “But also an opportunity to see where some vulnerabilities may lie and make improvements.”</p>
-<p>He said the investigation is expected to wrap up in a couple of months and that he hopes to update the City Council later this summer or in early fall.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">687696e897051c95031fdfb6</guid>
-     <pubDate>Wed, 16 Jul 2025 01:30:47 GMT</pubDate>
    </item>
  </channel>
 </rss>
