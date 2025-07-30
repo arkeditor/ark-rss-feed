@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 30 Jul 2025 13:54:47 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 30 Jul 2025 14:12:27 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Everyday Encounters: A former tennis player finds new passion for pickleball</title>
+     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-former-tennis-player-finds-new-passion-for-pickleball</link>
+     <description>At 83, Tiburon resident Robert Moore stays active playing pickleball, adapting to new challenges after rotator-cuff surgery.</description>
+     <content:encoded><![CDATA[<p>Robert Moore visits the Lagoon Road tennis courts twice a week to practice his pickleball serve and exercise.</p>
+<p>The 83-year-old Tiburon resident, a longtime former recreational tennis player, took up pickleball several years ago for a second chance on the courts after rotator-cuff surgery limited his ability to make overhand shots.</p>
+<p>“Very rarely does the ball come up high as opposed to tennis,” Moore says during a July 23 practice session. The plastic ball used for pickleball has less of a bounce than a tennis ball, he says.</p>
+<p>Moore moved to Tiburon in 2010 after spending most of his life in southern New Jersey, where he worked 35 years as a social studies teacher. He and his wife came to California because they were tired of flying west four or five times a year to visit their two children.</p>
+<p>While he misses the South Jersey coast — “you can always go on the water from about June to October” — Moore says Tiburon has the weather advantage the rest of the year.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Everyday Encounters</category>
+     <category>News</category>
+     <guid isPermaLink="false">68882a6e065ca46efaebcb25</guid>
+     <pubDate>Wed, 30 Jul 2025 14:00:25 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_b7ce397bd5304383be757d05c87c94fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon resident Robert Moore, 83, visits the Lagoon Road tennis courts twice a week to practice his pickleball serves. A longtime recreational tennis player, Moore says pickleball has been a great alternative for him because he can’t do overhead shots following rotator-cuff surgery. (Francisco Martinez / The Ark)</media:description>
+   </item>
    <item>
      <title>Tiburon Town Hall exhibit features art from seniors dealing with memory loss</title>
      <link>https://www.thearknewspaper.com/live/tiburon-town-hall-exhibit-features-art-from-seniors-dealing-with-memory-loss</link>
@@ -318,21 +335,6 @@
      <pubDate>Wed, 16 Jul 2025 14:15:08 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_e792a5d23d5a46a9aa7432a199880d9b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon resident David Haines, pictured here with his dog Fletcher, a Bichon Frisé-Maltese poodle hybrid, on July 9 near Greenwood and Brunini beaches, grew up in several countries thanks to his father’s work and spent parts of his career in information systems, including for the New York Times’ Information Bank. (Francisco Martinez / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Travel Bug: Mediterranean cruise crosses continents and cultures</title>
-     <link>https://www.thearknewspaper.com/live/travel-bug-mediterranean-cruise-crosses-continents-and-cultures</link>
-     <description>Over 11 days, the Travel Bug explored two continents and four countries, immersing ourselves in rich culture and history while celebrating a milestone anniversary.</description>
-     <content:encoded><![CDATA[<p>From Gaudí’s whimsical architecture in Barcelona and the red-and-white arches of Córdoba’s Great Mosque to the soaring Gothic cathedral of Seville and the vibrant souks of Marrakesh, our Windstar cruise from Barcelona to Lisbon fed my husband’s and my wanderlust in every way. Over 11 days aboard the intimate Star Legend, we explored two continents and four countries — Spain, Gibraltar, Morocco and Portugal — immersing ourselves in rich culture and history while celebrating a milestone anniversary.</p>
-<p>We began our journey with a blissfully relaxing sea day, a much-needed pause after the hustle of getting to Barcelona. We buzzed around the city for two full days to take in Gaudí’s masterpieces, including the awe-inspiring Sagrada Família and his whimsical home-turned-museum. Once aboard the ship, the pace shifted. I slipped easily into vacation mode, rotating between naps, reading, grazing at the buffet and lounging by the pool. Others booked spa treatments, played dominoes or joined enriching onboard lectures.</p>
-<p>The Star Legend, a luxury small ship with only 156 suites and a maximum of 312 guests, felt intimate and friendly. We weren’t the only ones celebrating something special. Birthdays, retirements, anniversaries — almost every table had a story. On our second night, we toasted with Dave and Jenny, a retired couple from North Carolina who were on their third Windstar cruise. As we sailed along Spain’s glittering coast, it was easy to see why they kept coming back.</p>]]></content:encoded>
-     <dc:creator>Marybeth Bond-Sheppard</dc:creator>
-     <category>News</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">687697c832c2554b5324ad33</guid>
-     <pubDate>Wed, 16 Jul 2025 14:00:48 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_558597b88d914ae4b02dd4a858170140~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Ark Travel Bug Marybeth Bond-Sheppard visited the Roman Theater of Cartagena during her cruise.</media:description>
    </item>
  </channel>
 </rss>
