@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 04 Aug 2025 14:17:27 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 04 Aug 2025 14:48:45 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon panel wants community feedback for positive-message street-sign art</title>
@@ -148,6 +148,9 @@
      <title>Belvedere wins state approval for housing element</title>
      <link>https://www.thearknewspaper.com/live/belvedere-wins-state-approval-for-housing-element</link>
      <description>Rezoning is still needed for full compliance, California housing agency officials say</description>
+     <content:encoded><![CDATA[<p>After three failed attempts and 2½ years out of compliance, Belvedere has won tentative approval for its housing plan pending rezoning changes city officials expect to complete by the end of the year.</p>
+<p>The California Department of Housing and Community Development’sJuly 16 letterto Belvedere says the fourth draft of its2023-2031 housing elementmeets all statutory requirements but cannot be considered in substantial compliance until city officials formally adopt the underlying zoning that would allow the new housing to be built.</p>
+<p>Belvedere was required to plan for at least 160 new units — up from 16 in the previous eight-year cycle — as part of California’s goal of 2.5 million new homes by 2030 and Plan Bay Area 2050’s regional target of 441,176 units. The city’s share includes 77 for lower incomes, 23 for moderate incomes and 60 for above-moderate incomes. The extra 28 units provide a buffer in case some sites are not developed to projected capacities.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>News</category>
      <category>Belvedere</category>
