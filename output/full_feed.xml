@@ -7,8 +7,24 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 06 Aug 2025 14:48:22 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 06 Aug 2025 15:12:54 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon officials back flood study for Greenwood Cove Drive</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-officials-back-flood-study-for-greenwood-cove-drive</link>
+     <description>$200k proposal aims to ease chronic road problems tied to tides and runoff</description>
+     <content:encoded><![CDATA[<p>Tiburon officials have backed spending an initial $200,000 to find easy fixes for frequent flooding along a stretch of Greenwood Cove Drive that sometimes spills over onto Tiburon Boulevard.</p>
+<p>The Marin Flood Control Zone 4 advisory board voted 3-0 at its July 22 meeting to direct county staff to send out requests for proposals to evaluate the area’s tidal flooding and stormwater drainage, particularly drainage from Upper Cecilia Way into East Creek. Member Liza Gregory Bass was absent, and the advisory board has one vacancy.</p>
+<p>“I think it’s a very worthwhile investment,” said member Sheldon Dorph, who sits on a subcommittee that determined the scope of the study. He said the study would eventually help “so that I don’t need a boat to get out of my house, but I can still take the car.”</p>
+<p>The Greenwood Cove Drive-Tiburon Boulevard corridor, which has segments in both incorporated and unincorporated Tiburon, has been known to flood following seasonal king tides. The flooding is magnified during substantial rainfall, sometimes causing the water to make its way to inbound Tiburon Boulevard, as it did last December, causing ankle-high flooding on Greenwood Cove and submerging an inbound lane on the boulevard next to the 76 gas station and the Marin Transit bus stop.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68924630564e1d0368d91213</guid>
+     <pubDate>Wed, 06 Aug 2025 14:59:07 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_d84d2bd6f0c146d0bc2748d49e08b6d0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>A car drives through floodwaters on Greenwood Cove Drive during the 7-foot king tide in November 2024. Tiburon officials have approved spending $200,000 for a study to find solutions for the recurring flooding along the Greenwood Cove Drive-Tiburon Boulevard corridor, with the study expected to take up to a year to complete. (Francisco Martinez archive / The Ark 2024)</media:description>
+   </item>
    <item>
      <title>Mallard Pointe faces delays as city flags incomplete permits, tenant-benefit issues</title>
      <link>https://www.thearknewspaper.com/live/mallard-pointe-faces-delays-as-city-flags-incomplete-permits-tenant-benefit-issues</link>
@@ -311,21 +327,6 @@
      <category>Belvedere</category>
      <guid isPermaLink="false">68881e2f065ca46efaeba786</guid>
      <pubDate>Wed, 30 Jul 2025 01:15:06 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon crime hits 11-year high; Belvedere’s drops to record low</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-crime-hits-11-year-high-belvedere-s-drops-to-record-low</link>
-     <description>Despite the town&apos;s spike in thefts, crime remains at or near historic lows on the peninsula and across California and Marin.</description>
-     <content:encoded><![CDATA[<p>Crime in Tiburon jumped to an 11-year high in 2024, with 102 total violent and property crimes ending a three-year streak of record lows and representing a 48% increase over the prior year. Meanwhile, crime continued to decrease across California and Marin, including in neighboring Belvedere, which fell 50% from 2023 to its lowest total in at least 40 years.</p>
-<p>Property crimes drove much of Tiburon’s increase, jumping 46% from 64 to 98 incidents, according to data departments reported to the California Department of Justice, released July 1. Crimes of opportunity like shoplifting hit an all-time high, and thefts from vehicles nearly doubled. Car thefts more than tripled to 10, tied with 1992 for the most on record.</p>
-<p>Home burglaries dropped to 13 from 16, and violent crimes decreased from five to four incidents.</p>]]></content:encoded>
-     <dc:creator>Kevin Hessel</dc:creator>
-     <category>News</category>
-     <category>Tiburon</category>
-     <category>Belvedere</category>
-     <guid isPermaLink="false">688820a33f524736c9e39d72</guid>
-     <pubDate>Wed, 30 Jul 2025 01:10:07 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f8de3dedc2cb488085f91cb894563aa7~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
    </item>
  </channel>
 </rss>
