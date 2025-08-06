@@ -7,8 +7,20 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 06 Aug 2025 11:38:43 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 06 Aug 2025 12:21:52 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Pick of the Week: Tiburon country singer returns for concert at HopMonk</title>
+     <link>https://www.thearknewspaper.com/live/pick-of-the-week-tiburon-country-singer-returns-for-concert-at-hopmonk</link>
+     <description>Tiburon native Lockwood Barr, Nashville songwriter and musician, performs Aug. 9 at HopMonk Tavern with Megan Barker and Caroline de Lone.</description>
+     <content:encoded><![CDATA[<p>Tiburon native Lockwood Barr will be performing at 8 p.m. Aug. 9 at HopMonk Tavern in Novato. Barr moved to Nashville to attend Vanderbilt University and has stayed, working as a songwriter, singer and studio musician, performing banjo, guitar and vocals. She has released three albums. The latest, “One Day I Will,” includes the song “Tornado Tree,” which was recently honored at the Hollywood Independent Music Awards in the Classic Country category. Barr was also nominated for best female vocals and best album. Also on the bill are Nashville native Megan Barker and Mill Valley native Caroline de Lone. Tickets are $35.75.arkn.ws/lockwoodtix.</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">68924a9c41c3d29183166107</guid>
+     <pubDate>Wed, 06 Aug 2025 12:00:10 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_385c86b6e39d4038b8277a184f06d2b8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Lockwood Barr (center), seen at the Hollywood Independent Music Awards at the Avalon Hollywood on July 30, won the Classic Country award for ‘Tornado Tree,’ written by Jeff Silbar (left) and produced by Devin Powers (right). (via Lynn Barr)</media:description>
+   </item>
    <item>
      <title>Tiburon resident wins best scone at fair</title>
      <link>https://www.thearknewspaper.com/live/tiburon-resident-wins-best-scone-at-fair</link>
@@ -331,20 +343,6 @@
      <guid isPermaLink="false">688019d13d56cfe14decf527</guid>
      <pubDate>Wed, 23 Jul 2025 14:00:51 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_c765280156824e309f63fe66f4537831~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-   </item>
-   <item>
-     <title>Tiburon says it won’t cooperate with ICE amid federal crackdown</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-says-it-won-t-cooperate-with-ice-amid-federal-crackdown</link>
-     <description>The Town Council will consider a sanctuary resolution in August, while the police chief says officers would seek to verify agent IDs.</description>
-     <content:encoded><![CDATA[<p>Tiburon officials have confirmed the town will not assist with any immigration-enforcement efforts as President Donald Trump’s tax and spending bill provides historic funding for federal immigration enforcement and deportation of undocumented immigrants nationwide.</p>
-<p>“We’re not assisting in any way, shape or form with ICE,” Police Chief Michelle Jean said July 15. U.S. Immigration and Customs Enforcement may still come to town and “do what they want to do, but we’re not going to assist them.”</p>
-<p>Tiburon Mayor Holli Thier said the Town Council would vote Aug. 6 on a sanctuary resolution amid ongoing federal actions.</p>
-<p>“As mayor, I will not allow the town of Tiburon to cooperate with ICE,” Thier said while commending the Police Department’s policy to not work with the immigration agency. “We want everyone in Tiburon to feel safe, respected and to live free from fear.”</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6880153056d6ad4c0ef0e133</guid>
-     <pubDate>Wed, 23 Jul 2025 02:30:11 GMT</pubDate>
    </item>
  </channel>
 </rss>
