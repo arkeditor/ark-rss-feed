@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 06 Aug 2025 20:12:00 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 06 Aug 2025 20:38:35 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon to honor Native American culture with dance, art, food</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-to-honor-native-american-culture-with-dance-art-food</link>
+     <description>Powwow dances, storytelling, native foods set for Tiburon’s first Native American heritage celebration Aug. 17 at Zelinsky Park.</description>
+     <content:encoded><![CDATA[<p>Arts and crafts, storytelling and a live dance performance from an internationally touring group are planned for Tiburon’s inaugural celebration of Native American culture and heritage, set for 1-4 p.m. Aug. 17 at Zelinsky Park.</p>
+<p>“I am thrilled to work with members of the American Indian community in Tiburon and Marin County to highlight the richness of contemporary Native American culture here in town,” said Heritage and Arts Commission Chair Arjun Gupta. The commission is co-organizing the free event, which also received financial support from Tiburon’s Diversity Inclusion Task Force.</p>
+<p>A highlight of the afternoon will be “powwow-style dances” performed by Sewam American Indian Dance. Tiburon resident and event co-organizer Eddie Madril, who co-directs the troupe with his wife, Sara Moncada, said the group will also educate attendees on origins of the dances performed and of regalia worn, and their performances will include audience participation for all ages.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">6892447abb9ceade70e13748</guid>
+     <pubDate>Wed, 06 Aug 2025 20:37:02 GMT</pubDate>
+   </item>
    <item>
      <title>Tiburon officials back flood study for Greenwood Cove Drive</title>
      <link>https://www.thearknewspaper.com/live/tiburon-officials-back-flood-study-for-greenwood-cove-drive</link>
@@ -314,19 +328,6 @@
      <pubDate>Wed, 30 Jul 2025 02:40:29 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_a0f7fc6233444245beb597b65f789181~mv2.jpeg/v1/fit/w_1000,h_999,al_c,q_80/file.jpeg" medium="image"/>
      <media:description>(via National Weather Service Bay Area)</media:description>
-   </item>
-   <item>
-     <title>Belvedere wins state approval for housing element</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-wins-state-approval-for-housing-element</link>
-     <description>Rezoning is still needed for full compliance, California housing agency officials say</description>
-     <content:encoded><![CDATA[<p>After three failed attempts and 2½ years out of compliance, Belvedere has won tentative approval for its housing plan pending rezoning changes city officials expect to complete by the end of the year.</p>
-<p>The California Department of Housing and Community Development’sJuly 16 letterto Belvedere says the fourth draft of its2023-2031 housing elementmeets all statutory requirements but cannot be considered in substantial compliance until city officials formally adopt the underlying zoning that would allow the new housing to be built.</p>
-<p>Belvedere was required to plan for at least 160 new units — up from 16 in the previous eight-year cycle — as part of California’s goal of 2.5 million new homes by 2030 and Plan Bay Area 2050’s regional target of 441,176 units. The city’s share includes 77 for lower incomes, 23 for moderate incomes and 60 for above-moderate incomes. The extra 28 units provide a buffer in case some sites are not developed to projected capacities.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>News</category>
-     <category>Belvedere</category>
-     <guid isPermaLink="false">68881e2f065ca46efaeba786</guid>
-     <pubDate>Wed, 30 Jul 2025 01:15:06 GMT</pubDate>
    </item>
  </channel>
 </rss>
