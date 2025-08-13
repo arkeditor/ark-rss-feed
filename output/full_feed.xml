@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 13 Aug 2025 07:12:41 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 13 Aug 2025 07:40:11 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon to honor Native American culture with dance, art, food</title>
@@ -214,16 +214,11 @@
      <title>Tiburon flood officials back $800k in design costs for creek restoration</title>
      <link>https://www.thearknewspaper.com/live/tiburon-flood-officials-back-800k-in-design-costs-for-creek-restoration</link>
      <description>Tiburon flood board backs design contracts for Bel Aire creek upgrades after trimming nearly $400K from original estimate.</description>
-     <content:encoded><![CDATA[<p>Tiburon flood officials have backed spending $700,000 to design a creek-restoration project aimed at reducing risks to the Bel Aire neighborhood after they trimmed the original estimate by nearly $400,000.</p>
-<p>The Marin Flood Zone District 4 advisory board voted 3-0 July 22 to recommend the county Board of Supervisors approve a $692,971 design contract with West Sacramento-based firm CBEC Inc. for the East and West creeks project. The supervisors’ vote is tentatively set for Aug. 19.</p>
-<p>In a separate vote, the flood board also approved a $100,000 project-management contract with Concord-based Harrison Engineering for the design work, updating an existing contract and bringing total design-related expenditures to $792,971.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">688826643f524736c9e3ae42</guid>
      <pubDate>Wed, 30 Jul 2025 14:45:20 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_cf7d2c381ccc4a658cc1c1059fa56e86~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A dried-up East Creek adjacent to The Cove shopping center’s parking lot is pictured here July 23. The Marin Flood Zone District 4 advisory board approved nearly $800,000 in design-related costs — $692,971 for design work and $100,000 for project management related to it — at its July 22 meeting for a creek-restoration project at the East and West creeks in Tiburon’s Bel Aire neighborhood to help reduce flood risks in the area. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Be Ready Belvedere honing city’s disaster prep</title>
