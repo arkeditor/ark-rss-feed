@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 16 Aug 2025 15:36:18 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 16 Aug 2025 16:25:26 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
@@ -30,10 +30,6 @@
      <title>Tiburon adds EV-readiness, stricter energy rules for more home projects</title>
      <link>https://www.thearknewspaper.com/live/tiburon-adds-ev-readiness-stricter-energy-rules-for-more-home-projects</link>
      <description>Tiburon will require EV-charging readiness and stricter energy-efficiency standards for more home projects starting in 2026.</description>
-     <content:encoded><![CDATA[<p>Tiburon homeowners planning construction and renovations will face new requirements for electric-vehicle charging readiness and stricter energy-efficiency standards starting next year.</p>
-<p>The new EV-readiness rule will apply to new construction and to upgrades involving main service panels at both single-family and multifamily residences. The energy-efficiency reach code, which “reaches” beyond state minimum requirements, will expand requirements to additions and alterations equaling or exceeding 500 square feet in single-family homes, down from the previous 750-square-foot threshold.</p>
-<p>Those standards, called the “Flex Path,” require projects to meet a target energy score of six points, with certain actions worth specific points values: having air sealing and water-heating packages are each worth one point, while a high-efficiency heat-pump water heater is worth 13 points. Additionally, all exterior lights must have LED light bulbs and photocell controls. Accessory dwelling units and junior units, mobile homes or manufactured homes and owners enrolled in a cost-saving program are exempt from the requirements.</p>
-<p>Enforcement of new provisions begins Jan. 1, 2026, after the Town Council at its Aug. 6 meeting unanimously approved the first reading to implement the changes. The council will conduct a second, required vote at its Aug. 20 meeting, and the ordinance will take effect 30 days later.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
