@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 18 Aug 2025 04:31:55 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 18 Aug 2025 05:15:46 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
@@ -74,9 +74,6 @@
      <title>Tiburon council advances updates for faster lot splits, duplex approvals</title>
      <link>https://www.thearknewspaper.com/live/tiburon-council-advances-updates-for-faster-lot-splits-duplex-approvals</link>
      <description>Tiburon updates housing rules to match new state law easing duplex, lot-split approvals in single-family neighborhoods.</description>
-     <content:encoded><![CDATA[<p>Tiburon will update local housing regulations to align them with recent changes to state law that streamline density increases in single-family neighborhoods.</p>
-<p>The Town Council voted unanimously Aug. 6 to approve amendments to municipal code governing urban lot splits and two-unit housing developments. The ordinances will return for final adoption at the council’s Aug. 20 meeting and take effect 30 days later.</p>
-<p>The changes will bring Tiburon into compliance with Senate Bill 450, which took effect Jan. 1 and modifies SB 9, California’s 2021 legislation allowing single-family homes to be converted into duplexes and residential parcels to be split into two lots without discretionary review.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
