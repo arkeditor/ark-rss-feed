@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 18 Aug 2025 02:52:41 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 18 Aug 2025 03:56:36 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
@@ -250,13 +250,10 @@
      <title>Pick of the Week: Tiburon country singer returns for concert at HopMonk</title>
      <link>https://www.thearknewspaper.com/live/pick-of-the-week-tiburon-country-singer-returns-for-concert-at-hopmonk</link>
      <description>Tiburon native Lockwood Barr, Nashville songwriter and musician, performs Aug. 9 at HopMonk Tavern with Megan Barker and Caroline de Lone.</description>
-     <content:encoded><![CDATA[<p>Tiburon native Lockwood Barr will be performing at 8 p.m. Aug. 9 at HopMonk Tavern in Novato. Barr moved to Nashville to attend Vanderbilt University and has stayed, working as a songwriter, singer and studio musician, performing banjo, guitar and vocals. She has released three albums. The latest, “One Day I Will,” includes the song “Tornado Tree,” which was recently honored at the Hollywood Independent Music Awards in the Classic Country category. Barr was also nominated for best female vocals and best album. Also on the bill are Nashville native Megan Barker and Mill Valley native Caroline de Lone. Tickets are $35.75.arkn.ws/lockwoodtix.</p>]]></content:encoded>
      <dc:creator>The Ark</dc:creator>
      <category>Entertainment</category>
      <guid isPermaLink="false">68924a9c41c3d29183166107</guid>
      <pubDate>Wed, 06 Aug 2025 12:00:10 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_385c86b6e39d4038b8277a184f06d2b8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Lockwood Barr (center), seen at the Hollywood Independent Music Awards at the Avalon Hollywood on July 30, won the Classic Country award for ‘Tornado Tree,’ written by Jeff Silbar (left) and produced by Devin Powers (right). (via Lynn Barr)</media:description>
    </item>
    <item>
      <title>Tiburon resident wins best scone at fair</title>
@@ -280,18 +277,12 @@
      <title>Transportation study flags Tiburon, Belvedere among 19 areas at risk from sea rise</title>
      <link>https://www.thearknewspaper.com/live/transportation-study-flags-tiburon-belvedere-among-19-areas-at-risk-from-sea-rise</link>
      <description>Sea-level rise study highlights Tiburon, Belvedere risks; town to vote on funding to launch adaptation plan under SB 272</description>
-     <content:encoded><![CDATA[<p>Tiburon will take its first steps toward meeting state mandates to address sea-level rise following a study that identified both Belvedere and Tiburon among 19 vulnerable areas across Marin County.</p>
-<p>Grace Ledwith, Tiburon’s climate action and sustainability coordinator, and Councilmember Alice Fredericks said the Town Council will vote tonight, Aug. 6, to accept a $593,877 grant from the California Ocean Protection Council. The grant will help the town meet mandates set by Senate Bill 272, which requires all coastal jurisdictions to develop and adopt Subregional Shoreline Adaptation Plans by 2034.</p>
-<p>Tiburon’s planned vote follows the Transportation Authority of Marin board’s 12-0 decision June 26 to accept its sea-level rise study, which aims to address “critical challenges posed by rising sea levels and coastal flooding to Marin County’s transportation infrastructure.” Fredericks and Belvedere Councilmember Pat Carapiet both sit on the transportation authority board.</p>
-<p>The study includes a voluntary adaptation policy that could provide additional funding to Tiburon and Belvedere. Jurisdictions that adopt the policy and align their sea-level rise goals with the transportation authority’s plan would gain access to Measure AA sales-tax funds for adaptation support, along with project development assistance, grant writing support and technical assistance.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">689243c9bb9ceade70e1358a</guid>
      <pubDate>Wed, 06 Aug 2025 01:30:10 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_90b9f29dec5b43d184b3f56ae193ee71~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Cracks are seen in the seawall along Beach Road, across from Cove Road, in Belvedere. The seawall has long been subject to erosion and crumbling, repaired as recently as 2019. The city is now planning a $3.8 million project to drive sheet piles under the sidewalks to further stabilize it. (via city of Belvedere)</media:description>
    </item>
    <item>
      <title>Russia quake triggered 19-hour tsunami advisory; local surge fizzled</title>
