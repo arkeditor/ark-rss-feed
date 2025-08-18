@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 18 Aug 2025 08:48:23 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 18 Aug 2025 09:15:18 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
@@ -221,11 +221,17 @@
      <title>Crib Notes: Nautical West Shore Road estate is on the market for $17.9 million</title>
      <link>https://www.thearknewspaper.com/live/crib-notes-nautical-west-shore-road-estate-is-on-the-market-for-17-9-million</link>
      <description>A 5,370-sq-ft West Shore home with two boat lifts and sweeping bay views lists for $17.9M after renovations and a price cut.</description>
+     <content:encoded><![CDATA[<p>A 5,370-square-foot waterfront Belvedere home featuring two boat lifts and panoramic views of San Francisco Bay is on the market for $17.9 million.</p>
+<p>The 97 West Shore Road residence features two stories and balances unique nautical details with modern interiors and amenities.</p>
+<p>“The house is big and beautiful, the volume is astounding,” said Compass real-estate agent Bill Smith, who holds the listing with colleague Linda Tull.</p>
+<p>The home was previously owned by longtime Belvedere resident and avid angler Martha Lyddon, who died in 2023. Lyddon kept her Grady-White fishing boat, the Shady Grady Lady, docked at the waterfront home and would frequently take it out into the bay.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">6892489070d5fdc372e7f668</guid>
      <pubDate>Wed, 06 Aug 2025 13:00:10 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_c36850d124814f3fb33cb8356fddae33~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The $17.9 million Belvedere estate at 97 West Shore Road features two boat lifts and panoramic views of San Francisco Bay, with the San Francisco skyline visible in the distance. (via Smith + Aylwin Team)</media:description>
    </item>
    <item>
      <title>Picks of the Week: Third annual Jewish festival at Zelinsky Park; Johnny Cash tribute for Concerts in the Park</title>
