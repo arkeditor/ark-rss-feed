@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 18 Aug 2025 06:17:10 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 18 Aug 2025 06:53:07 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
@@ -30,10 +30,6 @@
      <title>Tiburon adds EV-readiness, stricter energy rules for more home projects</title>
      <link>https://www.thearknewspaper.com/live/tiburon-adds-ev-readiness-stricter-energy-rules-for-more-home-projects</link>
      <description>Tiburon will require EV-charging readiness and stricter energy-efficiency standards for more home projects starting in 2026.</description>
-     <content:encoded><![CDATA[<p>Tiburon homeowners planning construction and renovations will face new requirements for electric-vehicle charging readiness and stricter energy-efficiency standards starting next year.</p>
-<p>The new EV-readiness rule will apply to new construction and to upgrades involving main service panels at both single-family and multifamily residences. The energy-efficiency reach code, which “reaches” beyond state minimum requirements, will expand requirements to additions and alterations equaling or exceeding 500 square feet in single-family homes, down from the previous 750-square-foot threshold.</p>
-<p>Those standards, called the “Flex Path,” require projects to meet a target energy score of six points, with certain actions worth specific points values: having air sealing and water-heating packages are each worth one point, while a high-efficiency heat-pump water heater is worth 13 points. Additionally, all exterior lights must have LED light bulbs and photocell controls. Accessory dwelling units and junior units, mobile homes or manufactured homes and owners enrolled in a cost-saving program are exempt from the requirements.</p>
-<p>Enforcement of new provisions begins Jan. 1, 2026, after the Town Council at its Aug. 6 meeting unanimously approved the first reading to implement the changes. The council will conduct a second, required vote at its Aug. 20 meeting, and the ordinance will take effect 30 days later.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -237,14 +233,10 @@
      <title>Picks of the Week: Third annual Jewish festival at Zelinsky Park; Johnny Cash tribute for Concerts in the Park</title>
      <link>https://www.thearknewspaper.com/live/picks-of-the-week-third-annual-jewish-festival-at-zelinsky-park-johnny-cash-tribute-for-concerts-i</link>
      <description>Tiburon, Belvedere host free Aug. 10 events: Jewish fest with food, music and crafts; Johnny Cash tribute concert at 4 p.m.</description>
-     <content:encoded><![CDATA[<p>Chabad of Tiburon’s third annual Tiburon Jewish Festival runs 1-4 p.m. Aug. 10 at Zelinsky Park behind the Tiburon Town Hall. Live music will feature Ferris Wheels, a Hasidic rock band that puts Jewish spins on popular songs, and the Sonoma County Klezmer Band, which plays traditional Eastern European folk tunes. The festival will include kids’ activities, arts and crafts, hands-on workshops on scribing and an “Ask a Rabbi” booth. Food will be provided by Hummus Bodega, serving hummus bowls and pita sandwiches, alongside wood-fired, dairy-free pizzas and kosher wines from Invei Wines. The event is free.tiburonjewishfestival.com.</p>
-<p>Belvedere’s next Concert in the Park features tribute performer James Garner singing the music of Johnny Cash at 4 p.m. Aug. 10 at Belvedere Community Park. Garner has been performing Cash’s music for nearly 20 years, including a show in Folsom State Prison to mark the 40th anniversary of Cash’s landmark concert there in 1968. Cash recorded 68 studio albums over his 46-year career, topping the charts with songs including “A Boy Named Sue” and “Ring of Fire.” Bee Gees’ tribute act You Should Be Dancing will return Aug. 31 for the final performance to close out the summer’s concert series. The event is free.belvedereconcerts.org.</p>]]></content:encoded>
      <dc:creator>The Ark</dc:creator>
      <category>Entertainment</category>
      <guid isPermaLink="false">6892491d70d5fdc372e7f796</guid>
      <pubDate>Wed, 06 Aug 2025 12:30:12 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_bad74a8630d545d2bedbd6d714d7be1f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Sonoma County Klezmer Band</media:description>
    </item>
    <item>
      <title>Pick of the Week: Tiburon country singer returns for concert at HopMonk</title>
