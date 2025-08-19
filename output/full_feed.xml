@@ -7,8 +7,19 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 19 Aug 2025 22:38:20 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 19 Aug 2025 23:09:19 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Caltrans poised to delay Tiburon Boulevard bike lanes over bus safety</title>
+     <link>https://www.thearknewspaper.com/live/caltrans-poised-to-delay-tiburon-boulevard-bike-lanes-over-bus-safety</link>
+     <description>Caltrans appears poised to delay controversial plans to install bike lanes along Tiburon Boulevard from Trestle Glen Boulevard to Blackfield Drive until fiscal 2027-2028.</description>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">68a4ffa71797dd082882868b</guid>
+     <pubDate>Tue, 19 Aug 2025 22:54:09 GMT</pubDate>
+   </item>
    <item>
      <title>Strawberry swimmer circles Lake Tahoe as training for 840-mile California coast swim</title>
      <link>https://www.thearknewspaper.com/live/strawberry-swimmer-circles-lake-tahoe-as-training-for-840-mile-california-coast-swim</link>
@@ -292,28 +303,6 @@
      <pubDate>Wed, 06 Aug 2025 01:30:10 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_90b9f29dec5b43d184b3f56ae193ee71~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Cracks are seen in the seawall along Beach Road, across from Cove Road, in Belvedere. The seawall has long been subject to erosion and crumbling, repaired as recently as 2019. The city is now planning a $3.8 million project to drive sheet piles under the sidewalks to further stabilize it. (via city of Belvedere)</media:description>
-   </item>
-   <item>
-     <title>Russia quake triggered 19-hour tsunami advisory; local surge fizzled</title>
-     <link>https://www.thearknewspaper.com/live/russia-quake-triggered-19-hour-tsunami-advisory-local-surge-fizzled</link>
-     <description>Tiburon Peninsula officials rely on AlertMarin, but just 34% in 94920 are signed up</description>
-     <content:encoded><![CDATA[<p>The Tiburon Peninsula was under a tsunami alert for nearly 19 hours last week after an 8.8-magnitude earthquake off Russia’s coast triggered the strongest global tsunami-alert system activation in more than a decade.</p>
-<p>No local evacuations were ordered, and no injuries or damage was reported.</p>
-<p>The National Oceanic and Atmospheric Administration’s National Tsunami Warning Center in Palmer, Alaska, first issued a tsunami watch July 29, the lowest-level alert, for the U.S. West Coast shortly after the quake struck at 4:25 p.m. Pacific. That was upgraded to an advisory at 6:30 p.m., with the initial surge predicted to hit San Francisco at 12:40 a.m. July 30.</p>
-<p>“Stay away from the water! Stay away from beaches and waterways! Remain away from shore until local officials say that it is OK to return,” the National Weather Service Bay Area warned on social media.</p>
-<p>Those warnings are standard under a second-tier tsunami advisory, which is issued when the surge is expected to produce strong currents and waves capable of flooding beaches and harbor areas but without widespread coastal inundation. A tsunami warning — like the one briefly issued on the Tiburon Peninsula after December’s 7.0-magnitude quake off Humboldt County — is more severe, signaling a dangerous surge likely to cause major flooding and prompting evacuation of at-risk zones.</p>
-<p>By Ark estimates, roughly 1,000 homes, businesses and public facilities sit in Tiburon’s and Belvedere’s combined tsunami inundation zones as mapped by the California Geological Survey, though that’s for an extreme event — a 9.3 Alaskan quake that would send a 13-foot wall of water to the peninsula.</p>
-<p>When the tsunami arrived in San Francisco Bay at 1:12 a.m. July 30, initial surges were less than one foot atop normal tides and storm surges. Within hours, the bay experienced tidal swings of 2 to 5 feet within 15-minute periods, creating dangerous currents, according to the weather service.</p>
-<p>While tsunami wave heights may seem modest, they travel at jet-plane speeds across deep ocean waters before slowing to 20-30 mph near shore, creating rapidly rising surges that appear as fast-moving floods rather than breaking waves.</p>
-<p>Point Reyes recorded the highest tidal deviation in Marin, nearly 2 feet at 4 a.m., more than three hours after the initial surge arrived, the weather service reported. The regional alert was canceled about 11 a.m. July 30, though water levels continued to fluctuate...</p>]]></content:encoded>
-     <dc:creator>Kevin Hessel</dc:creator>
-     <category>Tiburon</category>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">689244e6bb9ceade70e1384b</guid>
-     <pubDate>Wed, 06 Aug 2025 01:00:11 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_e16fd6a5cf6344788b8478972adb243d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Last week’s 8.8 earthquake in Russia initially triggered a tsunami watch on the West Coast, indicating a tsunami was possible and to be prepared. That was later elevated to a tsunami advisory, which means a tsunami is expected to strike and could cause dangerous currents and waves, potentially flooding beaches and harbors. People are advised to keep their distance. (via NOAA)</media:description>
    </item>
  </channel>
 </rss>
