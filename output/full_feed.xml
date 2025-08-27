@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 27 Aug 2025 13:01:16 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 27 Aug 2025 13:42:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Town Hall hosts wildlife photography and Cedars art exhibitions</title>
+     <link>https://www.thearknewspaper.com/live/town-hall-hosts-wildlife-photography-and-cedars-art-exhibitions</link>
+     <description>Two art exhibitions open at Tiburon Town Hall featuring wildlife photography and work by artists with developmental disabilities.</description>
+     <content:encoded><![CDATA[<p>A Novato resident’s photographs of wide-eyed owls, bobcats scratching an itch, birds throwing their necks back in a mating dance and other creatures will be on display in the upstairs Community Room of Town Hall starting Aug. 28, while two clients of nonprofit Cedars of Marin will exhibit their art in the downstairs lobby and council chambers of the building starting Sept. 3.</p>
+<p>“Curating Color: Wildlife Photography from Marin and Beyond” by Susan B. Katz is set to run through Oct. 31, with an artist’s reception planned for 6-8 p.m. Sept. 19.</p>
+<p>Meanwhile, “Cedars in Town” will showcase the art of P. J. Randolph and Reed Fesh­bach of Cedars of Marin, which offers support and services to adults with developmental disabilities. That show runs through Oct. 30, with an artists’ reception set for 6-8 p.m. Sept. 9.</p>]]></content:encoded>
+     <dc:creator>Diane Smith</dc:creator>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">68adec1790fd11b5fc7864ad</guid>
+     <pubDate>Wed, 27 Aug 2025 13:30:13 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_a5c5a372f67b4f22a78469688ee34361~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>‘The Offering’ is part of Susan B. Katz’s ‘Curating Color: Wildlife Photography from Marin and Beyond’ exhibit, opening Aug. 28 at Tiburon Town Hall.</media:description>
+   </item>
    <item>
      <title>Belvedere raises ADU height limit on steep lots for faster approvals</title>
      <link>https://www.thearknewspaper.com/live/belvedere-raises-adu-height-limit-on-steep-lots-for-faster-approvals</link>
@@ -312,24 +326,6 @@
      <guid isPermaLink="false">689cca4f6aa481be491f85b4</guid>
      <pubDate>Wed, 13 Aug 2025 17:25:56 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_51a750f8d90c4107bc54d27fe6d97a7a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-   </item>
-   <item>
-     <title>Tiburon artist laureate aims to bridge community, environment</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-artist-laureate-aims-to-bridge-community-environment</link>
-     <description>Christa Grenawalt begins a four-year term as the town&apos;s newest cultural ambassador.</description>
-     <content:encoded><![CDATA[<p>Artist Christa Grenawalt says she draws much of her inspiration from immersing herself in her surroundings.</p>
-<p>Whether she’s plein air painting on the beaches of the Hawaiian isle of Kauai or more locally at Ring Mountain, Mount Tiburon or Old St. Hilary’s Open Space Preserve, she says she values “dropping in and paying attention to things that might normally be unnoticed in our environment and in nature.”</p>
-<p>As an artist, she says, she not only wants to engage with her environment but with the larger community — and she’ll have the chance to do just that over the next four years as Tiburon’s artist laureate. She was appointed to the position by a unanimous vote of the council at its Aug. 6 meeting, replacing Richard Rozen, whose term ended in May 2022. Rozen crowned Grenawalt with a laurel wreath at the meeting to mark the handoff.</p>
-<p>Grenawalt, 51, said she was looking into fostering creativity, nature and community, listing outdoor installations and participatory art as potential public projects to explore during her term, during which she noted she hopes to help locals “see themselves as part of a living artwork rooted in place and history and in a shared hope.”</p>
-<p>“I believe that art can act as a bridge, and in this role, I’m hoping to use it to create connection between generations and across the communities here,” she told councilmembers.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Featured</category>
-     <category>News</category>
-     <category>Tiburon</category>
-     <guid isPermaLink="false">689cc8f8df9fab6286ae51de</guid>
-     <pubDate>Wed, 13 Aug 2025 17:20:55 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f7e475fc7df548f583e346fcd0461473~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon resident Christa Grenawalt, seen Aug. 7 at her studio at Sausalito’s Industrial Building Center, has been named the town’s newest artist laureate. Her work includes paintings inspired by local landscapes, and she says she will look to use her four-year tenure to foster conversations on the environment through art. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
