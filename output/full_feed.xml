@@ -7,8 +7,36 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 27 Aug 2025 13:42:15 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 27 Aug 2025 14:09:39 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Everyday Encounters: A visiting artist tries to be mindful as can be</title>
+     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-visiting-artist-tries-to-be-mindful-as-can-be</link>
+     <description>El Cerrito artist Jim Vecchi visits Tiburon by chance, sharing how his MS diagnosis inspired an 8-year video project.</description>
+     <content:encoded><![CDATA[<p>Jim Vecchi ended up visiting Tiburon last week by pure luck.</p>
+<p>The 69-year-old El Cerrito resident was planning a trip into San Francisco thinking it would be warm, then wandered to Tiburon Aug. 20 because the city was too cold. He eventually settled on relaxing in Fountain Plaza.</p>
+<p>“It’s just so beautiful to be by the waterside here,” he says.</p>
+<p>He’s not a total stranger to the area. Vecchi previously lived in Fairfax and grew familiar with Tiburon and its restaurants, visiting “quite often.” This visit marks his first in roughly 18 months.</p>
+<p>While Vecchi said he enjoyed Marin’s nature while in Fairfax, the county’s lack of diversity wasn’t great for him. Living closer to Berkeley and Oakland provides him “a whole different scene.”</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Everyday Encounters</category>
+     <guid isPermaLink="false">68adeb31d8941e921d341516</guid>
+     <pubDate>Wed, 27 Aug 2025 14:00:27 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_3abececb21c744b08e6d663caded78f3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>El Cerrito resident Jim Vecchi is a photo and video artist whose works have been exhibit around the world. A former Fairfax resident, he visited Tiburon on Aug. 20 after a planned trip to San Francisco was cut short due to the cold. (Francisco Martinez / The Ark)</media:description>
+   </item>
+   <item>
+     <title>Pick of the Week: Bee Gees tribute closes out Belvedere park concert series</title>
+     <link>https://www.thearknewspaper.com/live/pick-of-the-week-bee-gees-tribute-closes-out-belvedere-park-concert-series</link>
+     <description>Bee Gees tribute band You Should Be Dancing closes Belvedere&apos;s free park concert series Aug. 31 at 4 p.m.</description>
+     <content:encoded><![CDATA[<p>At 4 p.m. Aug. 31, bring a blanket or low seating along with a picnic to Belvedere Community Park, 450 San Rafael Ave., for Bee Gee’s tribute act You Should Be Dancing, the final Belvedere Concert in the Park. The group performs all the tight harmonies and falsettos of the band’s giant hits, including “Staying Alive,” “How Deep Is Your Love” and “Night Fever” from the soundtrack to “Saturday Night Fever,” as well as songs the brothers wrote for other performers. The group previously played the Father’s Day concert last year. The event is free; platform disco shoes and incredibly tight polyester pants are optional. belvedereconcerts.org.</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>Entertainment</category>
+     <category>Belvedere</category>
+     <guid isPermaLink="false">68adeb9fd8941e921d341677</guid>
+     <pubDate>Wed, 27 Aug 2025 13:45:12 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_f31bbcdd1e7f4208b9123addf84825d4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Town Hall hosts wildlife photography and Cedars art exhibitions</title>
      <link>https://www.thearknewspaper.com/live/town-hall-hosts-wildlife-photography-and-cedars-art-exhibitions</link>
@@ -297,35 +325,6 @@
      <category>News</category>
      <guid isPermaLink="false">689ccba17fbeba54803c9eae</guid>
      <pubDate>Wed, 13 Aug 2025 17:32:50 GMT</pubDate>
-   </item>
-   <item>
-     <title>Everyday Encounter: A pair of teens gets to know each other over lunch at The Boardwalk</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounter-a-pair-of-teens-gets-to-know-each-other-over-lunch-at-the-boardwalk</link>
-     <description>Teens Hunter Cristo and Liat Holden connect over lunch after a random Safeway encounter, sharing lacrosse dreams and life goals.</description>
-     <content:encoded><![CDATA[<p>Hunter Cristo and Liat Holden are sharing lunch behind Rustic Bakery on Aug. 6, soon after the two 17-year-olds met randomly in the Strawberry Village Safeway.</p>
-<p>“She was super bold,” Hunter says. “She just came up to me in the grocery store.”</p>
-<p>Liat says she noticed Hunter’s “Program X Lacrosse” T-shirt.</p>
-<p>“I thought he looked familiar,” she says. “And I wanted to know where he got his shirt.”</p>
-<p>The two found themselves talking for so long they decided to grab lunch together, heading over to The Boardwalk shopping center to eat their salad and sushi behind Rustic Bakery.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Everyday Encounters</category>
-     <guid isPermaLink="false">689ccae6df9fab6286ae5812</guid>
-     <pubDate>Wed, 13 Aug 2025 17:29:27 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_85f46da2e3d4418189db78a1dce39b0b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Liat Holden and Hunter Cristo are seen Aug. 6 behind Rustic Bakery at The Boardwalk shopping center after meeting earlier that day at the Strawberry Village Safeway. The two 17-year-olds decided to have lunch together after striking up a conversation in the grocery store. (Tyler Callister / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Pick of the Week: Tiburon Native American cultural festival Sunday</title>
-     <link>https://www.thearknewspaper.com/live/pick-of-the-week-native-americancultural-festival-sunday</link>
-     <description>The inaugural Tiburon Native American Arts and Cultural Event runs from 1 to 4 p.m. Aug. 17 in Zelinsky Park.</description>
-     <content:encoded><![CDATA[<p>The inaugural Tiburon Native American Arts and Cultural Event runs from 1 to 4 p.m. Aug. 17 in Zelinsky Park behind Town Hall. Organized by the Heritage and Arts Commission, with support from Tiburon’s Diversity Inclusion Task Force, the event will include storytelling, crafts, food for purchase and a live dance performance by Sewam American Indian Dance, which is co-directed by Tiburon residents Eddie Madril and his wife, Sara Moncada. Both are a part of the Yaqui peoples based in southern Arizona and northern Sonora, Mexico, and they teach in the American Indian Studies department at San Francisco State University. The event is free.townoftiburon.org.</p>]]></content:encoded>
-     <dc:creator>The Ark</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">689cca4f6aa481be491f85b4</guid>
-     <pubDate>Wed, 13 Aug 2025 17:25:56 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_51a750f8d90c4107bc54d27fe6d97a7a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
