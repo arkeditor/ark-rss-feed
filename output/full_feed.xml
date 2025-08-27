@@ -7,8 +7,54 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 27 Aug 2025 00:45:30 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 27 Aug 2025 02:20:22 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Belvedere raises ADU height limit on steep lots for faster approvals</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-raises-adu-height-limit-on-steep-lots-for-faster-approvals</link>
+     <description>Belvedere approves streamlined permits for taller backyard housing units on sloped properties.</description>
+     <content:encoded><![CDATA[<p>Belvedere will soon allow property owners to build 25-foot accessory dwelling units on steep lots with rubber-stamp approval.</p>
+<p>The City Council tentatively approved revisions to its accessory-unit ordinance — which include other increased height limits, modified front-yard setback requirements, expanded amnesty for unpermitted units and allowing up to eight detached units on multifamily properties — in a 4-0 vote Aug. 11, with Councilmember Peter Mark absent.</p>
+<p>A second reading for formal adoption is tentatively scheduled for Sept. 8, after which the new rules would take effect 30 days later.</p>
+<p>The revisions are primarily housekeeping, updating Belvedere’s municipal code to reflect statewide accessory-unit laws that took effect in January. The most significant local decision extends a new 25-foot height limit to detached units on lots with slopes exceeding 30%, going beyond state requirements that apply only to attached units.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">68ade9376e26accbc6cd258b</guid>
+     <pubDate>Wed, 27 Aug 2025 02:00:19 GMT</pubDate>
+   </item>
+   <item>
+     <title>Belvedere-Tiburon Library will commemorate 30 years of independence</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-tiburon-library-will-commemorate-30-years-of-independence</link>
+     <description>The Belvedere-Tiburon Library marks 30 years of independence from county control with celebration events Sept. 5 and 7.</description>
+     <content:encoded><![CDATA[<p>Thirty years after breaking free from county control, the Belvedere-Tiburon Library will celebrate its independence with two community events Sept. 5 and 7.</p>
+<p>The anniversary celebration begins with an adult event open to the public from 5 to 7 p.m. Sept. 5 in the Founders Room. The evening will feature appetizers, wine, cocktails and music, along with a photo slideshow showcasing the library’s history and a talk on its beginnings.</p>
+<p>A family-friendly celebration follows from noon to 3 p.m. Sept. 7 at the library’s main patio. The event will include kids’ entertainment, crafts, face painting, a balloon artist, magic show, bouncy house and food trucks offering tacos, Mediterranean cuisine and shaved ice.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68ade88dcdd969a2029d79cc</guid>
+     <pubDate>Wed, 27 Aug 2025 01:30:06 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_4fc72a028c824052955f72936bdcd863~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Belvedere-Tiburon Library is celebrating its 30th anniversary of independence from the county this year. The library and its governing body, the Belvedere-Tiburon Library Agency, convened in 1995, helping begin the process to build a new library to replace the old one on Beach Road, now part of the local post office. The library at 1501 Tiburon Blvd. opened in April 1997, and a renovation and expansion was completed in September 2022. (The Ark archives)</media:description>
+   </item>
+   <item>
+     <title>Tiburon girls tackle new territory with flag football</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-girls-tackle-new-territory-with-flag-football</link>
+     <description>Two Tiburon girls turn yearlong campaign into reality, launching Redwood&apos;s first girls&apos; varsity flag football team with 30 players.</description>
+     <content:encoded><![CDATA[<p>Redwood High School students Lauren Van Dusen and Juliet McNamara were watching this year’s Super Bowl at Lauren’s home when a commercial caught their attention.</p>
+<p>In the “Flag 50” ad, a female flag-football player runs down the field under stadium lights. She dodges, leaps and twists her way past the opposing players, finally dashing into the end zone as the crowd crescendos into a roar. The ad concludes with the words: “Let’s make girls’ flag football a varsity sport in all 50 states.”</p>
+<p>The ad resonated with the 16-year-old Tiburon residents because they were in the midst of campaigning to start a girls’ flag-football team at Redwood, where both are juniors.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Sports</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>School News</category>
+     <guid isPermaLink="false">68ade7ee90fd11b5fc785a14</guid>
+     <pubDate>Wed, 27 Aug 2025 01:00:17 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_a20ee2627ef7418ea06810ee4e906492~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon residents Lauren Van Dusen (left) and Juliet McNamara spearheaded the effort to create Redwood High School’s inaugural girls’ varsity flag-football team. They join five other teams in the Marin County Athletic League, with their first game at home Sept. 8 against Novato. (Ted McDonnell / For The Ark)</media:description>
+   </item>
    <item>
      <title>Notes from an Appraiser: Selecting works for ‘Wabi-Sabi’ exhibit was fun break from routine</title>
      <link>https://www.thearknewspaper.com/live/notes-from-an-appraiser-selecting-works-for-wabi-sabi-exhibit-was-fun-break-from-routine</link>
@@ -284,50 +330,6 @@
      <pubDate>Wed, 13 Aug 2025 17:20:55 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_f7e475fc7df548f583e346fcd0461473~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon resident Christa Grenawalt, seen Aug. 7 at her studio at Sausalito’s Industrial Building Center, has been named the town’s newest artist laureate. Her work includes paintings inspired by local landscapes, and she says she will look to use her four-year tenure to foster conversations on the environment through art. (Francisco Martinez / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Tiburon to honor Native American culture with dance, art, food</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-to-honor-native-american-culture-with-dance-art-food</link>
-     <description>Powwow dances, storytelling, native foods set for Tiburon’s first Native American heritage celebration Aug. 17 at Zelinsky Park.</description>
-     <content:encoded><![CDATA[<p>Arts and crafts, storytelling and a live dance performance from an internationally touring group are planned for Tiburon’s inaugural celebration of Native American culture and heritage, set for 1-4 p.m. Aug. 17 at Zelinsky Park.</p>
-<p>“I am thrilled to work with members of the American Indian community in Tiburon and Marin County to highlight the richness of contemporary Native American culture here in town,” said Heritage and Arts Commission Chair Arjun Gupta. The commission is co-organizing the free event, which also received financial support from Tiburon’s Diversity Inclusion Task Force.</p>
-<p>A highlight of the afternoon will be “powwow-style dances” performed by Sewam American Indian Dance. Tiburon resident and event co-organizer Eddie Madril, who co-directs the troupe with his wife, Sara Moncada, said the group will also educate attendees on origins of the dances performed and of regalia worn, and their performances will include audience participation for all ages.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">6892447abb9ceade70e13748</guid>
-     <pubDate>Wed, 06 Aug 2025 20:37:02 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon officials back flood study for Greenwood Cove Drive</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-officials-back-flood-study-for-greenwood-cove-drive</link>
-     <description>$200k proposal aims to ease chronic road problems tied to tides and runoff</description>
-     <content:encoded><![CDATA[<p>Tiburon officials have backed spending an initial $200,000 to find easy fixes for frequent flooding along a stretch of Greenwood Cove Drive that sometimes spills over onto Tiburon Boulevard.</p>
-<p>The Marin Flood Control Zone 4 advisory board voted 3-0 at its July 22 meeting to direct county staff to send out requests for proposals to evaluate the area’s tidal flooding and stormwater drainage, particularly drainage from Upper Cecilia Way into East Creek. Member Liza Gregory Bass was absent, and the advisory board has one vacancy.</p>
-<p>“I think it’s a very worthwhile investment,” said member Sheldon Dorph, who sits on a subcommittee that determined the scope of the study. He said the study would eventually help “so that I don’t need a boat to get out of my house, but I can still take the car.”</p>
-<p>The Greenwood Cove Drive-Tiburon Boulevard corridor, which has segments in both incorporated and unincorporated Tiburon, has been known to flood following seasonal king tides. The flooding is magnified during substantial rainfall, sometimes causing the water to make its way to inbound Tiburon Boulevard, as it did last December, causing ankle-high flooding on Greenwood Cove and submerging an inbound lane on the boulevard next to the 76 gas station and the Marin Transit bus stop.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">68924630564e1d0368d91213</guid>
-     <pubDate>Wed, 06 Aug 2025 14:59:07 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_d84d2bd6f0c146d0bc2748d49e08b6d0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A car drives through floodwaters on Greenwood Cove Drive during the 7-foot king tide in November 2024. Tiburon officials have approved spending $200,000 for a study to find solutions for the recurring flooding along the Greenwood Cove Drive-Tiburon Boulevard corridor, with the study expected to take up to a year to complete. (Francisco Martinez archive / The Ark 2024)</media:description>
-   </item>
-   <item>
-     <title>Mallard Pointe faces delays as city flags incomplete permits, tenant-benefit issues</title>
-     <link>https://www.thearknewspaper.com/live/mallard-pointe-faces-delays-as-city-flags-incomplete-permits-tenant-benefit-issues</link>
-     <description>Revisions were expected as routine back-and-forth process enters next phase</description>
-     <content:encoded><![CDATA[<p>The Mallard Pointe housing development faces construction delays until at least next spring after Belvedere officials found the developer failed to provide relocation benefits to displaced tenants and submitted incomplete permit applications missing dozens of required approvals.</p>
-<p>The 40-unit lagoon-front project across from City Hall would demolish 22 existing rental units and build 40 new units at 1-22 Mallard Road. Belvedere on July 22 sent Thompson Dorfman LLC, a partner in owner Mallard Pointe 1951 LLC, incompleteness notices regarding the initial demolition and infrastructure plans submitted between October and April and bulkhead-replacement plans submitted in January and February, along with a compliance inquiry letter submitted June 18.</p>
-<p>Principal Bruce Dorfman said he plans to submit revisions in the coming weeks and hopes to begin work next spring. He and Planning Director Rebecca Markwick both noted the process is routine, with Dorfman saying this kicks off what likely will be several iterations back and forth in a process that could last through the end of the year.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">6892469470d5fdc372e7f16a</guid>
-     <pubDate>Wed, 06 Aug 2025 14:30:13 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_61aea65b867b46bbbc346cb39b92f8a2~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
