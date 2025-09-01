@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 01 Sep 2025 10:42:13 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 01 Sep 2025 11:08:27 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Park Lane steps reopen in Belvedere after concrete replacement project</title>
@@ -159,14 +159,10 @@
      <title>Notes from an Appraiser: Selecting works for ‘Wabi-Sabi’ exhibit was fun break from routine</title>
      <link>https://www.thearknewspaper.com/live/notes-from-an-appraiser-selecting-works-for-wabi-sabi-exhibit-was-fun-break-from-routine</link>
      <description>Appraiser Cynthia Shaver juries O’Hanlon Center’s “Wabi-Sabi” exhibit in Mill Valley, celebrating beauty in imperfection with 60 selected works.</description>
-     <content:encoded><![CDATA[<p>Recently I was the jurist for O’Hanlon Center for the Arts’ annual “Wabi-Sabi” exhibition. The name of the exhibit refers to the Japanese aesthetic philosophy that finds beauty in imperfection. It was this celebration of an “oops moment” that originally attracted me to Japan, a country I have visited dozens of times over 40 years.</p>
-<p>In preparation to judge the Mill Valley exhibit, I watched a few videos on YouTube with the theme of wabi-sabi. The philosophy seemed so natural to me, the appreciation of the fine line of whimsy with serious art. As the jurist, I was tasked with selecting approximately 60 artworks from a submission of around 180 pieces. There were approximately 60 artists who submitted their art.</p>]]></content:encoded>
      <dc:creator>Cynthia Shaver</dc:creator>
      <category>Entertainment</category>
      <guid isPermaLink="false">68a609df0937a192ff94c35b</guid>
      <pubDate>Wed, 20 Aug 2025 17:47:22 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_886accf561674de3a584d218373776ea~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>I served as jurist for O’Hanlon Center for the Arts’ annual ‘Wabi-Sabi’ exhibition, selecting approximately 60 artworks from about 180 submissions for the show, which runs through Sept. 25 in Mill Valley. (Cynthia Shaver / For The Ark)</media:description>
    </item>
    <item>
      <title>Belvedere weighs policy to reverse historic home designations</title>
