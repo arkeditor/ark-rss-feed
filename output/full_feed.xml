@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 09 Sep 2025 20:10:04 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 09 Sep 2025 20:35:42 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Ex-official sues Tiburon over alleged pregnancy harassment</title>
+     <link>https://www.thearknewspaper.com/live/ex-official-sues-tiburon-over-alleged-pregnancy-harassment</link>
+     <description>Fired town official claims colleagues mocked &quot;pregnant belly and pregnant ass&quot; while manager refused to intervene.</description>
+     <content:encoded><![CDATA[<p>Tiburon’s former director of administrative services is suing the town, alleging she was harassed by two of her colleagues throughout her pregnancy and upon her return from maternity leave. She also alleges top officials, including the town manager, not only failed to stop the behavior but retaliated against her when she reported it.</p>
+<p>In the complaint, which was filed in Sonoma Superior Court and is currently being transferred to Marin Superior Court, Suzanne Creekmore accuses Finance Manager Troy Bassett and former Director of Community Development Dina Tasini of making disparaging remarks about her pregnancy, which she disclosed in summer 2022.</p>
+<p>Bassett, who reported directly to Creekmore, allegedly called a pregnant woman’s stomach a “horrible belly” and said she was “‘pissed’ about (Creekmore’s) planned maternity leave because her temporary absence would impact (Bassett’s) ‘lifestyle,’” while Tasini reportedly mocked Creekmore’s appearance, including saying she had a “pregnant belly, and a pregnant ass!” in front of colleagues and telling Creekmore in private to “get a different job” because Creekmore “would no longer be able to perform her duties as director once her baby was born.”</p>
+<p>Creekmore's claim states she was fired in April 2024. All those named in the suit declined to comment.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">68c06514e6f9264530e34729</guid>
+     <pubDate>Tue, 09 Sep 2025 20:32:23 GMT</pubDate>
+   </item>
    <item>
      <title>Belvedere’s first lot-split property hits the market</title>
      <link>https://www.thearknewspaper.com/live/belvedere-s-first-lot-split-property-hits-the-market</link>
@@ -308,19 +322,6 @@
      <pubDate>Wed, 20 Aug 2025 17:43:41 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_312adb9630214cf3a29bf23b033b3dff~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>The ‘Hansel and Gretel House’ at 246 Beach Road in Belvedere features storybook architecture designed by Jack Heidelberg in the mid-to-late 1930s. The City Council approved historic designation for the 1,935-square-foot cottage on Aug. 14, 2023, making it Belvedere’s 28th historic property. Owner Gal Bar-Or had intended to join the city’s Mills Act program for a property-tax reduction, but the council ended the program before the home could be considered, and now Bar-Or wants to rescind the historic status. (via city of Belvedere 2023)</media:description>
-   </item>
-   <item>
-     <title>Belvedere seeking short-term police help from Marin County</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-seeking-short-term-police-help-from-marin-county</link>
-     <description>Belvedere to hire a Marin sheriff’s deputy for up to six months to fill police staffing gaps as the city recruits a another full-time patrol officer.</description>
-     <content:encoded><![CDATA[<p>Belvedere plans to contract with the Marin County Sheriff’s Office to help cover short-term police staffing gaps as it continues hiring efforts to permanently solidify the force.</p>
-<p>In an Aug. 11 report to the City Council, City Manager Robert Zadnik said the city plans to borrow a deputy from the Sheriff’s Office to help cover shifts in Belvedere for three to six months. The move is meant to help ease chronic understaffing that has left four officers working 12-hour shifts and overtime to maintain round-the-clock coverage.</p>
-<p>Zadnik said Aug. 11 that a draft agreement had been sent to the county, and in an Aug. 15 interview added that he hoped to have the contract finalized — and the deputy in service — within the next couple of weeks. The deputy, who would be outfitted in a Belvedere police uniform and drive a city police vehicle, will likely work night shifts, where the department’s needs are greatest, Zadnik said. Police Chief Jason Wu will have final say on the deputy selected.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">68a608a3e258c875dfd55fc9</guid>
-     <pubDate>Wed, 20 Aug 2025 17:41:42 GMT</pubDate>
    </item>
  </channel>
 </rss>
