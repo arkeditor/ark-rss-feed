@@ -7,8 +7,24 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 10 Sep 2025 14:38:28 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 10 Sep 2025 15:09:43 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>From law to landscapes, Belvedere artist finds first solo stage in Big Apple</title>
+     <link>https://www.thearknewspaper.com/live/from-law-to-landscapes-belvedere-artist-finds-first-solo-stage-in-big-apple</link>
+     <description>al real estate analyst&apos;s 2010 painting class gift from wife leads to debut solo show.</description>
+     <content:encoded><![CDATA[<p>In his late 30s, commercial real-estate analyst Brian Higgins received an unexpected Christmas gift from his wife: A painting class.</p>
+<p>Higgins had long worked with what he calls his “analytical” mind, first earning a law degree from the University of California College of the Law at San Francisco, then called UC Hastings, in the 1990s, then building a career in commercial real estate. The introduction to painting class, he says, awakened something he’d lost long ago.</p>
+<p>Fifteen years later, the Belvedere resident has landed his first solo art exhibition. “Ascend: The Evolution of Identity” will be held Sept. 30-Oct. 11 at the Alessandro Berni Gallery in New York City. Beyond a collection of his impressionism-meets-abstraction paintings, the exhibition will also feature a live painting performance, during which Higgins will create a full piece before an audience.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">68c075fee6f9264530e37a51</guid>
+     <pubDate>Wed, 10 Sep 2025 14:45:05 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_035786fa7f8b4708b813b836533e4405~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Belvedere resident Brian Higgins poses with one of his paintings on his deck Sept. 2, with the bay view that inspires much of his artwork. (Tyler Callister / The Ark)</media:description>
+   </item>
    <item>
      <title>Locals take to the streets for Run Tiburon 10K &amp; 5K</title>
      <link>https://www.thearknewspaper.com/live/locals-take-to-the-streets-for-run-tiburon-10k-5k</link>
@@ -324,18 +340,6 @@
      <pubDate>Wed, 27 Aug 2025 14:00:27 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_3abececb21c744b08e6d663caded78f3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>El Cerrito resident Jim Vecchi is a photo and video artist whose works have been exhibit around the world. A former Fairfax resident, he visited Tiburon on Aug. 20 after a planned trip to San Francisco was cut short due to the cold. (Francisco Martinez / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Pick of the Week: Bee Gees tribute closes out Belvedere park concert series</title>
-     <link>https://www.thearknewspaper.com/live/pick-of-the-week-bee-gees-tribute-closes-out-belvedere-park-concert-series</link>
-     <description>Bee Gees tribute band You Should Be Dancing closes Belvedere&apos;s free park concert series Aug. 31 at 4 p.m.</description>
-     <content:encoded><![CDATA[<p>At 4 p.m. Aug. 31, bring a blanket or low seating along with a picnic to Belvedere Community Park, 450 San Rafael Ave., for Bee Gee’s tribute act You Should Be Dancing, the final Belvedere Concert in the Park. The group performs all the tight harmonies and falsettos of the band’s giant hits, including “Staying Alive,” “How Deep Is Your Love” and “Night Fever” from the soundtrack to “Saturday Night Fever,” as well as songs the brothers wrote for other performers. The group previously played the Father’s Day concert last year. The event is free; platform disco shoes and incredibly tight polyester pants are optional. belvedereconcerts.org.</p>]]></content:encoded>
-     <dc:creator>The Ark</dc:creator>
-     <category>Entertainment</category>
-     <category>Belvedere</category>
-     <guid isPermaLink="false">68adeb9fd8941e921d341677</guid>
-     <pubDate>Wed, 27 Aug 2025 13:45:12 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f31bbcdd1e7f4208b9123addf84825d4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
