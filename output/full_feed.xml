@@ -7,8 +7,23 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 11 Sep 2025 00:44:48 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 11 Sep 2025 02:17:36 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Family day marks Belvedere-Tiburon Library milestone</title>
+     <link>https://www.thearknewspaper.com/live/family-day-marks-belvedere-tiburon-library-milestone</link>
+     <description>Families celebrated the 30th anniversary of the Belvedere-Tiburon Library’s independence.</description>
+     <content:encoded><![CDATA[<p>Families celebrate the 30th anniversary of the Belvedere-Tiburon Library’s independence on Sept. 7, which included performances by Del Mar Jazz of Del Mar Middle School, a shaved-ice truck, a balloon artist, crafts, face painting, a magic show and a bouncy house.</p>
+<p>(Leo Leung photos / For The Ark)</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>Tiburon</category>
+     <category>Belvedere</category>
+     <category>News</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">68c222ce29ab8110bd65e395</guid>
+     <pubDate>Thu, 11 Sep 2025 01:19:08 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_b722c926efc141d2bb5f244fdb0e4c17~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>From law to landscapes, Belvedere artist finds first solo stage in Big Apple</title>
      <link>https://www.thearknewspaper.com/live/from-law-to-landscapes-belvedere-artist-finds-first-solo-stage-in-big-apple</link>
@@ -324,22 +339,6 @@
      <category>News</category>
      <guid isPermaLink="false">68adeadf29182256bcbeb238</guid>
      <pubDate>Wed, 27 Aug 2025 14:15:07 GMT</pubDate>
-   </item>
-   <item>
-     <title>Everyday Encounters: A visiting artist tries to be mindful as can be</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-visiting-artist-tries-to-be-mindful-as-can-be</link>
-     <description>El Cerrito artist Jim Vecchi visits Tiburon by chance, sharing how his MS diagnosis inspired an 8-year video project.</description>
-     <content:encoded><![CDATA[<p>Jim Vecchi ended up visiting Tiburon last week by pure luck.</p>
-<p>The 69-year-old El Cerrito resident was planning a trip into San Francisco thinking it would be warm, then wandered to Tiburon Aug. 20 because the city was too cold. He eventually settled on relaxing in Fountain Plaza.</p>
-<p>“It’s just so beautiful to be by the waterside here,” he says.</p>
-<p>He’s not a total stranger to the area. Vecchi previously lived in Fairfax and grew familiar with Tiburon and its restaurants, visiting “quite often.” This visit marks his first in roughly 18 months.</p>
-<p>While Vecchi said he enjoyed Marin’s nature while in Fairfax, the county’s lack of diversity wasn’t great for him. Living closer to Berkeley and Oakland provides him “a whole different scene.”</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Everyday Encounters</category>
-     <guid isPermaLink="false">68adeb31d8941e921d341516</guid>
-     <pubDate>Wed, 27 Aug 2025 14:00:27 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_3abececb21c744b08e6d663caded78f3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>El Cerrito resident Jim Vecchi is a photo and video artist whose works have been exhibit around the world. A former Fairfax resident, he visited Tiburon on Aug. 20 after a planned trip to San Francisco was cut short due to the cold. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
