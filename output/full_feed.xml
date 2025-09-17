@@ -7,8 +7,21 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 17 Sep 2025 14:38:41 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 17 Sep 2025 15:10:07 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Belvedere rejects most critiques in grand jury’s housing review</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-rejects-most-critiques-in-grand-jury-s-housing-review</link>
+     <description>Belvedere officials are pushing back against a Marin civil grand jury report that criticizes local jurisdictions for failing to meet...</description>
+     <content:encoded><![CDATA[<p>Belvedere officials are pushing back against a Marin civil grand jury report that criticizes local jurisdictions for failing to meet state housing goals, with Mayor Jane Cooper calling it a “one-size-fits-all” approach that ignores the city’s unique circumstances.</p>
+<p>In a 4-0 vote Sept. 8, the City Council approved a formal response that disputed six of nine findings in the grand jury’s June report titled “The Worrisome Future of Marin Housing.” The legally required response will be signed by Cooper and returned to the grand jury.</p>
+<p>“One of the most problematic issues with (the California Department of Housing and Community Development) that we face in Marin is their one-size-fits-all laws for everyone, no matter the size of the community or amount of land,” Cooper said at the meeting. “And now the grand jury is doing the same thing without regard for the individual differences, with statements such as ‘all Marin cities and towns should.’”</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">68c8c27d5892bef5c4df4fb5</guid>
+     <pubDate>Wed, 17 Sep 2025 14:45:15 GMT</pubDate>
+   </item>
    <item>
      <title>Richardson Bay agency halts housing-voucher program amid federal funding cuts</title>
      <link>https://www.thearknewspaper.com/live/richardson-bay-agency-halts-housing-voucher-program-amid-federal-funding-cuts</link>
@@ -328,21 +341,6 @@
      <pubDate>Wed, 03 Sep 2025 18:23:03 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_56fadd3767f2498ba7ba314b458710d8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Los Angeles artist Scott Froschauer creates signs to U.S. Transportation Department standards but with inspiring messaging. Tiburon is considering his works for a public art exhibit. (Scott Froschauer via town of Tiburon)</media:description>
-   </item>
-   <item>
-     <title>Proposed drinking fountain for Belvedere Land Co. Park heads to planning board</title>
-     <link>https://www.thearknewspaper.com/live/proposed-drinking-fountain-for-belvedere-land-co-park-heads-to-planning-board</link>
-     <description>Belvedere Planning Commission to vote on three-tiered drinking fountain for Land Co. Park — designed for adults, kids and pets.</description>
-     <content:encoded><![CDATA[<p>Belvedere’s Land Co. Park may soon have a new three-tiered drinking fountain donated by longtime residents as a “legacy gift” to the community.</p>
-<p>The Planning Commission is set to vote Sept. 16 on installing the stone fountain at the pocket park on Beach Road between the Belvedere Land Co. offices and the San Francisco Yacht Club. The proposal won the recommendation of the Parks, Open Spaces and Lanes Committee by a 4-0 vote on Aug. 21, with member Marika Bergsund absent.</p>
-<p>The cost of purchasing and installing the fountain would be covered by Marin Women’s Hall of Fame naturalist and photographer Joan Bekins, Belvedere’s 2017 Citizen of the Year Emerita, and her husband, Don.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">68b8856fe3ab00c085e821db</guid>
-     <pubDate>Wed, 03 Sep 2025 18:17:16 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_a13c0c89daea4684ab6aa8daa85f5669~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A wireframe rendering shows the proposed location of a drinking fountain at Belvedere Land Co. Park on Beach Road. The three-tiered fountain, which would be donated by residents Joan and Don Bekins, would be installed near the park’s existing bench if approved by the Planning Commission this month. (via city of Belvedere)</media:description>
    </item>
  </channel>
 </rss>
