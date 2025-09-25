@@ -7,8 +7,21 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 24 Sep 2025 23:31:47 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 25 Sep 2025 00:44:32 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon police plan DUI checkpoint, saturation patrol</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-police-plan-dui-checkpoint-saturation-patrol</link>
+     <description>The Tiburon Police Department will conduct impaired driving enforcement operations Sept. 26 and 27.</description>
+     <content:encoded><![CDATA[<p>The Tiburon Police Department will conduct two impaired driving enforcement operations this week, with an overnight DUI checkpoint and saturation patrols.</p>
+<p>The checkpoint will run 8 p.m. Sept. 26 to 3 a.m. 27 at an undisclosed location, according to a news release. Officers will then conduct saturation patrols from 7 p.m. 27 to 3 a.m. 28, actively looking for drivers suspected of driving under the influence.</p>
+<p>DUI checkpoint locations are determined based on data showing incidents of impaired driving-related crashes, the department said.</p>
+<p>Impaired driving extends beyond alcohol. Some prescription medications and over-the-counter drugs may interfere with driving. While medicinal and recreational marijuana are legal, driving under the influence of marijuana remains illegal.</p>
+<p>Drivers charged with a first-time DUI face an average of $13,500 in fines and penalties, as well as a suspended license.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <guid isPermaLink="false">68d4832e0a0add29d57dc34b</guid>
+     <pubDate>Wed, 24 Sep 2025 23:53:40 GMT</pubDate>
+   </item>
    <item>
      <title>Tiburon rejects 8 of 9 grand jury critiques on housing</title>
      <link>https://www.thearknewspaper.com/live/tiburon-rejects-8-of-9-grand-jury-critiques-on-housing</link>
@@ -317,21 +330,6 @@
      <pubDate>Wed, 10 Sep 2025 14:30:13 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_63eb4984a27c42d89ff2ef2d069cc29a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon resident Jesus Aranda (12) and San Francisco’s David Chase (62) dash down Tiburon Boulevard in the 5K race during the Run Tiburon 10K &amp; 5K on Sept. 7. Aranda finished eighth overall and third among men 30-39. (Leo Leung / For The Ark)</media:description>
-   </item>
-   <item>
-     <title>Everyday Encounters: A pharmacist explores her intuitive side through sound-bath healing</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-pharmacist-explores-her-intuitive-side-through-sound-bath-healing</link>
-     <description>Balancing her &quot;medicine side&quot; and &quot;witchy side,&quot; local pharmacist finds growing demand for sound bath healing sessions.</description>
-     <content:encoded><![CDATA[<p>Sanaz Zand sits with her feet propped up on a bench at Beach Road and Main Street, letting the sound of the water wash over her during her lunch break Sept. 2.</p>
-<p>Zand says her life is a balance of two sides of her mind: the practical, analytical side that grounds her work as a pharmacist at the Tiburon Boulevard CVS/pharmacy — her “medicine side” she says — and the holistic, intuition-based side that inspires her passion for sound-bath healing by night — “my more witchy side.”</p>
-<p>“I tap into both sides,” she says. “I think they are both healing in different ways.”</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>News</category>
-     <category>Everyday Encounters</category>
-     <guid isPermaLink="false">68c077bbf26681483136dbe0</guid>
-     <pubDate>Wed, 10 Sep 2025 14:15:11 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_5e21c315514244aa84ae2df79cc6163c~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Sanaz Zand relaxes on a bench at Beach Road and Main Street Sept. 2 during a lunch break from her job as a pharmacist at the CVS/pharmacy on Tiburon Boulevard. The 50-year-old balances her career with her passion for sound-bath healing, using a variety of instruments to produce sound waves intended to promote relaxation, healing and mindfulness. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
