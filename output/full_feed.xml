@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 26 Sep 2025 09:36:49 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 26 Sep 2025 10:10:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Apple design icon Jony Ive buys four Belvedere homes for $73 million</title>
@@ -328,12 +328,17 @@
      <title>From law to landscapes, Belvedere artist finds first solo stage in Big Apple</title>
      <link>https://www.thearknewspaper.com/live/from-law-to-landscapes-belvedere-artist-finds-first-solo-stage-in-big-apple</link>
      <description>al real estate analyst&apos;s 2010 painting class gift from wife leads to debut solo show.</description>
+     <content:encoded><![CDATA[<p>In his late 30s, commercial real-estate analyst Brian Higgins received an unexpected Christmas gift from his wife: A painting class.</p>
+<p>Higgins had long worked with what he calls his “analytical” mind, first earning a law degree from the University of California College of the Law at San Francisco, then called UC Hastings, in the 1990s, then building a career in commercial real estate. The introduction to painting class, he says, awakened something he’d lost long ago.</p>
+<p>Fifteen years later, the Belvedere resident has landed his first solo art exhibition. “Ascend: The Evolution of Identity” will be held Sept. 30-Oct. 11 at the Alessandro Berni Gallery in New York City. Beyond a collection of his impressionism-meets-abstraction paintings, the exhibition will also feature a live painting performance, during which Higgins will create a full piece before an audience.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <category>Entertainment</category>
      <guid isPermaLink="false">68c075fee6f9264530e37a51</guid>
      <pubDate>Wed, 10 Sep 2025 14:45:05 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_035786fa7f8b4708b813b836533e4405~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Belvedere resident Brian Higgins poses with one of his paintings on his deck Sept. 2, with the bay view that inspires much of his artwork. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
