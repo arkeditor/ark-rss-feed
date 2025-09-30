@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 30 Sep 2025 17:09:08 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 30 Sep 2025 17:36:58 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Apple design icon Jony Ive buys four Belvedere homes for $73 million</title>
@@ -44,6 +44,8 @@
 <p>Impaired driving extends beyond alcohol. Some prescription medications and over-the-counter drugs may interfere with driving. While medicinal and recreational marijuana are legal, driving under the influence of marijuana remains illegal.</p>
 <p>Drivers charged with a first-time DUI face an average of $13,500 in fines and penalties, as well as a suspended license.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
      <guid isPermaLink="false">68d4832e0a0add29d57dc34b</guid>
      <pubDate>Wed, 24 Sep 2025 23:53:40 GMT</pubDate>
    </item>
