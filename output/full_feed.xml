@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 02 Oct 2025 10:09:54 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 02 Oct 2025 10:38:02 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Frogs delay, rats play — Point Tiburon Marsh condos are caught in the middle</title>
@@ -158,6 +158,9 @@
      <title>Two October events aim to boost disaster readiness on Tiburon Peninsula</title>
      <link>https://www.thearknewspaper.com/live/two-october-events-aim-to-boost-disaster-readiness-on-tiburon-peninsula</link>
      <description>Tiburon Peninsula residents have two October disaster prep events: go bag building Oct. 10, evacuation planning Oct. 18.</description>
+     <content:encoded><![CDATA[<p>Tiburon Peninsula residents will have two opportunities next month to learn disaster-preparedness skills, from building emergency go bags to understanding evacuation routes beyond Tiburon Boulevard.</p>
+<p>The first event, “Build a Go Bag,” will teach residents how to assemble a backpack with essential emergency supplies to last 72 hours. It will take place 5-6 p.m. Oct. 10 in Belvedere City Hall’s Community Road parking lot, in front of the Community Center and Police Department.</p>
+<p>The second event, “Get Ready To Go 94920,” will be held 11 a.m.-1 p.m. Oct. 18 at Belvedere Community Park and will educate Tiburon and Belvedere residents on broader disaster preparedness.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>Tiburon</category>
