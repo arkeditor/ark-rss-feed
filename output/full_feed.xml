@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 08 Oct 2025 13:43:15 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 08 Oct 2025 14:10:20 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Everyday Encounters: A relaxing escape fishing off Elephant Rock pier</title>
+     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-relaxing-escape-fishing-off-elephant-rock-pier</link>
+     <description>Hernandez documents his Bay Area fishing adventures on social media, where he connected with his friend Benitez over their shared hobby.</description>
+     <content:encoded><![CDATA[<p>Joseph Hernandez stands at the end of Elephant Rock pier Oct. 1 and whips his fishing rod through the air. The white rubber lure, fashioned to look like a tiny minnow, sails 100 feet or so before landing in the bay.</p>
+<p>Hernandez, 19, and his friend Robert Benitez, 20, wait for signs of a bite. The two say fishing is a favorite pastime. Hernandez points to the water as a sea lion emerges on the surface.</p>
+<p>“Look at this guy,” he says. “They’re always out here. The birds, the waves, the sounds. There’s always something out here.”</p>
+<p>Hernandez frequently documents his Bay Area fishing adventures on TikTok under the handle @mond0.joj0 and on Instagram under the handle @mondo.joj0.</p>
+<p>It was through social media that Hernandez, who is from Santa Rosa, and Benitez, who is from Novato, became friends. Benitez says he reached out to Hernandez on social media after seeing one of Hernandez’s videos, and the two hit it off. Hernandez is a roofer by trade, often doing jobs in Marin County, while Benitez is studying at Santa Rosa Junior College to earn his emergency medical responder certification in hopes of eventually becoming a firefighter.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>News</category>
+     <category>Everyday Encounters</category>
+     <guid isPermaLink="false">68e554e2a062988b0372ff15</guid>
+     <pubDate>Wed, 08 Oct 2025 14:10:04 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_30532abf330d47e890ade4bf57ac710e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Robert Benitez (left) and Joseph Hernandez stand with their fishing rods at Elephant Rock Pier on Oct. 1. The friends say the Tiburon landmark offers a peaceful escape from daily life. (Tyler Callister / The Ark)</media:description>
+   </item>
    <item>
      <title>Zheng takes Tiburon Challenger crown in flawless week</title>
      <link>https://www.thearknewspaper.com/live/zheng-takes-tiburon-challenger-crown-in-flawless-week</link>
@@ -312,22 +329,6 @@
      <category>News</category>
      <guid isPermaLink="false">68c8c27d5892bef5c4df4fb5</guid>
      <pubDate>Wed, 17 Sep 2025 14:45:15 GMT</pubDate>
-   </item>
-   <item>
-     <title>Richardson Bay agency halts housing-voucher program amid federal funding cuts</title>
-     <link>https://www.thearknewspaper.com/live/richardson-bay-agency-halts-housing-voucher-program-amid-federal-funding-cuts</link>
-     <description>Richardson Bay’s few remaining anchor-outs may have lost their chance at subsidized onshore housing after the agency that manages the bay...</description>
-     <content:encoded><![CDATA[<p>Richardson Bay’s few remaining anchor-outs may have lost their chance at subsidized onshore housing after the agency that manages the bay put its rental assistance program on hold.</p>
-<p>The Marin Housing Authority in May asked the Richardson Bay Regional Agency to stop accepting applicants into its temporary-support housing program, saying it could no longer offer the federal vouchers meant to provide long-term rental assistance.</p>
-<p>“We do not have the vouchers to proceed with the remaining people on the anchorage,” said Marin Housing Authority Executive Director Kimberly Carroll, citing “budget issues with the federal government.”</p>
-<p>The request became public last week as part of the agency board’s Sept. 11 meeting.</p>
-<p>The agency program, funded by a $3 million state grant, provides temporary one-year housing vouchers to anchor-outs living on boats on Richardson Bay who wish to move ashore. The program has been key to clearing derelict boats off the bay.</p>]]></content:encoded>
-     <dc:creator>Gretchen Lang</dc:creator>
-     <category>Tiburon</category>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">68c8c2e767d1cd369b82585f</guid>
-     <pubDate>Wed, 17 Sep 2025 14:30:19 GMT</pubDate>
    </item>
  </channel>
 </rss>
