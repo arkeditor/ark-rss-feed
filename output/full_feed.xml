@@ -7,8 +7,28 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 08 Oct 2025 14:41:40 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 08 Oct 2025 15:10:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon Peninsula crew sails to third J105 title in four years</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-peninsula-crew-sails-to-third-j105-title-in-four-years</link>
+     <description>Team Niuhi overcame a broken mast two weeks before the regatta to dominate the field.</description>
+     <content:encoded><![CDATA[<p>Two weeks before the world’s most prestigious J105 sailing regatta in September, Tiburon skipper Randy Hecht took a phone call in Copenhagen, Denmark, where he was racing 4,000 miles from home.</p>
+<p>His crew had just hauled their 7,750-pound keelboat more than 2,600 miles from Belvedere to Toronto in preparation for the J105 North American Championship on Lake Ontario. But the news wasn’t good.</p>
+<p>“We had dropped the boat off in the yard in Toronto, and the yard decided to reposition the boat someplace else,” Hecht said. “The mast was on top of the boat, and they accidentally hooked the mast on the corner of some building and bent it.”</p>
+<p>The boat, called Niuhi — which means “man-eating shark” in Hawaiian — desperately needed a mast.</p>
+<p>“My thought was how can I possibly concentrate on the Copenhagen race and figure out how to deal with this broken mast,” Hecht said. “I got about two weeks to sort it out. I thought about throwing in the towel.”</p>
+<p>He didn’t. Instead, the San Francisco Yacht Club-based crew went on to win its third North American Championship in four years, beating 17 other competitors including one of the world’s greatest sailors. The victory at the Sept. 17-20 regatta continued the dominance of a team that has made the Bay Area’s sailing community a national powerhouse in the J105 class — a 34-foot, one-design racing keelboat.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>Sports</category>
+     <guid isPermaLink="false">68e54ef45410b45ad9a9b16e</guid>
+     <pubDate>Wed, 08 Oct 2025 14:50:10 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_5a2158e668d24657a1997efcf3c68c28~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>San Francisco Yacht Club-based Team Niuhi, skippered by Tiburon’s Randy Hecht, won its third J105 North American Championship last month in Toronto following victories in 2022 and 2023. The team didn’t race last year. (Tim Wilkes / timwilkes.com)</media:description>
+   </item>
    <item>
      <title>Tiburon cyclist will embark on 625-mile ride to raise money for disabled athletes</title>
      <link>https://www.thearknewspaper.com/live/tiburon-cyclist-will-embark-on-625-mile-ride-to-raise-money-for-disabled-athletes</link>
@@ -311,20 +331,6 @@
      <pubDate>Wed, 24 Sep 2025 14:20:18 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_69848041a02a4de89a86c2d1dd143367~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Arthur Drooker, 71, pauses during a bike ride at Shoreline Park in Tiburon Sept. 17. The Mill Valley resident is a former Los Angeles TV writer and producer who transitioned to fine-art photography at age 50 and regularly bikes through Tiburon to photograph scenes along the bay. (Tyler Callister / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Rose Marie ‘Posie’ Anderson</title>
-     <link>https://www.thearknewspaper.com/live/rose-marie-posie-anderson</link>
-     <description>Rose Marie “Posie” Anderson died July 28, 2025.</description>
-     <content:encoded><![CDATA[<p>Rose Marie “Posie” Anderson will be remembered for her kindness, generosity, and dedication to her family and friends. Her life was marked by her devotion to classical piano music and her love of all things beautiful. She was well-known as a dynamic member of the Marin community, where she lived and taught piano lessons in her home for more than 50 years. She also served as the organist for the First Church of Christ, Scientist in Belvedere, where she was a long-time member.</p>
-<p>Posie was born Rose Marie Reed on June 22, 1933, in Springfield, Missouri, where she grew up and attended Southwest Missouri State University and earned a bachelor’s degree in music. She married William “Bill” Boyd, and the young couple moved to California and started a family with a daughter, Becky and a son, Brett.</p>
-<p>Posie and Bill Boyd later divorced, and in 1980 she married Willard “Bill” Anderson of Belvedere. Poise and Bill enjoyed a fairytale marriage for nearly 37 years, sharing their love for each other and their passion for music and travel. Bill Anderson passed away in 2017 at the age of 99.</p>
-<p>Posie passed away peacefully in the presence of family on July 8, 2025, and is survived by her daughter, Becky Boyd; her son, Brett Boyd; daughter in-law Odette Boyd; and grandsons Max Boyd and Blake Boyd. A Celebration of Life will be held in her remembrance on October 4, 2025, at 1 PM at Marin Covenant Church, 195 N. Redwood Drive, San Rafael, CA.</p>]]></content:encoded>
-     <dc:creator>Reader submitted</dc:creator>
-     <category>Obituaries</category>
-     <guid isPermaLink="false">68d333e0a30359f10dd4b97b</guid>
-     <pubDate>Wed, 24 Sep 2025 14:10:22 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_4007437261ff4c4e8176435a135c232e~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
