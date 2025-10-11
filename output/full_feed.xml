@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 11 Oct 2025 13:33:56 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 11 Oct 2025 14:07:04 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon Peninsula crew sails to third J105 title in four years</title>
@@ -95,6 +95,10 @@
      <title>Zheng takes Tiburon Challenger crown in flawless week</title>
      <link>https://www.thearknewspaper.com/live/zheng-takes-tiburon-challenger-crown-in-flawless-week</link>
      <description>The Columbia University senior didn&apos;t drop a single set en route to his third consecutive Challenger title.</description>
+     <content:encoded><![CDATA[<p>Michael Zheng boarded his red-eye flight back to Columbia University with some newly minted silverware in his carry-on bag — the Tiburon Challenger men’s singles trophy.</p>
+<p>Zheng, a senior at the school and the defending NCAA Division I men’s singles champion, defeated fellow American Tyler Zink in straight sets, 6-4, 6-4, on Oct. 5 at the Tiburon Peninsula Club. The 21-year-old didn’t have much time to savor the victory, though — he had to head to the airport to get home in time for a Spanish test the following morning.</p>
+<p>His win came one day after the tournament’s doubles final, in which the top-seeded pairing of Finn Reynolds and James Watt, both of New Zealand, defeated Americans Benjamin Kittay and Joshua Sheehy Oct. 4 in straight sets, 6-2, 6-3. The doubles win for Reynolds and Watt marked sweet revenge for the Kiwis: They lost to Kittay and Sheehy in the final at the Las Vegas Tennis Open on Sept. 27.</p>
+<p>Both matches were the culmination of the weeklong tournament that began Sept. 28. Players in the Challenger Tour are trying to earn enough points to become eligible to enter the ATP Tour and Grand Slam tournaments, which include Wimbledon and the Australian, French and U.S. Opens.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -102,6 +106,8 @@
      <category>Sports</category>
      <guid isPermaLink="false">68e54e77a062988b0372f19b</guid>
      <pubDate>Tue, 07 Oct 2025 17:32:57 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_b1ca19b12cf844c7893da1ff5a88edb8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Michael Zheng of Montville, New Jersey, returns a backhand during the Tiburon Challenger men’s singles final at the Tiburon Peninsula Club on Oct. 5. Zheng, the defending NCAA Division I men’s singles champion, defeated Tyler Zink in straight sets, 6-4, 6-4, to claim his third consecutive Challenger Tour title. (Frank Fennema / For The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon picks designers to bring new life to town&apos;s parks</title>
