@@ -7,8 +7,23 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 15 Oct 2025 14:42:14 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 15 Oct 2025 15:10:14 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Belvedere band keeps community in tune with backyard jam sessions</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-band-keeps-community-in-tune-with-backyard-jam-sessions</link>
+     <description>For five years, eight musicians have turned a Belvedere backyard into a weekly community gathering with rock classics and potluck meals.</description>
+     <content:encoded><![CDATA[<p>Every Tuesday night for the past five years, rock ’n’ roll has spilled from Mac Couto’s backyard on Laurel Street into the quiet Belvedere evening. Under bistro lights strung across a white marquee tent, eight musicians work through a catalog of more than 300 songs while neighbors arrive with plates of food and bottles of wine.</p>
+<p>They call themselves the Windsor Street Blues Band, and on Oct. 10, they brought their neighborhood tradition to a wider stage.</p>
+<p>The band opened the second annual Belvedere Home-Made Film Festival at Belvedere Community Park, performing seven songs for a lawn-seated audience of 200 community members before the screening of more than 30 resident-made films on the theme of community. They played classics like “This House is Rockin’,” “The Boxer” and “Monster Mash” — a fitting preview for an evening celebrating what brings neighbors together.</p>]]></content:encoded>
+     <dc:creator>Travis Woods</dc:creator>
+     <category>News</category>
+     <category>Belvedere</category>
+     <guid isPermaLink="false">68eefdd43b71bb1ed1d0d0ea</guid>
+     <pubDate>Wed, 15 Oct 2025 14:50:16 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_1044b7d4cac145878bbf0b3e67857de5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Windsor Street Blues Band warmed up the crowd at the Belvedere Home-Made Film Festival Oct. 10. (Ted McDonnell / For The Ark)</media:description>
+   </item>
    <item>
      <title>Everyday Encounters: A couple celebrates over 50 years of marriage and shared adventures</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-couple-celebrates-over-50-years-of-marriage-and-shared-adventures</link>
@@ -326,20 +341,6 @@
      <category>News</category>
      <guid isPermaLink="false">68d33064a30359f10dd4b230</guid>
      <pubDate>Wed, 24 Sep 2025 14:59:09 GMT</pubDate>
-   </item>
-   <item>
-     <title>Two October events aim to boost disaster readiness on Tiburon Peninsula</title>
-     <link>https://www.thearknewspaper.com/live/two-october-events-aim-to-boost-disaster-readiness-on-tiburon-peninsula</link>
-     <description>Tiburon Peninsula residents have two October disaster prep events: go bag building Oct. 10, evacuation planning Oct. 18.</description>
-     <content:encoded><![CDATA[<p>Tiburon Peninsula residents will have two opportunities next month to learn disaster-preparedness skills, from building emergency go bags to understanding evacuation routes beyond Tiburon Boulevard.</p>
-<p>The first event, “Build a Go Bag,” will teach residents how to assemble a backpack with essential emergency supplies to last 72 hours. It will take place 5-6 p.m. Oct. 10 in Belvedere City Hall’s Community Road parking lot, in front of the Community Center and Police Department.</p>
-<p>The second event, “Get Ready To Go 94920,” will be held 11 a.m.-1 p.m. Oct. 18 at Belvedere Community Park and will educate Tiburon and Belvedere residents on broader disaster preparedness.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">68d3310bff6f8e8dc0ce515f</guid>
-     <pubDate>Wed, 24 Sep 2025 14:50:17 GMT</pubDate>
    </item>
  </channel>
 </rss>
