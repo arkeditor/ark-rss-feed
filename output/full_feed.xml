@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 21 Oct 2025 09:38:57 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 21 Oct 2025 10:10:56 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon to be first city in nation to ban all tobacco sales without exceptions</title>
@@ -183,11 +183,17 @@
      <title>Signed, worn, remembered: Tiburon collector preserves moments that shaped him</title>
      <link>https://www.thearknewspaper.com/live/signed-worn-remembered-tiburon-collector-preserves-moments-that-shaped-him</link>
      <description>Scanlon&apos;s 200-piece collection includes Dwight Clark&apos;s cleats, Reggie Jackson&apos;s bat and even locks of hair from an unnamed Beatle.</description>
+     <content:encoded><![CDATA[<p>For Tiburon resident Kevin Scanlon, cleats autographed by 49ers legend Dwight Clark aren’t just old shoes. A bat used by Reggie Jackson isn’t just a slab of wood. And those locks of hair from an unnamed Beatle aren’t just a curiosity.</p>
+<p>They’re memories — things that remind him of growing up.</p>
+<p>“We always collect things in the past that made us feel good or that we remember,” says Scanlon, 64, who has spent three decades building a collection of more than 200 pieces of sports and music memorabilia.</p>
+<p>His treasures span Bay Area sports history, from the San Francisco 49ers and Giants and Golden State Warriors to the former Oakland Raiders and Athletics. His music collection centers on The Beatles, including the locks preserved in their original plastic bag— though Scanlon notes the Beatle was never identified.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">68e550ceff64b90438042bc6</guid>
      <pubDate>Wed, 08 Oct 2025 14:20:08 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_80d4b28717524d69812f7c8c93d365f5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon resident Kevin Scanlon, seen at his apartment, has amassed a wide array of local sports memorabilia as a collector, from baseball bats used by Reggie Jackson, then with the former Oakland Athletics, and this Oakland Raiders football helmet worn in 1964 by defensive back Warren Powers. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Everyday Encounters: A relaxing escape fishing off Elephant Rock pier</title>
@@ -322,11 +328,15 @@
      <title>Triathlete and finance veteran joins Strawberry Rec board</title>
      <link>https://www.thearknewspaper.com/live/triathlete-and-finance-veteran-joins-strawberry-rec-board</link>
      <description>Triathlete Doug Twillman joins Strawberry Rec board, bringing 40 years of financial experience to help oversee district operations.</description>
+     <content:encoded><![CDATA[<p>A triathlete who swims at the Strawberry Recreation Center pool several times a week will now help govern the facility with the district board’s appointment of 25-year resident Doug Twillman.</p>
+<p>Twillman, 65, brings four decades of financial experience in replacing former board member Cale Nichols, who resigned in August after moving out of state. The board selected Twillman in a 3-1 vote Sept. 23.</p>
+<p>Twillman has worked as a financial analyst and consultant for more than 40 years, most recently in commercial real estate. He will help oversee operations, community programs and fiscal planning for the recreation district.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
      <guid isPermaLink="false">68dc18c22dec8f2ddbd46a67</guid>
      <pubDate>Wed, 01 Oct 2025 14:10:11 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_e727a6023c98452ea8dd87f110fca4d5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
