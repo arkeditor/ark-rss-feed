@@ -7,8 +7,26 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 28 Oct 2025 21:34:24 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 28 Oct 2025 22:09:27 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Prescribed burn on Angel Island to begin as early as Oct. 31</title>
+     <link>https://www.thearknewspaper.com/live/prescribed-burn-on-angel-island-to-begin-as-early-as-oct-31</link>
+     <description>The actual start date will depend on weather conditions, with the target Nov. 2.</description>
+     <content:encoded><![CDATA[<p>Up to 100 acres of Angel Island State Park will undergo a prescribed burn beginning as early as Oct. 31.</p>
+<p>California State Parks is leading the burn operation. Officials said in an Oct. 28 news release that residents should not call 911 to report smoke on the island.</p>
+<p>State parks interpreter Ryan Forbes said in an email that while the prescribed burns may start as early as Halloween, the actual start date will depend on weather conditions. He said the burn will likely take place Nov. 2.</p>
+<p>Smoke will likely be visible from 9 a.m. to 6 p.m. on burn days and may be visible for up to three days.</p>
+<p>The operation aims to reduce fuel loads — combustible materials — in grasslands and coast-scrub areas on Angel Island.</p>
+<p>The state park will remain open during burn days, and Angel Island-Tiburon Ferry service will not be affected, but trails and roads near the burn area will be closed for one to three days during and after the burn. Affected routes include segments of the Ida and Sunset trails and Park Fire Road. Access to Mount Livermore’s peak may also be limited on burn days.</p>
+<p>Parks officials urged extreme caution for Angel Island visitors near the fire burns and asked them to follow posted signage and directions from parks staff or fire officials.</p>
+<p>The burn is part of the parks agency’s Prescribed Fire Training Exchange, which gives firefighters and other fire personnel the opportunity to hone skills.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">69013c6b4f142fc545304310</guid>
+     <pubDate>Tue, 28 Oct 2025 22:05:12 GMT</pubDate>
+   </item>
    <item>
      <title>Reed district warned to rein in deficit spending</title>
      <link>https://www.thearknewspaper.com/live/reed-district-warned-to-rein-in-deficit-spending</link>
@@ -319,22 +337,6 @@
      <pubDate>Wed, 08 Oct 2025 14:50:10 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_5a2158e668d24657a1997efcf3c68c28~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>San Francisco Yacht Club-based Team Niuhi, skippered by Tiburon’s Randy Hecht, won its third J105 North American Championship last month in Toronto following victories in 2022 and 2023. The team didn’t race last year. (Tim Wilkes / timwilkes.com)</media:description>
-   </item>
-   <item>
-     <title>Tiburon cyclist will embark on 625-mile ride to raise money for disabled athletes</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-cyclist-will-embark-on-625-mile-ride-to-raise-money-for-disabled-athletes</link>
-     <description>Harband has already raised more than $11,000 toward his $15,000 goal for the Challenged Athletes Foundation&apos;s Million Dollar Challenge.</description>
-     <content:encoded><![CDATA[<p>Three times a week, Tiburon resident Jeff Harband rides 20-60 miles on his bicycle. But now the 61-year-old is gearing up for his longest ride yet: a 625-mile trek to raise money for athletes with physical disabilities.</p>
-<p>Harband has set a$15,000 fundraising goalfor his Million Dollar Challenge bike ride to benefit the San Diego-based nonprofit Challenged Athletes Foundation. The organization assists those with permanent physical disabilities in pursuing healthy lifestyles and professional athletic competitions, including by providing financial support for adaptive equipment, travel and competition fees.</p>
-<p>“As a physical therapist, I’ve always been interested in helping people with disabilities — never really had the chance within my practice,” Harband says, adding that because he didn’t see many people with disabilities in Marin, he views his volunteering work “as a way for me to get more involved with that.”</p>
-<p>Alongside 120 other cyclists, some of whom will use adaptive equipment, Harband will bike from Santa Rosa to San Diego Oct. 17-24.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">68e54fc32849e99ade10d3bc</guid>
-     <pubDate>Wed, 08 Oct 2025 14:40:26 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_b473394929c04690a911953a14ed76a9~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon resident Jeff Harband is seen a preparatory ride Oct. 3 at Alpine Dam in West Marin. (via Jeff Harband)</media:description>
    </item>
  </channel>
 </rss>
