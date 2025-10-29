@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 29 Oct 2025 13:05:48 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 29 Oct 2025 13:47:44 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon Town Hall exhibits feature multimedia collages, oil paintings</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-town-hall-exhibits-feature-multimedia-collages-oil-paintings</link>
+     <description>Tiburon Heritage and Arts Commissioner Jaleh Etemad and Larkspur resident Debra Maddox are each exhibiting their works at Town Hall starting in November.</description>
+     <content:encoded><![CDATA[<p>‘Unseen’ is part of former Tiburon artist laureate Jaleh Etemad’s new Town Hall exhibit, opening Nov. 3, while 'Blue Polka Dot Dress’ is among the works on display at Debra Maddox’s Town Hall exhibit, ‘Evocations.’</p>
+<p>Tiburon Heritage and Arts Commissioner Jaleh Etemad and Larkspur resident Debra Maddox are each exhibiting their works at Town Hall starting in November.</p>
+<p>Etemad will show her multimedia collage works in a new exhibit opening Nov. 3 in the downstairs lobby. The exhibit coincides with the debut of her book, “Art of Life: Works by Jaleh Azar Etemad,” which includes nearly 300 of her pieces.</p>
+<p>Etemad’s exhibit runs through Dec. 1 and features 35 paintings. An artist’s reception is set for 6-8 p.m. Nov. 7 at Town Hall and will include a conversation between Etemad and theater director, producer and educator Ginny Reed. Etemad will also sign copies of the book, which documents her evolution as an artist with numerous photos of her works. Each chapter describes moments that inspired her and the wide array of genres she has explored, including layered collage, painting, photography, altered books and three-dimensional works.</p>
+<p>“As we live our lives, we evolve as human beings based on our various experiences,” she says. “I have done the same through my art.”</p>
+<p>Meanwhile, Maddox’s exhibit, “Evocations,” will run Nov. 1-Dec. 31 in the upstairs Community Room and features two series of works in oil on canvas or oil on birch. An artist’s reception is set for 6-8 p.m. Nov. 11.</p>
+<p>“I watch how light, shadow, color and texture transform shapes, and forms into compelling compositions,” she says. “This drives my desire to interpret what I see in the world around me. My work reflects two components — one is visual and the other is emotional.”</p>]]></content:encoded>
+     <dc:creator>Diane Smith</dc:creator>
+     <category>News</category>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">690177c63f9731ce0f882344</guid>
+     <pubDate>Wed, 29 Oct 2025 13:40:17 GMT</pubDate>
+   </item>
    <item>
      <title>Prescribed burn on Angel Island to begin as early as Oct. 31</title>
      <link>https://www.thearknewspaper.com/live/prescribed-burn-on-angel-island-to-begin-as-early-as-oct-31</link>
@@ -317,26 +334,6 @@
      <pubDate>Wed, 15 Oct 2025 01:47:00 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_800e7cb6712a493ea2dd3efd1b49535f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Lani the cavapoo is seen in this image provided by owner Lea Inbody on Oct. 6. Lani escaped from the Inbodys&apos; backyard on Oct. 1 and was found by a nearby resident who claims she tried to return the dog but couldn&apos;t make out the phone number on the tag. Inbody and police, however, allege the woman demanded cash and other gifts for the dog&apos;s return.</media:description>
-   </item>
-   <item>
-     <title>Tiburon Peninsula crew sails to third J105 title in four years</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-peninsula-crew-sails-to-third-j105-title-in-four-years</link>
-     <description>Team Niuhi overcame a broken mast two weeks before the regatta to dominate the field.</description>
-     <content:encoded><![CDATA[<p>Two weeks before the world’s most prestigious J105 sailing regatta in September, Tiburon skipper Randy Hecht took a phone call in Copenhagen, Denmark, where he was racing 4,000 miles from home.</p>
-<p>His crew had just hauled their 7,750-pound keelboat more than 2,600 miles from Belvedere to Toronto in preparation for the J105 North American Championship on Lake Ontario. But the news wasn’t good.</p>
-<p>“We had dropped the boat off in the yard in Toronto, and the yard decided to reposition the boat someplace else,” Hecht said. “The mast was on top of the boat, and they accidentally hooked the mast on the corner of some building and bent it.”</p>
-<p>The boat, called Niuhi — which means “man-eating shark” in Hawaiian — desperately needed a mast.</p>
-<p>“My thought was how can I possibly concentrate on the Copenhagen race and figure out how to deal with this broken mast,” Hecht said. “I got about two weeks to sort it out. I thought about throwing in the towel.”</p>
-<p>He didn’t. Instead, the San Francisco Yacht Club-based crew went on to win its third North American Championship in four years, beating 17 other competitors including one of the world’s greatest sailors. The victory at the Sept. 17-20 regatta continued the dominance of a team that has made the Bay Area’s sailing community a national powerhouse in the J105 class — a 34-foot, one-design racing keelboat.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Sports</category>
-     <guid isPermaLink="false">68e54ef45410b45ad9a9b16e</guid>
-     <pubDate>Wed, 08 Oct 2025 14:50:10 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_5a2158e668d24657a1997efcf3c68c28~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>San Francisco Yacht Club-based Team Niuhi, skippered by Tiburon’s Randy Hecht, won its third J105 North American Championship last month in Toronto following victories in 2022 and 2023. The team didn’t race last year. (Tim Wilkes / timwilkes.com)</media:description>
    </item>
  </channel>
 </rss>
