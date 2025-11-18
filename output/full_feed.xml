@@ -7,8 +7,24 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 18 Nov 2025 19:08:46 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 18 Nov 2025 19:32:28 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>William Blackmer Canada</title>
+     <link>https://www.thearknewspaper.com/live/william-blackmer-canada</link>
+     <description>William Blackmer Canada, born on November 8, 1939, at St. John’s Hospital in Tulsa, OK, passed away on November 3rd.</description>
+     <content:encoded><![CDATA[<p>William Blackmer Canada, born on November 8, 1939, at St. John’s Hospital in Tulsa, OK, passed away on November 3rd after a courageous battle with prostate cancer. Bill was the beloved son of Edith and Alonzo F. Canada. His early years were spent in Tulsa, attending Barnard Elementary and Wilson Middle schools before his family relocated to Downey, California. There, he graduated from Downey High School in 1957. Bill returned to Oklahoma to study at Oklahoma State University, where he earned a Bachelor’s Degree in Industrial Engineering.</p>
+<p>In 1962, Bill was commissioned as an officer in the Army, beginning active duty at Ft. Bragg, NC. He completed a basic officer’s course and attended flight school at Ft. Rucker, AL, graduating in 1963. Shortly after, he embarked on a distinguished career with American Airlines, where he served as a dedicated pilot and retired as captain in September 1999.</p>
+<p>An enthusiastic sailor and avid skier, Bill’s love for adventure led him to the Corinthian Yacht Club, where he met his wife, Chris, in 1977. The couple married in 1978 aboard their Islander 36, sailing down Raccoon Straits under full spinnaker. Bill’s passion for sailing was evident in his commitment to the Corinthian Yacht Club, which he joined in December 1974. He served as Commodore in 1991 and 1992, leaving a lasting impact on the community.</p>
+<p>In 2000, Bill joined the St. Francis Yacht Club, quickly becoming an active and valued member. He was dedicated to volunteering for the race committee, bringing his expertise and enthusiasm to the Big Boat Series and many other regattas. Bill was renowned for his meticulous attention to detail and his talent for fostering camaraderie among sailors and volunteers.</p>
+<p>After many years of competitive sailboat racing, Bill embraced a new chapter by purchasing a motor yacht he named “Jazz,” reflecting his lifelong love of music and the arts. Summers spent aboard Jazz at Tinsley Island became a cherished tradition for Bill and his family, filled with warm Delta breezes, gatherings with friends, and unforgettable nights under the stars.</p>
+<p>Music was always close to Bill’s heart. He studied drumming at Drum City in Hollywood during his youth and later took lessons with Jason Gianni. He formed a rock band with local friends and was the first band to play a concert at Pac Bell Park in 2000. He eventually founded the jazz quartet The Bill Canada Jazz Experience.</p>
+<p>Bill is survived by his devoted wife, Ch...</p>]]></content:encoded>
+     <dc:creator>Reader submitted</dc:creator>
+     <guid isPermaLink="false">691cc91121524100b7a300ec</guid>
+     <pubDate>Tue, 18 Nov 2025 19:30:40 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_fce80f1057684e29a1ac14dab92e36b9~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Tiburon hires consultant to prepare for rising sea levels</title>
      <link>https://www.thearknewspaper.com/live/tiburon-hires-consultant-to-prepare-for-rising-sea-levels</link>
@@ -333,21 +349,6 @@
      <category>News</category>
      <guid isPermaLink="false">69017273ed0505ad4a2abfd6</guid>
      <pubDate>Wed, 29 Oct 2025 14:50:08 GMT</pubDate>
-   </item>
-   <item>
-     <title>Improvements aim to protect Tiburon students and rec center visitors</title>
-     <link>https://www.thearknewspaper.com/live/improvements-aim-to-protect-tiburon-students-and-rec-center-visitors</link>
-     <description>Plans include new sidewalks, retaining walls and curb gutters; high-visibility crosswalks, yield lines and stencils; new signage; relocated fencing; and extending drainage culverts.</description>
-     <content:encoded><![CDATA[<p>Tiburon will add continuous sidewalks, high-visibility crosswalks and upgraded curb ramps along Kleinert Way to create safer routes for students walking to and from Reed Elementary School, the Belvedere Tiburon Child Care Center and The Ranch’s Dairy Knoll rec center.</p>
-<p>The Town Council voted unanimously Oct. 15 to spend $144,715 for Parametrix Inc. to finalize designs for the pedestrian improvements. The Sausalito-based firm is also conducting a traffic study of Tiburon’s major thoroughfares.</p>
-<p>Kleinert Way connects Ned’s Way and Lyford Drive and provides access to the Tiburon Police Department, child-care center, Reed Elementary and Tiburon corporation yard. Plans include new sidewalks, retaining walls and curb gutters; high-visibility crosswalks, yield lines and stencils; new signage; relocated fencing; and extending drainage culverts.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>News</category>
-     <category>Tiburon</category>
-     <guid isPermaLink="false">690172bbb583987b826777c8</guid>
-     <pubDate>Wed, 29 Oct 2025 14:40:14 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_d9abedd108124f40a1bb4eb4d7b0f657~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A 30% design concept shows options to reconfigure Kleinert Way, which connects Ned’s Way and Lyford Drive adjacent to the Tiburon Police Department, Belvedere Tiburon Child Care Center, Reed Elementary School and Tiburon Corporation Yard. The primary goal is to improve student safety with new sidewalk segments, upgraded signs and crosswalks and improved parking configurations. (Parametrix via town of Tiburon)</media:description>
    </item>
  </channel>
 </rss>
