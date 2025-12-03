@@ -7,8 +7,26 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 03 Dec 2025 19:10:13 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 03 Dec 2025 19:35:08 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Picks of the Week: Tiburon Holiday Festival, gingerbread houses, arts &amp; crafts sale, One Day of Giving</title>
+     <link>https://www.thearknewspaper.com/live/picks-of-the-week-tiburon-holiday-festival-gingerbread-houses-arts-crafts-sale-one-day-of-givi</link>
+     <description>Tiburon will be bustling with holiday spirit Dec. 6-7.</description>
+     <content:encoded><![CDATA[<p>Tiburon will be bustling with holiday spirit Dec. 6.</p>
+<p>The Landmarks Holiday Arts and Craft Sale, 10 a.m.-4 p.m., will have unique gifts by local artists at the Art & Garden Center.arkn.ws/LandmarksSale2025.</p>
+<p>The Tiburon Holiday Festival runs 2-5 p.m. on Main Street, with a toddler train, face painting, crafts and a live DJ. Free.tiburonchamber.org.</p>
+<p>Santa and The Ranch will lead decorating gingerbread houses at 12:30 and 2:30 p.m. at Tiburon Tavern. Tickets are $35-$40.arkn.ws/RanchGingerbread2025.</p>
+<p>Then, from noon to 3 p.m. Dec. 7, the One Day of Giving event is offering one-stop drop off of donated items for multiple nonprofits.onedayofgiving.net.</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>News</category>
+     <category>Tiburon</category>
+     <category>Belvedere</category>
+     <category>Entertainment</category>
+     <guid isPermaLink="false">69308d7f68373123b35acbce</guid>
+     <pubDate>Wed, 03 Dec 2025 19:24:04 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_2efdd595e4d7443faf0bcc578c49a0c7~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+   </item>
    <item>
      <title>Belvedere charts 20-year roadmap to keep public assets in shape</title>
      <link>https://www.thearknewspaper.com/live/belvedere-charts-20-year-roadmap-to-keep-public-assets-in-shape</link>
@@ -305,25 +323,6 @@
      <pubDate>Tue, 18 Nov 2025 19:45:53 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_99754e84d7c44754b8cff5f45bfe9d5d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Belvedere resident Maddie de Mos, seen with her dog, Sophie, at Shoreline Park, leads an all-girls robotics team at Redwood High School and dreams of becoming a mechanical engineer — though she worries about artificial intelligence’s impact on future careers. (Tyler Callister / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Belvedere-Tiburon Library exhibit pairs Bay Area creators with muses from art history</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-tiburon-library-exhibit-pairs-bay-area-creators-with-muses-from-art-history</link>
-     <description>Rachel Davis, Nadine Levin and Joyce Bell are among 58 Bay Area artists featured in “Pairings &amp; Echoes,” which runs Nov. 20 through Jan. 7.</description>
-     <content:encoded><![CDATA[<p>When Rachel Davis stared at the figure in her painting “Surrender, After Suzanne and Esther,” she knew something was wrong. She tried 10 different faces over as many months. Her fellow artists at ICB Art in Sausalito rallied around her, posing and offering advice. The running joke became: “Whose head is on the body today?”</p>
-<p>The answer, finally, was none at all.</p>
-<p>Davis, Nadine Levin and Joyce Bell are among 58 Bay Area artists featured in “Pairings & Echoes,” an exhibit at the Belvedere-Tiburon Library that explores artistic conversations across time and medium. The show runs Nov. 20 through Jan. 7, with an artists’ reception from 6 to 8 p.m. Nov. 20.</p>
-<p>Each artist submitted work inspired by another artist’s creation. Posted alongside each piece will be a small image of the work that sparked the new art.</p>
-<p>Exhibit co-chair Katie Sutton said she’s particularly excited for this show, noting that it’s “something a little different” to see how artists take inspiration from an existing work and make it their own.</p>
-<p>“Some lean into a more literal visual approach, while others focus more on the emotional side of their reference,” Sutton said. “It’s so interesting to watch their creativity come to life and see into the mind of each artist.”</p>]]></content:encoded>
-     <dc:creator>Diane Smith</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">691ccbfbddc0c37d52892531</guid>
-     <pubDate>Tue, 18 Nov 2025 19:43:38 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_6552b589bc674cbeb2d0f5bf18a1d4c3~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-     <media:description>Clockwise from top are Rachel Davis’ ‘Surrender, After Suzanne and Esther,’ Joyce Bell’s ‘Dancing Rose’ and Nadine Levin’s ‘The Old Glass Remembers the Fallen Moon,’ which are all part of the ‘Pairings &amp; Echoes’ exhibit running Nov. 20-Dec. 7 at the Belvedere-Tiburon Library.</media:description>
    </item>
  </channel>
 </rss>
