@@ -7,8 +7,22 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 03 Dec 2025 02:30:01 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 03 Dec 2025 03:38:40 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Belvedere charts 20-year roadmap to keep public assets in shape</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-charts-20-year-roadmap-to-keep-public-assets-in-shape</link>
+     <description>The review of every city-owned road, drain, building and retaining wall will forecast what repairs will be needed and what they will cost.</description>
+     <content:encoded><![CDATA[<p>Belvedere is undertaking a comprehensive review of every city-owned road, drain, building and retaining wall to create a 20-year forecast of what repairs will be needed and what they will cost.</p>
+<p>Two companies have been hired at a total cost of $91,508 to assess facilities and storm drains, while a third is negotiating to assess retaining walls.</p>
+<p>City Manager Robert Zadnik announced the plan at the Nov. 10 City Council meeting, saying the effort will help the city manage aging infrastructure before problems become costly emergencies.</p>
+<p>The assessments will cover virtually every piece of city-owned infrastructure, from City Hall, which also houses the Community Center and Police Department, to parks including Community Park, Tom Price Park, Centennial Park and Land Co. Park. The city also owns the Public Works Yard, about 30 official and unofficial walking lanes on Belvedere and Corinthian islands, the San Rafael Avenue walking path, visual easements along West Shore Road and all roads and median strips.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">692e4fd2bdf3aa731711b4ae</guid>
+     <pubDate>Wed, 03 Dec 2025 02:30:08 GMT</pubDate>
+   </item>
    <item>
      <title>Grant helps launch senior-support ‘village’ test at Strawberry complex</title>
      <link>https://www.thearknewspaper.com/live/grant-helps-launch-senior-support-village-test-at-strawberry-complex</link>
@@ -310,23 +324,6 @@
      <pubDate>Tue, 18 Nov 2025 19:43:38 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_6552b589bc674cbeb2d0f5bf18a1d4c3~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
      <media:description>Clockwise from top are Rachel Davis’ ‘Surrender, After Suzanne and Esther,’ Joyce Bell’s ‘Dancing Rose’ and Nadine Levin’s ‘The Old Glass Remembers the Fallen Moon,’ which are all part of the ‘Pairings &amp; Echoes’ exhibit running Nov. 20-Dec. 7 at the Belvedere-Tiburon Library.</media:description>
-   </item>
-   <item>
-     <title>Builder reveals design of $12 mil hybrid vessel for Angel Island-Tiburon Ferry Co.</title>
-     <link>https://www.thearknewspaper.com/live/builder-reveals-design-of-12-mil-hybrid-vessel-for-angel-island-tiburon-ferry-co</link>
-     <description>EV Maritime is designing the 64-foot plug-in-hybrid vessel tentatively named Watts Up.</description>
-     <content:encoded><![CDATA[<p>The New Zealand firm building the Angel Island-Tiburon Ferry Co.’s new plug-in-hybrid vessel has unveiled the design, marking a major milestone in the first-in-California effort to electrify the fleet.</p>
-<p>EV Maritime is designing the 64-foot plug-in-hybrid vessel tentatively named Watts Up. The company revealed the design exclusively to The Ark following a Nov. 10 interview with CEO and co-founder Michael Eaglen and ferry company owner Capt. Maggie McDonogh.</p>
-<p>Eaglen said having a rendering ready shows the project is advancing. The team is “more firmly committing when you’re telling other people what it’s going to look like.”</p>
-<p>The ferry company and EV Maritime partnered in July 2024 to build the roughly $12 million vessel as part of a $24 million grant from the California Air Resources Board awarded through the town of Tiburon. Matching grants bring total funding to $31 million.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Featured</category>
-     <guid isPermaLink="false">691cca7d9ea679da4395171a</guid>
-     <pubDate>Tue, 18 Nov 2025 19:38:22 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_2c3c4d971bd1401cb8fe7355ebda15a6~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>New Zealand-based EV Maritime has unveiled the first rendering of the plug-in electric hybrid boat it is building for the Angel Island-Tiburon Ferry Co., tentatively named Watts Up. It’s one of three boats the ferry company will use as part of first-in-California efforts to electrify its fleet. (EV Maritime)</media:description>
    </item>
  </channel>
 </rss>
