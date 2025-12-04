@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 04 Dec 2025 21:10:14 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 04 Dec 2025 21:37:53 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Picks of the Week: Tiburon Holiday Festival, gingerbread houses, arts &amp; crafts sale, One Day of Giving</title>
@@ -225,6 +225,11 @@
      <title>Belvedere OKs housing plan, zoning overhaul for state approval</title>
      <link>https://www.thearknewspaper.com/live/belvedere-oks-housing-plan-zoning-overhaul-for-state-approval</link>
      <description>The votes effectively end nearly four years of work to bring the city into compliance with state housing requirements.</description>
+     <content:encoded><![CDATA[<p>The Belvedere City Council unanimously approved a package of housing reforms Nov. 10, effectively ending nearly four years of work to bring the city into compliance with state requirements to accommodate at least 160 new housing units.</p>
+<p>Officials voted to formally adopt the state-mandated 2023-2031 housing element and, in a separate vote, approved a set of zoning amendments that will allow for new development under the eight-year roadmap.</p>
+<p>The California Department of Housing and Community Development indicated in July that revisions in the fourth draft of the element — which was required to be in place by Jan. 31, 2023 — would comply with state law but, because the city missed several implementation deadlines, the element could not be certified until the zoning amendments are in place.</p>
+<p>The City Council is expected to formally adopt those amendments in a required second vote Dec. 8, after which Belvedere will submit both documents to Sacramento for review and certification.</p>
+<p>The changes address affordable-housing requirements and incentives, streamlined approvals for developments with at least 20% affordable units, updated design and development standards, mixed-use housing, emergency shelters, parking and reasonable-accommodation requests.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
