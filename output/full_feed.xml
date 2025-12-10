@@ -7,8 +7,19 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 10 Dec 2025 19:10:06 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 10 Dec 2025 19:35:14 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Holiday cheer in Tiburon</title>
+     <link>https://www.thearknewspaper.com/live/holiday-cheer-in-tiburon</link>
+     <description>The annual Tiburon Holiday Festival and the Belvedere-Tiburon Landmarks Society Holiday Arts and Crafts Sale took place Dec. 6.</description>
+     <dc:creator>The Ark</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">6939c6488eee262bcc367e37</guid>
+     <pubDate>Wed, 10 Dec 2025 19:15:06 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_7e9186461f304a1085e14ac170dab3c8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Belvedere upholds $300,000 fine after fiery hearing on construction delays</title>
      <link>https://www.thearknewspaper.com/live/belvedere-upholds-300-000-fine-after-fiery-hearing-on-construction-delays</link>
@@ -333,19 +344,6 @@
      <pubDate>Wed, 26 Nov 2025 01:46:22 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_f79a80f3e1294fc98f8e20fea63fb9a7~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon artist Rachel Hébert is seen Nov. 18 with her mural ‘The Sky Whales’ in the Wornum Drive Highway 101 underpass in Corte Madera. The painting features three whales and numerous egrets and pelicans spanning the underpass’s southern wall. (Francisco Martinez / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Tiburon updates building code with flexibility for small homes</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-updates-building-code-with-flexibility-for-small-homes</link>
-     <description>Tiburon residents looking to build tiny homes will soon face fewer regulatory hurdles under building-code updates approved Nov. 19.</description>
-     <content:encoded><![CDATA[<p>Tiburon residents looking to build tiny homes will soon face fewer regulatory hurdles under building-code updates the Town Council approved Nov. 19.</p>
-<p>The council voted 4-0, with Councilmember Isaac Nikfar absent, to adopt changes from the 2025 state building code. The updates also reaffirm earlier-approved rules for electric-vehicle charging readiness and stricter energy-efficiency standards. A second vote takes place Dec. 3, and the changes take effect 30 days later.</p>
-<p>The most substantial update is “more flexible regulations for what are considered tiny homes,” interim Community Development Director Neal Toft said.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69265af38c513b4f5180cd2a</guid>
-     <pubDate>Wed, 26 Nov 2025 01:42:45 GMT</pubDate>
    </item>
  </channel>
 </rss>
