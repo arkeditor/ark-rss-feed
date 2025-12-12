@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 12 Dec 2025 16:44:59 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 12 Dec 2025 17:10:20 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Holiday cheer in Tiburon</title>
@@ -24,7 +24,8 @@
      <title>Belvedere upholds $300,000 fine after fiery hearing on construction delays</title>
      <link>https://www.thearknewspaper.com/live/belvedere-upholds-300-000-fine-after-fiery-hearing-on-construction-delays</link>
      <description>Belvedere upheld a $300,000 construction time-limit penalty against residents David and Julie Flaherty after a court-ordered rehearing.</description>
-     <content:encoded><![CDATA[<p>The Belvedere City Council upheld a $300,000construction time-limit penalty against residents David and Julie Flaherty after their attorney accused city staff of making “false and fraudulent” statements and warned the city’s constitutional defense could backfire in the courts.</p>
+     <content:encoded><![CDATA[<p>Updated:28 minutes ago</p>
+<p>The Belvedere City Council upheld a $300,000construction time-limit penalty against residents David and Julie Flaherty after their attorney accused city staff of making “false and fraudulent” statements and warned the city’s constitutional defense could backfire in the courts.</p>
 <p>The council voted 4-0 to deny the appeal by the 339 Golden Gate Ave. homeowners in a four-hour hearing Dec. 3. Councilmember Peter Mark, who chaired the Planning Commission during a 2020 dispute over two unapproved olive trees that became the focal point of the case, has recused himself from related council hearings and was absent.</p>
 <p>The decision came six months after Marin Superior Court Judge Andrew E. Sweet ruled the council’s 2022 penalty decision lacked adequate factual findings and ordered a new hearing. Sweet retained jurisdiction, meaning the case will return to his court for review of the excessive-fines claim and other constitutional issues.</p>
 <p>The $300,000 penalty — the maximum allowed under city rules — was imposed after the owners exceeded the 18-month construction time limit despite being granted 244 days of relief. The project took more than 4½ years from the November 2017 permit to the March 21, 2022, planning department final sign-off. The maximum penalty was reached Nov. 23, 2020 — nine days before the building department’s final approval and 16 months before the planning department’s final approval.</p>
@@ -33,7 +34,7 @@
 <p>The disputed paragraph in the staff report stated that after the building department gave final approval of the project Dec. 2, 2020, continued work included “removal of unapproved lighting, planting of trees, bushes and other plants, installation of the irrigation system, placement of ground cover and the completion of hardscape elements such as walkways, patios, railings and other exterior decorative elements.”</p>
 <p>“This is false and fraudulent,” O’Connor said. “I did not make that accusation lightly. I’m an officer of the court. I used to be a federal prosecutor. This is false.”</p>
 <p>O’Connor argued the specific items listed have no documentation after March 2020, just as the COVID-19 pandemic began and when he said the irrigation system was completed March 20.</p>
-<p>He had David Flaherty testify under oath that no work described in that paragraph occurred after March...</p>]]></content:encoded>
+<p>He had David Flaherty testify under oath that no work described in that ...</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
