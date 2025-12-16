@@ -7,8 +7,26 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 16 Dec 2025 18:51:35 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 16 Dec 2025 19:12:14 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>James Henry McCray, DDS</title>
+     <link>https://www.thearknewspaper.com/live/james-henry-mccray-dds</link>
+     <description>James Henry “Jim” McCray, DDS, passed away on December 3, 2025.</description>
+     <content:encoded><![CDATA[<p>January 2, 1936 – December 3, 2025</p>
+<p>James Henry “Jim” McCray, DDS, longtime Mill Valley dentist, sailor, and devoted family man, passed away on December 3, 2025.</p>
+<p>Jim was born in Detroit, Michigan, to Alpha and Myrtis McCray, originally from Arkansas. He was preceded in death by his sister, Joanne Wexler, and his nephew, Rick.</p>
+<p>Jim is survived by his three children — Jamie, a child psychologist; Brian, a builder; and Cheryl Ann — who were a joy and blessing to him and to his late wife, Nancy Krege McCray.</p>
+<p>A graduate of Albion College and the University of Detroit School of Dentistry, Jim served as a captain in the U.S. Air Force and was stationed in Okinawa. After completing his military service, he relocated to Mill Valley, where he practiced general dentistry for 42 years. He earned both a Fellowship and Mastership in the Academy of General Dentistry and later completed an MBA at Pepperdine University.</p>
+<p>Alongside his dental career, Jim and Nancy owned a travel agency for 30 years and visited 139 countries. Jim was an avid sailor and racer, proud member of the San Francisco Yacht Club for 56 years, and passionate ballroom dancer who competed and performed for four decades. He also served for 30 years as an administrator and chairman of the board for a company producing almonds, pistachios, and pecans in Arizona and California.</p>
+<p>Jim will be remembered for his energy, discipline, curiosity, sense of humor, and the deep loyalty he showed to family and friends.</p>
+<p>A private ceremony will be held. In lieu of flowers, donations may be made in his name to the Tanzanian Children’s Fund, 14 Alberta Terrace, Unit 1, Cambridge, MA 02140,www.tanzanianchildrensfund.org, (617) 913-3763, or to a charity of your choice.</p>]]></content:encoded>
+     <dc:creator>Reader submitted</dc:creator>
+     <category>Obituaries</category>
+     <guid isPermaLink="false">6941a518031fac87aaa2222d</guid>
+     <pubDate>Tue, 16 Dec 2025 19:11:45 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_e678f2be9a2544e4936c1c1c1ffec2b4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+   </item>
    <item>
      <title>Holiday cheer in Tiburon</title>
      <link>https://www.thearknewspaper.com/live/holiday-cheer-in-tiburon</link>
@@ -326,24 +344,6 @@
      <pubDate>Wed, 26 Nov 2025 01:49:03 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_14446fbae4cd4be5aa702600156b6061~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>A phased map provided by Caltrans shows the intended rollout of bike lines along Highway 131, also known as East Blithedale Drive and Tiburon Boulevard. Phase 1 next summer would include new lanes east of Tiburon town limits to Mill Valley, while Phase 2 would include new lanes within Tiburon town limits. (via Caltrans)</media:description>
-   </item>
-   <item>
-     <title>Tiburon muralist turns Corte Madera underpass into art</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-muralist-turns-corte-madera-underpass-into-art</link>
-     <description>“The Sky Whales” features three whales painted in light blues and pinks swimming, or flying, through a pink sky with a full moon alongside pelicans and egrets.</description>
-     <content:encoded><![CDATA[<p>For Rachel Hébert, raising kids in Marin meant being a frequent shopper at the Trader Joe’s in Greenbrae. Getting there meant driving through the Wornum Drive underpass at Highway 101. Each trip, she’d eye the massive gray wall.</p>
-<p>“I just had this idea that that big, blank gray wall should be something else,” she said.</p>
-<p>So the Tiburon resident, a professional muralist and artist, took matters into her own hands and last month completed a 100-foot-long, 11-foot-tall mural spanning the southern length of the underpass.</p>
-<p>“The Sky Whales” features three whales painted in light blues and pinks swimming, or flying, through a pink sky with a full moon alongside pelicans and egrets.</p>
-<p>The mural took about a month to paint, but it followed a three-year process that involved getting approvals from Caltrans, which owns the wall that is also load-bearing for the highway that travels over it.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">69265b46933da9c9fc5dbec1</guid>
-     <pubDate>Wed, 26 Nov 2025 01:46:22 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f79a80f3e1294fc98f8e20fea63fb9a7~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon artist Rachel Hébert is seen Nov. 18 with her mural ‘The Sky Whales’ in the Wornum Drive Highway 101 underpass in Corte Madera. The painting features three whales and numerous egrets and pelicans spanning the underpass’s southern wall. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
