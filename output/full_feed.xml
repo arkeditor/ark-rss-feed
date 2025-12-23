@@ -7,8 +7,26 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 23 Dec 2025 23:10:03 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 23 Dec 2025 23:37:00 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Neighbor rallies support for seniors at Kruger Pines</title>
+     <link>https://www.thearknewspaper.com/live/neighbor-rallies-support-for-seniors-at-kruger-pines</link>
+     <description>Randy Chase, a longtime political organizer and construction laborer who moved into Kruger Pines about six weeks ago, is launching an “Adopt-A-Senior” program.</description>
+     <content:encoded><![CDATA[<p>From the outside, Kruger Pines looks like just another low-slung apartment complex tucked into a comfortable Strawberry neighborhood on North Knoll Road. Inside, 62-year-old resident Randy Chase sees something very different: 56 seniors and disabled tenants at risk of slipping through the cracks — and a community just outside their front door that, he believes, has the power to catch them.</p>
+<p>Chase, a longtime political organizer and construction laborer who moved into Kruger Pines about six weeks ago, is launching an “Adopt-A-Senior” program aimed at connecting local volunteers with residents in need of simple, consistent help: a weekly ride to the grocery store, someone to sit and have a cup of coffee while a neighbor shops, a steady friendly face who shows up when they say they will.</p>
+<p>He planned to hold an initial gathering Dec. 23, after The Ark’s press time, inviting volunteers from throughout Marin to meet residents over refreshments at the Kruger Pines community room and figure out who needs what.</p>
+<p>Chase’s urgency stems from fears about upcoming political changes. In a Nov. 29 Nextdoor post, he cited a change in federal homelessness funding announced in November by the U.S. Department of Housing and Urban Development. The department released its funding opportunities for the Continuum of Care, stating that only 30% of the $3.9 billion in funding would be authorized for permanent housing or rental aid — potentially resulting in Marin County losing $3.5 million of its funding for permanent housing. As a result, 220 Marin residents, most over 50, are at risk of losing their housing security.</p>
+<p>“These are people who finally escaped the streets. Now they’re being put right back on the edge. This isn’t theory. It’s not partisan noise. It’s real lives in real apartments — including the seniors in Kruger Pines,” Chase wrote.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Strawberry</category>
+     <category>News</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">694b25d7922cfc95692d5fdf</guid>
+     <pubDate>Tue, 23 Dec 2025 23:35:24 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_e92e1379df514a428103a5498cf5f742~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Randy Chase, seen outside Kruger Pines in Strawberry on Dec. 18, is launching an ‘Adopt-A-Senior’ program and other initiatives to help fellow residents at the low-income housing complex. (Clara Lu / For the Ark)</media:description>
+   </item>
    <item>
      <title>County approves Strawberry senior-care facility with conditions</title>
      <link>https://www.thearknewspaper.com/live/county-approves-strawberry-senior-care-facility-with-conditions</link>
@@ -313,21 +331,6 @@
      <pubDate>Wed, 10 Dec 2025 18:59:09 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_75c9bfb9f7c2482381ad6a9fd98c48c4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Tiburon Town Councilmember Jon Welner (left) was selected by colleagues to become Tiburon’s mayor for 2026 during the council’s Dec. 3 meeting, while colleague Isaac Nikfar became vice mayor. (Francisco Martinez / The Ark)</media:description>
-   </item>
-   <item>
-     <title>Belvedere panel backs $1.38-mil plan to fund seawall, police upgrades, Strip cleanup</title>
-     <link>https://www.thearknewspaper.com/live/belvedere-panel-backs-1-38-mil-plan-to-fund-seawall-police-upgrades-strip-cleanup</link>
-     <description>The surplus would shore up the crumbling Beach Road seawall, upgrade police facilities and cleaning up the shoreline under state orders.</description>
-     <content:encoded><![CDATA[<p>Belvedere’s Finance Committee says the city should direct a $1.38 million budget surplus toward shoring up the crumbling Beach Road seawall, upgrading police facilities and the state-ordered cleanup of a historic shoreline parcel — capping a fiscal year in which revenues exceeded projections by $1.76 million.</p>
-<p>The 3-0 Dec. 2 vote sends the recommendation to the City Council for approval at its Jan. 12 meeting. Committee members Patrick Feder and John Wilton were absent.</p>
-<p>The funds represent one-time expenditures tied to the city’s unexpectedly strong performance in fiscal 2024-2025, which ended June 30. According to a report by administrative services director Helga Cotter, general fund revenues reached $10.98 million while expenditures came in $616,000 under budget.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">6939c18d122b31d338b7bc71</guid>
-     <pubDate>Wed, 10 Dec 2025 18:56:15 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_592c223a696a4e02a19a959dd813725b~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-     <media:description>Belvedere owns a series of open-space parcels along Belvedere Cove collectively known as The Strip, spanning from Lower Woodland Lane public stairs just behind the San Francisco Yacht Club parking lot (bottom left) to 340 Beach Road. The lots were gifted by the Belvedere Land Co. in 1896, and all private structures except wharves, boathouses or bathhouses are prohibited. The state has ordered the cleanup of a fallen retaining wall from the property at 228 Beach Road. (Kevin Hessel graphic / The Ark; Apple Maps)</media:description>
    </item>
  </channel>
 </rss>
