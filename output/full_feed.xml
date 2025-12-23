@@ -7,8 +7,27 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 23 Dec 2025 21:37:05 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 23 Dec 2025 22:10:30 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>County approves Strawberry senior-care facility with conditions</title>
+     <link>https://www.thearknewspaper.com/live/county-approves-strawberry-senior-care-facility-with-conditions</link>
+     <description>Marin County approved a 106-unit senior-care facility in Strawberry on Dec. 23.</description>
+     <content:encoded><![CDATA[<p>Marin County approved a 106-unit senior-care facility in Strawberry on Dec. 23, resolving code inconsistencies identified earlier this month and clearing the way for construction at 100 Thomas Place.</p>
+<p>The Community Development Agency granted ministerial approval to Spirit Living Group for a five-story, 150,655-square-foot residential care facility on a 6.6-acre site formerly addressed as 70 N. Knoll Road.</p>
+<p>The project includes 71 apartments with kitchens for independent living and 35 assisted living and memory care suites without cooking facilities. A subterranean garage will provide 72 parking spaces. The building will reach 63 feet, 6 inches in height and include common areas with dining rooms, activity spaces, a theater, salon, library and fitness facilities.</p>
+<p>The county’s Dec. 6 consistency analysis had identified multiple code inconsistencies, including issues with sidewalk requirements and civic space standards. Spirit Living addressed those concerns through design modifications and waiver requests under the state density bonus law.</p>
+<p>The approval comes with extensive conditions requiring the developer to design a private access road with sidewalks connecting to Thomas Drive, relocate utility easements, submit a construction management plan and meet stormwater control requirements. The county also mandates that residents, employees and visitors avoid accessing the site via North Knoll Road.</p>
+<p>Spirit Living must pay a $3.73 million jobs/housing linkage fee, at $24.81 per square foot, before permit issuance. The fee addresses the demand for affordable housing created by employment growth from the facility.</p>
+<p>The entire facility will operate as a state-licensed residential-care facility for the elderly, subject to yearly inspections and special construction requirements including noncombustible materials and 24-hour monitoring systems. All residents will receive three meals daily, housekeeping, laundry, transportation and wellness programs.</p>
+<p>Spirit Living can now apply for building permits. Final occupancy requires authorization from the Southern Marin Fire Protection District, which previously approved alternative fire safety measures including increased sprinkler density and additional standpipe connections.​​​​​​​​​​​​​​​​</p>
+<p>Look for complete coverage in our Jan. 14 edition. The Ark is closed for winter break through Jan. 4, with the Dec. 31 and Jan. 7 special editions produced in advance.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Strawberry</category>
+     <category>News</category>
+     <guid isPermaLink="false">694b0abc269811cce7fb2f5d</guid>
+     <pubDate>Tue, 23 Dec 2025 21:45:29 GMT</pubDate>
+   </item>
    <item>
      <title>Public comment opens on Strawberry seminary development environmental report</title>
      <link>https://www.thearknewspaper.com/live/public-comment-opens-on-strawberry-seminary-development-environmental-report</link>
@@ -309,22 +328,6 @@
      <pubDate>Wed, 10 Dec 2025 18:56:15 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_592c223a696a4e02a19a959dd813725b~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
      <media:description>Belvedere owns a series of open-space parcels along Belvedere Cove collectively known as The Strip, spanning from Lower Woodland Lane public stairs just behind the San Francisco Yacht Club parking lot (bottom left) to 340 Beach Road. The lots were gifted by the Belvedere Land Co. in 1896, and all private structures except wharves, boathouses or bathhouses are prohibited. The state has ordered the cleanup of a fallen retaining wall from the property at 228 Beach Road. (Kevin Hessel graphic / The Ark; Apple Maps)</media:description>
-   </item>
-   <item>
-     <title>Tiburon teen earns Eagle rank as girls stake their place in Scouting</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-teen-earns-eagle-rank-as-girls-stake-their-place-in-scouting</link>
-     <description>Haley compressed her journey into just three years, completing more than 50 hours of community service along the way.</description>
-     <content:encoded><![CDATA[<p>Haley Dahm spent 70 nights sleeping under the stars, earned 33 merit badges and rallied 45 volunteers to rebuild her school’s neglected garden, all to join an exclusive group: the first 8,000 girls nationwide to earn the rank of Eagle Scout.</p>
-<p>The part-time Tiburon resident achieved the honor in May, becoming part of a historic wave of young women reaching Scouting America’s highest rank since the organization opened to girls in 2019. In that same six-year span, some 300,000 scouts total have earned Eagle — a rank held for life.</p>
-<p>Haley compressed her journey into just three years, completing more than 50 hours of community service along the way.</p>
-<p>Her achievements culminated in an ambitious service project at Pathways Charter School in Rohnert Park, where she transformed a trash-strewn, rotting garden into a thriving community space.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6939c087122b31d338b7ba58</guid>
-     <pubDate>Wed, 10 Dec 2025 18:51:24 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_97cef888c4d14caa9a49a93dd99f21c0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Haley Dahm’s Eagle Scout service project transformed a garden at Pathways Charter School in Rohnert Park. (Provided by Mark Dahm)</media:description>
    </item>
  </channel>
 </rss>
