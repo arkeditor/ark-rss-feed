@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 26 Dec 2025 08:47:16 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 26 Dec 2025 09:12:57 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry neighbors still see red flags in seminary-site plan</title>
@@ -202,11 +202,17 @@
      <title>Public comment opens on Strawberry seminary development environmental report</title>
      <link>https://www.thearknewspaper.com/live/public-comment-opens-on-strawberry-seminary-development-environmental-report</link>
      <description>Three significant impacts that cannot be fully mitigated: vehicle miles traveled, greenhouse-gas emissions and construction noise.</description>
+     <content:encoded><![CDATA[<p>Marin County has releasedthe final environmental impactreport for a large-scale redevelopment of the former Golden Gate Baptist Seminary property in Strawberry, kicking off a 45-day public comment period that ends Jan. 26.</p>
+<p>The 127-acre project at 201 Seminary Drive would transform the site into a mixed-use development with 336 single- and multifamily residential units — including 70 affordable units — and a 150-unit senior residential-care facility. The project also includes a 17,000-square-foot fitness center and a 3,000-square-foot preschool, both open to the public. While more than 70% of the campus would remain as open space, athletic fields, paths and plazas, the project would add about 530 new residents and about 250 new workers.</p>
+<p>Developer North Coast Land Holdings LLC also proposes maintaining the academic campus for up to 1,000 students under an existing 1953 conditional use permit.</p>
+<p>The 684-page environmental review, released Dec. 12, identifies three significant impacts that cannot be fully mitigated: vehicle miles traveled, greenhouse-gas emissions and construction noise.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
      <guid isPermaLink="false">6941a5cab7595e8bf6659453</guid>
      <pubDate>Tue, 16 Dec 2025 19:30:14 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_ac1a0dbb51554f7bb3a6c634155e3dd9~mv2.jpeg/v1/fit/w_1000,h_999,al_c,q_80/file.jpeg" medium="image"/>
+     <media:description>(via North Coast Land Holdings)</media:description>
    </item>
    <item>
      <title>Review cites gaps in 106-unit Strawberry senior-care plan as clock ticks</title>
@@ -243,6 +249,9 @@
      <title>Belvedere submits fifth draft housing element to state for final approval</title>
      <link>https://www.thearknewspaper.com/live/belvedere-submits-fifth-draft-housing-element-to-state-for-final-approval</link>
      <description>The element, which was due Jan. 31, 2023, establishes a roadmap for accommodating at least 160 housing units required under state law.</description>
+     <content:encoded><![CDATA[<p>Belvedere submitted its long-awaited housing element to Sacramento on Dec. 11, marking a potential end to nearly three years of noncompliance with state housing mandates.</p>
+<p>Planning Director Rebecca Markwick said the city sent both clean and redlined versions of the fifth draft to the California Department of Housing and Community Development, which has 60 days to issue a final determination. The element, which was due Jan. 31, 2023, establishes a roadmap for accommodating at least 160 housing units required under state law.</p>
+<p>The submission follows a Nov. 10 City Council vote to adopt the state-mandated 2023-2031 housing element and approve zoning amendments enabling new development under the eight-year plan. The council formally adopted the zoning changes in a required second vote Dec. 8.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
