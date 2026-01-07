@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 07 Jan 2026 07:16:48 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 07 Jan 2026 07:42:51 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Strawberry neighbors still see red flags in seminary-site plan</title>
@@ -303,16 +303,11 @@
      <title>$118-million Golden Gate Ferry program will improve Tiburon service</title>
      <link>https://www.thearknewspaper.com/live/118-million-golden-gate-ferry-program-will-improve-tiburon-service</link>
      <description>Tiburon ferry riders will gain improved service flexibility under a $118 million Golden Gate Ferry fleet modernization program.</description>
-     <content:encoded><![CDATA[<p>Tiburon ferry riders will gain improved service flexibility under a $118 million fleet modernization program approved by Golden Gate Ferry’s board.</p>
-<p>The district awarded a $92.4 million contract to Mavrik Marine Inc., a Washington-state shipbuilder, to construct two new vessels that will launch an eight-year replacement effort.</p>
-<p>Currently, only half of the agency’s four high-speed catamarans can dock at Tiburon and Sausalito because of design differences among the boats. The new standardized fleet will eliminate that constraint, allowing any vessel to serve any route.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">6941a6516e99824bc1037f69</guid>
      <pubDate>Tue, 16 Dec 2025 19:20:43 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_39f2e4fb716a4765b56c17b0e5dcc9d3~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>A rendering shows the Liwa-class vessel. (via Golden Gate Ferry)</media:description>
    </item>
  </channel>
 </rss>
