@@ -7,8 +7,27 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 07 Jan 2026 16:52:53 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 07 Jan 2026 17:17:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Worst flooding in decades submerges Highway 101, Tiburon Peninsula roads, knocks out 911</title>
+     <link>https://www.thearknewspaper.com/live/worst-flooding-in-decades-submerges-highway-101-tiburon-peninsula-roads-knocks-out-911</link>
+     <description>A four-day deluge of king tides and storms Jan. 1-4 brought the worst coastal flooding to Marin County in nearly three decades.</description>
+     <content:encoded><![CDATA[<p>A pickup truck was abandoned on the Redwood Highway frontage road at De Silva Island Drive in Strawberry while inbound Tiburon Boulevard was fully submerged about 11 a.m. Jan. 3, shortly after the peak king tide, which also flooded both directions of Highway 101 at Lucky Drive in Corte Madera. (Kevin Hessel / The Ark; Amy Rennert)</p>
+<p>A four-day deluge of king tides and atmospheric-river storms Jan. 1-4 brought the worst coastal flooding to Marin County in nearly three decades, submerging Highway 101 and local roads while temporarily knocking out 911 service countywide.</p>
+<p>Tides climbed 2½ feet above normal at the San Francisco gauge Jan. 3, the fourth highest on record and matching levels unseen since Feb. 6, 1998, according to the National Weather Service.</p>
+<p>Highway 101 at Lucky Drive in Corte Madera was submerged at the peak, as was the Redwood Highway frontage road at De Silva Island Drive in Strawberry, Tiburon Boulevard’s inbound lanes near the 76 gas station and adjacent Greenwood Cove Drive, as well as downtown Beach Road. Belvedere Mayor Sally Wilkinson told the Marin Independent Journal that Beach Road along the cove faced bay waters that rose to within inches of overtopping, while Tiburon Councilmember Holli Thier said flooded equipment caused business power outages along Main Street. Some 1,500 homes reportedly lost electricity across Tiburon and Marin City.</p>
+<p>Meanwhile, floodwaters submerged an AT&T communications hub in San Rafael about 8:30 p.m. Jan. 4, crippling emergency dispatch and forcing officials to urge residents in need of aid to go directly to fire stations, according to media reports. Service was restored by 1 a.m. 5.</p>
+<p>The weather pattern shifts this week, with rain tapering off through Jan. 7 and high pressure arriving Jan. 8, according to National Weather Service forecasts. Dry conditions are expected through at least Jan. 13.</p>
+<p>This story will be updated. Look for complete coverage in our Jan. 14 edition.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Featured</category>
+     <category>News</category>
+     <category>Belvedere</category>
+     <category>Strawberry</category>
+     <guid isPermaLink="false">695e9288ce09b1c266128d34</guid>
+     <pubDate>Wed, 07 Jan 2026 17:12:20 GMT</pubDate>
+   </item>
    <item>
      <title>Strawberry neighbors still see red flags in seminary-site plan</title>
      <link>https://www.thearknewspaper.com/live/strawberry-neighbors-still-see-red-flags-in-seminary-site-plan</link>
@@ -298,21 +317,6 @@
      <guid isPermaLink="false">6941a637f76939b608d1a61c</guid>
      <pubDate>Tue, 16 Dec 2025 19:22:10 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_56211170de844566b45a07e0258669a1~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-   </item>
-   <item>
-     <title>$118-million Golden Gate Ferry program will improve Tiburon service</title>
-     <link>https://www.thearknewspaper.com/live/118-million-golden-gate-ferry-program-will-improve-tiburon-service</link>
-     <description>Tiburon ferry riders will gain improved service flexibility under a $118 million Golden Gate Ferry fleet modernization program.</description>
-     <content:encoded><![CDATA[<p>Tiburon ferry riders will gain improved service flexibility under a $118 million fleet modernization program approved by Golden Gate Ferry’s board.</p>
-<p>The district awarded a $92.4 million contract to Mavrik Marine Inc., a Washington-state shipbuilder, to construct two new vessels that will launch an eight-year replacement effort.</p>
-<p>Currently, only half of the agency’s four high-speed catamarans can dock at Tiburon and Sausalito because of design differences among the boats. The new standardized fleet will eliminate that constraint, allowing any vessel to serve any route.</p>]]></content:encoded>
-     <dc:creator>Kevin Hessel</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6941a6516e99824bc1037f69</guid>
-     <pubDate>Tue, 16 Dec 2025 19:20:43 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_39f2e4fb716a4765b56c17b0e5dcc9d3~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>A rendering shows the Liwa-class vessel. (via Golden Gate Ferry)</media:description>
    </item>
  </channel>
 </rss>
