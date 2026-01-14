@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 14 Jan 2026 23:10:14 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 14 Jan 2026 23:34:27 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin OKs 106-unit senior facility off North Knoll Road</title>
@@ -331,16 +331,13 @@
      <title>Flooding, outages test Tiburon Peninsula&apos;s preparedness</title>
      <link>https://www.thearknewspaper.com/live/worst-flooding-in-decades-submerges-highway-101-tiburon-peninsula-roads-knocks-out-911</link>
      <description>A four-day deluge of king tides and storms Jan. 1-4 brought the worst coastal flooding to Marin County in nearly three decades.</description>
-     <content:encoded><![CDATA[<p>Updated:54 minutes ago</p>
-<p>Note: This article was originally posted Jan. 5 and updated Jan. 8.A four-day deluge of king tides and atmospheric-river storms Jan. 1-4 brought the worst coastal flooding to Marin County in nearly three decades, submerging Highway 101 and local roads while temporarily knocking out 911 service countywide.</p>
-<p>But Tiburon and Belvedere officials said their towns were largely spared, experiencing only the typical flooding hot spots along Tiburon Boulevard and downtown Beach Road, plus isolated incidents including a transformer issue in downtown Tiburon and a close call with Beach Road breaching in Belvedere.</p>
-<p>In Strawberry, flooding forced Marin sheriff’s deputies to block off the Redwood Highway frontage road from De Silva Island Drive to the Chevron car wash during the peak king tide Jan. 3, as vehicles sitting in at least 2 feet of water were temporarily abandoned in the fully submerged roadway and Seminary Drive park-and-ride.</p>
-<p>Tiburon Town Manager Greg Chanis and Public Works Operations Manager Patrick Kerslake said in interviews last week that the peninsula handled the storm well. Besides occasional fallen trees, the area saw only expected flooding at Tiburon Boulevard’s inbound lanes near the 76 gas station, adjacent Greenwood Cove Drive, and at Beach Road downtown.</p>
-<p>Inbound boulevard flooding Jan. 3 narrowed traffic to only partial use of the left lane, while at least two vehicles appeared to be abandoned in at least a foot of water along Greenwood Cove Drive. Cars mostly avoided the Beach Road entrance to The Boardwalk shopping center, though full-sized trucks splashed through bumper-deep water.</p>
-<p>“The flooding we did experience was predictable,” Chanis said. “The Blackfield intersection is problematic, as is the downtown intersection, but other than that, we weathered the storm pretty well.”</p>
-<p>Officials have suggested the flood-prone area at Tiburon Boulevard and Greenwood Cove might only be fixable with a seawall, with considerable multijurisdictional hurdles and expenses. Meanwhile, Tiburon has been upgrading its storm-drain systems.</p>
-<p>Belvedere City Manager Robert Zadnik said his city saw no serious wind or rainfall impacts, with Public Works crews spending extra time clearing storm drains, sweeping and monitoring between storms.</p>
-<p>Water came within about a foot of breaching onto Beach Road Jan. 3. Zadnik said Belvedere was “very lucky” that rain eased by the time king tid...</p>]]></content:encoded>
+     <content:encoded><![CDATA[<p>A pickup truck was abandoned on the Redwood Highway frontage road at De Silva Island Drive in Strawberry while inbound Tiburon Boulevard was fully submerged about 11 a.m. Jan. 3, shortly after the peak king tide, which also flooded both directions of Highway 101 at Lucky Drive in Corte Madera. (Kevin Hessel / The Ark; Amy Rennert)</p>
+<p>A four-day deluge of king tides and atmospheric-river storms Jan. 1-4 brought the worst coastal flooding to Marin County in nearly three decades, submerging Highway 101 and local roads while temporarily knocking out 911 service countywide.</p>
+<p>Tides climbed 2½ feet above normal at the San Francisco gauge Jan. 3, the fourth highest on record and matching levels unseen since Feb. 6, 1998, according to the National Weather Service.</p>
+<p>Highway 101 at Lucky Drive in Corte Madera was submerged at the peak, as was the Redwood Highway frontage road at De Silva Island Drive in Strawberry, Tiburon Boulevard’s inbound lanes near the 76 gas station and adjacent Greenwood Cove Drive, as well as downtown Beach Road. Belvedere Mayor Sally Wilkinson told the Marin Independent Journal that Beach Road along the cove faced bay waters that rose to within inches of overtopping, while Tiburon Councilmember Holli Thier said flooded equipment caused business power outages along Main Street. Some 1,500 homes reportedly lost electricity across Tiburon and Marin City.</p>
+<p>Meanwhile, floodwaters submerged an AT&T communications hub in San Rafael about 8:30 p.m. Jan. 4, crippling emergency dispatch and forcing officials to urge residents in need of aid to go directly to fire stations, according to media reports. Service was restored by 1 a.m. 5.</p>
+<p>The weather pattern shifts this week, with rain tapering off through Jan. 7 and high pressure arriving Jan. 8, according to National Weather Service forecasts. Dry conditions are expected through at least Jan. 13.</p>
+<p>This story will be updated. Look for complete coverage in our Jan. 14 edition.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Featured</category>
      <category>News</category>
@@ -348,8 +345,6 @@
      <category>Strawberry</category>
      <guid isPermaLink="false">695e9288ce09b1c266128d34</guid>
      <pubDate>Mon, 05 Jan 2026 17:12:20 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_cd2ad5960a974850aef5b416a72ba0cb~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>During the height of the Jan. 3 king tide, a vehicle is seen stranded on fully submerged Greenwood Cove Drive (left) while another works its way through the flooded inbound lanes of Tiburon Boulevard. (Bahareh Farhid)</media:description>
    </item>
  </channel>
 </rss>
