@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 15 Jan 2026 11:38:40 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 15 Jan 2026 12:21:50 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin OKs 106-unit senior facility off North Knoll Road</title>
@@ -47,9 +47,6 @@
      <title>New laws speed ballot counts, ban plastic bags</title>
      <link>https://www.thearknewspaper.com/live/new-laws-speed-ballot-counts-ban-plastic-bags</link>
      <description>Hundreds of new state laws took effect Jan. 1, including protections against AI chat bots, a new minimum wage and capped insulin copays.</description>
-     <content:encoded><![CDATA[<p>Hundreds of new California laws took effect Jan. 1, including protections against artificial-intelligence chatbots, faster election-count turnarounds, automatic admission to many California State University campuses for high-school seniors who meet minimum requirements and expanded coverage for in vitro fertilization.</p>
-<p>The new laws also increase the minimum wage, strengthen equal-pay enforcement, ban single-use plastic bags at grocery stores, cap insurance copays for insulin and change how food-delivery platforms handle refunds, tips and customer service.</p>
-<p>Check out the print ordigital editionfor a look at some of the new laws.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
