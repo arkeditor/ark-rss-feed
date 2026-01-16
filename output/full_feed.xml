@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 16 Jan 2026 11:10:57 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 16 Jan 2026 11:38:29 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin OKs 106-unit senior facility off North Knoll Road</title>
@@ -267,18 +267,11 @@
      <title>GreenTeam member finds reward in beautifying peninsula</title>
      <link>https://www.thearknewspaper.com/live/greenteam-member-finds-reward-in-beautifying-peninsula</link>
      <description>Most Tuesdays and Thursdays, Dan Hipple can be found getting his hands dirty with the Tiburon Peninsula GreenTeam.</description>
-     <content:encoded><![CDATA[<p>Most Tuesdays and Thursdays, Dan Hipple can be found getting his hands dirty with the Tiburon Peninsula GreenTeam.</p>
-<p>For several hours each day, Hipple pulls weeds, plants wildflowers, trims bushes and clears invasive species at Blackie’s Pasture, along the Old Rail Trail and in the Tiburon Boulevard median across from the Belvedere-Tiburon Library.</p>
-<p>Hipple, 73, has volunteered with the GreenTeam for about seven years. His work shows across the peninsula — from the butterfly garden in downtown Tiburon to the wildflowers that bloom in the meadow below the Trestle Trail to the poppies along the bike path.</p>
-<p>That visible impact is what Hipple finds rewarding.</p>
-<p>“It’s giving back to the community and also doing something you enjoy at the same time,” Hipple says. “How often do you get the chance to do that?”</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">695e96ef184e8f9f17b2e41f</guid>
      <pubDate>Wed, 07 Jan 2026 17:26:34 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_50b18fc447bf46a0847c07fbf7220807~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Dan Hipple has been volunteering with the Tiburon Peninsula GreenTeam for about seven years. He spends several hours twice a week helping the group by pulling weeds, planting wildflowers, trimming bushes and performing other maintenance tasks at Blackie’s Pasture, along the Old Rail Trail and in the Tiburon Boulevard median across from the Belvedere-Tiburon Library. (Ted McDonnell / For The Ark)</media:description>
    </item>
    <item>
      <title>Veteran arts leader honored for shaping the Mountain Play</title>
