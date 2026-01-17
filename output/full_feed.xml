@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 17 Jan 2026 22:10:13 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 17 Jan 2026 22:40:05 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin OKs 106-unit senior facility off North Knoll Road</title>
@@ -167,11 +167,16 @@
      <title>Strawberry resident helps transform homes for those coming out of crisis</title>
      <link>https://www.thearknewspaper.com/live/strawberry-resident-helps-transform-homes-for-those-coming-out-of-crisis</link>
      <description>Hilary Sessions is a volunteer and board member for Make It Home, which helps furnish homes for those transitioning from being unhoused.</description>
+     <content:encoded><![CDATA[<p>For those transitioning out of crisis, obtaining housing can provide much needed stability — but it takes a lot more than a roof over their heads to make a house feel like a home.</p>
+<p>“One of the problems, if you have a family or someone that’s really on the edge, if they move into a vacant home and they don’t have any money to spend on furniture or even a bed or a desk or pots and pans, there’s a good chance that they will slip back into the system because they don’t really have a home, they have a place to sleep,” says Strawberry resident Hilary Sessions.</p>
+<p>That’s where Make It Home steps in — and where Sessions, 59, has found her calling as both a volunteer and a member of the organization’s board of directors. The Marin-based nonprofit furnishes homes for people in the social-welfare system, building a bridge between federally subsidized Section 8 housing and possessing a true home, an often-overlooked element in preventing recidivism.</p>]]></content:encoded>
      <dc:creator>Catherine Tandy</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
      <guid isPermaLink="false">695e9b4802fef142333c36c6</guid>
      <pubDate>Wed, 07 Jan 2026 17:45:14 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_706ea30a0e334cc992b1c48164fcc9fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Hilary Sessions of Strawberry is a volunteer and board member for Make It Home, a nonprofit that helps furnish homes for those transitioning from being unhoused. (Amelia Plumb / For The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon man advocates for youth, the unhoused in volunteer roles</title>
