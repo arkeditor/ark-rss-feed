@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 21 Jan 2026 22:48:28 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 21 Jan 2026 23:14:53 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin OKs 106-unit senior facility off North Knoll Road</title>
@@ -232,19 +232,11 @@
      <title>Volunteer’s vision helps transform library gallery into regional arts hub</title>
      <link>https://www.thearknewspaper.com/live/volunteer-s-vision-helps-transform-library-gallery-into-regional-arts-hub</link>
      <description>Diane Green helped user the shift from solo shows of local artists to a juried exhibition venue that draws artists from across the Bay Area.</description>
-     <content:encoded><![CDATA[<p>Diane Green had been organizing art exhibits at the Belvedere-Tiburon Library for about a decade by 2019, when construction began on the library’s $18.31 million expansion. The timing seemed right, she says, to step aside from her volunteer role on the art committee and hand off the responsibility.</p>
-<p>Then she took a hard-hat tour of the construction site and saw what would become a dedicated gallery space boasting some 65 linear wall feet, with another 35 feet available for display in the hallways.</p>
-<p>“I turned the corner and I saw that gallery, and my heart just started thumping,” says Green, 72. “I went, ‘Whoa, I’m not ready to go yet.’”</p>
-<p>The Tiburon resident immediately saw the potential to transform the library’s exhibition program.</p>
-<p>“Let’s see what kind of quality artists are willing to bring their art over here, and let’s see what kind of conversation comes out of that,” she recalls thinking.</p>
-<p>Since the gallery opened as part of the remodeled library in 2022, Green has helped transform the library from hosting solo shows focused on local artists to a highly regarded exhibition venue that draws artists from across the Bay Area for juried shows exploring diverse themes.</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">695e982e184e8f9f17b2e77c</guid>
      <pubDate>Wed, 07 Jan 2026 17:33:08 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_34ee39d3ef5d42f4bef5478fc1b85d6d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon’s Diane Green has been organizing art exhibits at the Belvedere-Tiburon Library for nearly two decades. Since the library’s expansion in 2022, Green has worked to transform the library’s art gallery into a highly regarded exhibition venue that draws artists from across the Bay Area for juried shows. (Amelia Plumb / For The Ark)</media:description>
    </item>
    <item>
      <title>Volunteer finds friendship and purpose through Tiburon Peninsula Village</title>
