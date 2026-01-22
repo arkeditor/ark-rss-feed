@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 22 Jan 2026 21:13:07 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 22 Jan 2026 21:42:59 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere funnels $1M into seawall, other city projects</title>
@@ -285,16 +285,12 @@
      <title>Everyday Encounters: A shared journey from distant homes to higher education</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-shared-journey-from-distant-homes-to-higher-education</link>
      <description>Every two years, the scholars with Strawberry-based SHE-CAN reunite in the Bay Area for a weeklong leadership summit.</description>
-     <content:encoded><![CDATA[<p>Three college-age women from Guatemala and Cambodia are sitting shoulder to shoulder on a Shoreline Park bench the morning of Jan. 7. They lean into one another as they discuss education, opportunity and the long paths that brought them from the rural farmland of their home countries to where they now sit: viewing the San Francisco skyline across the bay.</p>
-<p>They’ve come to the Tiburon Peninsula as scholars with SHE-CAN — Supporting Her Education Changes A Nation — a Strawberry-based organization that helps young women from Cambodia, Liberia, Rwanda and Guatemala win full-ride scholarships to universities across the U.S. Every two years, the scholars, now spread across campuses nationwide, reunite in the Bay Area for a weeklong leadership summit.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Strawberry</category>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">6967db6b801fea0f880922aa</guid>
      <pubDate>Wed, 14 Jan 2026 18:10:27 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_d2fa30270efc440d823649c6b45a4b6b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>From left, SHE-CAN scholars Rina Pheng, Theary Mao and Dania Verbena meet at Shoreline Park on Jan. 7. The three traveled from colleges across the country to attend a weeklong leadership summit in San Francisco. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Natalia Settembrini Casillas</title>
