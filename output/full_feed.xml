@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 25 Jan 2026 23:38:47 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 26 Jan 2026 00:59:29 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Prescribed burn planned at Angel Island this week</title>
+     <link>https://www.thearknewspaper.com/live/prescribed-burn-planned-at-angel-island-this-week</link>
+     <description>Residents may see smoke rising from Angel Island as early as Jan. 26.</description>
+     <content:encoded><![CDATA[<p>Tiburon Peninsula residents may see smoke rising from Angel Island as early as Jan. 26, when California State Parks plans to begin burning vegetation piles at the state park.</p>
+<p>The burn operation, which received conditional approval from the Bay Area Air Quality Management District, could continue through Jan. 29 or 30 depending on weather conditions.</p>
+<p>"These burns are being conducted to help manage invasive species, reduce fuel loading and to promote the resilience of the parks grasslands and oak woodlands in the event of future fires," parks scientistNaftali Moedsaid in a press release.</p>
+<p>Officials are urging residents not to call 911 if they spot smoke coming from the island.</p>
+<p>State Parks will post updates online as conditions change. The agency can cancel the burns at any time if weather becomes unfavorable.</p>
+<p>State Parks may conduct additional burns in February.</p>
+<p>For information about California State Parks' Bay Area District prescribed fire program, visitparks.ca.gov/?page_id=31630.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>News</category>
+     <category>Tiburon</category>
+     <guid isPermaLink="false">6976ba74e611fcb48793e908</guid>
+     <pubDate>Mon, 26 Jan 2026 00:53:41 GMT</pubDate>
+   </item>
    <item>
      <title>Belvedere funnels $1M into seawall, other city projects</title>
      <link>https://www.thearknewspaper.com/live/belvedere-funnels-1m-into-seawall-other-city-projects</link>
@@ -329,21 +346,6 @@
      <pubDate>Wed, 14 Jan 2026 18:04:29 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_af417c43fab548d1b7f123395d31275c~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Jennifer Fearon’s ‘Natural Optimism 2’ is part of the Belvedere-Tiburon Library’s new ‘Abstracting Nature’ exhibit.</media:description>
-   </item>
-   <item>
-     <title>Strawberry resident helps transform homes for those coming out of crisis</title>
-     <link>https://www.thearknewspaper.com/live/strawberry-resident-helps-transform-homes-for-those-coming-out-of-crisis</link>
-     <description>Hilary Sessions is a volunteer and board member for Make It Home, which helps furnish homes for those transitioning from being unhoused.</description>
-     <content:encoded><![CDATA[<p>For those transitioning out of crisis, obtaining housing can provide much needed stability — but it takes a lot more than a roof over their heads to make a house feel like a home.</p>
-<p>“One of the problems, if you have a family or someone that’s really on the edge, if they move into a vacant home and they don’t have any money to spend on furniture or even a bed or a desk or pots and pans, there’s a good chance that they will slip back into the system because they don’t really have a home, they have a place to sleep,” says Strawberry resident Hilary Sessions.</p>
-<p>That’s where Make It Home steps in — and where Sessions, 59, has found her calling as both a volunteer and a member of the organization’s board of directors. The Marin-based nonprofit furnishes homes for people in the social-welfare system, building a bridge between federally subsidized Section 8 housing and possessing a true home, an often-overlooked element in preventing recidivism.</p>]]></content:encoded>
-     <dc:creator>Catherine Tandy</dc:creator>
-     <category>Strawberry</category>
-     <category>News</category>
-     <guid isPermaLink="false">695e9b4802fef142333c36c6</guid>
-     <pubDate>Wed, 07 Jan 2026 17:45:14 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_706ea30a0e334cc992b1c48164fcc9fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Hilary Sessions of Strawberry is a volunteer and board member for Make It Home, a nonprofit that helps furnish homes for those transitioning from being unhoused. (Amelia Plumb / For The Ark)</media:description>
    </item>
  </channel>
 </rss>
