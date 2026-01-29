@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 29 Jan 2026 01:02:28 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 29 Jan 2026 03:36:42 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere&apos;s fee revenue surges 47% after July hikes</title>
@@ -171,7 +171,8 @@
      <title>Prescribed burn planned at Angel Island this week</title>
      <link>https://www.thearknewspaper.com/live/prescribed-burn-planned-at-angel-island-this-week</link>
      <description>Residents may see smoke rising from Angel Island through Jan. 30.</description>
-     <content:encoded><![CDATA[<p>Tiburon Peninsula residents may see smoke rising from Angel Island as early as Jan. 26, when California State Parks plans to begin burning vegetation piles at the state park.</p>
+     <content:encoded><![CDATA[<p>Updated:2 minutes ago</p>
+<p>Tiburon Peninsula residents may see smoke rising from Angel Island as early as Jan. 26, when California State Parks plans to begin burning vegetation piles at the state park.</p>
 <p>The burn operation, which received conditional approval from the Bay Area Air Quality Management District, could continue through Jan. 29 or 30 depending on weather conditions.</p>
 <p>"These burns are being conducted to help manage invasive species, reduce fuel loading and to promote the resilience of the parks grasslands and oak woodlands in the event of future fires," parks scientistNaftali Moedsaid in a press release.</p>
 <p>Officials are urging residents not to call 911 if they spot smoke coming from the island.</p>
@@ -183,6 +184,8 @@
      <category>Tiburon</category>
      <guid isPermaLink="false">6976ba74e611fcb48793e908</guid>
      <pubDate>Mon, 26 Jan 2026 00:53:41 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_5bd6c57ffadb4e74bd3a77eb7a8e358d~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Plumes of white smoke rise from Angel Island State Park on Jan. 28, as seen from Tiburon&apos;s Shoreline Park, as part of controlled burns being conducted by California State Parks. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Belvedere funnels $1M into seawall, other city projects</title>
