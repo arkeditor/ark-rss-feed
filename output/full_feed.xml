@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 04 Feb 2026 18:33:26 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 04 Feb 2026 19:31:18 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Redwood High closes after bomb, shooting threat</title>
@@ -154,11 +154,18 @@
      <title>Everyday Encounters: An aspiring entrepreneur explores life, school and opportunities in new town</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-an-aspiring-entrepreneur-explores-life-school-and-opportunities-in-new-town</link>
      <description>Malik Lamar says his goal is financial independence and imagines starting a business someday.</description>
+     <content:encoded><![CDATA[<p>Malik Lamar stands by the water at Blackie’s Pasture on the evening of Jan. 22, taking in the views he says feel calmer than anywhere else he’s lived.</p>
+<p>“I like the water and like the wind out here,” says Malik, 16. “It’s got better air quality.”</p>
+<p>Malik moved to Tiburon a few months ago from Santa Rosa with his mother, who, he says, wanted better schools for him. She’s studying real estate and working a side job.</p>
+<p>Malik, meanwhile, is learning the town by walking its paths, shooting hoops alone on neighborhood courts and imagining what it might take to one day own one of the hillside houses he admires.</p>
+<p>He says his goal in life is simple: “Making money.” He imagines starting a business someday, though he’s not sure what kind yet.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">6979706e13a746db9d7c2972</guid>
      <pubDate>Wed, 28 Jan 2026 02:13:29 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_68f576dc8f9549a98fd19ae2c677b7d6~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Malik Lamar, who moved to Tiburon from Santa Rosa a few months ago, says he’s drawn to Blackie’s Pasture’s views. He says his goal is financial independence and imagines starting a business someday. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Strawberry resident launches flood app based on the tides</title>
