@@ -7,8 +7,28 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 05 Feb 2026 18:34:34 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 05 Feb 2026 19:30:11 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Appeals court sides with Tiburon in Paradise Drive housing-element lawsuit</title>
+     <link>https://www.thearknewspaper.com/live/appeals-court-sides-with-tiburon-in-paradise-drive-housing-element-lawsuit</link>
+     <description>California appeals court cleared Tiburon to keep a Paradise Drive site in its housing plan, rejecting neighbors’ CEQA challenge.</description>
+     <content:encoded><![CDATA[<p>Tiburon won a significant legal victory last week when a California appellate court overturned a ruling that blocked the town from including a key Paradise Drive parcel in its state-mandated housing plan.</p>
+<p>A three-judge panel of the 1st District Court of Appeal ruled Feb. 2 that Marin Superior Court Judge Sheila Shah Lichtblau erred in September 2024 when she sided with the neighborhood group the Committee for Tiburon. The group had sued the town in June 2023 over the inclusion of the 4576 Paradise Drive in Tiburon’s 2023-2031 housing element.</p>
+<p>The neighbors argued the town violated the California Environmental Quality Act by not conducting detailed environmental analysis of the 9.6-acre site. The town’s housing element listed the property as one of 17 sites for potential development, saying it could reasonably accommodate 93 units and hold up to 118 units.</p>
+<p>The appellate court’s30-page opinionestablishes a key precedent: “when a housing project has not even been proposed, the lack of project-specific details precludes an informed review of environmental impacts and mitigation measures” — and deferring such a review is “appropriate,” Justice Carin T. Fujisaki wrote. Presiding Justice Alison M. Tucher and Associate Justice Ioana Petrou concurred.</p>
+<p>“We are happy that the court of appeal reversed the erroneous trial court ruling and upheld the town’s general plan (environmental-impact report),” Tiburon Town Attorney Ben Stock said in a Feb. 2 email. The Town Council authorized the appeal in November 2024.</p>
+<p>The California attorney general, the state Housing and Community Development Department and the California League of Cities all filed amicus briefs supporting Tiburon’s appeal.</p>
+<p>The housing roadmap, part of the town’s general plan, requires Tiburon to identify sites that can accommodate at least 639 new housing units over eight years. It does not require the town to build those units.</p>
+<p>Lichtblau’s ruling set aside and decertified portions of an environmental-impact report prepared to rezone the Paradise site and other parts of town for denser development.</p>
+<p>The appellate court sent two issues back to the lower court: whether Tiburon’s decision to rezone the Paradise site is exempt from the California Environmental Quality Act, and whether the town’s General Plan 2040 is “internally consistent and compatible.”</p>
+<p>Eric Crandall, who owns 4576 Paradise Drive as Sierra Pines Group LLC, said Feb. 2 the town u...</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">6984edf6840b9b8e1d2cb9c4</guid>
+     <pubDate>Thu, 05 Feb 2026 19:25:29 GMT</pubDate>
+   </item>
    <item>
      <title>Strawberry neighbors sue to block senior housing project</title>
      <link>https://www.thearknewspaper.com/live/strawberry-neighbors-sue-to-block-senior-housing-project</link>
@@ -290,22 +310,6 @@
      <category>News</category>
      <guid isPermaLink="false">69797244da77a8ffff05fb86</guid>
      <pubDate>Wed, 28 Jan 2026 02:20:40 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon woman turns midair terror into self-help book on flow states</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-woman-turns-midair-terror-into-self-help-book-on-flow-states</link>
-     <description>The book presents a series of brief daily exercises and accounts from people across the globe.</description>
-     <content:encoded><![CDATA[<p>In December 2000, Laurie Smith and her husband, Jim, were flying over Sudan en route to a dream vacation in Kenya when their plane suddenly plummeted 10,000 feet and began flying on its side.</p>
-<p>She would find out later that a passenger had burst into the cockpit and attempted to commandeer the plane.</p>
-<p>Smith says she thought she was going to die, and she and Jim began to say their last words to each other. But something else happened to Smith in that same moment.</p>
-<p>“Almost as if in a trance, I started making Reiki symbols in the air and imagined sending white light to the cockpit,” the Tiburon resident writes in her new book, “The Flow Habit,” which was published Dec. 30 by self-help publisher Hay House. She says “a deep calm” came over her.</p>
-<p>Smith, 56, says her experience on the plane was one form of what psychologists call “flow” — the sense of being deeply absorbed, often with a sense of interconnectedness and a feeling that time speeds up or slows down.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6979712a042aa3bcbc750888</guid>
-     <pubDate>Wed, 28 Jan 2026 02:18:56 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_e34b6d9389d6407fbca3fee46e225e75~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
  </channel>
 </rss>
