@@ -7,8 +7,31 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 06 Feb 2026 18:02:43 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 06 Feb 2026 19:10:25 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Sam’s owner purchases Silver Peso bar in Larkspur</title>
+     <link>https://www.thearknewspaper.com/live/sam-s-owner-purchases-silver-peso-bar-in-larkspur</link>
+     <description>Peso owner Rebel Lee announced his retirement and the sale to Tiburon resident Conor Flaherty and his ownership group.</description>
+     <content:encoded><![CDATA[<p>The owner of Sam’s Anchor Cafe in downtown Tiburon is adding another iconic Marin bar to its portfolio — the 64-year-old Silver Peso in Larkspur.</p>
+<p>Peso owner Rebel Lee announced his retirement and the sale to Tiburon resident Conor Flaherty and his ownership group in a video posted to the bar’s Facebook page Feb. 5. Lee said the group would take over in 30 days once the liquor license is transferred.</p>
+<p>Flaherty — who attended Reed Union School District schools and Redwood High School in Larkspur and reportedly met his wife at the Peso — did not immediately respond to a text message and email requesting an interview Feb. 6.</p>
+<p>The purchase marks Flaherty’s second major acquisition of a historic Marin watering hole. He and a group of investors purchased Sam’s, the landmark dockside restaurant on Tiburon’s Main Street, from longtime owners Steve Sears and Brian Wilson nearly eight years ago.</p>
+<p>Lee said he trusts Flaherty to maintain the Silver Peso’s character as an unpretentious dive bar in one of Marin County’s wealthiest areas.</p>
+<p>“He intends to keep the Peso the way the Peso is now,” Lee said in a Feb. 6 interview. “It’s in good hands.”</p>
+<p>The Silver Peso, located at 450 Magnolia Ave., has been closed since May when a car crashed into the back of the two-story building, causing structural damage.A note posted on the bar's door indicates a local Larkspur family purchased the building and is working with the bar, the city and a construction team to make necessary repairs and reopen safely.</p>
+<p>Lee said navigating the reopening process while dealing with multiple insurance brokers, attorneys and new building landlords became impossible to manage alongside his deteriorating health.</p>
+<p>Lee’s condition — a cerebrospinal fluid leak following a surfing accident in 2014 — causes light sensitivity and excruciating head and cranial pain, which forced him to operate the business from his bedroom for much of his ownership.</p>
+<p>Flaherty’s team had been interested in buying the bar as early as seven years ago, Lee said. But Lee — who spent 15 years as a bartender before purchasing the bar in 2015 from previous owner Rick Adams and his wife, April — said he wasn’t interested in selling at the time.</p>
+<p>The car accident, subsequent construction and the building’s change in ownership “changed a lot of things for me,” Lee said, leading to talks over the past five months to see whether there was any way to jointly purchase both the...</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">698634fd2cdf2c42d92c8870</guid>
+     <pubDate>Fri, 06 Feb 2026 18:39:08 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_8bebfbf423fb4380b5fed037242553c5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Silver Peso in downtown Larkspur has been closed since May following a car crash that caused structural damage to the building. Tiburon resident Conor Flaherty and his investment group, which owns Sam&apos;s Anchor Cafe, is purchasing the 64-year-old dive bar from retiring owner Rebel Lee. (Alex Catani / For The Ark)</media:description>
+   </item>
    <item>
      <title>Appeals court sides with Tiburon in Paradise Drive housing-element lawsuit</title>
      <link>https://www.thearknewspaper.com/live/appeals-court-sides-with-tiburon-in-paradise-drive-housing-element-lawsuit</link>
@@ -296,20 +319,6 @@
      <category>News</category>
      <guid isPermaLink="false">697972b5ff97fcd5f4f5af9c</guid>
      <pubDate>Wed, 28 Jan 2026 02:24:28 GMT</pubDate>
-   </item>
-   <item>
-     <title>Man serving 251 years for Tiburon rape denied parole for five years</title>
-     <link>https://www.thearknewspaper.com/live/man-serving-251-years-for-tiburon-rape-denied-parole-for-five-years</link>
-     <description>California’s Elderly Parole Program allows inmates 60 or older who have served continuously for at least 25 years to seek review.</description>
-     <content:encoded><![CDATA[<p>Frederick Sidney Laird, who received a 251-year prison sentence for a violent rape in Tiburon in 1998, was denied parole for at least five years Jan. 7 after his first parole hearing since his conviction.</p>
-<p>Laird, 65, is incarcerated at the Substance Abuse Treatment Facility and State Prison in Corcoran. The California Board of Parole Hearings’ decision means his next parole consideration will occur in 2031.</p>
-<p>California’s Elderly Parole Program allows inmates 60 or older who have served continuously for at least 25 years to seek review. Laird became eligible under a 2014 federal court order that extended parole consideration to inmates sentenced under California’s three-strikes law.</p>
-<p>Laird was convicted in 1999 after pleading guilty to 10 felonies connected to the July 13, 1998, attack. He had responded to a newspaper advertisement placed by a 25-year-old Tiburon woman seeking a roommate.</p>]]></content:encoded>
-     <dc:creator>Kevin Hessel</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69797244da77a8ffff05fb86</guid>
-     <pubDate>Wed, 28 Jan 2026 02:20:40 GMT</pubDate>
    </item>
  </channel>
 </rss>
