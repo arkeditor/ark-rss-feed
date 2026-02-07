@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 07 Feb 2026 13:15:03 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 07 Feb 2026 13:56:22 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Sam’s Anchor Cafe owner purchases Silver Peso bar in Larkspur</title>
@@ -31,6 +31,28 @@
      <pubDate>Fri, 06 Feb 2026 18:39:08 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_8bebfbf423fb4380b5fed037242553c5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>The Silver Peso in downtown Larkspur has been closed since May following a car crash that caused structural damage to the building. Tiburon resident Conor Flaherty and his investment group, which owns Sam&apos;s Anchor Cafe, is purchasing the 65-year-old dive bar from retiring owner Rebel Lee. (Alex Catani / For The Ark)</media:description>
+   </item>
+   <item>
+     <title>Tiburon police arrest suspect in overnight garage burglary</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-police-arrest-suspect-in-overnight-garage-burglary</link>
+     <description>The S.F. man pleaded not guilty to felony and misdemeanor charges.</description>
+     <content:encoded><![CDATA[<p>Updated:3 minutes ago</p>
+<p>A San Francisco man pleaded not guilty Feb. 6 to charges stemming from an overnight garage burglary in Tiburon, including one felony count of second-degree burglary, two misdemeanor counts and two sentence enhancements based on prior felony convictions.</p>
+<p>Martin Hernandez Gutierrez, 33, was arrested shortly after midnight Feb. 4 after Tiburon police say he broke into a garage on Lagoon View Drive and stole a high-end e-bike worth $10,000. Police also suspect him in a theft from an unlocked vehicle nearby.</p>
+<p>Gutierrez was booked into Marin County Jail that morning on $50,000 bail and remained in custody at The Ark’s press time; a pre-trial release hearing is set for Feb. 10.</p>
+<p>The Marin District Attorney’s Office filed charges Feb. 5, including the burglary felony, misdemeanor counts of receiving or possessing stolen property and possession of a controlled substance, and two special allegations for prior serious or violent felony convictions under California’s three-strikes law.</p>
+<p>The incident began about 12:30 a.m. when Tiburon police responded to Lagoon View Drive for someone breaking into a garage, according to the Tiburon Police Department.</p>
+<p>The homeowner told officers a man had entered his garage and taken an e-bike worth about $10,000, then ran away. The homeowner chased him, and the man abandoned the bike roughly 50 yards away before continuing to run. The homeowner recovered the bike and gave officers a detailed description.</p>
+<p>Detective Sgt. Rob Law said the homeowner spotted the man on his security camera.</p>
+<p>“The homeowner got an alert from his home surveillance camera system, and it was a live alert,” Law said. “When he checked the notification, he discovered that somebody was walking up his driveway and into the garage.”</p>
+<p>With help from the Sheriff’s Office, Mill Valley Police Department and Belvedere Police Department, officers cordoned off the area and searched for the suspect. They found scattered coins, a white hat and two vehicles that appeared to have been broken into.</p>
+<p>Just before 2 a.m., Tiburon officers saw a vehicle parked on Ridge Road and stopped the driver, who gave conflicting statements, police said. His clothing matched the description the homeowner had provided and what appeared on the surveillance video. Officers identified him at the scene as the Gutierrez and arrested him.</p>
+<p>Police found suspected methamphetamine, several coins, eight stolen c...</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">69873c6ef1094fef14ede469</guid>
+     <pubDate>Fri, 06 Feb 2026 13:25:00 GMT</pubDate>
    </item>
    <item>
      <title>Appeals court sides with Tiburon in Paradise Drive housing-element lawsuit</title>
@@ -305,20 +327,6 @@
      <pubDate>Wed, 28 Jan 2026 02:27:23 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_2b303db3d261492c90ec5243f251b192~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Recreational fishers cast lines from Elephant Rock Pier Jan. 17 during the herring spawn. Anglers are allowed one 10-gallon bucket of herring per day. (Gretchen Lang / For The Ark)</media:description>
-   </item>
-   <item>
-     <title>Strawberry Rec approves restoration of eelgrass damaged by dredging</title>
-     <link>https://www.thearknewspaper.com/live/strawberry-rec-approves-restoration-of-eelgrass-damaged-by-dredging</link>
-     <description>The contractor will coordinate with the Richardson Bay Regional Agency’s ongoing eelgrass-restoration programs in the bay.</description>
-     <content:encoded><![CDATA[<p>The Strawberry Recreation District board unanimously approved a $213,400 contract to restore nearly half an acre of eelgrass along Richardson Bay — a requirement after a 2023 dredging project damaged the protected underwater habitat.</p>
-<p>The board voted Jan. 13 to hire San Diego-based Merkel & Associates for the work, which will restore 0.44 acres of eelgrass in Strawberry Channel, the waterway on the east side of Strawberry that provides boat access to the bay.</p>
-<p>The firm will coordinate with the Richardson Bay Regional Agency’s ongoing eelgrass-restoration programs, though the Strawberry project remains independent. Merkel has been restoring eelgrass in the bay since 2013, including its work on mooring scars in the agency’s 700-acre eelgrass protection zone.</p>
-<p>Work is expected to begin in April and wrap up by July.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Strawberry</category>
-     <category>News</category>
-     <guid isPermaLink="false">697972b5ff97fcd5f4f5af9c</guid>
-     <pubDate>Wed, 28 Jan 2026 02:24:28 GMT</pubDate>
    </item>
  </channel>
 </rss>
