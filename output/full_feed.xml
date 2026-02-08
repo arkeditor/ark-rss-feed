@@ -7,8 +7,31 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 08 Feb 2026 16:16:43 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 08 Feb 2026 16:53:53 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Ark investigation uncovers federal searches of Tiburon license-plate data</title>
+     <link>https://www.thearknewspaper.com/live/ark-investigation-uncovers-federal-searches-of-tiburon-license-plate-data</link>
+     <description>In response, police chief admits 23 agencies potentially violated privacy and immigration laws when accessing system.</description>
+     <content:encoded><![CDATA[<p>In response, police chief admits 23 agencies potentially violated privacy and immigration laws when accessing system</p>
+<p>After three months of refusing comment, Tiburon Police Chief Michelle Jean acknowledged in a Feb. 3 email that 23 agencies have conducted potentially illegal federal searches of the town’s automated license-plate camera database, including for immigration enforcement. The admission and department’s quiet December revisions to its oversight policies came in direct response to an Ark investigation that documented 475 federal searches by nine California agencies, raising significant questions about violations of state privacy laws and the town’s handling of driver data.</p>
+<p>Jean called the searches an “unacceptable use of the town’s license-plate reader data,” acknowledging that California agencies “may have accessed the town’s data and potentially shared that data with federal immigration agencies” amid the Trump administration’s nationwide crackdown.</p>
+<p>State law prohibits any sharing of camera data with private, out-of-state and federal agencies to protect Californians’ privacy, as well as the use of any state or local resources for federal immigration enforcement.</p>
+<p>The Ark’s audit of public records from May through August — with detailed initial findings provided to Jean in October — found that the nine in-state agencies conducted searches involving the U.S. Marshals Service; the Drug Enforcement Administration; the Bureau of Alcohol, Tobacco, Firearms and Explosives; and other federal entities.</p>
+<p>Jean’s acknowledgment of 14 additional agencies suggests dozens if not hundreds of additional federal searches over a longer periodthat also involved Immigration and Customs Enforcement or U.S. Customs and Border Protection.</p>
+<p>She stated that “the actions of the Tiburon Police Department and our authorized (automated license-plate reader) users are fully compliant” in a claim that appears to defend the department’s handling of private data while asserting Tiburon’s own officers have not conducted illegal searches. However, Tiburon redacted relevant fields for searches made by its own officers, preventing The Ark from auditing those public records.</p>
+<p>Despite acknowledging the potential violations, public records show Tiburon continued to expand the number of agencies with access to its database by 45% during its internal investigation, growing from 132 to 191 since July. That includes new access for several age...</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Belvedere</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <category>Strawberry</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">6988bb8343ec5706c4346ba9</guid>
+     <pubDate>Sun, 08 Feb 2026 16:40:21 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_2fb3a4c4047c409281ddcd3011571a22~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>One of Tiburon&apos;s eight Flock Safety automated license-plate readers monitors the intersection of Tiburon Boulevard and Greenwood Beach Road. Police Chief Michelle Jean acknowledged in a Feb. 3 email that 23 agencies conducted potentially illegal searches of the town&apos;s camera database, including searches for federal immigration enforcement. (Francisco Martinez / The Ark)</media:description>
+   </item>
    <item>
      <title>Sam’s Anchor Cafe owner purchases Silver Peso bar in Larkspur</title>
      <link>https://www.thearknewspaper.com/live/sam-s-owner-purchases-silver-peso-bar-in-larkspur</link>
@@ -312,23 +335,6 @@
      <pubDate>Wed, 28 Jan 2026 02:30:30 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_2f6e91d571684093a51c3a31a6599ed0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>The Tiburon Fire Protection District’s downtown Station 11 on Tiburon Boulevard shows its renovated facilities Jan. 22, including a new steel training tower with stairs and an upper deck. The tower replaced a wooden structure torn down due to rot and features a built-in standpipe, forcible entry door and window prop. (Daniel Elkington / Tiburon Fire Protection District)</media:description>
-   </item>
-   <item>
-     <title>Herring spawn returns to Tiburon Peninsula</title>
-     <link>https://www.thearknewspaper.com/live/herring-spawn-returns-to-tiburon-peninsula</link>
-     <description>The six-inch silvery fish spend most of their lives at sea, then return to the bay to spawn in late fall and winter.</description>
-     <content:encoded><![CDATA[<p>After a year’s hiatus, Pacific herring have swarmed back into Tiburon Peninsula coves, providing the traditional winter feast for birds and beasts and drawing recreational fishers from around the Bay Area.</p>
-<p>The six-inch silvery fish spend most of their lives at sea, then return to the bay to spawn in late fall and winter. Females lay their eggs on substrate like rocks, piers and eelgrass, while males release clouds of milt to fertilize them.</p>
-<p>The fish seemed to avoid the Tiburon Peninsula last year but returned in droves this winter.</p>
-<p>“It’s encouraging,” said Ken Oda, an environmental scientist with the California Department of Fish and Wildlife who monitors herring spawns from his office in Monterey. “We’ve heard good reports of spawning in Richardson Bay, Racoon Strait and one down in San Leandro.”</p>]]></content:encoded>
-     <dc:creator>Gretchen Lang</dc:creator>
-     <category>Tiburon</category>
-     <category>Belvedere</category>
-     <category>News</category>
-     <guid isPermaLink="false">697973ad042aa3bcbc750f06</guid>
-     <pubDate>Wed, 28 Jan 2026 02:27:23 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_2b303db3d261492c90ec5243f251b192~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Recreational fishers cast lines from Elephant Rock Pier Jan. 17 during the herring spawn. Anglers are allowed one 10-gallon bucket of herring per day. (Gretchen Lang / For The Ark)</media:description>
    </item>
  </channel>
 </rss>
