@@ -7,8 +7,25 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 11 Feb 2026 01:59:35 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 11 Feb 2026 04:29:24 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon wants feedback on early conceptual designs for parks</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-wants-feedback-on-early-conceptual-designs-for-parks</link>
+     <description>Tiburon is seeking community feedback through Feb. 19 on preliminary designs for four neighborhood parks.</description>
+     <content:encoded><![CDATA[<p>Tiburon is seeking community feedback through Feb. 19 on preliminary designs for four neighborhood parks slated for improvements under its parks master plan.</p>
+<p>The town unveiled conceptual layouts Feb. 10 for Bel Aire play space, Belveron Mini Park, Cypress Hollow Park and the former sanitation ponds site near McKegney Green.</p>
+<p>Residents canreview the designs and submit feedbackat the town's parks landing page.</p>
+<p>The Parks, Open Space and Trails Commission will review the conceptual designs at 6 p.m. Feb. 23. Residents who miss the Feb. 19 deadline can comment during that meeting, Public Works Engineering Manager David Eshoo said in an email.</p>
+<p>Full coverage of the proposed designs will appear in the Feb. 18 edition of The Ark.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">698be9c8d471d728ee6d5840</guid>
+     <pubDate>Wed, 11 Feb 2026 02:41:04 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_23a7f03b23014450a0fe94b69026126f~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>One of the design concepts for the former sanitation ponds at McKegney Green. &apos;The proposed plan includes a basketball court with terraced seating, two sand volleyball courts, a shaded picnic area, relocation of the primary bicycle route to provide a safer connection to the adjacent field and waterfront and sustainable habitat planting,&apos; the town says. (rhaa via town of Tiburon)</media:description>
+   </item>
    <item>
      <title>Mallard Pointe gets time extension, but Belvedere rule on affordable housing stands</title>
      <link>https://www.thearknewspaper.com/live/mallard-pointe-gets-time-extension-but-belvedere-rule-on-affordable-housing-stands</link>
@@ -327,22 +344,6 @@
      <category>News</category>
      <guid isPermaLink="false">698408581e5564677001bcc3</guid>
      <pubDate>Thu, 05 Feb 2026 03:03:23 GMT</pubDate>
-   </item>
-   <item>
-     <title>Everyday Encounters: A ballet teacher at Marin Dance Theatre builds community in Marin</title>
-     <link>https://www.thearknewspaper.com/live/everyday-encounters-a-ballet-teacher-at-marin-dance-theatre-builds-community-in-marin</link>
-     <description>She and a colleague have developed an adaptive dance program for students on the autism spectrum and with other sensory sensitivities.</description>
-     <content:encoded><![CDATA[<p>Between teaching young ballerinas their pliés and older students their pirouettes, Lexi Pittman says she needs a reset. Most mornings, the 25-year-old Marin Dance Theatre instructor walks the waterfront path at Blackie’s Pasture, earbuds in, letting podcasts and bay breezes clear her mind before the afternoon classes begin.</p>
-<p>“This is kind of like a reset for my brain,” she says.</p>
-<p>But Pittman’s most meaningful work at the San Rafael ballet school goes beyond teaching classical technique. Over the past few years, she and a colleague have developed an adaptive dance program for students on the autism spectrum and dancers with other sensory sensitivities — filling a gap in Marin’s dance community.</p>
-<p>“That’s been really eye-opening,” she says. “We’re trying to build more of a community focus in Marin, because there hasn’t really been a program like this here.”</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>News</category>
-     <category>Everyday Encounters</category>
-     <guid isPermaLink="false">6984079a0b2d097f708c83a1</guid>
-     <pubDate>Thu, 05 Feb 2026 03:01:52 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_24bfc40dc195455da477308b07b8b3f5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Lexi Pittman pauses during her morning walk at Blackie’s Pasture Jan. 29. The Marin Dance Theatre instructor walks the Tiburon waterfront path most mornings before teaching ballet classes. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
