@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 22 Feb 2026 03:53:38 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 22 Feb 2026 05:11:36 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon resident among eight killed in avalanche near Lake Tahoe</title>
@@ -239,9 +239,6 @@
      <title>Tiburon police arrest suspect in garage break-in</title>
      <link>https://www.thearknewspaper.com/live/tiburon-police-arrest-suspect-in-garage-break-in</link>
      <description>The San Francisco man pleaded not guilty to one felony count two misdemeanors and two three-strikes enhancements.</description>
-     <content:encoded><![CDATA[<p>A San Francisco man pleaded not guilty Feb. 6 to charges stemming from an overnight garage burglary in Tiburon, including one felony count of second-degree burglary, two misdemeanor counts and two sentence enhancements based on prior felony convictions.</p>
-<p>Martin Hernandez Gutierrez, 33, was arrested shortly after midnight Feb. 4 after Tiburon police say he broke into a garage on Lagoon View Drive and stole a high-end e-bike worth $10,000. Police also suspect him in a theft from an unlocked vehicle nearby.</p>
-<p>Gutierrez was booked into Marin County Jail that morning on $50,000 bail and remained in custody at The Ark’s press time; a pre-trial release hearing was set for Feb. 10, after The Ark’s press deadline.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
