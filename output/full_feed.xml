@@ -7,12 +7,12 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 22 Feb 2026 05:11:36 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 22 Feb 2026 06:07:17 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
-     <title>Tiburon resident among eight killed in avalanche near Lake Tahoe</title>
+     <title>Tiburon resident among nine killed in avalanche near Lake Tahoe</title>
      <link>https://www.thearknewspaper.com/live/tiburon-resident-among-eight-killed-in-avalanche-near-tahoe</link>
-     <description>Families are “devastated beyond words” after eight, including Tiburon&apos;s Kate Morse, died in an avalanche outside Truckee.</description>
+     <description>Families are “devastated beyond words” after nine people, including Tiburon&apos;s Kate Morse, died in the Feb. 17 avalanche outside Truckee.</description>
      <content:encoded><![CDATA[<p>Kate Morse, a 45-year-old Tiburon resident and biotech executive, was among eight people killed Feb. 17 when an avalanche struck a group of backcountry skiers near Castle Peak in Nevada County — the deadliest avalanche ever recorded in California and among the deadliest in U.S. history.</p>
 <p>A mother of three, Morse was among eight close friends whose children ski for Sugar Bowl Academy, a competitive ski school near Donner Summit. The group was on a professionally guided Presidents Day weekend trip to remote huts northwest of Truckee, skiing back to the trailhead on the final morning when the slide struck at about 11:30 a.m.</p>
 <p>Morse, who grew up in Averill Park, New York, spent more than 20 years in the life-sciences industry. She most recently served as vice president of commercial strategy at Septerna, a South San Francisco-based biotechnology company, according to her LinkedIn profile. Before joining Septerna, she held senior roles at Genentech, where she worked in U.S. commercial sales and marketing from 2010 to 2018; Ultragenyx Pharmaceutical; Agios Pharmaceuticals; and Vir Biotechnology, where she rose to vice president of commercial.</p>
@@ -239,6 +239,9 @@
      <title>Tiburon police arrest suspect in garage break-in</title>
      <link>https://www.thearknewspaper.com/live/tiburon-police-arrest-suspect-in-garage-break-in</link>
      <description>The San Francisco man pleaded not guilty to one felony count two misdemeanors and two three-strikes enhancements.</description>
+     <content:encoded><![CDATA[<p>A San Francisco man pleaded not guilty Feb. 6 to charges stemming from an overnight garage burglary in Tiburon, including one felony count of second-degree burglary, two misdemeanor counts and two sentence enhancements based on prior felony convictions.</p>
+<p>Martin Hernandez Gutierrez, 33, was arrested shortly after midnight Feb. 4 after Tiburon police say he broke into a garage on Lagoon View Drive and stole a high-end e-bike worth $10,000. Police also suspect him in a theft from an unlocked vehicle nearby.</p>
+<p>Gutierrez was booked into Marin County Jail that morning on $50,000 bail and remained in custody at The Ark’s press time; a pre-trial release hearing was set for Feb. 10, after The Ark’s press deadline.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
