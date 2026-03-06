@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 06 Mar 2026 09:41:43 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 06 Mar 2026 10:23:01 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Commission backs redesigns at four Tiburon parks</title>
@@ -293,11 +293,17 @@
      <title>Everyday Encounters: A retired local anesthesiologist builds endurance by cross skating Blackie’s Pasture</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-retired-local-anesthesiologist-builds-endurance-by-cross-skating-blackie-s-pa</link>
      <description>The retired anesthesiologist says he cross skates at Blackie’s Pasture weekly — and he&apos;s taken a few falls over the years.</description>
+     <content:encoded><![CDATA[<p>Martin London pushes and lunges through Blackie’s Pasture on his cross skates Feb. 18. The specialized, all-terrain roller skates include 6-to-8-inch tires, bindings that wrap over regular shoes and brakes activated by leaning back. Cross skates are designed to simulate cross-country skiing on pavement or trails, but there’s one key difference, he says — no soft snow to break a fall.</p>
+<p>“You don’t want to wipe out on these,” says London, 72. “You hit concrete.”</p>
+<p>The Mill Valley resident and retired anesthesiologist says he cross skates at Blackie’s Pasture weekly and has taken a few falls over the years.</p>
+<p>“One tumble I was going real fast, but luckily I had my helmet on,” he says.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">699d2ba1f1d815afdb21bf50</guid>
      <pubDate>Tue, 24 Feb 2026 16:20:11 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_a175d1d05d024c7baac2d3b84f0c0535~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Martin London is seen Feb. 18 at Blackie’s Pasture wearing his cross skates — all-terrain roller skates designed to simulate cross-country skiing on pavement and trails. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon resident among nine killed in avalanche near Lake Tahoe</title>
