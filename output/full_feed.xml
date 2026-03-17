@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 17 Mar 2026 10:38:48 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 17 Mar 2026 11:35:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon council wants clearer answers from traffic study</title>
@@ -110,10 +110,6 @@
      <title>Denver-based hotel operator buys The Lodge at Tiburon out of foreclosure</title>
      <link>https://www.thearknewspaper.com/live/denver-based-hotel-operator-buys-the-lodge-at-tiburon-out-of-foreclosure</link>
      <description>Peregrine Hospitality has purchased The Lodge at Tiburon out of foreclosure, acquiring the downtown property for no more than $27.6 million in unpaid debt.</description>
-     <content:encoded><![CDATA[<p>Peregrine Hospitality has purchasedThe Lodge at Tiburonout of foreclosure, acquiring the downtown property for no more than $27.6 million in unpaid debt.</p>
-<p>The Denver-based hospitality group owns and operates 57 hotels and resorts with a combined portfolio value of $2.5 billion. It announced the acquisition of The Lodge and the Toll House Hotel in Los Gatos from Procaccianti Cos. in a March 2 news release that did not disclose the foreclosure proceedings.</p>
-<p>Peregrine, which rebranded from KSL Capital Partners in January 2025, purchased The Lodge under the KSL name, according to county records.</p>
-<p>Tiburon residents Renzo and Crystal Azzarello, who own Luna Blu restaurant on Main Street, operate the hotel's restaurant,Tiburon Tavern, under lease. Renzo Azzarello said last week that he has submitted a request for a three-year contract extension and is optimistic about continuing under the new ownership.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>News</category>
      <category>Tiburon</category>
