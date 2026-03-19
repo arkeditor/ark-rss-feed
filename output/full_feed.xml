@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 19 Mar 2026 11:05:15 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 19 Mar 2026 11:54:35 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon Councilmember Thier officially joins crowded race for state Assembly seat</title>
@@ -152,11 +152,18 @@
      <title>Everyday Encounters: A Tiburon stop for their six-continent, 30-year marriage</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-tiburon-stop-for-their-six-continent-30-year-marriage</link>
      <description>On a 70-degree afternoon at Shoreline Park, Dan and Barbara Friedman look like any other couple out for a stroll. They’ve just returned from Antarctica. Next stop: the Arctic.</description>
+     <content:encoded><![CDATA[<p>On a 70-degree afternoon at Shoreline Park, Dan and Barbara Friedman look like any other couple out for a stroll. They’ve just returned from Antarctica. Next stop: the Arctic.</p>
+<p>“Some places you go to and you realize, this looks like some place we were last year,” Dan says March 12. “We don’t go to a lot of resorts, but visiting cities, one starts to get very similar to the other. We try some of the off-the-beaten-path places.”</p>
+<p>They rode aboard a small vessel with fewer than 100 passengers through the icy waters of Antarctica — him for the photography and her for the penguins.</p>
+<p>Dan says they’ll have crossed an important threshold once they’ve been to the Arctic Ocean.</p>
+<p>“After we go to the Arctic, we can say we’re bipolar,” he says.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">69b994862ed53b993db90e68</guid>
      <pubDate>Tue, 17 Mar 2026 17:52:14 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_be6e9512cabb423891055770dd705e46~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Barbara and Dan Friedman sit at Shoreline Park in Tiburon on March 12. The San Francisco couple, married 30 years, recently returned from Antarctica and are planning a trip to the Arctic. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Picks of the Week: Jazz Caliente Old St. Hilary’s, ‘Lion King’ at Bel Aire</title>
@@ -191,8 +198,7 @@
      <title>Turnover at Strawberry Village fuels debate over rents, future</title>
      <link>https://www.thearknewspaper.com/live/turnover-at-strawberry-village-fuels-debate-over-rents-future</link>
      <description>Empty storefronts and reports of doubled rents have some residents calling Strawberry Village a “ghost town,&quot; but the center&apos;s owner says seven new businesses will open this year.</description>
-     <content:encoded><![CDATA[<p>Updated:43 minutes ago</p>
-<p>Empty storefronts and reports of doubled rents have some residents calling Strawberry Village a “ghost town.” But Edens, the Washington, D.C.-based real-estate developer that bought the shopping center in 2022, says the property is performing well — and seven new businesses are set to open there this year.</p>
+     <content:encoded><![CDATA[<p>Empty storefronts and reports of doubled rents have some residents calling Strawberry Village a “ghost town.” But Edens, the Washington, D.C.-based real-estate developer that bought the shopping center in 2022, says the property is performing well — and seven new businesses are set to open there this year.</p>
 <p>In Nextdoor posts, residents have noted many recent departures of beloved shops and restaurants — Bella boutique earlier this year, Woodlands Pet Food & Treats and Spanish Table in 2025, Pizza Antica in 2023 — along with “for lease” signs in a handful of storefronts. Several current and former tenants have claimed that rents have significantly increased since Edens took over.</p>
 <p>Rob Hansen, president and owner of Woodlands Pet Food & Treats, said the shop’s relocation to The Cove shopping center was driven by both finances and a directive from Edens to vacate its longtime space to make way for Barry’s Bootcamp, a Los Angeles-based fitness chain.</p>
 <p>“I don’t think Edens has much of a choice but to continue pushing out all the wonderful local tenants by drastically increasing their rent, while at the same time courting large national brands who have private equity money to spend on rent that is doubled or more,” he said.</p>
