@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 22 Mar 2026 11:14:28 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 22 Mar 2026 11:42:43 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon Councilmember Thier officially joins crowded race for state Assembly seat</title>
@@ -169,11 +169,16 @@
      <title>Picks of the Week: Jazz Caliente Old St. Hilary’s, ‘Lion King’ at Bel Aire</title>
      <link>https://www.thearknewspaper.com/live/picks-of-the-week-jazz-caliente-at-old-jazz-caliente-at-oldst-hilary-s-lion-king-at-bel-aire</link>
      <description>Jazz Caliente plays at 4 p.m. March 22, while “The Lion King Jr.” runs March 24-28.</description>
+     <content:encoded><![CDATA[<p>Jazz Caliente at Old St. Hilary’s Landmark</p>
+<p>Jazz Caliente will play a concert at 4 p.m. March 22 at Old St. Hilary’s Landmark. The six-piece group, led by guitarist Lee Waterman, includes Latin jazz as well as classics made famous by Miles Davis and Duke Ellington with Brazilian and Afro-Cuban rhythms. There is no parking at Old St. Hilary’s; free parking is available at The Boardwalk shopping center, with a shuttle leaving from in front of Rustic Bakery beginning 30 minutes before the show. Tickets are $20-$25 in advance online or at the Belvedere-Tiburon Landmarks Society office, $25-$30 at the door if not sold out. 415-435-1853 orlandmarkssociety.com.</p>
+<p>Bel Aire Elementary presents ‘Lion King’</p>
+<p>The kids of Bel Aire Elementary School will present “The Lion King Jr.” beginning 6:30 p.m. March 24. Two casts of students will perform the youth-adapted musical, which is based on the 1997 Broadway production and the beloved 1994 Disney animated film. The story follows a young lion prince who flees after the death of his father, only to return to confront his villainous uncle and reclaim his rightful place. The production features the fan-favorite songs “Can You Feel the Love Tonight” and “Hakuna Matata.” Shows run at 6:30 p.m. March 24-27, with matinees at 1 p.m. and 4 p.m. March 28. Tickets are $12-$15.arkn.ws/lionkingjr.</p>]]></content:encoded>
      <dc:creator>The Ark</dc:creator>
      <category>Entertainment</category>
      <category>News</category>
      <guid isPermaLink="false">69b993bf3df4a8950cf5dc61</guid>
      <pubDate>Tue, 17 Mar 2026 17:50:02 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_1658a969cf5e4e98a23fd321c5b05419~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
    <item>
      <title>Garden Plot: Gnats, other pests can be a buzzkill for indoor plants</title>
