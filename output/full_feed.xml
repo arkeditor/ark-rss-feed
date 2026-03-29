@@ -7,13 +7,13 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 29 Mar 2026 17:27:45 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 29 Mar 2026 17:55:20 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Ark investigation: Follow-up audit finds far broader access to Tiburon license-plate data</title>
      <link>https://www.thearknewspaper.com/live/ark-investigation-follow-up-audit-finds-far-broader-access-to-tiburon-license-plate-data</link>
      <description>As 41 agencies made 16,029 questionable searches — largely missed by town — Flock makes changes that conceal records, and Tiburon expands surveillance with two more cameras</description>
-     <content:encoded><![CDATA[<p>Updated:7 minutes ago</p>
+     <content:encoded><![CDATA[<p>Updated:8 minutes ago</p>
 <p>A new audit by The Ark has found 41 California law-enforcement agencies conducted 16,029 potentially illegal searches of Tiburon’s automated license-plate logs from July through December — 18 more agencies than the Police Department disclosed after its own audit of the same period. The department’s keywords would have missed nearly 97% of searches.</p>
 <p>The findings come as its vendor, Atlanta-based Flock Safety, has implemented system updates that effectively conceal illegal searches from clients and the public, making already inadequate self-audits even less effective, critics say. And the company is now stripping required data from audit records, a move that immediately puts Tiburon, Belvedere and other California clients in violation of state law, according to the Electronic Frontier Foundation and American Civil Liberties Union.</p>
 <p>Meanwhile, Tiburon has further expanded surveillance, adding its first two cameras downtown.</p>
