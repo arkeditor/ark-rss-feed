@@ -7,19 +7,20 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 31 Mar 2026 05:58:40 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 31 Mar 2026 07:10:43 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Ark investigation: Follow-up audit finds far broader access to Tiburon license-plate data</title>
      <link>https://www.thearknewspaper.com/live/ark-investigation-follow-up-audit-finds-far-broader-access-to-tiburon-license-plate-data</link>
      <description>As 41 agencies made 16,029 questionable searches — largely missed by town — Flock makes changes that conceal records, and Tiburon expands surveillance with two more cameras</description>
-     <content:encoded><![CDATA[<p>A new audit by The Ark has found 41 California law-enforcement agencies conducted 16,029 potentially illegal searches of Tiburon’s automated license-plate logs from July through December — 18 more agencies than the Police Department disclosed after its own audit of the same period. The department’s keywords would have missed nearly 97% of searches.</p>
+     <content:encoded><![CDATA[<p>Updated:7 minutes ago</p>
+<p>A new audit by The Ark has found 41 California law-enforcement agencies conducted 16,029 potentially illegal searches of Tiburon’s automated license-plate logs from July through December — 18 more agencies than the Police Department disclosed after its own audit of the same period. The department’s keywords would have missed nearly 97% of searches.</p>
 <p>The findings come as its vendor, Atlanta-based Flock Safety, has implemented system updates that effectively conceal illegal searches from clients and the public, making already inadequate self-audits even less effective, critics say. And the company is now stripping required data from audit records, a move that immediately puts Tiburon, Belvedere and other California clients in violation of state law, according to the Electronic Frontier Foundation and American Civil Liberties Union.</p>
 <p>Meanwhile, Tiburon has further expanded surveillance, adding its first two cameras downtown.</p>
 <p>The Ark’sinitial investigation, published in February, found that nine agencies had conducted 475 searches from May through August citing federal agencies, including the FBI, DEA and U.S. Marshals Service. California’sSenate Bill 34, implemented in 2016, prohibits any sharing of camera data with private, out-of-state and federal agencies to protect Californians’ privacy.SB 54, which took effect in 2018, broadly bars state and local agencies from using their resources for federal immigration enforcement.</p>
 <p>The paper’s monthslong inquiry prompted Police Chief Michelle Jean to conduct her own audits of the July to December period. Days before publication, she acknowledged 23 agencies had made potentially illegal searches — including searches involving federal immigration agencies — and announced a new protocol to contact those agencies to explain the searches or lose access.</p>
 <p>Records subsequently obtained by The Ark show Jean sent letters to 21 agencies on Jan. 15, with a 30-day response deadline that expired after the paper’s February report, and she phoned one more. As The Ark went to press March 23, access for 10 of those agencies had been revoked.</p>
-<p>Of the 41 agencies identified by The Ark, 29 still have access to local camera data, and some appear to have made explicit searches on behalf of federal or out-of-state agencies. Elk Grove cited the Oregon State Police. Santa Clara police noted searches were for “DEA assist” 100 times. West Covina, Murrieta and Glendora police all indicated they searched ...</p>]]></content:encoded>
+<p>Of the 41 agencies identified by The Ark, 29 still have access to local camera data, and some appear to have made explicit searches on behalf of federal or out-of-state agencies. Elk Grove cited the Oregon State Police. Santa Clara police noted searches were for “DEA assist” 100 times. West Covina, Murrieta and Glendora police...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
