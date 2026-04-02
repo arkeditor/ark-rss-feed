@@ -7,14 +7,15 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 02 Apr 2026 20:58:51 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 02 Apr 2026 21:36:30 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>PG&amp;E power outage affects over 5,000 Tiburon Peninsula customers</title>
      <link>https://www.thearknewspaper.com/live/pg-e-power-outage-affects-over-5-000-tiburon-peninsula-customers</link>
      <description>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</description>
-     <content:encoded><![CDATA[<p>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</p>
-<p>PG&E issued the alert at 12:23 p.m. April 2, affecting 2,895 customers in Tiburon and 1,122 in Belvedere. No official restoration estimate has been provided, though some customers received automated calls indicating service could resume by 8:15 p.m.</p>
+     <content:encoded><![CDATA[<p>UPDATE: PG&E maps of 1:31 p.m. show power has been restored to all Belvedere customers and all but three Tiburon customers. Residents along Greenwood Cove and Greenwood Bay drives were still without power, with restoration expected about 9 p.m.</p>
+<p>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</p>
+<p>PG&E issued the alert at 12:23 p.m. April 2, affecting 2,895 customers in Tiburon and 1,122 in Belvedere. No official restoration estimate has been provided, though some customers received automated calls indicating service could resume by 8:15 p.m. Others reported about 1:30 p.m. that their power was restored.</p>
 <p>Tiburon resident Adam Khan said on Nextdoor that he was turning into The Cove Shopping Center parking lot on Blackfield Drive when he witnessed what may have caused the outage. "Nothing appeared to hit it, just a blue flash and the cable dropped on Tiburon Boulevard on the eastward-direction side."</p>
 <p>PG&E has not confirmed the cause.</p>
 <p>For updates, visitpgealerts.alerts.pge.com/outage-tools/outage-map.</p>]]></content:encoded>
