@@ -7,8 +7,27 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 02 Apr 2026 19:40:26 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 02 Apr 2026 20:23:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>PG&amp;E power outage affects over 5,000 Tiburon Peninsula customers</title>
+     <link>https://www.thearknewspaper.com/live/pg-e-power-outage-affects-over-5-000-tiburon-peninsula-customers</link>
+     <description>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</description>
+     <content:encoded><![CDATA[<p>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</p>
+<p>PG&E issued the alert at 12:23 p.m. April 2, affecting 2,895 customers in Tiburon and 1,122 in Belvedere. No official restoration estimate has been provided, though some customers received automated calls indicating service could resume by 8:15 p.m.</p>
+<p>Tiburon resident Adam Khan said on Nextdoor that he was turning into The Cove Shopping Center parking lot on Blackfield Drive when he witnessed what may have caused the outage. "Nothing appeared to hit it, just a blue flash and the cable dropped on Tiburon Boulevard on the eastward-direction side."</p>
+<p>PG&E has not confirmed the cause.</p>
+<p>For updates, visitpgealerts.alerts.pge.com/outage-tools/outage-map.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Tiburon</category>
+     <category>Belvedere</category>
+     <category>Strawberry</category>
+     <category>News</category>
+     <guid isPermaLink="false">69cec9b6719295076f2ceffd</guid>
+     <pubDate>Thu, 02 Apr 2026 19:57:07 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_15eef3feed9540029a3c20d076e631dc~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:description>(via PG&amp;E)</media:description>
+   </item>
    <item>
      <title>Tiburon extends club&apos;s pickleball hours amid noise debate</title>
      <link>https://www.thearknewspaper.com/live/tiburon-extends-club-s-pickleball-hours-amid-noise-debate</link>
@@ -305,20 +324,6 @@
      <category>News</category>
      <guid isPermaLink="false">69c31b4bb1bfd68174dfb870</guid>
      <pubDate>Tue, 24 Mar 2026 23:17:04 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon parks board backs plans for public-art project featuring faux street signs</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-parks-board-backs-plans-for-public-art-project-featuring-faux-street-signs</link>
-     <description>A public-art proposal to place 15 faux street signs bearing positive messages from Blackie’s Pasture to downtown is likely headed to the Town Council for final consideration.</description>
-     <content:encoded><![CDATA[<p>A public-art proposal to place 15 faux street signs bearing positive messages from Blackie’s Pasture to downtown is likely headed to the Town Council for final consideration.</p>
-<p>The Tiburon Parks, Open Space and Trails Commission voted 4-0 March 17 to back the “Word on the Street” exhibit from artist Scott Froschauer and recommend it to the council. The parks board currently has one vacancy.</p>
-<p>The Heritage & Arts Commission, which has been the driving force behind the proposal, planned to vote once more on the project at its March 24 meeting, after The Ark’s press deadline, before sending it to the council.</p>
-<p>The $20,000 project from the Los Angeles-based Froschauer has evolved over several months of consideration by the arts and parks boards, expanding from 10 signs to 15 and moving to new locations after the parks board in December asked that signs be placed in more ambitious, higher-visibility spots rather than tucked away in smaller parks.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69c31b08dbf1d5b6012fb2ac</guid>
-     <pubDate>Tue, 24 Mar 2026 23:15:41 GMT</pubDate>
    </item>
  </channel>
 </rss>
