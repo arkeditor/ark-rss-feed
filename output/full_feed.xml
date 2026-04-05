@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 05 Apr 2026 14:58:24 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 05 Apr 2026 15:30:12 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>PG&amp;E power outage affects over 5,000 Tiburon Peninsula customers</title>
@@ -255,17 +255,11 @@
      <title>Tiburon pushes on with park designs as $6M price tag looms</title>
      <link>https://www.thearknewspaper.com/live/tiburon-pushes-on-with-park-designs-as-6m-price-tag-looms</link>
      <description>New amenities in several Tiburon parks, including on the site of former sanitation ponds, are one step closer to becoming a reality after officials approved pursuing final designs for four projects.</description>
-     <content:encoded><![CDATA[<p>New amenities in several Tiburon parks, including on the site of former sanitation ponds, are one step closer to becoming a reality after officials approved pursuing final designs for four projects.</p>
-<p>During a joint March 18 meeting of the Town Council and Parks, Open Space and Trails Commission that stretched past midnight, councilmembers approved pursuing final designs for the ponds site near McKegney Green in the Richardson Bay lineal park system, Belveron Mini Park, Cypress Hollow Park and the Bel Aire play area.</p>
-<p>Early concepts for the four sites include basketball, beach volleyball and an outdoor lounge near McKegney Green; an updated play area at Cypress Hollow Park; nature-based features at Belveron Mini Park; and a new walking loop and seating at the Bel Aire play area.</p>
-<p>The town will pay up to a combined $752,093 to two design firms: $388,783 for the ponds site and $96,600 for Belveron Mini Park, both to Mill Valley-based RHAA; and $155,544 for Cypress Hollow Park and $111,166 for the Bel Aire play area, both to Santa Rosa-based Carlile Macy. Budget amendments will be approved at a future meeting, with spending drawn from the town’s Park Development Reserve Fund, which currently holds approximately $1.25 million.</p>
-<p>Preliminary construction costs across all four sites total $6.15 million — $2.38 million for the ponds site, $1.98 million for Belveron Mini Park, $1.32 million for Cypress Hollow Park and $466,796 for the Bel Aire play area. Those are early estimates.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>News</category>
      <category>Tiburon</category>
      <guid isPermaLink="false">69c31d828f0e652aaa2fdd5c</guid>
      <pubDate>Tue, 24 Mar 2026 23:27:27 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_90ed03de4c764874a6a533cbb5c4718f~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
    </item>
    <item>
      <title>Officials advance $2.58 mil idea to link Tiburon Town Hall, library as public emergency hub</title>
