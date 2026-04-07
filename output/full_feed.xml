@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 07 Apr 2026 20:34:06 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 07 Apr 2026 21:35:42 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon skipper makes history in Australian offshore racing series</title>
@@ -200,12 +200,6 @@
      <title>PG&amp;E power outage affects over 5,000 Tiburon Peninsula customers</title>
      <link>https://www.thearknewspaper.com/live/pg-e-power-outage-affects-over-5-000-tiburon-peninsula-customers</link>
      <description>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</description>
-     <content:encoded><![CDATA[<p>UPDATE: PG&E maps of 1:31 p.m. show power has been restored to all Belvedere customers and all but three Tiburon customers. Residents along Greenwood Cove and Greenwood Bay drives were still without power, with restoration expected about 9 p.m.</p>
-<p>A Pacific Gas and Electric Co. power outage has left 5,154 customers without electricity across the Tiburon Peninsula and parts of Mill Valley, with the cause listed as unknown.</p>
-<p>PG&E issued the alert at 12:23 p.m. April 2, affecting 2,895 customers in Tiburon and 1,122 in Belvedere. No official restoration estimate has been provided, though some customers received automated calls indicating service could resume by 8:15 p.m. Others reported about 1:30 p.m. that their power was restored.</p>
-<p>Tiburon resident Adam Khan said on Nextdoor that he was turning into The Cove Shopping Center parking lot on Blackfield Drive when he witnessed what may have caused the outage. "Nothing appeared to hit it, just a blue flash and the cable dropped on Tiburon Boulevard on the eastward-direction side."</p>
-<p>PG&E has not confirmed the cause.</p>
-<p>For updates, visitpgealerts.alerts.pge.com/outage-tools/outage-map.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
@@ -213,8 +207,6 @@
      <category>News</category>
      <guid isPermaLink="false">69cec9b6719295076f2ceffd</guid>
      <pubDate>Thu, 02 Apr 2026 19:57:07 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_15eef3feed9540029a3c20d076e631dc~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-     <media:description>(via PG&amp;E)</media:description>
    </item>
    <item>
      <title>Tiburon extends club&apos;s pickleball hours amid noise debate</title>
