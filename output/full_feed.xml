@@ -7,8 +7,74 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 14 Apr 2026 17:10:28 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 14 Apr 2026 17:23:04 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Angel Island Ferry, town of Tiburon named in $1.36M suit over unpaid work</title>
+     <link>https://www.thearknewspaper.com/live/angel-island-ferry-town-of-tiburon-named-in-1-36m-suit-over-unpaid-work</link>
+     <description>ZeroMar is suing the Angel Island-Tiburon Ferry Co., Tiburon and state regulators, alleging $1.36 million in unpaid work on a ferry electrification project.</description>
+     <content:encoded><![CDATA[<p>Marine electrification company ZeroMar is suing the Angel Island-Tiburon Ferry Co., owner Capt. Maggie McDonogh, the town of Tiburon and the California Air Resources Board, alleging it was never paid roughly $1.36 million for completed work or the $100,000 fee required to terminate its contract early.</p>
+<p>The San Rafael-based company, formerly known as Green Yachts, filed the lawsuit April 1 in Marin County Superior Court over payments related to a $24 million grant the state agency awarded in 2024 to the town on behalf of the ferry company to help electrify its fleet.</p>
+<p>ZeroMar was tasked with converting the diesel engines of the 400-passenger Angel Island and 98-passenger water taxi Bonita to electric propulsion, work the company says it completed but was never paid for. The suit alleges the town, ferry company and state agency failed to coordinate the payment process.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Business</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">69de76ec934ce577916bb83e</guid>
+     <pubDate>Tue, 14 Apr 2026 17:20:26 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_221edc70b4744a43a18f1b0c9fca66f5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>The Angel Island-Tiburon Ferry Co.’s 400-passenger Angel Island pulls away from its Tiburon dock on May 3, 2024. San Rafael-based ZeroMar Inc. is suing the ferry company, its owner, the town of Tiburon and the California Air Resources Board, alleging it was never paid for converting the Angel Island and the water taxi Bonita to electric propulsion as part of a $24 million state grant. (Ted McDonnell archive / For The Ark 2024)</media:description>
+   </item>
+   <item>
+     <title>Federal lawsuit accuses Tiburon man of $75 million investor scheme</title>
+     <link>https://www.thearknewspaper.com/live/federal-lawsuit-accuses-tiburon-man-of-75-million-investor-scheme</link>
+     <description>A federal lawsuit accuses a Tiburon man and his nine companies of diverting more than $75 million from investors instead of placing it into promised real-estate loans.</description>
+     <content:encoded><![CDATA[<p>A group of California investment funds has sued Tiburon resident Mark Hanf and nine of his affiliated companies in federal court, accusing him of running a yearslong scheme to siphon more than $75 million from investors into his own network of companies rather than deploying it as promised.</p>
+<p>The lawsuit, filed April 8 in U.S. District Court in San Francisco, brings 10 counts against Hanf, his former chief operating officer, Nam Phan, and the nine corporate entities. Its most serious charge invokes the federal Racketeer Influenced and Corrupt Organizations Act — the statute more commonly associated with organized crime prosecutions — and alleges that the defendants constructed an “enterprise” designed to collect investor money and funnel it to themselves.</p>
+<p>The suit adds a federal civil dimension to deepening legal and regulatory scrutiny of Hanf and his shuttered Novato-based real-estate lending firm, Pacific Private Money, that includes a Marin County District Attorney’s Office investigation; calls from U.S. Rep. Jared Huffman, D-San Rafael, for the FBI and Securities and Exchange Commission to investigate; a state lending license suspension; and at least five civil lawsuits filed in state and federal courts since January.</p>
+<p>The latest plaintiffs are three affiliated California funds operating as WE Alliance. Together, they say they contributed about $4.6 million to Hanf’s Pacific Freedom Fund after receiving a private placement memorandum in April 2020 that promised their money would be invested in secured real-estate loans generating a fixed 6% annual return, paid monthly.</p>
+<p>The complaint alleges that by early this year, Bill Brinkman, the restructuring officer retained by Pacific Private Money, had determined that Pacific Freedom Fund held investments in just six loans with a combined unpaid principal balance of about $5.3 million — against at least $74.2 million contributed by 138 investors. Of those six loans, only one was deemed collectible, with a principal balance of $189,677. The other five were either unsecured — meaning there was no real property to foreclose on — or held in a junior lien position likely to be wiped out by a senior lender. The fund had only $66,482 in cash.</p>
+<p>The remaining money, the lawsuit says, had been transferred among the defendants themselves. According to the complaint, the fund moved $38.9 million to Pacific Private Money Inc., $18.4 million to Hanf Capital LLC, $13.7 million to Pacific Pri...</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Business</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">69de7619934ce577916bb55a</guid>
+     <pubDate>Tue, 14 Apr 2026 17:16:41 GMT</pubDate>
+   </item>
+   <item>
+     <title>Seeing through the clouds: Belvedere researcher uses AI to unlock aurora data</title>
+     <link>https://www.thearknewspaper.com/live/seeing-through-the-clouds-belvedere-researcher-uses-ai-to-unlock-aurora-data</link>
+     <description>A Belvedere college senior built AI that can see the northern lights through clouds, recovering aurora data scientists thought was lost.</description>
+     <content:encoded><![CDATA[<p>In 2008, Belvedere’s Jason Press stood in a darkened bathroom watching his father develop animal X-rays — a veterinarian’s makeshift darkroom, a boy fascinated by science.</p>
+<p>“We had to go into the bathroom, turn the lights off, because that’s where the developing tank was,” he said. “It’s just like you develop an old-school roll of film. That stuff was so cool to me.”</p>
+<p>Today, at 22, the Pepperdine University senior is still pulling images out of darkness — this time, the aurora borealis.</p>
+<p>Press has spent the past year building an AI system that takes footage of a cloud-covered Arctic sky and recovers a clear view of the northern lights hidden behind it, rescuing scientific data that researchers had written off as lost. He presented the work at Pepperdine’s research symposium on April 10 — the latest milestone for an undergraduate project that has already produced a peer-reviewed publication.</p>
+<p>“The path that I have is getting literally a camera picture with clouds, and making the clouds go away so that we can see the aurora behind it,” he said.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <category>School News</category>
+     <guid isPermaLink="false">69de7568c87c857db1f6f92d</guid>
+     <pubDate>Tue, 14 Apr 2026 17:14:15 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_584933aec39147a2a5c651a72df3e8e7~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Jason Press stands beside his research poster at Pepperdine University’s research symposium April 10 in Malibu. The Belvedere resident and Pepperdine senior developed an AI system that removes cloud cover from aurora borealis footage, recovering scientific data previously written off as lost. (via Jason Press)</media:description>
+   </item>
+   <item>
+     <title>Come to the Table aims to bridge Marin&apos;s racial divide over dinner</title>
+     <link>https://www.thearknewspaper.com/live/come-to-the-table-aims-to-bridge-marin-s-racial-divide-over-dinner</link>
+     <description>A free dinner in Marin City seats strangers together on purpose: 25 local residents, 25 from elsewhere in Marin — all to bridge one of the county’s deepest divides.</description>
+     <content:encoded><![CDATA[<p>When you show up to aCome to the Tableevent in Marin City, organizers direct you to a table with new faces. Guests include 25 Marin City residents and 25 people from the rest of the county. The dinner is free. The goal is simple: Get to know your Marin City neighbors.</p>
+<p>For Belvedere resident Gerri Miller, a longtime committee member of the organization based at St. Andrew Presbyterian Church, the dinner series held there is a quiet experiment in bridging one of Marin County’s most persistent divides — one separating Marin City, a historically Black, working-class community, from the largely affluent, mostly white rest of the county.</p>
+<p>This month’s forum, “Food as Medicine,” will spotlight the connection between food and health, featuring a panel discussion exploring how food can heal, energize and transform lives. Speakers at the April 18 event include Cindy Howell, a plant-based chef and food educator who works with underserved communities; Mina Wilson, executive director of Healthy Black Families; and Mark Squire, co-owner of Good Earth Natural Foods.</p>]]></content:encoded>
+     <dc:creator>Tyler Callister</dc:creator>
+     <category>Belvedere</category>
+     <category>News</category>
+     <guid isPermaLink="false">69de7488c87c857db1f6f655</guid>
+     <pubDate>Tue, 14 Apr 2026 17:11:02 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_9bd8db28aa01416484aa3965801c5dd5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>From left, Gerri Miller of Belvedere catches up with Gayle Donsky of Mill Valley and Royce McLemore of Marin City before a Come to the Table forum at St. Andrew Presbyterian Church. (Suzan Berns)</media:description>
+   </item>
    <item>
      <title>Everyday Encounters: A Tiburon yoga teacher urges others to find calm in chaos</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-tiburon-yoga-teacher-urges-others-to-find-calm-in-chaos</link>
@@ -290,66 +356,6 @@ The Pelicans name is back — and with it, a reminder of what local sports once 
      <pubDate>Thu, 02 Apr 2026 19:57:07 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_15eef3feed9540029a3c20d076e631dc~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
      <media:description>(via PG&amp;E)</media:description>
-   </item>
-   <item>
-     <title>Tiburon extends club&apos;s pickleball hours amid noise debate</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-extends-club-s-pickleball-hours-amid-noise-debate</link>
-     <description>Pickleballers will be able to hit the courts at the Tiburon Peninsula Club seven days a week after town officials OK’d expanded hours of play.</description>
-     <content:encoded><![CDATA[<p>Pickleballers will be able to hit the courts at the Tiburon Peninsula Club seven days a week after town officials OK’d expanded hours of play.</p>
-<p>Before an audience of 40 people, the Planning Commission voted 4-1 at its March 25 meeting in favor of increasing playtime at the club. Commissioner Kathleen Defever cast the dissenting vote, saying she wanted to continue giving neighbors — many of whom have lodged ongoing complaints about the noise — a day off from hearing the sport.</p>
-<p>Officials and members at the private Mar West Street club have said the current pickleball hours — 9 a.m.-5 p.m. Tuesdays-Saturdays and 10 a.m.-2 p.m. Sundays, with no play allowed on Mondays — are too limited for demand.</p>
-<p>Under the expanded hours, courts will be open for play 9 a.m.-6:30 p.m. Mondays and Wednesdays-Saturdays between March 1 and Oct. 31 and 9 a.m.-5 p.m. those days from November to February.</p>
-<p>Play will also be allowed 10 a.m.-4:30 p.m. on Sundays year-round, and 9 a.m.-4 p.m. Tuesdays year-round — a one-hour reduction from the current Tuesday hours — as commissioners aimed to provide some respite to nearby residents who have opposed more play.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69cd612140e74dbec4fbc7a8</guid>
-     <pubDate>Wed, 01 Apr 2026 18:18:05 GMT</pubDate>
-   </item>
-   <item>
-     <title>Tiburon shows modest gains as mid-cycle housing review looms</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-shows-modest-gains-as-mid-cycle-housing-review-looms</link>
-     <description>Tiburon has permitted 54 of the 639 housing units the state requires it to make room for by 2031 — about 8.5% as the planning cycle approaches its midpoint.</description>
-     <content:encoded><![CDATA[<p>Tiburon has permitted 54 of the 639 housing units the state requires it to make room for by 2031 — about 8.5% as the planning cycle approaches its midpoint — though accessory dwelling unit development has already outpaced the town’s eight-year projections.</p>
-<p>The overall progress figure is higher than the 40 units shown in the annual report reviewed and approved by the Planning Commission on March 25. Community Development Director Shari Meads said prior annual state filings missed units, and the town is working with the California Department of Housing and Community Development to correct them “so they accurately reflect the number of units permitted (54) between 2023 and 2025.” Meads planned to present the corrected figures to the Town Council after The Ark’s press deadline.</p>
-<p>The reports — one on the housing element, one on the broader general plan — were due April 1 to the state housing agency and the Governor’s Office of Land Use and Climate Innovation.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69cd60c94c31bb6f64c05bac</guid>
-     <pubDate>Wed, 01 Apr 2026 18:16:22 GMT</pubDate>
-   </item>
-   <item>
-     <title>Grateful Dog owners appeal for help after flood stalls business</title>
-     <link>https://www.thearknewspaper.com/live/grateful-dog-owners-appeal-for-help-after-flood-stalls-business</link>
-     <description>The Tiburon residents say the business has continued to struggle, and they’re asking for community help to raise about $100,000 toward repairs and improvements.</description>
-     <content:encoded><![CDATA[<p>The Tiburon residents who own The Grateful Dog daycare in Greenbrae say the business has continued to struggle after sustaining extensive flood damage in January, and they’re asking for community help to raise about $100,000 toward repairs and improvements.</p>
-<p>Donations to theGoFundMelaunched by Karla Rivera-Cervantes and her husband, Ernie Cervantes, in January have stalled at $10,635 of the $100,000 goal after an initial strong showing, Rivera-Cervantes said. She’s now hoping to revive the effort and draw attention to the business, which she said serves many Tiburon Peninsula clients.</p>
-<p>The Grateful Dog was one of several businesses affected by the four-day deluge of king tides and atmospheric-river storms Jan. 1-4 that brought the worst coastal flooding in Marin County in nearly three decades.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Business</category>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">69cd601540e74dbec4fbc4de</guid>
-     <pubDate>Wed, 01 Apr 2026 18:14:47 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_1d3ca6c8626d47afa2755cd08c257f28~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Grateful Dog owners Karla Rivera-Cervantes and Ernie Cervantes — seen with their daughter, Kiana, and dogs Latte (left) and Oksi — take a break March 25 from the ongoing cleanup and restoration of their Greenbrae facility. The parking lot and shop filled with water, as seen below Jan. 3, amid a deluge of king tides and atmospheric storms that caused the worst coastal flooding in Marin County in decades. (Clara Lu / For The Ark)</media:description>
-   </item>
-   <item>
-     <title>Vandals cut wiring, disable irrigation at McKegney, South of the Knoll parks</title>
-     <link>https://www.thearknewspaper.com/live/vandals-cut-wiring-disable-irrigation-at-mckegney-south-of-the-knoll-parks</link>
-     <description>Tiburon is working to repair an estimated $20,000 in damage to the irrigation systems at McKegney Green and South of the Knoll Park after someone cut the wiring.</description>
-     <content:encoded><![CDATA[<p>Tiburon is working to repair an estimated $20,000 in damage to the irrigation systems at McKegney Green and South of the Knoll Park after someone cut the wiring in March, leaving both fields temporarily without water amid a heat wave.</p>
-<p>Public Works Operations Manager Patrick Kerslake said he discovered the damage March 18 while crews were conducting routine maintenance on the fields.</p>
-<p>“I noticed one of the turf areas was a bit dry,” he said. “And so we went out to diagnose and check the irrigation system like we normally would and look at some of the valve boxes. … We basically found that wiring had been cut and removed.”</p>
-<p>Kerslake, who is also a reserve police officer, said vandals broke into 26 boxes across the two parks, cutting or removing wiring from some and pulling wires out of underground conduits in others. He said the wires were part of the irrigation system’s electrical network.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>News</category>
-     <category>Tiburon</category>
-     <guid isPermaLink="false">69cd5f71f7044e6cf7a62cd8</guid>
-     <pubDate>Wed, 01 Apr 2026 18:11:19 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_91aff555028e43b686ad7099f41224f4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Wiring is being repaired at an irrigation control box at McKegney Green on March 25 after vandals cut and removed wiring from 26 boxes there and at South of the Knoll Park, causing an estimated $20,000 in damage. (Tyler Callister / The Ark)</media:description>
    </item>
  </channel>
 </rss>
