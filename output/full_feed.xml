@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 16 Apr 2026 15:08:58 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 16 Apr 2026 16:51:56 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Angel Island Ferry, town of Tiburon named in $1.36M suit over unpaid work</title>
@@ -287,19 +287,12 @@ The Pelicans name is back — and with it, a reminder of what local sports once 
      <title>‘Together with Art’ exhibit at Town Hall highlightsAsian American and Pacific Islander cultures</title>
      <link>https://www.thearknewspaper.com/live/together-with-art-exhibit-at-town-hall-highlightsasian-american-and-pacific-islander-cultures</link>
      <description>“Together with Art&quot; features Asian American and Pacific Islander artists and artists of others backgrounds who participate in AAPI cultural activities.</description>
-     <content:encoded><![CDATA[<p>Glenna Yee was on a walk with her golden retriever, Savannah, when she spied three amaryllises peeking out of the soil.</p>
-<p>The resulting photograph illustrates the two main principles that guide her eye behind the lens, she says.</p>
-<p>“The first one is serendipity, and the second one is juxtaposition,” says Yee, a Santa Rosa resident.</p>
-<p>Yee is among five Bay Area residents selected to show works in “Together with Art,” running through June 30 at Tiburon Town Hall. The exhibit, sponsored by the town’s Heritage and Arts Commission, features Asian American and Pacific Islander artists and artists of other backgrounds who participate in Asian American and Pacific Islander cultural activities. An artists’ reception is set for 6-8 p.m. April 14.</p>
-<p>The exhibit is co-chaired by arts commissioners Victoria Fong and Azita de Mujica. Tiburon resident Sandi Chin curated the exhibit, and Anne Marie Siu Yuan of Tiburon helped find artists. The exhibit overlaps with Tiburon’s third annual Asian American and Pacific Islander Heritage Festival, set for 1-4 p.m. May 16 at Zelinsky Park.</p>]]></content:encoded>
      <dc:creator>Diane Smith</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <category>Entertainment</category>
      <guid isPermaLink="false">69d52954f2ad0bf9f6feeba8</guid>
      <pubDate>Tue, 07 Apr 2026 15:59:37 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_fabe2e30fe5e44a9b4bb23a5712a3d60~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Three amaryllises emerge from their buds against a dark background in a photograph by Santa Rosa artist Glenna Yee.</media:description>
    </item>
    <item>
      <title>Gregory Michael Hart</title>
