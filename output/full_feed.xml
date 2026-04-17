@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 16 Apr 2026 23:08:53 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 17 Apr 2026 00:01:30 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Angel Island Ferry, town of Tiburon named in $1.36M suit over unpaid work</title>
@@ -29,13 +29,12 @@
      <title>Federal lawsuit accuses Tiburon man of $75 million investor scheme</title>
      <link>https://www.thearknewspaper.com/live/federal-lawsuit-accuses-tiburon-man-of-75-million-investor-scheme</link>
      <description>A federal lawsuit accuses a Tiburon man and his nine companies of diverting more than $75 million from investors instead of placing it into promised real-estate loans.</description>
-     <content:encoded><![CDATA[<p>Updated:7 minutes ago</p>
-<p>A group of California investment funds has sued Tiburon resident Mark Hanf and nine of his affiliated companies in federal court, accusing him of running a yearslong scheme to siphon more than $75 million from investors into his own network of companies rather than deploying it as promised.</p>
+     <content:encoded><![CDATA[<p>A group of California investment funds has sued Tiburon resident Mark Hanf and nine of his affiliated companies in federal court, accusing him of running a yearslong scheme to siphon more than $75 million from investors into his own network of companies rather than deploying it as promised.</p>
 <p>The lawsuit, filed April 8 in U.S. District Court in San Francisco, brings 10 counts against Hanf, his former chief operating officer, Nam Phan, and the nine corporate entities. Its most serious charge invokes the federal Racketeer Influenced and Corrupt Organizations Act — the statute more commonly associated with organized crime prosecutions — and alleges that the defendants constructed an “enterprise” designed to collect investor money and funnel it to themselves.</p>
 <p>The suit adds a federal civil dimension to deepening legal and regulatory scrutiny of Hanf and his shuttered Novato-based real-estate lending firm, Pacific Private Money, that includes a Marin County District Attorney’s Office investigation; calls from U.S. Rep. Jared Huffman, D-San Rafael, for the FBI and Securities and Exchange Commission to investigate; a state lending license suspension; and at least five civil lawsuits filed in state and federal courts since January.</p>
 <p>The latest plaintiffs are three affiliated California funds operating as WE Alliance. Together, they say they contributed about $4.6 million to Hanf’s Pacific Freedom Fund after receiving a private placement memorandum in April 2020 that promised their money would be invested in secured real-estate loans generating a fixed 6% annual return, paid monthly.</p>
 <p>The complaint alleges that by early this year, Bill Brinkman, the restructuring officer retained by Pacific Private Money, had determined that Pacific Freedom Fund held investments in just six loans with a combined unpaid principal balance of about $5.3 million — against at least $74.2 million contributed by 138 investors. Of those six loans, only one was deemed collectible, with a principal balance of $189,677. The other five were either unsecured — meaning there was no real property to foreclose on — or held in a junior lien position likely to be wiped out by a senior lender. The fund had only $66,482 in cash.</p>
-<p>The remaining money, the lawsuit says, had been transferred among the defendants themselves. According to the complaint, the fund moved $38.9 million to Pacific Private Money Inc., $18.4 million to Hanf Capital LLC,...</p>]]></content:encoded>
+<p>The remaining money, the lawsuit says, had been transferred among the defendants themselves. According to the complaint, the fund moved $38.9 million to Pacific Private Money Inc., $18.4 million to Hanf Capital LLC, $13.7 million to Pacific Pri...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Business</category>
      <category>Tiburon</category>
