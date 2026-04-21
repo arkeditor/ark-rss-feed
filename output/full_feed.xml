@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 21 Apr 2026 14:55:05 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 21 Apr 2026 16:02:47 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Angel Island Ferry, town of Tiburon named in $1.36M suit over unpaid work</title>
@@ -241,6 +241,9 @@ The Pelicans name is back — and with it, a reminder of what local sports once 
      <title>Tiburon artist laureate to mark Earth Day with reflective walk at Blackie’s Pasture</title>
      <link>https://www.thearknewspaper.com/live/tiburon-artist-laureate-to-mark-earth-day-with-reflective-walk-at-blackie-s-pasture</link>
      <description>Tiburon’s artist laureate will lead an interactive art walk along the Richardson Bay shoreline on April 22 to commemorate Earth Day.</description>
+     <content:encoded><![CDATA[<p>Tiburon’s artist laureate will lead an interactive art walk along the Richardson Bay shoreline on April 22 to commemorate Earth Day.</p>
+<p>The hourlong walk, which starts at 10 a.m. at the Blackie the Horse statue at Blackie’s Pasture, is part of Christa Grenawalt’s ongoing “Waterline Project,” community-based artwork exploring humans’ relationship to rising water and the San Francisco Bay shoreline.</p>
+<p>The Earth Day walk will allow participants not only to observe the waterline along the shore but also to pause and connect with their surroundings. Journals and simple materials will be available for drawing, writing or other observation.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
