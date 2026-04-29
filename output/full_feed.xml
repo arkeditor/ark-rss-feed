@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 29 Apr 2026 00:12:14 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 29 Apr 2026 04:06:59 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -24,11 +24,6 @@
      <title>Belvedere projects $2.07M deficit tied to Beach Road rehab</title>
      <link>https://www.thearknewspaper.com/live/belvedere-projects-2-07m-deficit-tied-to-beach-road-rehab</link>
      <description>Belvedere is spending $30,000 to study whether it still needs its own police chief or could share command with a neighboring jurisdiction.</description>
-     <content:encoded><![CDATA[<p>Belvedere’s preliminary budget projects a $2.07 million deficit for fiscal year 2026-2027, driven largely by the $4.97 million Beach Road seawall stabilization project, which is set to begin construction this summer.</p>
-<p>The proposed $14.48 million budget, the largest in Belvedere’s history, includes roughly $2.48 million in rolled-over capital expenditures associated with the Beach Road project. The work will be performed by Walnut Creek-based Gordon N. Ball Construction Inc. under a $3.51 million construction contract awarded April 13, with work tentatively to begin June 1, pending permits and coordination with Pacific Gas and Electric Co.</p>
-<p>Higher revenues from a new user fee schedule — adopted for the current fiscal year and adjusted upward for next year — are helping the city rebuild the infrastructure reserve, set to be renamed the long-term capital planning fund, to a projected $1.53 million by fiscal year 2030-2031.</p>
-<p>The proposed budget also includes $235,000 for a temporary police officer over three years while the city evaluates the long-term structure of its department. Police Chief Jason Wu, who works in a largely administrative role, considers the department fully staffed with six patrol officers. But one position has been held vacant since 2020, forcing substantial overtime and reliance on outside agencies for coverage during absences, disability leave and training.</p>
-<p>The city is also allocating $30,000 for an independent study examining both the department’s internal staffing model and broader options, including a possible policing partnership with neighboring jurisdictions — similar to how Belvedere contracts with the Tiburon Fire Protection District for fire and emergency services — potentially without Wu.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
@@ -69,10 +64,6 @@
      <title>Tam Union high school district approves bell-to-bell cellphone ban</title>
      <link>https://www.thearknewspaper.com/live/tam-union-high-school-district-approves-bell-to-bell-cellphone-ban</link>
      <description>Students at Redwood and other Tam Union high schools will be required to lock phones in cases during school hours, including passing periods, lunch and breaks.</description>
-     <content:encoded><![CDATA[<p>The Tamalpais Union High School District will require students to lock their cellphones away for the entire school day starting next August, expanding a current ban on phone use during class to include passing periods, breaks and lunch.</p>
-<p>The district’s board of trustees voted 3-2 April 14 in favor of moving to a phone-free day beginning in the 2026-2027 school year, directing staff to order NuKase lockable cellphone cases for use by students at its three comprehensive high schools, Redwood, Tamalpais and Archie Williams. At those schools, students would have possession of the case but would not be able to remove their phone during school hours.</p>
-<p>The board also directed staff to order lockable phone caddies for its smaller alternative high schools, San Andreas and Tamiscal, which will be colocated on one campus in Larkspur beginning next year. Those students would deposit their phones in the caddy at the start of each day and pick them up at the end, with a school employee in charge of the caddies.</p>
-<p>Board members Ida Green and Emily Uhlhorn cast the dissenting votes, both saying they had concerns about implementing the policy next August.</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>School News</category>
      <category>News</category>
@@ -131,16 +122,12 @@
      <title>Exhibit chronicles Tiburon artist&apos;s career from news graphics to plein air</title>
      <link>https://www.thearknewspaper.com/live/exhibit-chronicles-tiburon-artist-s-career-from-news-graphics-to-plein-air</link>
      <description>The exhibit spans an Emmy-winning career at KGO-TV, courtroom sketches, Peace Corps posters for deaf children in Brazil and plein air paintings from four continents.</description>
-     <content:encoded><![CDATA[<p>Several years ago, Suzanne Siminger was painting plein air and had her easel set up on a high spot at a Petaluma ranch. The Tiburon artist was concentrating on her canvas when she heard a rustling noise behind her, then a loud buzzing noise right next to her. Suddenly, a swarm of big flies surrounded her and her painting. As she fought them off, she turned and saw a huge black Angus standing within two feet of her, staring at her watercolor. She says she didn’t know if she should run or stand very still, but the cow soon wandered off, taking the flies with it and leaving her a bit discombobulated. She named that painting “The Art Critic.”</p>
-<p>Locals will be able to see the 83-year-old artist’s works in an upcoming career-spanning exhibit at Tiburon Town Hall. “Suzanne Siminger: A Retrospective” runs May 1-June 29, with an artist’s reception set for 6-8 p.m. May 5. About half of the 40 pieces on display in Town Hall’s upstairs Community Room will be for sale.</p>]]></content:encoded>
      <dc:creator>Diane Smith</dc:creator>
      <category>Entertainment</category>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69f0e606ddc36f1762323f20</guid>
      <pubDate>Tue, 28 Apr 2026 16:55:57 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_3a05990cf3e941c4b34bd32bf8543dcb~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Watercolor ‘Incoming Tide’ is among the works on display in ‘Suzanne Siminger: A Retrospective’ at Tiburon Town Hall May 1-June 29.</media:description>
    </item>
    <item>
      <title>Picks of the Week: Family Nature Day, Marin Open Studios, ‘Men on Boats’</title>
@@ -214,8 +201,6 @@
      <title>Belvedere gains ground on housing but faces steep climb to 2031</title>
      <link>https://www.thearknewspaper.com/live/belvedere-gains-ground-on-housing-but-faces-steep-climb-to-2031</link>
      <description>Belvedere&apos;s housing permits nearly doubled in 2025, but the city has only met 21.9% of its state-required goal of 160 new homes by 2031. Time is running short to avoid penalties.</description>
-     <content:encoded><![CDATA[<p>Belvedere’s housing permits nearly doubled in 2025 compared to the two previous years combined, but the city has accounted for only 21.9% of the 160 homes it must plan for by 2031 — and time is running short to avoid state penalties.</p>
-<p>The City Council voted April 13 to accept the city’s latest annual progress report on its housing element, showing 35 units toward the city’s state-imposed goal, with 125 still needed. Of those 35, the city has permitted 15 units for lower-income households — a tier that encompasses the state-defined acutely low, extremely low and very-low-income levels.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
@@ -277,16 +262,11 @@
      <title>Two residents with passion for improving open spaces earn Tiburon parks board seats</title>
      <link>https://www.thearknewspaper.com/live/two-residents-with-passion-for-improving-open-spaces-earn-tiburon-parks-board-seats</link>
      <description>Tiburon has tapped two new parks commissioners, with a focus on long-discussed upgrades from its master plan, including water access and expanded amenities.</description>
-     <content:encoded><![CDATA[<p>A member of a grassroots parents group advocating for more parks amenities and a Tiburon native with ambitions to establish a kayak and stand-up paddleboard launch on the peninsula are the two newest members of the town’s Parks, Open Space and Trails Commission.</p>
-<p>Corinthian Island resident Nicole Voss and Hill Haven resident Jonathan Kahn were appointed to fill two vacancies on the commission in a 4-0 vote at the Town Council’s April 15 meeting, with Councilmember Alice Fredericks absent.</p>
-<p>Voss will serve a full four-year term, through February 2030; she takes over for Liz Judge, who did not seek reappointment when her term expired in February. Kahn will fill an interim vacancy created when Mike Ghaffary resigned in March following his appointment to the Reed Union School District board; he will serve the remainder of Ghaffary’s term, until February 2028, at which point he will be eligible for automatic reappointment to a full four-year term.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b175a96d49e56ec8f42e</guid>
      <pubDate>Tue, 21 Apr 2026 17:20:41 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_41d61738ded64e2e8b684bfd051d1463~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon residents Jonathan Kahn (left) and Nicole Voss are the newest members of the Parks, Open Space and Trails Commission after being appointed by the Town Council on April 15. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Everyday Encounters: A mom savors the pace of life over a game of catch</title>
