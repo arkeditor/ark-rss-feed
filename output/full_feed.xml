@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 04 May 2026 13:07:22 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 04 May 2026 15:26:40 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -69,10 +69,6 @@
      <title>Tam Union high school district approves bell-to-bell cellphone ban</title>
      <link>https://www.thearknewspaper.com/live/tam-union-high-school-district-approves-bell-to-bell-cellphone-ban</link>
      <description>Students at Redwood and other Tam Union high schools will be required to lock phones in cases during school hours, including passing periods, lunch and breaks.</description>
-     <content:encoded><![CDATA[<p>The Tamalpais Union High School District will require students to lock their cellphones away for the entire school day starting next August, expanding a current ban on phone use during class to include passing periods, breaks and lunch.</p>
-<p>The district’s board of trustees voted 3-2 April 14 in favor of moving to a phone-free day beginning in the 2026-2027 school year, directing staff to order NuKase lockable cellphone cases for use by students at its three comprehensive high schools, Redwood, Tamalpais and Archie Williams. At those schools, students would have possession of the case but would not be able to remove their phone during school hours.</p>
-<p>The board also directed staff to order lockable phone caddies for its smaller alternative high schools, San Andreas and Tamiscal, which will be colocated on one campus in Larkspur beginning next year. Those students would deposit their phones in the caddy at the start of each day and pick them up at the end, with a school employee in charge of the caddies.</p>
-<p>Board members Ida Green and Emily Uhlhorn cast the dissenting votes, both saying they had concerns about implementing the policy next August.</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>School News</category>
      <category>News</category>
