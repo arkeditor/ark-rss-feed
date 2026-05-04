@@ -7,16 +7,18 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 04 May 2026 17:09:11 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 04 May 2026 19:00:12 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
      <link>https://www.thearknewspaper.com/live/opening-day-on-the-bay</link>
      <description>Boats in Raccoon Strait received blessings from the Corinthian Yacht Club’s Aurora V during the annual Blessing of the Fleet ceremony.</description>
+     <content:encoded><![CDATA[<p>The ‘God Squad’ aboard the Aurora V, the Corinthian Yacht Club’s vessel, blesses boats in Racoon Strait during the Blessing of the Fleet on April 26 hosted by the Corinthian Yacht Club in Belvedere as part of the 109th annual Opening Day on the Bay marking the start of the boating season. The tradition dates to 1963 and is modeled after blessings for working fishing fleets. (Leo Leung / For The Ark)</p>]]></content:encoded>
      <dc:creator>The Ark</dc:creator>
      <category>Featured</category>
      <guid isPermaLink="false">69f0edfc7475e016cb9497da</guid>
      <pubDate>Tue, 28 Apr 2026 17:28:36 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_9e39e820cd5d4eeb87e2c1a712263e34~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
    <item>
      <title>Belvedere projects $2.07M deficit tied to Beach Road rehab</title>
@@ -37,11 +39,16 @@
      <title>Belvedere settles construction fine for $100k after four-year legal fight</title>
      <link>https://www.thearknewspaper.com/live/belvedere-settles-construction-fine-for-100k-after-four-year-legal-fight</link>
      <description>The money will be allocated to parks and open space rather than returned to general revenue.</description>
+     <content:encoded><![CDATA[<p>The city of Belvedere and Golden Gate Avenue resident David Flaherty have settled his $300,000 construction time-limit penalty for $100,000, ending a four-year legal fight over a home renovation that became a test case for the city’s penalty system.</p>
+<p>The settlement was announced following a closed session at the April 13 City Council meeting. Under the agreement, the $100,000 will go to parks and open spaces at Flaherty’s request — a distinction his attorney said was important because Flaherty maintains he did nothing wrong.</p>
+<p>The City Council voted 4-0 in December to reject Flaherty’s appeal and uphold the full $300,000 fine. The case then returned to Marin County Superior Court Judge Andrew E. Sweet, who had retained jurisdiction after his May 27, 2025, ruling ordered the council to redo its original penalty decision with adequate factual findings. Flaherty’s attorney, John D. O’Connor, and City Attorney Andrew Shen reached the deal before Sweet could rule on the new decision.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">69f0eb8ed3f2ae6dd9149ad2</guid>
      <pubDate>Tue, 28 Apr 2026 17:21:33 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_6f30cae2a46d4e0297dda3d954bf6ba8~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Two dwarf olive trees flank the driveway at 339 Golden Gate Ave. in Belvedere. The trees — planted in 72-inch boxes instead of the approved 36-inch boxes — became the central dispute in a four-year legal battle over a $300,000 construction time-limit penalty that settled for $100,000. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Resident requests review of Tiburon’s plate-camera use after data concerns</title>
@@ -62,6 +69,10 @@
      <title>Tam Union high school district approves bell-to-bell cellphone ban</title>
      <link>https://www.thearknewspaper.com/live/tam-union-high-school-district-approves-bell-to-bell-cellphone-ban</link>
      <description>Students at Redwood and other Tam Union high schools will be required to lock phones in cases during school hours, including passing periods, lunch and breaks.</description>
+     <content:encoded><![CDATA[<p>The Tamalpais Union High School District will require students to lock their cellphones away for the entire school day starting next August, expanding a current ban on phone use during class to include passing periods, breaks and lunch.</p>
+<p>The district’s board of trustees voted 3-2 April 14 in favor of moving to a phone-free day beginning in the 2026-2027 school year, directing staff to order NuKase lockable cellphone cases for use by students at its three comprehensive high schools, Redwood, Tamalpais and Archie Williams. At those schools, students would have possession of the case but would not be able to remove their phone during school hours.</p>
+<p>The board also directed staff to order lockable phone caddies for its smaller alternative high schools, San Andreas and Tamiscal, which will be colocated on one campus in Larkspur beginning next year. Those students would deposit their phones in the caddy at the start of each day and pick them up at the end, with a school employee in charge of the caddies.</p>
+<p>Board members Ida Green and Emily Uhlhorn cast the dissenting votes, both saying they had concerns about implementing the policy next August.</p>]]></content:encoded>
      <dc:creator>Emily Lavin</dc:creator>
      <category>School News</category>
      <category>News</category>
@@ -120,16 +131,12 @@
      <title>Exhibit chronicles Tiburon artist&apos;s career from news graphics to plein air</title>
      <link>https://www.thearknewspaper.com/live/exhibit-chronicles-tiburon-artist-s-career-from-news-graphics-to-plein-air</link>
      <description>The exhibit spans an Emmy-winning career at KGO-TV, courtroom sketches, Peace Corps posters for deaf children in Brazil and plein air paintings from four continents.</description>
-     <content:encoded><![CDATA[<p>Several years ago, Suzanne Siminger was painting plein air and had her easel set up on a high spot at a Petaluma ranch. The Tiburon artist was concentrating on her canvas when she heard a rustling noise behind her, then a loud buzzing noise right next to her. Suddenly, a swarm of big flies surrounded her and her painting. As she fought them off, she turned and saw a huge black Angus standing within two feet of her, staring at her watercolor. She says she didn’t know if she should run or stand very still, but the cow soon wandered off, taking the flies with it and leaving her a bit discombobulated. She named that painting “The Art Critic.”</p>
-<p>Locals will be able to see the 83-year-old artist’s works in an upcoming career-spanning exhibit at Tiburon Town Hall. “Suzanne Siminger: A Retrospective” runs May 1-June 29, with an artist’s reception set for 6-8 p.m. May 5. About half of the 40 pieces on display in Town Hall’s upstairs Community Room will be for sale.</p>]]></content:encoded>
      <dc:creator>Diane Smith</dc:creator>
      <category>Entertainment</category>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69f0e606ddc36f1762323f20</guid>
      <pubDate>Tue, 28 Apr 2026 16:55:57 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_3a05990cf3e941c4b34bd32bf8543dcb~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Watercolor ‘Incoming Tide’ is among the works on display in ‘Suzanne Siminger: A Retrospective’ at Tiburon Town Hall May 1-June 29.</media:description>
    </item>
    <item>
      <title>Picks of the Week: Family Nature Day, Marin Open Studios, ‘Men on Boats’</title>
@@ -209,43 +216,40 @@
      <title>Tiburon resident reflects on sudden end to Presidio Trust appointment</title>
      <link>https://www.thearknewspaper.com/live/tiburon-resident-reflects-on-sudden-end-to-presidio-trust-appointment</link>
      <description>President Trump dismissed all six Biden-appointed trustees of the Presidio Trust, including Tiburon resident Lenore Eccles. The board now lacks a quorum to take formal action.</description>
+     <content:encoded><![CDATA[<p>Lenore “Leni” Eccles has lived on the Tiburon Peninsula for nearly four decades, serving on nonprofit boards, leading the Belvedere Community Foundation and, since 2021, as a trustee of the Presidio Trust, the federal agency that manages San Francisco’s 1,500-acre Presidio national park site.</p>
+<p>On April 8, that last role ended with an email.</p>
+<p>President Donald Trump dismissed the trust’s six presidentially appointed board members that day, removing all appointees of former President Joe Biden — Eccles among them. In an interview, she said she was saddened but not surprised.</p>
+<p>“I was very sad, I have to say, because it’s been incredible,” she said. “We anticipated when there was a new president elected that there would be different trustees put on. … We were all very sad because we really loved our work and we loved (CEO) Jean Fraser and the staff, but that’s the provision and that’s the way it’s supposed to happen.”</p>
+<p>The trust’s seven-member board includes six presidential appointees and the U.S. secretary of the interior as an ex officio member. No replacements for the dismissed trustees have been announced, and the board is currently unable to take formal action due to lack of quorum.</p>
+<p>Officials at the trust sought to project continuity. Spokesperson Lisa Petrie said the park and agency “will continue to run normally.” Fraser, who has announced plans to step down at the end of the year, will remain in her role until new board members are in place; the search for her successor has been paused.</p>
+<p>A White House official said Trump “will soon replace” the dismissed trustees with people “more aligned with his vision.”</p>
+<p>What that vision looks like — for an agency the president has targeted for potential elimination — remains unclear.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b74b87a5c2e7c1370626</guid>
      <pubDate>Tue, 21 Apr 2026 17:46:08 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_0f5a597e7ed8435b8bc8e7be0b8d90a9~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
    <item>
      <title>Tiburon council backs 15-sign ‘Word on the Street’ installation</title>
      <link>https://www.thearknewspaper.com/live/tiburon-council-backs-15-sign-word-on-the-street-installation</link>
      <description>Signs include &quot;Cast Off!&quot; at the ferry terminal, &quot;Do Your Best&quot; near schools and affirmations like &quot;You Are Enough&quot; and &quot;Celebrate Mistakes&quot; throughout town parks.</description>
-     <content:encoded><![CDATA[<p>After 10 months of deliberation, Tiburon approved a public-art project to install 15 faux street signs bearing positive messages from downtown to Blackie’s Pasture.</p>
-<p>The Town Council voted 3-0 April 15 in favor of Scott Froschauer’s “The Word on the Street” public-art exhibit. Froschauer is tentatively set to install the signs sometime in May, and they will remain on display for six months.</p>
-<p>Signs will span from the downtown Tiburon Ferry Terminal to Blackie’s Pasture, placed along the Old Rail Trail and lineal parks. Each fixture will have a QR code linking to an online map with all sign locations across town to create a scavenger-hunt experience and encourage residents and visitors to explore parks and public spaces.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b645e30ec41b7d08d15b</guid>
      <pubDate>Tue, 21 Apr 2026 17:41:30 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_b3ea623855014e1f8200926cc12fbfac~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>This inspirational ‘Attention’ sign will be placed in Blackie’s Pasture, one of 15 in Scott Froschauer’s ‘Word on the Street’ public-art installation. (Scott Froschauer)</media:description>
    </item>
    <item>
      <title>Belvedere approves $200,000 contract to oversee Mallard Pointe redevelopment</title>
      <link>https://www.thearknewspaper.com/live/belvedere-approves-200-000-contract-to-oversee-mallard-pointe-redevelopment</link>
      <description>Belvedere approved a $200,000 contract Tuesday to hire a project coordinator for the Mallard Pointe development. The role will oversee construction and community liaison work.</description>
-     <content:encoded><![CDATA[<p>Belvedere has approved a $200,000 contract for a Mallard Pointe project coordinator as the development’s tentative map nears a mid-May expiration and three major agreements remain unsigned.</p>
-<p>The City Council voted unanimously April 13 to authorize City Manager Robert Zadnik to execute the contract with Santa Rosa-based Phillips Seabrook Associates, which will provide a project coordinator/senior building inspector expected to start this month.</p>
-<p>Under the agreement, the coordinator will be paid $175 an hour, up to $50,000 in fiscal year 2025-2026 and $150,000 in fiscal 2026-2027. The 40-unit project at 1-22 Mallard Road would replace 22 existing units with a mix of an apartment building, townhomes, duplexes and single-family homes. Four units must be affordable to low- and very-low-income households for 55 years under state law.</p>
-<p>The coordinator will report to Zadnik and Planning and Building Director Rebecca Markwick and will maintain regular office hours at City Hall with a dedicated city email address and phone number.</p>
-<p>The position will monitor construction schedules, oversee demolition and site preparation, coordinate with utility agencies, maintain detailed inspection records and serve as liaison among the developer, city staff and nearby residents. Monthly written updates will cover project status, outstanding issues and community feedback.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b47da96d49e56ec8fba3</guid>
      <pubDate>Tue, 21 Apr 2026 17:33:50 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_5dfbc8e113734ca680911b1af9bab4fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A rendering shows the proposed 16-unit apartment building (center) and townhomes at the Mallard Pointe development at 1-22 Mallard Road. Belvedere has hired a contract project coordinator, who will work out of City Hall and oversee construction. (Mallard Pointe 1951 LLC)</media:description>
    </item>
    <item>
      <title>Two residents with passion for improving open spaces earn Tiburon parks board seats</title>
@@ -261,18 +265,11 @@
      <title>Everyday Encounters: A mom savors the pace of life over a game of catch</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-mom-savors-the-pace-of-life-over-a-game-of-catch</link>
      <description>Tiburon resident Nikki Perlman says the triangle of school, home and library shapes daily life with her kids, offering simple routines and time outdoors.</description>
-     <content:encoded><![CDATA[<p>With a tennis ball in one hand and a baseball glove covering the other, 6-year-old Bodie Perlman receives throwing pointers from his mother, Tiburon resident Nikki Perlman, as the two play catch in Zelinsky Park April 15.</p>
-<p>“We come here all the time,” Perlman says, adding that her older daughter’s second-grade class just had a party at the park and she and Bodie “could walk up home from here.”</p>
-<p>Bodie is an active kid. He previously played soccer and basketball, is playing lacrosse and has been playing baseball since he was 3 years old. He’s currently a member of the Hammerheads as part of the Tiburon Peninsula Little League.</p>
-<p>Outside of sports, Bodie has recently become engrossed with the “Star Wars” film franchise and used the 3D printer at the Belvedere-Tiburon Library to print a Candy Land-inspired parody called Star Wars Land, with Yoda’s swamp, Jabba the Hutt’s palace and the Jedi Academy as some of the locales.</p>
-<p>Perlman says she’s appreciative of “this little triangle of school, home, library” she frequents with her two kids. “It’s the little magical moments before they grow up that mean a lot, and it’s speeding by so fast.”</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b0e217f3e7675205b66b</guid>
      <pubDate>Tue, 21 Apr 2026 17:17:39 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_569d8a0e2960464f95efb7a75c174af5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Tiburon resident Nikki Perlman and 6-year-old son, Bodie, take a break from playing catch at Zelinsky Park on April 15. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Angel Island plays key role in study showing one in five gray whales entering SF Bay die</title>
