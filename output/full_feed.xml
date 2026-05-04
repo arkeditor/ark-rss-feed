@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 04 May 2026 21:34:31 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 04 May 2026 22:45:26 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -245,11 +245,16 @@
      <title>Tiburon council backs 15-sign ‘Word on the Street’ installation</title>
      <link>https://www.thearknewspaper.com/live/tiburon-council-backs-15-sign-word-on-the-street-installation</link>
      <description>Signs include &quot;Cast Off!&quot; at the ferry terminal, &quot;Do Your Best&quot; near schools and affirmations like &quot;You Are Enough&quot; and &quot;Celebrate Mistakes&quot; throughout town parks.</description>
+     <content:encoded><![CDATA[<p>After 10 months of deliberation, Tiburon approved a public-art project to install 15 faux street signs bearing positive messages from downtown to Blackie’s Pasture.</p>
+<p>The Town Council voted 3-0 April 15 in favor of Scott Froschauer’s “The Word on the Street” public-art exhibit. Froschauer is tentatively set to install the signs sometime in May, and they will remain on display for six months.</p>
+<p>Signs will span from the downtown Tiburon Ferry Terminal to Blackie’s Pasture, placed along the Old Rail Trail and lineal parks. Each fixture will have a QR code linking to an online map with all sign locations across town to create a scavenger-hunt experience and encourage residents and visitors to explore parks and public spaces.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b645e30ec41b7d08d15b</guid>
      <pubDate>Tue, 21 Apr 2026 17:41:30 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_b3ea623855014e1f8200926cc12fbfac~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>This inspirational ‘Attention’ sign will be placed in Blackie’s Pasture, one of 15 in Scott Froschauer’s ‘Word on the Street’ public-art installation. (Scott Froschauer)</media:description>
    </item>
    <item>
      <title>Belvedere approves $200,000 contract to oversee Mallard Pointe redevelopment</title>
@@ -290,12 +295,19 @@
      <title>Angel Island plays key role in study showing one in five gray whales entering SF Bay die</title>
      <link>https://www.thearknewspaper.com/live/angel-island-plays-key-role-in-study-showing-one-in-five-gray-whales-entering-sf-bay-die</link>
      <description>A new study finds at least 1 in 5 gray whales entering San Francisco Bay since 2018 has died, with Angel Island providing a rare site to examine carcasses.</description>
+     <content:encoded><![CDATA[<p>A remote beach on Angel Island, accessible only by boat, served as a staging ground for alandmark studythat found at least one in five gray whales entering San Francisco Bay since 2018 has died there, with vessel strikes emerging as the leading killer.</p>
+<p>The study, published April 13 in Frontiers in Marine Science, identified 114 gray whales in bay waters between 2018 and 2025 and matched 21 to carcasses — a minimum mortality rate of 18%.</p>
+<p>The true figure is almost certainly higher, said Josephine Slaathaug, the study’s lead author and a Sonoma State University graduate student who studies gray whale health, identity and mortality in San Francisco Bay. She collaborated with researchers from the Sausalito-based Marine Mammal Center and the California Academy of Sciences in San Francisco.</p>
+<p>Seventy gray whales were found dead in the same period. Scientists identified vessel-induced trauma and malnutrition linked to climate change’s effects on the animals’ migration as the leading causes of death.</p>
+<p>At least six whales that entered bay waters in the past two months were later found dead. The pace of entries has been rising: 36 whales entered the bay in 2025 alone, sometimes more than 10 at a time — the most of any year in the study.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Featured</category>
      <category>News</category>
      <category>Tiburon</category>
      <guid isPermaLink="false">69e7a859a96d49e56ec8dedc</guid>
      <pubDate>Tue, 21 Apr 2026 17:13:46 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_c24914eb0c0e4d42a68b265f759f1637~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Gray whale TMMC-1-91, also known as Ladybug, is seen in the foreground while a necropsy takes place May 5, 2025, on Angel Island’s San Springs Beach. TMMC-1-91’s carcass was later found washed ashore May 31 close to McNears Beach in San Rafael. (Josephine Slaathaug / Marine Mammal Center)</media:description>
    </item>
  </channel>
 </rss>
