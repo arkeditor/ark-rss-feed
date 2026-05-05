@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 05 May 2026 09:24:41 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 05 May 2026 10:56:58 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -83,6 +83,10 @@
      <title>Tiburon Peninsula Traffic Alliance budget includes $52K to preserve two crossing-guard locations</title>
      <link>https://www.thearknewspaper.com/live/tiburon-peninsula-traffic-alliance-budget-includes-52k-to-preserve-two-crossing-guard-locations</link>
      <description>The Tiburon Peninsula Traffic Alliance is projecting a $147,000 surplus in its 2026-27 budget while keeping student bus-pass prices unchanged at $360.</description>
+     <content:encoded><![CDATA[<p>The joint-powers agency that oversees school-bus service is projecting a $147,000 surplus in its fiscal 2026-2027 budget, even as it keeps bus-pass prices steady for Reed Union School District students and spends some $52,000 to fund two crossing-guard positions that would otherwise lose county funding.</p>
+<p>The Tiburon Peninsula Traffic Alliance board of directors voted unanimously at its April 14 special meeting to approve the fiscal 2026-2027 budget, which projects expenditures just north of $1 million against anticipated revenue of $1.15 million. The new fiscal year begins July 1.</p>
+<p>Tiburon Vice Mayor Isaac Nikfar was absent, and Town Manager Greg Chanis voted as Tiburon’s alternate representative.</p>
+<p>The approved budget reflects a notable shift in how the program is funded: For the first time, neither Tiburon nor Belvedere contributed to the traffic alliance’s costs in the current year, leaving the Reed Union School District to cover the full $690,000 it had been expected to share with the two municipalities. The current adopted budget had anticipated $20,000 from Belvedere and $45,000 from Tiburon as part of that figure.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
