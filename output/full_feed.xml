@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 04 May 2026 23:41:52 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 05 May 2026 01:45:50 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -54,6 +54,11 @@
      <title>Resident requests review of Tiburon’s plate-camera use after data concerns</title>
      <link>https://www.thearknewspaper.com/live/resident-requests-review-of-tiburon-s-plate-camera-use-after-data-concerns</link>
      <description>The Ark investigation found dozens of agencies accessed Tiburon camera data citing federal law enforcement, raising questions under California privacy statutes SB 34 and SB 54.</description>
+     <content:encoded><![CDATA[<p>A Tiburon resident is formally requesting the Town Council review the town’s use of Flock Safety license-plate cameras afteran Ark investigationfound 41 California agencies conducted more than 16,000 potentially illegal searches of the town’s logs from July through December.</p>
+<p>So far, officials are declining to put it on the agenda for a public hearing.</p>
+<p>Colin Crawford, a resident of Tiburon’s Del Mar neighborhood, submitted a letter to councilmembers April 13, urging them “to review the town’s current policies governing the use of Flock Safety cameras within the Tiburon 94920 community.” The request came too late for the council’s April 15 meeting, as state law requires agendas for regular meetings be posted 72 hours in advance.</p>
+<p>Mayor Jon Welner did not respond to an email by press time on whether he would add a Flock-camera discussion to a future agenda, but Town Manager Greg Chanis said last week there are no plans to discuss it at the next meeting, May 6, though Crawford’s letter and an additional research memo will be attached as public comment.</p>
+<p>“It’s a worthy and interesting debate,” said Crawford, who also serves on the Belvedere-Tiburon Emergency Preparedness Council and has been an occasional technology consultant to The Ark. “And I don’t think there’s any easy answer because I don’t think these surveillance systems are going away any time soon.”</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -78,6 +83,10 @@
      <title>Tiburon Peninsula Traffic Alliance budget includes $52K to preserve two crossing-guard locations</title>
      <link>https://www.thearknewspaper.com/live/tiburon-peninsula-traffic-alliance-budget-includes-52k-to-preserve-two-crossing-guard-locations</link>
      <description>The Tiburon Peninsula Traffic Alliance is projecting a $147,000 surplus in its 2026-27 budget while keeping student bus-pass prices unchanged at $360.</description>
+     <content:encoded><![CDATA[<p>The joint-powers agency that oversees school-bus service is projecting a $147,000 surplus in its fiscal 2026-2027 budget, even as it keeps bus-pass prices steady for Reed Union School District students and spends some $52,000 to fund two crossing-guard positions that would otherwise lose county funding.</p>
+<p>The Tiburon Peninsula Traffic Alliance board of directors voted unanimously at its April 14 special meeting to approve the fiscal 2026-2027 budget, which projects expenditures just north of $1 million against anticipated revenue of $1.15 million. The new fiscal year begins July 1.</p>
+<p>Tiburon Vice Mayor Isaac Nikfar was absent, and Town Manager Greg Chanis voted as Tiburon’s alternate representative.</p>
+<p>The approved budget reflects a notable shift in how the program is funded: For the first time, neither Tiburon nor Belvedere contributed to the traffic alliance’s costs in the current year, leaving the Reed Union School District to cover the full $690,000 it had been expected to share with the two municipalities. The current adopted budget had anticipated $20,000 from Belvedere and $45,000 from Tiburon as part of that figure.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
@@ -251,49 +260,61 @@
      <title>Belvedere approves $200,000 contract to oversee Mallard Pointe redevelopment</title>
      <link>https://www.thearknewspaper.com/live/belvedere-approves-200-000-contract-to-oversee-mallard-pointe-redevelopment</link>
      <description>Belvedere approved a $200,000 contract Tuesday to hire a project coordinator for the Mallard Pointe development. The role will oversee construction and community liaison work.</description>
-     <content:encoded><![CDATA[<p>Belvedere has approved a $200,000 contract for a Mallard Pointe project coordinator as the development’s tentative map nears a mid-May expiration and three major agreements remain unsigned.</p>
-<p>The City Council voted unanimously April 13 to authorize City Manager Robert Zadnik to execute the contract with Santa Rosa-based Phillips Seabrook Associates, which will provide a project coordinator/senior building inspector expected to start this month.</p>
-<p>Under the agreement, the coordinator will be paid $175 an hour, up to $50,000 in fiscal year 2025-2026 and $150,000 in fiscal 2026-2027. The 40-unit project at 1-22 Mallard Road would replace 22 existing units with a mix of an apartment building, townhomes, duplexes and single-family homes. Four units must be affordable to low- and very-low-income households for 55 years under state law.</p>
-<p>The coordinator will report to Zadnik and Planning and Building Director Rebecca Markwick and will maintain regular office hours at City Hall with a dedicated city email address and phone number.</p>
-<p>The position will monitor construction schedules, oversee demolition and site preparation, coordinate with utility agencies, maintain detailed inspection records and serve as liaison among the developer, city staff and nearby residents. Monthly written updates will cover project status, outstanding issues and community feedback.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b47da96d49e56ec8fba3</guid>
      <pubDate>Tue, 21 Apr 2026 17:33:50 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_5dfbc8e113734ca680911b1af9bab4fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>A rendering shows the proposed 16-unit apartment building (center) and townhomes at the Mallard Pointe development at 1-22 Mallard Road. Belvedere has hired a contract project coordinator, who will work out of City Hall and oversee construction. (Mallard Pointe 1951 LLC)</media:description>
    </item>
    <item>
      <title>Two residents with passion for improving open spaces earn Tiburon parks board seats</title>
      <link>https://www.thearknewspaper.com/live/two-residents-with-passion-for-improving-open-spaces-earn-tiburon-parks-board-seats</link>
      <description>Tiburon has tapped two new parks commissioners, with a focus on long-discussed upgrades from its master plan, including water access and expanded amenities.</description>
+     <content:encoded><![CDATA[<p>A member of a grassroots parents group advocating for more parks amenities and a Tiburon native with ambitions to establish a kayak and stand-up paddleboard launch on the peninsula are the two newest members of the town’s Parks, Open Space and Trails Commission.</p>
+<p>Corinthian Island resident Nicole Voss and Hill Haven resident Jonathan Kahn were appointed to fill two vacancies on the commission in a 4-0 vote at the Town Council’s April 15 meeting, with Councilmember Alice Fredericks absent.</p>
+<p>Voss will serve a full four-year term, through February 2030; she takes over for Liz Judge, who did not seek reappointment when her term expired in February. Kahn will fill an interim vacancy created when Mike Ghaffary resigned in March following his appointment to the Reed Union School District board; he will serve the remainder of Ghaffary’s term, until February 2028, at which point he will be eligible for automatic reappointment to a full four-year term.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b175a96d49e56ec8f42e</guid>
      <pubDate>Tue, 21 Apr 2026 17:20:41 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_41d61738ded64e2e8b684bfd051d1463~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon residents Jonathan Kahn (left) and Nicole Voss are the newest members of the Parks, Open Space and Trails Commission after being appointed by the Town Council on April 15. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Everyday Encounters: A mom savors the pace of life over a game of catch</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-mom-savors-the-pace-of-life-over-a-game-of-catch</link>
      <description>Tiburon resident Nikki Perlman says the triangle of school, home and library shapes daily life with her kids, offering simple routines and time outdoors.</description>
+     <content:encoded><![CDATA[<p>With a tennis ball in one hand and a baseball glove covering the other, 6-year-old Bodie Perlman receives throwing pointers from his mother, Tiburon resident Nikki Perlman, as the two play catch in Zelinsky Park April 15.</p>
+<p>“We come here all the time,” Perlman says, adding that her older daughter’s second-grade class just had a party at the park and she and Bodie “could walk up home from here.”</p>
+<p>Bodie is an active kid. He previously played soccer and basketball, is playing lacrosse and has been playing baseball since he was 3 years old. He’s currently a member of the Hammerheads as part of the Tiburon Peninsula Little League.</p>
+<p>Outside of sports, Bodie has recently become engrossed with the “Star Wars” film franchise and used the 3D printer at the Belvedere-Tiburon Library to print a Candy Land-inspired parody called Star Wars Land, with Yoda’s swamp, Jabba the Hutt’s palace and the Jedi Academy as some of the locales.</p>
+<p>Perlman says she’s appreciative of “this little triangle of school, home, library” she frequents with her two kids. “It’s the little magical moments before they grow up that mean a lot, and it’s speeding by so fast.”</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b0e217f3e7675205b66b</guid>
      <pubDate>Tue, 21 Apr 2026 17:17:39 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_569d8a0e2960464f95efb7a75c174af5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Tiburon resident Nikki Perlman and 6-year-old son, Bodie, take a break from playing catch at Zelinsky Park on April 15. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Angel Island plays key role in study showing one in five gray whales entering SF Bay die</title>
      <link>https://www.thearknewspaper.com/live/angel-island-plays-key-role-in-study-showing-one-in-five-gray-whales-entering-sf-bay-die</link>
      <description>A new study finds at least 1 in 5 gray whales entering San Francisco Bay since 2018 has died, with Angel Island providing a rare site to examine carcasses.</description>
+     <content:encoded><![CDATA[<p>A remote beach on Angel Island, accessible only by boat, served as a staging ground for alandmark studythat found at least one in five gray whales entering San Francisco Bay since 2018 has died there, with vessel strikes emerging as the leading killer.</p>
+<p>The study, published April 13 in Frontiers in Marine Science, identified 114 gray whales in bay waters between 2018 and 2025 and matched 21 to carcasses — a minimum mortality rate of 18%.</p>
+<p>The true figure is almost certainly higher, said Josephine Slaathaug, the study’s lead author and a Sonoma State University graduate student who studies gray whale health, identity and mortality in San Francisco Bay. She collaborated with researchers from the Sausalito-based Marine Mammal Center and the California Academy of Sciences in San Francisco.</p>
+<p>Seventy gray whales were found dead in the same period. Scientists identified vessel-induced trauma and malnutrition linked to climate change’s effects on the animals’ migration as the leading causes of death.</p>
+<p>At least six whales that entered bay waters in the past two months were later found dead. The pace of entries has been rising: 36 whales entered the bay in 2025 alone, sometimes more than 10 at a time — the most of any year in the study.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Featured</category>
      <category>News</category>
      <category>Tiburon</category>
      <guid isPermaLink="false">69e7a859a96d49e56ec8dedc</guid>
      <pubDate>Tue, 21 Apr 2026 17:13:46 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_c24914eb0c0e4d42a68b265f759f1637~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Gray whale TMMC-1-91, also known as Ladybug, is seen in the foreground while a necropsy takes place May 5, 2025, on Angel Island’s San Springs Beach. TMMC-1-91’s carcass was later found washed ashore May 31 close to McNears Beach in San Rafael. (Josephine Slaathaug / Marine Mammal Center)</media:description>
    </item>
  </channel>
 </rss>
