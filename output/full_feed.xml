@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 05 May 2026 01:45:50 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 05 May 2026 04:51:42 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Opening Day on the Bay</title>
@@ -260,11 +260,18 @@
      <title>Belvedere approves $200,000 contract to oversee Mallard Pointe redevelopment</title>
      <link>https://www.thearknewspaper.com/live/belvedere-approves-200-000-contract-to-oversee-mallard-pointe-redevelopment</link>
      <description>Belvedere approved a $200,000 contract Tuesday to hire a project coordinator for the Mallard Pointe development. The role will oversee construction and community liaison work.</description>
+     <content:encoded><![CDATA[<p>Belvedere has approved a $200,000 contract for a Mallard Pointe project coordinator as the development’s tentative map nears a mid-May expiration and three major agreements remain unsigned.</p>
+<p>The City Council voted unanimously April 13 to authorize City Manager Robert Zadnik to execute the contract with Santa Rosa-based Phillips Seabrook Associates, which will provide a project coordinator/senior building inspector expected to start this month.</p>
+<p>Under the agreement, the coordinator will be paid $175 an hour, up to $50,000 in fiscal year 2025-2026 and $150,000 in fiscal 2026-2027. The 40-unit project at 1-22 Mallard Road would replace 22 existing units with a mix of an apartment building, townhomes, duplexes and single-family homes. Four units must be affordable to low- and very-low-income households for 55 years under state law.</p>
+<p>The coordinator will report to Zadnik and Planning and Building Director Rebecca Markwick and will maintain regular office hours at City Hall with a dedicated city email address and phone number.</p>
+<p>The position will monitor construction schedules, oversee demolition and site preparation, coordinate with utility agencies, maintain detailed inspection records and serve as liaison among the developer, city staff and nearby residents. Monthly written updates will cover project status, outstanding issues and community feedback.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Belvedere</category>
      <category>News</category>
      <guid isPermaLink="false">69e7b47da96d49e56ec8fba3</guid>
      <pubDate>Tue, 21 Apr 2026 17:33:50 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_5dfbc8e113734ca680911b1af9bab4fa~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>A rendering shows the proposed 16-unit apartment building (center) and townhomes at the Mallard Pointe development at 1-22 Mallard Road. Belvedere has hired a contract project coordinator, who will work out of City Hall and oversee construction. (Mallard Pointe 1951 LLC)</media:description>
    </item>
    <item>
      <title>Two residents with passion for improving open spaces earn Tiburon parks board seats</title>
