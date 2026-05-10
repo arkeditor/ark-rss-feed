@@ -345,9 +345,8 @@ for entry in all_entries:
     output_xml += f'     <guid isPermaLink="false">{entry["guid"]}</guid>\n'
     output_xml += f'     <pubDate>{entry["pubDate"]}</pubDate>\n'
     
-    # Add only the first media item to avoid validation errors
-    if entry['media_items']:
-        media = entry['media_items'][0]  # Only use first image
+    # Output all media items (Media RSS spec allows multiple media:content per item)
+    for media in entry['media_items']:
         output_xml += f'     <media:content url="{media["url"]}" medium="{media["type"]}"/>\n'
         if media['caption']:
             output_xml += f'     <media:description>{safe_xml_text(media["caption"])}</media:description>\n'
