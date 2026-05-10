@@ -290,7 +290,21 @@ for entry in feed.entries:
         
     except Exception as e:
         logging.error(f"Error processing {post_url}: {e}")
-    
+
+    # Fallback: use Wix feed enclosure if scraping found no image
+    if not current_entry['media_items'] and entry.get('enclosures'):
+        for enclosure in entry.enclosures:
+            href = enclosure.get('href', '')
+            if href:
+                transformed_url = transform_media_url(href)
+                current_entry['media_items'].append({
+                    'url': transformed_url,
+                    'caption': '',
+                    'type': 'image'
+                })
+                logging.info(f"Using feed enclosure image for {post_url}: {transformed_url}")
+                break
+
     # Add the entry to our collection
     all_entries.append(current_entry)
 
