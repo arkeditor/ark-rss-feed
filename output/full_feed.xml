@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 11 May 2026 14:20:54 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 11 May 2026 17:06:50 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Michael Mina steps away from Tiburon&apos;s Bungalow Kitchen; Arizona-based group takes over June 1</title>
@@ -196,17 +196,12 @@
      <title>Travel Bug: Bhutan charts its own path in the Himalayas</title>
      <link>https://www.thearknewspaper.com/live/travel-bug-bhutan-charts-its-own-path-in-the-himalayas</link>
      <description>Bhutan charges foreign visitors a $100-per-day sustainable development fee — currently half the standard rate — which funds free healthcare and education for all citizens.</description>
-     <content:encoded><![CDATA[<p>Bhutan’s geographic and cultural isolation has been its greatest asset. The kingdom opened to tourism only in 1974, and television and internet didn’t arrive until 1999. Surrounded by China and India, it has deliberately charted its own course — cleaner, quieter, less frenzied and remarkably well-preserved compared to every neighbor it borders.</p>
-<p>I was surprised to see no neon signs or traffic lights. No backpacker bars or cheap hostels clutter the landscape. The country feels untouched by the visual chaos of modern development, surrounded instead by natural beauty that seems almost surreal in its intactness.</p>
-<p>The Bhutanese fiercely protect their unique Buddhist culture through a deliberate policy of attracting “high-value” tourists who will visit without damaging the environment or cultural fabric. All travelers pay a $100-per-day Sustainable Development Fee through their tour company. That rate — a 50% discount off the standard $200 — is in effect through August 2027, when the full fee is set to resume.</p>
-<p>To enter, you must work with a licensed tour company or guide — the only way to obtain a visa and travel within the country. While this limits independent travel, it doesn’t mean you’re trapped in a rigid itinerary. Experienced operators can customize trips around your specific interests, from textile art to wildlife tracking to spiritual immersion.</p>]]></content:encoded>
      <dc:creator>Marybeth Bond-Sheppard</dc:creator>
      <category>Entertainment</category>
      <category>News</category>
      <guid isPermaLink="false">69fa2a3ab27e981e27c79d3a</guid>
      <pubDate>Tue, 05 May 2026 17:37:42 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_019b6c6b2f9f4efd902b983b3012cb6b~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>At Taktsang Monastery — known as Tiger’s Nest — during a recent trip to Bhutan. The 17th-century monastery clings to a cliff face at roughly 10,240 feet in the Paro Valley. (via Marybeth Bond-Sheppard)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_a196c1c346cd43769795536060b895d2~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
    </item>
    <item>
      <title>Opening Day on the Bay</title>
