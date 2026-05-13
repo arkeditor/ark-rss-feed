@@ -150,9 +150,11 @@ def transform_media_url(url):
     return url
 
 def safe_xml_text(text):
-    """Safely escape text for XML, handling & and &#38; properly."""
+    """Safely escape text for XML, stripping invalid control chars and escaping entities."""
     if not text:
         return ""
+    # Strip characters invalid in XML 1.0 (control chars except tab/LF/CR)
+    text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', text)
     # First convert &#38; to & to normalize
     text = text.replace("&#38;", "&")
     # Then escape all & to &amp;
