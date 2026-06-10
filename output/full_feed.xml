@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 10 Jun 2026 06:46:47 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 10 Jun 2026 10:46:40 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Supervisors greenlight Strawberry seminary redevelopment after years of conflict</title>
@@ -81,6 +81,8 @@
      <pubDate>Tue, 09 Jun 2026 17:12:52 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_ccac1ca0d4454b66a886a312545d6ab3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
      <media:description>Taqueria El Chacho in its two-week presence at the corner of Tiburon Boulevard and Greenwood Cove Drive, seen here May 27, drew rave reviews and long lines from locals looking to try their food. The street-food stand was shut down twice following complaints over unpermitted food selling, which led to an outcry on local forums like Nextdoor. (Francisco Martinez / The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_13a6fd6b628849a09696e5ed50a21820~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>After Taqueria El Chacho was shut down May 31 at the Tiburon Boulevard-Greenwood Cove Drive intersection near the 76 gas station, devoted fans put up a message of support for the taqueria, saying ‘the people want tacos,’ at its original location near Westminster Presbyterian Church, seen here June 1. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Peninsula kicks off summer with street fest — then car show, boat show, Juneteenth and free concert</title>
@@ -201,8 +203,7 @@
      <title>Measure B: SMART tax extension wins broad support</title>
      <link>https://www.thearknewspaper.com/live/measure-b-smart-tax-extension-cruising-to-victory-in-early-returns</link>
      <description>Voters in Marin and Sonoma counties are approving SMART&apos;s Measure B by a wide margin, with 70.33% in favor in preliminary returns from Tuesday&apos;s primary.</description>
-     <content:encoded><![CDATA[<p>Updated:24 minutes ago</p>
-<p>A 30-year extension of the Sonoma-Marin Area Rail Transit District’s quarter-cent sales tax is passing comfortably in updated returns from the June 2 primary, with about 73% of voters across the two-county district in favor.</p>
+     <content:encoded><![CDATA[<p>A 30-year extension of the Sonoma-Marin Area Rail Transit District’s quarter-cent sales tax is passing comfortably in updated returns from the June 2 primary, with about 73% of voters across the two-county district in favor.</p>
 <p>Measure B had 102,711 votes in support and 38,931 opposed, or 27.5%, with all precincts reporting in both counties, as of updates posted June 8 in Marin and June 5 in Sonoma. The citizens’ initiative needs a simple majority to pass.</p>
 <p>Support was similar in both counties: 73.6% in Marin and 71.8% in Sonoma. On the Tiburon Peninsula, the measure drew 73.1% support, with 3,748 votes in favor and 1,377 opposed. By community, Strawberry voted 75.3% in favor, Tiburon 71.9% and Belvedere 68.8%.</p>
 <p>The measure would not raise taxes. It would continue the same quarter-cent rate Marin and Sonoma voters approved in 2008, set to expire in 2029, and extend it through March 31, 2059. SMART estimates the tax would generate about $51 million a year.</p>
@@ -221,8 +222,7 @@
      <title>Election roundup: Tiburon’s Thier concedes, Lucan leads in Assembly field; Steyer has edge among local voters</title>
      <link>https://www.thearknewspaper.com/live/thier-concedes-cervantes-leads-in-assembly-field-hilton-has-plurality-of-marin-voters</link>
      <description>Tiburon Councilmember Holli Thier has conceded the 12th Assembly District primary, running fourth with 14% of the vote.</description>
-     <content:encoded><![CDATA[<p>Updated:22 minutes ago</p>
-<p>Tiburon Councilmember Holli Thier has conceded the race to succeed Assemblymember Damon Connolly in the 12th Assembly District, running fourth in the six-candidate field in preliminary returns from the June 2 primary.</p>
+     <content:encoded><![CDATA[<p>Tiburon Councilmember Holli Thier has conceded the race to succeed Assemblymember Damon Connolly in the 12th Assembly District, running fourth in the six-candidate field in preliminary returns from the June 2 primary.</p>
 <p>Thier, a Democrat, had 14.2% of the districtwide vote as of June 8.</p>
 <p>“I’m proud of the strong campaign we built and to be running second among all Democratic candidates in election-night returns for Marin County. I want to thank my supporters for your time, your talent, your contributions, but most importantly your belief in me to implement our shared vision for a better California. I’ll always be grateful for your support and that and our work has just begun.”</p>
 <p>Thier is running second among Democrats in Marin but third among Democrats across the full district, which also includes parts of Sonoma County.</p>
@@ -232,7 +232,7 @@
 <p>The next update is expected June 10, after The Ark’s print deadline.</p>
 <p>Lucan’s lead rested on Marin, where he took 34.3% of the county’s vote. In Sonoma County, Elward led with 28.2%, Cervantes was second at 27% and Lucan third at 17.9%. Marin leaned more Democratic, giving the five Democrats a combined 81.1% to Cervantes’ 18.9%; in Sonoma, Democrats drew 73% to Cervantes’ 27%. Across the district, the five Democrats took 77.8% of the vote, reflecting the party’s strength in the district.</p>
 <p>On the Tiburon Peninsula, the top of the race was tight. Lucan led with 28.7% of the 4,712 votes cast, followed by Thier at 23.6% and Cervantes at 22.8%.</p>
-<p>Thier ran strongest close to home. In Tiburon, she led with 596 v...</p>]]></content:encoded>
+<p>Thier ran strongest close to home. In Tiburon, she led with 596 votes to Lucan’s and Cervantes’...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
