@@ -7,8 +7,23 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 22 Jun 2026 21:53:48 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 22 Jun 2026 23:10:01 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tiburon&apos;s Petite Left Bank closes as restaurant group shuts down</title>
+     <link>https://www.thearknewspaper.com/live/tiburon-s-petite-left-bank-closes-as-restaurant-group-shuts-down</link>
+     <description>Petite Left Bank in downtown Tiburon has closed, ending the Left Bank restaurant group&apos;s presence across the Bay Area.</description>
+     <content:encoded><![CDATA[<p>Petite Left Bank, the scaled-down French brasserie in downtown Tiburon, closed June 22 as its parent company abruptly shut down all seven of its Bay Area restaurants</p>
+<p>A person who answered the phone at Petite Left Bank, granted anonymity because they were not authorized to speak for the restaurant, confirmed the closure June 22 but said it planned to serve customers that evening. An attempt to book a reservation through OpenTable for June 23 returned a message saying the restaurant had closed.</p>
+<p>“We are deeply grateful for your support and for the opportunity to serve you,” the message read in part. “Thank you for being part of our story.”</p>
+<p>The closure marks the second time in a month that one of downtown Tiburon’s two celebrated-chef restaurants has lost its founding operator. Petite Left Bank carried the name of Roland Passot and the nearby Bungalow Kitchen was built by Michael Mina, both chefs who have won James Beard Awards and Michelin stars. The two restaurants sit in buildings owned by the same landlord, A&C Ventures, which had sought to remake downtown as a fine-dining destination by recruiting chefs with national reputations.</p>]]></content:encoded>
+     <dc:creator>Francisco Martinez</dc:creator>
+     <category>Business</category>
+     <category>Tiburon</category>
+     <category>News</category>
+     <guid isPermaLink="false">6a39bd6b106e96afab5f656e</guid>
+     <pubDate>Mon, 22 Jun 2026 22:56:34 GMT</pubDate>
+   </item>
    <item>
      <title>Tiburon teen booked on kidnap, robbery after fight with girlfriend</title>
      <link>https://www.thearknewspaper.com/live/tiburon-teen-booked-on-kidnap-robbery-after-fight-with-girlfriend</link>
@@ -323,29 +338,6 @@
      <category>News</category>
      <guid isPermaLink="false">6a2849dfbcf454bfefde706b</guid>
      <pubDate>Tue, 09 Jun 2026 17:14:51 GMT</pubDate>
-   </item>
-   <item>
-     <title>Taco trouble: A two-week craze sparked debate over health rules, entrepreneurship and what residents want</title>
-     <link>https://www.thearknewspaper.com/live/taco-trouble-a-two-week-craze-sparked-debate-over-health-rules-entrepreneurship-and-what-residents</link>
-     <description>A Mexican food stand that drew long lines and rave reviews on Tiburon Boulevard was shut down after two weeks over health-code violations including no permit and no refrigeration.</description>
-     <content:encoded><![CDATA[<p>Taqueria El Chachoset up shop at Tiburon Boulevard’s inbound intersection with Greenwood Cove Drive, next to Westminster Presbyterian Church, in mid-May.It quickly built a social-media following online, thanks to its street-food classics: tacos de asada, burritos al pastor and quesadillas con chorizo.</p>
-<p>However, as customers lined up, complaints also came in. The Marin County Sheriff’s Office received seven calls about the stand between May 15 and May 31, with callers questioning its legality and safety practices.</p>
-<p>County health officials, with support from the Sheriff’s Office, on May 29 confiscated what one official described as “hundreds of pounds of food” amid several health-code violations at the Tiburon Boulevard site: no permit, no handwashing stations, no refrigeration and no clear source for the food or details on how it was prepared.</p>
-<p>Locals on Nextdoor were up in arms. A post about the stand’s May 29 shutdown drew 216 reactions and 141 comments, with many supporting the vendor and some raising concerns about health standards.</p>
-<p>“I knew this would happen. Was just waiting for a Karen or Ken to freak out,” Reedlands resident Maryam Fooman said in a comment. “Let them be. They are just trying to make a living. You don’t feel like it’s safe to eat there, then don’t. Shame on you.”</p>
-<p>On May 30, the stand reappeared on the other side of Tiburon Boulevard near the 76 gas station.</p>
-<p>The stand was shut down for good May 31, though a handmade cardboard sign remained posted at its original location near the church: “The people want tacos.”</p>
-<p>“We’re going to look (for) the way to move forward and be there in Tiburon as well,”owner MiguelLopez, a 20-year-old L.A. resident, said in a June 4 interview conducted in both English and Spanish.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <category>Featured</category>
-     <guid isPermaLink="false">6a2848b82d2809110fe95d0f</guid>
-     <pubDate>Tue, 09 Jun 2026 17:12:52 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_ccac1ca0d4454b66a886a312545d6ab3~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Taqueria El Chacho in its two-week presence at the corner of Tiburon Boulevard and Greenwood Cove Drive, seen here May 27, drew rave reviews and long lines from locals looking to try their food. The street-food stand was shut down twice following complaints over unpermitted food selling, which led to an outcry on local forums like Nextdoor. (Francisco Martinez / The Ark)</media:description>
-     <media:content url="https://static.wixstatic.com/media/75283d_13a6fd6b628849a09696e5ed50a21820~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>After Taqueria El Chacho was shut down May 31 at the Tiburon Boulevard-Greenwood Cove Drive intersection near the 76 gas station, devoted fans put up a message of support for the taqueria, saying ‘the people want tacos,’ at its original location near Westminster Presbyterian Church, seen here June 1. (Francisco Martinez / The Ark)</media:description>
    </item>
  </channel>
 </rss>
