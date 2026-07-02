@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 02 Jul 2026 17:07:05 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 02 Jul 2026 18:53:54 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon 12U All-Stars earn No. 2 seed, first-round bye in District 3 tournament</title>
@@ -307,12 +307,6 @@
      <title>Family-owned Thep Lela at Strawberry Village closes after 33 years</title>
      <link>https://www.thearknewspaper.com/live/family-owned-thep-lela-at-strawberry-village-closes-after-33-years</link>
      <description>The Kamloons have cooked Thai food in Marin since 1990, surviving a building demolition, forced relocation and COVID before lease talks ended their 33-year Strawberry Village run.</description>
-     <content:encoded><![CDATA[<p>Thep Lela, a family-owned Thai restaurant at Strawberry Village for 33 years, closed June 21 after lease negotiations with the shopping center’s owner failed.</p>
-<p>The closure follows years of speculation about rising rents since Edens, a Washington, D.C.-based real-estate firm, bought the center in October 2022. Thep Lela had operated month-to-month since its lease expired in December, after a rent-increase notice earlier that year.</p>
-<p>It was among the latest in a string of departures from the center since 2023, after Pizza Antica, Spanish Table, Woodlands Pet Food & Treats, Mike’s Camera and Bella boutique. Thep Lela was one of the few businesses there owned by Strawberry residents.</p>
-<p>A buffet-style goodbye dinner for the community was set for June 22, after The Ark’s press deadline. The restaurant’s departure drew dozens of tributes from residents on Nextdoor.</p>
-<p>“This is horrible news. Best Thai food in the area and the best owners — truly family owned,” wrote Tiburon resident Mary Ann Gallagher.</p>
-<p>Others mourned the food and questioned the center’s direction. “It leaves the center with no places to eat!” wrote Tiburon resident Michael Hancock. Strawberry resident Jonathan Kramer called it “another case of greed with a long-time tenant,” and Tiburon resident Brock Bruderer asked, “Why is Strawberry pushing out all their businesses?”</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
@@ -320,8 +314,7 @@
      <category>Business</category>
      <guid isPermaLink="false">6a3ac0218955009f72299ab9</guid>
      <pubDate>Tue, 23 Jun 2026 17:21:23 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_ccbea457a60145a4987db4fee78e55c4~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>Owner Natalie Kamloon stands inside Thep Lela on June 18, days before the family-owned Thai restaurant closed at Strawberry Village after 33 years. Behind her hang Thai figures the family used to decorate the space, which they built out themselves after moving to the location in 2004. (Tyler Callister / The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_794341ae526c40f49126d01d7986c1f0~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
    </item>
    <item>
      <title>Tiburon fire district board rejects Belvedere annexation plan</title>
