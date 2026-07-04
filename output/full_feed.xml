@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 04 Jul 2026 12:55:28 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 04 Jul 2026 14:22:16 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon 12U All-Stars earn No. 2 seed, first-round bye in District 3 tournament</title>
@@ -171,6 +171,7 @@
      <guid isPermaLink="false">6a4436c769b2dfbbf12c8574</guid>
      <pubDate>Tue, 30 Jun 2026 21:38:10 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_123ebd2f545444a285d9248a52cf1b02~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Construction continues June 27 on a new 6,022-square-foot home at 4916 Ranch Road, below Paradise Drive. The Town Council on June 17 granted owner Jacqui Bos a fifth and final permit extension to finish the long-delayed build, which she says was stalled for months by two storm-heavy winters. Bos must pay an $87,935 fee but can recoup part of it if she finishes before the January deadline. (Ted McDonnell / For The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon native brings original plays to San Francisco</title>
