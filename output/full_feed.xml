@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 07 Jul 2026 17:50:07 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 07 Jul 2026 19:38:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Tiburon 12U All-Stars earn No. 2 seed, first-round bye in District 3 tournament</title>
@@ -212,23 +212,36 @@
      <title>Marin portrait artist’s work comes to Tiburon Town Hall</title>
      <link>https://www.thearknewspaper.com/live/marin-portrait-artist-s-work-comes-to-tiburon-town-hall</link>
      <description>Brazilian American artist Tyler Willis grew up in San Anselmo, studied mechanical engineering at Lehigh University, and is now self-taught in portrait painting.</description>
+     <content:encoded><![CDATA[<p>Brazilian American artist Tyler Willis says he likes to experiment. One day, he decided to see if he could get more depth in his paintings by using epoxy resin. He grabbed two wooden panels, painted an acrylic background on each and poured a layer of epoxy over that.</p>
+<p>When the epoxy dried, he painted a face on each panel then poured a second layer of epoxy over that. After alternating pouring epoxy and painting the same face for seven layers, Willis felt the paintings were finished.</p>
+<p>“It turned out to be pretty cool,” says Willis, 34. “It really did look three-dimensional.”</p>
+<p>The experiment was successful, but he hasn’t tried it again since. Epoxy is “very messy,” he notes.</p>
+<p>Still, those two paintings, named “Twins,” are among his favorites and will be part of “Portraits,” a Tiburon Town Hall exhibit of the Marin-based artist’s works set to run July 6-Aug. 30. An artist’s reception is set for 6-8 p.m. July 14.</p>]]></content:encoded>
      <dc:creator>Diane Smith</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <category>Entertainment</category>
      <guid isPermaLink="false">6a4434e369b2dfbbf12c80f8</guid>
      <pubDate>Tue, 30 Jun 2026 21:30:20 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_ff60b6bfd6644649ab27f350785d44b0~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_178000090b8344ac92b0e47070b46292~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Artist Tyler Willis used gold leaf to form the halo in this recently completed oil painting of the Virgin Mary, one of the works featured in his ‘Portraits’ exhibit opening July 6 at Tiburon Town Hall. At left, ‘Twins’ is a pair of portraits built up over seven alternating layers of epoxy resin and paint.</media:description>
    </item>
    <item>
      <title>Janet Elaine Goldberg</title>
      <link>https://www.thearknewspaper.com/live/janet-elaine-goldberg</link>
      <description>Janet Elaine Goldberg passed away on June 20, 2026, at age 83.</description>
+     <content:encoded><![CDATA[<p>Janet Elaine Goldberg passed away on June 20, 2026, at age 83, after a valiant fight with cancer. Surrounded by her family, she passed peacefully.</p>
+<p>Janet was born on August 19, 1942, in Los Angeles to Anna and David Stone. She grew up in Los Angeles with her older brother Marvin, graduated from Hamilton High School, and went to the University of California, Los Angeles. During that time, her cousin Don Kaufman introduced her to the man who would become the love of her life, Henry Goldberg, who was in medical school at UCSF. She soon transferred to UC Berkeley, and they were married on June 10, 1962, while they were both finishing school. She received her bachelor’s degree in biochemistry in 1963.</p>
+<p>Jan and Hank first lived in Daly City, where they soon had two daughters, Debra and Lara. They had a brief stay in Maryland from 1968 to 1970 while Henry was in the army and was assigned to Walter Reed Hospital. In 1970, the family moved back to California with their third child, Steven in tow and settled down in Tiburon in the house that she lived in for the rest of her life. Jan and Hank shared a love without rival, and she loved him deeply until his passing in 2005.</p>
+<p>After landing in Tiburon, in addition to raising her children, Jan served as president of the local elementary school board. In a transformational moment in her life, she and her friend Paula Jaffe started Delicious Catering in 1974.</p>
+<p>Through Jan’s and her many partners’ commitment and persistence, Delicious grew and served the community, helping families celebrate many birthdays, weddings, bar/bat mitzvahs, and graduations, and through the harder milestones of life. Jan became synonymous with Delicious, and her pride at not only the success of Delicious, but also the amazing team of people who worked there, stayed with her until she retired after 47 years.</p>
+<p>Her commitment to the community spread beyond her business as she gave her time to many different organizations. She was involved with the Women of Rodef Sholom, Enriching Lives through Music (ELM), Business Executives Association of Marin (BEAM) and supported the American Bach Soloists.</p>
+<p>She had many hobbies over the years, including bicycle riding, listening to live music (classical), gardening, knitting, and watching baseball (Go Giants!). During COVID, she found her love of birds. She enjoyed listening to them and watching shore birds on walks, and her bird feeder brought a bevy of birds to her backya...</p>]]></content:encoded>
      <dc:creator>Reader submitted</dc:creator>
      <category>Obituaries</category>
      <guid isPermaLink="false">6a443301dc061b2051d9c0cc</guid>
      <pubDate>Tue, 30 Jun 2026 21:27:05 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_9bed6241d5fd41a9a6eefd953cf7532a~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_6adb4212ecf94208877cddeaaccd7f80~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
    <item>
      <title>Registered sex offender charged after alleged Tiburon bike-path attack</title>
@@ -278,6 +291,11 @@
      <title>First major park upgrade moves ahead in Tiburon</title>
      <link>https://www.thearknewspaper.com/live/first-major-park-upgrade-moves-ahead-in-tiburon</link>
      <description>Bel Aire Play Area is the first of four Tiburon parks headed for renovation. Cypress Hollow, Belveron Mini Park and the former sanitation ponds near McKegney Green are still in design.</description>
+     <content:encoded><![CDATA[<p>After three years of planning and public feedback, Tiburon is putting its first major parks upgrade out to bid.</p>
+<p>The Town Council voted unanimously at its June 17 meeting to solicit contractor bids to revitalize the Bel Aire Play Area with an accessible walking loop, two benches, a picnic area, a water fountain and native plants.</p>
+<p>Design firm Carlile Macy expects the work to cost up to $600,491, including a 4% contingency. The council did not approve funding with its vote; the winning bid will return for formal approval.</p>
+<p>Bidding will open by the end of the month, Public Works Engineering Manager David Eshoo said after the meeting. The council expects to review bids by the end of August, with a goal of completing improvements by year’s end.</p>
+<p>The Bel Aire Play Area is the first of four parks projects to go out to bid. The council has authorized design work for three others: Cypress Hollow Park, Belveron Mini Park and the former sanitation ponds near McKegney Green.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
