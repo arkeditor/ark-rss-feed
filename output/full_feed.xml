@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 25 Jul 2026 09:15:16 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 25 Jul 2026 10:49:29 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere eyeing drone rules before deliveries arrive</title>
@@ -324,16 +324,12 @@
      <title>Everyday Encounters: A waterfront walk at Blackie’s Pasture keeps three teens active</title>
      <link>https://www.thearknewspaper.com/live/everyday-encounters-a-waterfront-walk-at-blackie-s-pasture-keeps-three-teens-active</link>
      <description>Trinity Winchester, Kate Rubel and Cole Norgaard are all smiles walking the shoreline path at Blackie&apos;s Pasture, a favorite spot to stay active.</description>
-     <content:encoded><![CDATA[<p>Trinity Winchester, Kate Rubel and Cole Norgaard fall into an easy rhythm walking along the shoreline path at Blackie’s Pasture on July 8.</p>
-<p>For Trinity and Kate, both 17 and incoming seniors at Redwood High School, the walks are a way to stay active and frequently follow their early-morning gym sessions. For Cole, a recent Redwood High graduate, the walks are a chance to enjoy the scenery.</p>
-<p>“We go on this walk a lot,” Trinity says, adding that she also takes advantage of the trails in Kentfield, where she lives. “Around here we go on lots of hikes, look at views. Up where I live, there’s also lots of trails like Phoenix Lake. … I go hiking a lot.”</p>]]></content:encoded>
      <dc:creator>The Ark</dc:creator>
      <category>Everyday Encounters</category>
      <category>News</category>
      <guid isPermaLink="false">6a567209aa2c7341eb4b52e9</guid>
      <pubDate>Tue, 14 Jul 2026 17:31:17 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f2668219704f4ee2bcb94c520418b904~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
-     <media:description>From left, Cole Norgaard, Trinity Winchester and Kate Rubel walk the waterfront path at Blackie’s Pasture July 8. Winchester and Rubel are incoming seniors at Redwood High School, where Norgaard is a recent graduate. (Tyler Callister / The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_449b262162d444a1893461f1605aefcf~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
    </item>
    <item>
      <title>Herbert Stanley Briggin</title>
