@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 29 Jul 2026 18:52:02 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 29 Jul 2026 20:06:29 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere says MCE board needs broad overhaul, not just expertise</title>
@@ -298,13 +298,18 @@
      <title>New Business: Hydration Room offers IV therapy, injections for health and wellness</title>
      <link>https://www.thearknewspaper.com/live/new-business-hydration-room-offers-iv-therapy-injections-for-health-and-wellness</link>
      <description>Treatments range from a $215 hangover IV to a $65 Skinny Shot, plus ongoing GLP-1 weight-loss and testosterone-replacement injections.</description>
+     <content:encoded><![CDATA[<p>Hydration Room founder Dr. Brett Florie was a resident anesthesiologist at the University of Southern California when his wife began suffering from debilitating migraines. Drawing on his growing expertise in the field, he began experimenting with IV treatments for her.</p>
+<p>“I put together a concoction intravenously, integrating Western and Eastern medicine, that had a tremendous impact on her life,” he said.</p>
+<p>The experiment would later become the foundation for Hydration Room, the IV therapy clinic Florie started in Newport Beach in 2014, which has since expanded to 64 locations across California. The clinic opened itslatest locationat Strawberry Village June 12, taking over a vacant space in the center near Belvedere Drive. The location offers IV-injected vitamins, antioxidants, electrolytes and peptides, among other treatments. Hydration Room joins a slate of other health and wellness shops to come to Strawberry Village in recent years, including Orange­theory Fitness in 2018, Hot Yoga Republic in February 2025 and Club Pilates in June.</p>
+<p>The Strawberry Village Hydration Room offers 37 IV and injection treatments with names like “Cold & Flu Remedy,” “Hangover,” “Jet Lag,” “Stress Rescue,” “Skinny Shot” and “Happy Shot.” It also offers ongoing medical injections like GLP-1 weight-loss drugs and testosterone-replacement therapy.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Business</category>
      <category>Strawberry</category>
      <category>News</category>
      <guid isPermaLink="false">6a60f8cad4c9d93303117967</guid>
      <pubDate>Wed, 22 Jul 2026 17:08:47 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_dadcaac3708d4fd19ac8e7317806f209~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_0228519f1aa549a88c8b7abab28700cf~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Registered nurse Johana De Brauwere staffs Hydration Room’s new Strawberry Village clinic, where a row of recliners sits beneath wall-mounted IV bags. (Tyler Callister / The Ark)</media:description>
    </item>
    <item>
      <title>Everyday Encounters: A Pokémon Go player aims to catch ’em all in Tiburon</title>
