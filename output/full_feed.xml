@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 29 Jul 2026 01:22:55 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 29 Jul 2026 04:39:03 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere says MCE board needs broad overhaul, not just expertise</title>
@@ -31,12 +31,18 @@
      <title>Tiburon resident wins fair contest with iPhone shot</title>
      <link>https://www.thearknewspaper.com/live/tiburon-resident-wins-fair-contest-with-iphone-shot</link>
      <description>It was Jennifer Isaac&apos;s first time entering the county fair. She says she was &quot;shocked, excited, elated, jumping up and down&quot; when she heard.</description>
+     <content:encoded><![CDATA[<p>Jennifer Isaac had already finished her docent-led tour of the Marin County Civic Center when she turned back for one last look — and stopped.</p>
+<p>“(I) was just struck by the shapes all over again,” the Tiburon resident says of the building, designed by architect Frank Lloyd Wright.</p>
+<p>She pulled out her iPhone, framed the arches from above and captured what she saw. A little routine editing later — converting to black and white, intensifying the contrast, cropping — and she had a photo. What she didn’t know was that she also had the top prize at the Marin County Fair.</p>
+<p>The 71-year-old won for her picture, “Marin Civic Center Aspect,” in the cityscapes and architecture class for monochromatic fine photography at the fair, held July 1-5.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
      <guid isPermaLink="false">6a68d52fbd1f4328fbf52013</guid>
      <pubDate>Tue, 28 Jul 2026 20:24:37 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_d066deaba1144f2faae44ca05f35cb8f~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_74bd59e68e154a2396a53022cca80ab2~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>In her photo ‘Marin Civic Center Aspect,’ Jennifer Isaac says she looked to capture the building in a way that would offer ‘something a bit different to say about the Civic Center,’ focusing on its arches from above. (Jennifer Isaac)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_8ad70c2471f94e059f70704b84b3b3c9~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
    </item>
    <item>
      <title>Belvedere’s ‘Toy Story 5’ director reflects on career and what’s ahead</title>
@@ -235,6 +241,9 @@
      <title>Strawberry Rec rejects grand jury consolidation push</title>
      <link>https://www.thearknewspaper.com/live/strawberry-rec-rejects-grand-jury-consolidation-push</link>
      <description>The district says its mission differs fundamentally from utility and safety agencies, since it runs mostly on user fees, not property taxes.</description>
+     <content:encoded><![CDATA[<p>The Strawberry Recreation District has rejected the core findings and most recommendations of a Marin civil grand jury report that urges the county’s more than 50 special districts to explore consolidation, arguing its role as a fee-supported recreation agency sets it apart from the essential-service providers the report targets.</p>
+<p>The grand jury’s “Better Service at Lower Cost” report, released June 11, urges special districts to consolidate to increase efficiency and save taxpayer money. Districts must respond by Sept. 11. Strawberry’s board approved its response in a 4-0 vote July 14, with board member Sarah Waterfield absent.</p>
+<p>Most of the report targets the county’s taxpayer-funded utility, infrastructure, emergency response and public safety services, calling for “deliberate, structured optimization.” Strawberry Recreation District says it is a special case. It funds most of its costs through user fees, not taxes, and its facilities and classes are open to the entire public, not just district residents.</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Strawberry</category>
      <category>News</category>
