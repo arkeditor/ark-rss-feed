@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 29 Jul 2026 16:13:39 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 29 Jul 2026 17:29:23 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Belvedere says MCE board needs broad overhaul, not just expertise</title>
@@ -158,6 +158,19 @@
      <guid isPermaLink="false">6a68d80eaa6e0c7f02ab4bd2</guid>
      <pubDate>Tue, 28 Jul 2026 16:27:18 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_d2323dba4f714aa590f6b4e8c0b742aa~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+   </item>
+   <item>
+     <title>Tradition comes to life at Tiburon Jewish Festival</title>
+     <link>https://www.thearknewspaper.com/live/tradition-comes-to-life-at-tiburon-jewish-festival</link>
+     <description>Chabad of Tiburon held its fourth annual Tiburon Jewish Festival on July 26 at Zelinsky Park.</description>
+     <content:encoded><![CDATA[<p>Saul Goodman’s Klezmer Band, which modernizes Eastern European Jewish folk music, performs at Chabad of Tiburon’s fourth annual Tiburon Jewish Festival on July 26 at Zelinsky Park. At left, Rabbi Levi Potash, a scribe from Redwood City, letters visitors’ names in Hebrew for key chains at the festival, which also offered a challah-making workshop, a Yad Vashem exhibit, kosher food and an ‘Ask the Rabbi’ booth. (Leo Leung / For The Ark)</p>]]></content:encoded>
+     <dc:creator>The Ark</dc:creator>
+     <category>Tiburon</category>
+     <category>Featured</category>
+     <guid isPermaLink="false">6a6a3797cecb33cd5ae85d5f</guid>
+     <pubDate>Mon, 27 Jul 2026 07:00:00 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_e6346c12469745108ba3c062fe4b0431~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_a8f11740e51f4f329166a13c2f24233f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
    </item>
    <item>
      <title>Election 2026: Potential challenge is taking shape in Tiburon council race</title>
@@ -327,21 +340,6 @@
      <pubDate>Wed, 22 Jul 2026 17:05:00 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_b56ee657ddeb4511b88d11b5083232e8~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
      <media:description>Clarkia, a pink native wildflower named for William Clark of the Lewis and Clark expedition, blooms along some of Tiburon’s fire roads each spring. (Diane Lynch / For The Ark)</media:description>
-   </item>
-   <item>
-     <title>Tracy Ann Breuner Jaquier</title>
-     <link>https://www.thearknewspaper.com/live/tracy-ann-breuner-jaquier</link>
-     <description>Tracy Jaquier of Belvedere</description>
-     <content:encoded><![CDATA[<p>Tracy Ann Breuner Jaquier was born in Sacramento in July of 1961, but soon after her parents moved to Orinda, CA, where she attended Glorietta Elementary, Inland Valley Intermediate (now Orinda Intermediate) and Miramonte High School. She enjoyed doing musicals, singing in the choir, and playing volleyball. During those years she was imbued with a deep love of California’s Sierra Nevada mountains. She loved jeeping and camping with cousins and friends around Lake Tahoe and her summers at Bob Matthias Sierra Camp near King’s Canyon National Park. Her love of camping, shooting, fishing, and taking long hikes endured throughout her life. Tracy was also at home behind the wheel of a boat, especially when cruising the west shore of Lake Tahoe in her father’s woody, the Barbara C.</p>
-<p>After receiving a BA in Economics at UCLA, Tracy enjoyed embodying her yuppie years (her generation invented yuppies!) in San Francisco. One of her first accomplishments was introducing Wang personal computers to the stodgy world of insurance while at Industrial Indemnity. From there she moved to commercial real estate, finding financial analysis of prospective deals a perfect fit for her talents. It wasn’t long until she caught the eye of a fellow commercial real estate colleague while running with the Hash House Harriers in the evenings after work in San Francisco. In 1987, she married Guy Jaquier.</p>
-<p>Starting a family while living in the Oakland Hills, Tracy gave up the working world for the family world. In 1994, she, Guy, her son, Will, and her daughter, Carly, moved to the island of Belvedere and never left. Dear friends from Orinda, UCLA, and San Francisco stayed in the mix and new parent friends entered as well, while she and her husband remained active in groups like the Junior League of San Francisco, the Guardsmen, the San Francisco Yacht Club, the Town and Country Club, and the Bohemian Club while their children grew up and attended schools in Marin and San Francisco. Tracy was an avid supporter of the Smuin Ballet and its astounding talent.</p>
-<p>Not only interested in sophisticated city happenings, Tracy hosted major camping events, which included challenges to see who could create the most elaborate dinners in the mountains, as well as theme nights and costumes. Beloved by the families involved, preparations and planning for the next summer’s event would start on this year’s adventure.</p>
-<p>Tracy further developed her love of running and set her sights o...</p>]]></content:encoded>
-     <dc:creator>The Ark</dc:creator>
-     <category>Obituaries</category>
-     <guid isPermaLink="false">6a60f6a2d4c9d93303117289</guid>
-     <pubDate>Wed, 22 Jul 2026 17:00:57 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_0f4126353257438daae39f557a4733d7~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
    </item>
  </channel>
 </rss>
