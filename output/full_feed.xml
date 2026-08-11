@@ -7,8 +7,34 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 11 Aug 2026 01:03:41 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 11 Aug 2026 02:04:21 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Filing deadline extends as Tiburon councilmember won’t seek third term; Belvedere draws late challenge</title>
+     <link>https://www.thearknewspaper.com/live/filing-deadline-extends-as-tiburon-councilmember-won-t-seek-third-term-belvedere-draws-late-challen</link>
+     <description>Nine of the 12 races on Tiburon Peninsula ballots are now set. Seven candidates are running for three Tam Union school board seats, the most crowded contest.</description>
+     <content:encoded><![CDATA[<p>Tiburon Mayor Jon Welner is not seeking a third term in the Nov. 3 election, assuring the Town Council of at least one new member, and in Belvedere a first-time candidate filed hours before the deadline to challenge both incumbents.</p>
+<p>The Aug. 7 deadline settled nine of the 12 contests on Tiburon Peninsula ballots.</p>
+<p>The Tiburon council, the Reed Union School District and the Tamalpais Union High School District stay open until 5 p.m. Aug. 12 because an incumbent in each did not file.</p>
+<p>Welner took out nomination papers July 28 but did not return them before the 5 p.m. Aug. 7 deadline, leaving him off the ballot. Because a sitting officeholder did not file, the nomination period extended five days for everyone but incumbents.</p>
+<p>Welner, who joined the council in 2018 after serving on the Planning Commission, said the town was better off than when he arrived. “It has been my great honor and privilege to serve the town of Tiburon over the last 16 years, first as a planning commissioner, then as a councilmember and finally as mayor,” he said.</p>
+<p>He pointed to the town’s climate action plan and its sustainability element, which he said was the first in a California general plan. He also cited the acquisition of the Martha property, the purchase of the former sanitation pond next to McKegney Green, a master plan for the town’s parks and a traffic study of Tiburon Boulevard.</p>
+<p>“All in all, we have left the town of Tiburon in better shape than we found it,” he said. “That’s a legacy to be proud of.”</p>
+<p>Four candidates qualified for three seats. Incumbents Alice Fredericks and Jack Ryan filed and qualified July 29. Challenger Chuck Hornbrook, a member of the town’s Parks, Open Space & Trails Commission, qualified July 31. Faris Jafar, founder of a wealth-management firm, qualified Aug. 3.</p>
+<p>Fredericks, first elected in 2001, is seeking an unprecedented seventh term.</p>
+<p>With Welner out, two potential returning challengers pulled papers Aug. 10: Andrew Thompson, a former mayor and councilmember from 1992 to 2003, and Kathleen Defever, a planning commissioner since 2018. Neither had filed.</p>
+<p>In Belvedere, Kate Benediktsson took out papers Aug. 6 and filed Aug. 7, challenging incumbents Peter Mark and Jane Cooper for two seats. As of Aug. 10, the city had not yet listed her as qualified.</p>
+<p>Benediktsson is the daughter of Catharine Benediktsson, president of the Sanitary District No. 5 of Marin board, who filed for ...</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Election 2026</category>
+     <category>Tiburon</category>
+     <category>Belvedere</category>
+     <category>Strawberry</category>
+     <category>News</category>
+     <category>School News</category>
+     <guid isPermaLink="false">6a7a8198bb2b410376baac5e</guid>
+     <pubDate>Tue, 11 Aug 2026 02:01:35 GMT</pubDate>
+   </item>
    <item>
      <title>Neighbors sue Marin County over housing project at Strawberry seminary site</title>
      <link>https://www.thearknewspaper.com/live/neighbors-sue-marin-county-over-housing-project-at-strawberry-seminary-site</link>
@@ -331,19 +357,6 @@
      <guid isPermaLink="false">6a68d80eaa6e0c7f02ab4bd2</guid>
      <pubDate>Tue, 28 Jul 2026 16:27:18 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_d2323dba4f714aa590f6b4e8c0b742aa~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-   </item>
-   <item>
-     <title>Tradition comes to life at Tiburon Jewish Festival</title>
-     <link>https://www.thearknewspaper.com/live/tradition-comes-to-life-at-tiburon-jewish-festival</link>
-     <description>Chabad of Tiburon held its fourth annual Tiburon Jewish Festival on July 26 at Zelinsky Park.</description>
-     <content:encoded><![CDATA[<p>Saul Goodman’s Klezmer Band, which modernizes Eastern European Jewish folk music, performs at Chabad of Tiburon’s fourth annual Tiburon Jewish Festival on July 26 at Zelinsky Park. At left, Rabbi Levi Potash, a scribe from Redwood City, letters visitors’ names in Hebrew for key chains at the festival, which also offered a challah-making workshop, a Yad Vashem exhibit, kosher food and an ‘Ask the Rabbi’ booth. (Leo Leung / For The Ark)</p>]]></content:encoded>
-     <dc:creator>The Ark</dc:creator>
-     <category>Tiburon</category>
-     <category>Featured</category>
-     <guid isPermaLink="false">6a6a3797cecb33cd5ae85d5f</guid>
-     <pubDate>Mon, 27 Jul 2026 07:00:00 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_e6346c12469745108ba3c062fe4b0431~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:content url="https://static.wixstatic.com/media/75283d_a8f11740e51f4f329166a13c2f24233f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
    </item>
  </channel>
 </rss>
