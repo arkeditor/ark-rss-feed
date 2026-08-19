@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 19 Aug 2026 20:13:19 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 19 Aug 2026 20:50:11 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>SF State&apos;s Estuary &amp; Ocean Science Center in Tiburon will close after fight to save it falls short</title>
@@ -56,7 +56,8 @@
      <category>News</category>
      <guid isPermaLink="false">6a8602790c4e421263847f79</guid>
      <pubDate>Wed, 19 Aug 2026 19:24:53 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_a96f98d185754d6c8ba285dfd93c7695~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_26299812289d4c3eb410bb0f74ad9231~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Parks, Open Space &amp; Trails Commission Chair Michael Moon presents the 60%-complete design for the former sanitation ponds site near McKegney Green during a workshop Aug. 13 at Tiburon Town Hall. Moon and Commissioner Nicole Voss make up the subcommittee guiding the project, which goes back to the full commission at a special meeting Aug. 24. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon neighbors rally to find lost dog, bring him home</title>
@@ -94,6 +95,10 @@
      <title>New fitness studio approved for downtown Tiburon</title>
      <link>https://www.thearknewspaper.com/live/new-fitness-studio-approved-for-downtown-tiburon</link>
      <description>Five Points Fitness plans free weights, cardio, self-adjusting strength machines and a recovery area with two kinds of saunas. The owners are targeting a February 2027 opening.</description>
+     <content:encoded><![CDATA[<p>A membership gym offering free weights, cardio equipment, self-adjusting strength machines and saunas is coming to a downtown Tiburon storefront that has sat empty since 2022.</p>
+<p>The Tiburon Planning Commission on Aug. 12 granted Five Points Fitness a conditional-use permit to open an 8,090-square-foot gym across two floors at 1620 Tiburon Blvd. Recreation and entertainment uses are allowed in the property’s mixed-use zone only with a use permit, and the space had most recently been offices. The vote was 3-0, with Chair Daniel Amir and Vice Chair Eric Woodward absent. No one spoke during public comment.</p>
+<p>Tom MacDonald, who co-owns the gym with Bryan LeFebure, said after the meeting that they’re targeting a February 2027 opening, pending construction permits and schedules.</p>
+<p>The Tiburon location would be the company’s third. MacDonald told the commission that he and LeFebure bought the Corte Madera gym from World Gym about 21 years ago and have run the Novato gym for 11 years.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -101,6 +106,7 @@
      <guid isPermaLink="false">6a8600a62e188f43fdf4e462</guid>
      <pubDate>Wed, 19 Aug 2026 19:16:01 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_ce67a46d7642415da4e5260f5e671ea4~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Five Points Fitness is planning to open an 8,090-square-foot gym across two floors at 1620 Tiburon Blvd., a downtown storefront that has sat vacant since 2022. The Tiburon Planning Commission granted the gym a conditional use permit Aug. 12, and co-owner Tom MacDonald says he is targeting a February 2027 opening, pending construction permits and schedules. (Apple Maps)</media:description>
    </item>
    <item>
      <title>Tiburon Fire rejects grand jury timeline for consolidation talks</title>
@@ -120,6 +126,9 @@
      <title>Report: Open creek sent skiers toward fatal avalanche path</title>
      <link>https://www.thearknewspaper.com/live/report-open-creek-sent-skiers-toward-fatal-avalanche-path</link>
      <description>Guides who led a Tiburon mother of three into a fatal Sierra avalanche were steering away from the slide path when an open creek turned them back, a commissioned report says.</description>
+     <content:encoded><![CDATA[<p>Guides who led a Tiburon mother of three into a fatal Sierra avalanche were steering the group away from the slide path when an open creek turned them back, according to a report their company commissioned.</p>
+<p>The report does not say why the guides pressed on toward the trailhead after the crossing failed instead of returning to the huts they had left two hours earlier. Blackbird Mountain Guides, the Truckee company that ran the trip, has not addressed the question publicly.</p>
+<p>Kate Morse, a 45-year-old biotech executive whose two eldest daughters compete for Sugar Bowl Academy, was one of six women killed in the Feb. 17 slide. They were part of a group of eight friends whose children ski for the academy near Donner Summit. Three guides died with them.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
@@ -159,23 +168,29 @@
      <title>Garden Plot: Dragonflies bring beauty and benefits to local gardens</title>
      <link>https://www.thearknewspaper.com/live/garden-plot-dragonflies-bring-beauty-and-benefits-to-local-gardens</link>
      <description>Dragonflies are carnivores that eat aphids, gnats, mosquitoes and flies, which makes them worth having around.</description>
+     <content:encoded><![CDATA[<p>Are you lucky enough to have dragonflies in your garden, or maybe have you seen them near fresh water such as the marsh behind the Belvedere-Tiburon Library? They are stunningly beautiful. I have a seasonal stream that seems to trickle all summer these days, so they’re around my garden, sometimes flying close to observe what I’m up to out there. There are some large dragonflies that are bright red, smaller ones that are a brilliant blue and some that are grayish. All are so much fun to watch.</p>
+<p>Like bees and other insects, dragonflies have what appear to be huge eyes, which are actually compound eyes consisting of thousands of simple eyes. Fortunately, they’re harmless to us and don’t sting. Damselflies are the smaller ones; they have wings that fold into the shape of a V or over their backs when they are resting. Larger ones, called darners, have wings at right angles to their sides, and some can approach the size of a hummingbird.</p>]]></content:encoded>
      <dc:creator>Diane Lynch</dc:creator>
      <category>Entertainment</category>
      <category>News</category>
      <guid isPermaLink="false">6a85fb9f64fec8936ab173d5</guid>
      <pubDate>Wed, 19 Aug 2026 18:55:26 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_1369db5f854f4480a26dd23d8781dc5e~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_87fc1f70bb61479b83bfcdf2d9492180~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>This dragonfly, called a darner, is characterized by wings that are perpendicular to the body. The stream in my garden, shown here in winter, has a catch basin at the bottom where the dragonflies hang out in summer. (Diane Lynch / For The Ark)</media:description>
    </item>
    <item>
      <title>Picks of the Week: Bluegrass at Old St. Hilary&apos;s; Tiburon, Strawberry festivals</title>
      <link>https://www.thearknewspaper.com/live/picks-of-the-week-bluegrass-at-old-st-hilary-s-tiburon-strawberry-festivals</link>
      <description>Strawberry Rec&apos;s Community Night and the Tiburon chamber&apos;s Friday Nights on Main are Aug. 21, while Charlie Torch will play a bluegrass concert Aug. 23.</description>
+     <content:encoded><![CDATA[<p>Bluegrass band Charlie Torch at Old St. Hilary’s:Charlie Torch will play a bluegrass concert at 4 p.m. Aug. 23 at Old St. Hilary’s Landmark in Tiburon. The group is a family affair, with fiddle player Chad Manning and his daughters Jayne Manning on guitar and Jasper Manning on mandolin, plus Tyler Stegall on banjo and Mark Schatz on bass. Tickets are $20-$25 in advance online or at the Landmarks Society office, $25-$30 at the door if not sold out. There is no parking at Old St. Hilary’s Landmark; free parking is at The Boardwalk shopping center, with a shuttle leaving from in front of Rustic Bakery beginning half an hour before the show. 415-435-1853 orlandmarkssociety.com.</p>
+<p>Two community festivals Friday night:There are two local events Aug. 21 for getting out and mingling with your neighbors. The final Friday Nights on Main of the summer runs 5:30-8:30 p.m., with Main Street in Tiburon closed to car traffic for outdoor dining from local restaurants, live music, games, a photo booth and face painting. 415-435-5633 ortiburonchamber.org. At the Strawberry Recreation Center, Community Night, 4:30-8 p.m., will have a selection of vendors, booths from community groups, food trucks and family activities including a climbing wall and bounce house. Bring low seating for a picnic on the field. No dogs are allowed. 415-383-6494 orstrawberry.marin.org. Both events are free.</p>]]></content:encoded>
      <dc:creator>Diana Goodman</dc:creator>
      <category>Entertainment</category>
      <category>News</category>
      <guid isPermaLink="false">6a85fa4f0c4e421263846efa</guid>
      <pubDate>Wed, 19 Aug 2026 18:52:45 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_dc0bb80189fa4d92b22613d27888fc59~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_f503f1fd7f0247d6bfb7885246b094d5~mv2.png/v1/fit/w_1000,h_999,al_c,q_80/file.png" medium="image"/>
+     <media:description>Charlie Torch plays a bluegrass concert at 4 p.m. Aug. 23 at Old St. Hilary’s Landmark. (Handout photo)</media:description>
    </item>
    <item>
      <title>Tiburon Peninsula election field set for Nov. 3</title>
@@ -204,18 +219,21 @@
      <pubDate>Mon, 17 Aug 2026 07:00:00 GMT</pubDate>
    </item>
    <item>
-     <title>Tartine Bakery Tartine opens its doors at Strawberry Village</title>
+     <title>Tartine Bakery opens its doors at Strawberry Village</title>
      <link>https://www.thearknewspaper.com/live/tartine-bakery-soft-opens-at-strawberry-village-grand-opening-aug-19</link>
      <description>San Francisco&apos;s Tartine Bakery formally opens its first North Bay store today, Aug. 19, at Strawberry Village shopping center.</description>
-     <content:encoded><![CDATA[<p>Tiburon Peninsula residents no longer have to drive to San Francisco, or wait in its hourlong lines, for a Tartine country loaf.</p>
-<p>The bakery will formally open its first North Bay store Aug. 19 at the Strawberry Village shopping center, filling two storefronts that had sat empty for years and ending a wait that began when Tartine announced the location in March 2025.</p>
-<p>The 3,091-square-foot bakery and cafe sits in the same cluster as Safeway, Calico Corners and High Tech Burrito. It will be open 8 a.m.-4 p.m. daily and will sell the sourdough, morning buns and pastries that built the brand, soft-scramble tartines and breakfast sandwiches on a sweet potato bun, along with lunch items including ham-and-gruyere sandwiches and a double smash burger with American cheese, celery remoulade and fennel confit.</p>
-<p>Tartine began opening intermittently for staff trainings on Aug. 13, with staff saying a friends and family soft opening was set for Aug. 15 and Aug. 16 and the public soft opening would begin Aug. 17.</p>
-<p>San Francisco firm Studio BBA designed the space to pick up the shopping center’s Mediterranean look, with high ceilings, an open floor plan and sightlines that let customers watch the bakers work.</p>
-<p>The store is also a return to the peninsula’s doorstep for a business that started nearby. Founders Chad Robertson and Elisabeth Prueitt honed their craft at Bay Village Breads in Point Reyes Station, then moved to 17 Madrona St. in Mill Valley in 2000. They left for San Francisco in 2002 and opened the first Tartine at 18th and Guerrero streets in the Mission district, where customers reserved bread three days ahead and lined up each morning for the afternoon bake.</p>
-<p>The pair won the James Beard Foundation award for the best pastry chefs in America in 2008, and Bon Appétit magazine called Tartine “America’s most influential bakery” in 2017. Robertson’s 2010 book, “Tartine Bread,” helped set off the home sourdough boom.</p>
-<p>Tartine’s three other Bay Area locations are all in San Francisco: the original Mission bakery, the Tartine Manufactory and a store in the Inner Sunset. The company also runs seven locations in Los Angeles and six in Seoul, South Korea, and has leased a former CVS in San Francisco’s Financial District, a fourth city store it expects to open next year.</p>
-<p>Getting to opening day in Strawberry took longer than planned. Edens, the Washington, D.C.-based real-estate developer that has owned the center sinc...</p>]]></content:encoded>
+     <content:encoded><![CDATA[<p>Tiburon Peninsula residents no longer have to drive to San Francisco, or wait in its hourlong lines, for aTartinecountry loaf.</p>
+<p>The bakery formally opens its first North Bay store today, Aug. 19, at the Strawberry Village shopping center, filling two storefronts that had sat empty for years.</p>
+<p>The wait began when Tartine announced the location in March 2025.</p>
+<p>The 3,091-square-foot bakery and cafe sits in the same cluster as Safeway, Calico Corners and High Tech Burrito. It is open 8 a.m.-4 p.m. daily.</p>
+<p>The menu carries the sourdough, morning buns and pastries that built the brand, along with soft-scramble tartines, breakfast sandwiches on a sweet potato bun and coffee. Lunch items include salads, ham-and-Gruyere sandwiches and a double smash burger with American cheese, celery remoulade and fennel confit.</p>
+<p>The bread is baked in San Francisco and delivered daily. Pastries are made fresh in Strawberry.</p>
+<p>Tartine has been serving customers intermittently since Aug. 13, opening and closing as staff trained ahead of today’s official opening.</p>
+<p>A line formed outside before the doors opened at 8 a.m. Aug. 17, and the cafe was full by 8:30. Mark Jensen of Kentfield and Santiago Sciutti of San Rafael rode up on bikes, trying Tartine for the first time. Julia and Anthony Lugo of Mill Valley, Tartine customers in San Francisco for years, said they had followed the opening on Instagram.</p>
+<p>Cashier Grace Tigrero said lines formed outside on Aug. 15 and Aug. 16 as well, and that the bakery sold out of baked goods within a few hours both days.</p>
+<p>“Opening our first location in Marin has long been a goal,” Tartine CEO Dar Vasseghi said in an Aug. 14 statement. “Strawberry Village is an ideal home for us — a neighborhood gathering place with a strong sense of community. People have been asking us for this for a long time, and we’re excited to deliver on that demand.”</p>
+<p>San Francisco firm Studio BBA designed the space to pick up the shopping center’s Mediterranean look, with high ceilings, an open floor plan and sightlines that let customers watch the bakers work. It seats 120 people indoors and out.</p>
+<p>The store is also a return to the peninsula’s doorstep for a business that started nearby. Founders Chad Robertson and Elisabeth Prueitt began baking at Bay Village Bread in Point Reyes Station in 1999, then moved to 17 Madrona St. in Mill Valley in 2000. They left for San Francisco in 2002 and opened the first Tarti...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Strawberry</category>
      <category>Business</category>
@@ -223,8 +241,12 @@
      <category>Featured</category>
      <guid isPermaLink="false">6a7f96c50184b89c47f6dbe4</guid>
      <pubDate>Fri, 14 Aug 2026 22:54:05 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_c572872bfb114eafaa6a6a9589216f18~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>Staff training is underway at the new Tartine Bakery in Strawberry Village, which has been open intermittently since Aug. 13. The formal opening is set for Aug. 19. (Margaret Hemley / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_f260afc60c6e4ca1af86b82f2767527f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Cashier Grace Tigrero waits on Mark Jensen and Santiago Sciutti on Aug. 17 at Tartine Bakery in Strawberry Village. Jensen, of Kentfield, and Sciutti, of San Rafael, rode their bikes over to try Tartine for the first time. (Ted McDonnell / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_36dbcb7584954779a07145775866a83f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Bagged country, rye and oat-porridge loaves wait for customers on Aug. 17 at Tartine Bakery in Strawberry Village, where all the breads are sourdough. The bakery has been serving customers since Aug. 13 and holds its official opening today, Aug. 19. (Ted McDonnell / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_4e9e1791e84b4ff389e7392afa76818e~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>James Weinbaum of Tiburon eats a sticky bun on Aug. 17 at Tartine Bakery in Strawberry Village during its soft opening. (Ted McDonnell / For The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon to spend $250k to dig out of audit backlog</title>
@@ -263,6 +285,11 @@
      <title>‘Birdhouse,’ basket swings in mix for Cypress Hollow Park</title>
      <link>https://www.thearknewspaper.com/live/birdhouse-basket-swings-in-mix-for-cypress-hollow-park</link>
      <description>Basket swings, a birdhouse climbing structure and wooden towers with slides are among options Tiburon is weighing for a rebuilt Cypress Hollow playground.</description>
+     <content:encoded><![CDATA[<p>Tire and basket swings, a climbing structure shaped like a birdhouse and wooden play towers with slides are among the options Tiburon is weighing for a rebuilt playground at Cypress Hollow Park.</p>
+<p>Members of the Tiburon Parks, Open Space & Trails Commission’s mini-parks subcommittee presented preliminary concepts from three playground-equipment vendors at an in-person workshop July 28 and a virtual workshop Aug. 4.</p>
+<p>The designs and the feedback on them will be folded into the 60%-completed design set that Santa Rosa-based park designer Carlile Macy is preparing for the commission’s special meeting at 6 p.m. Aug. 24, subcommittee member and parks Commissioner Chuck Hornbrook said during the Aug. 4 session.</p>
+<p>Hornbrook said structures can be mixed and matched across manufacturers for the park’s new play area of roughly 3,000 square feet, a 50% increase over the 2,000 square feet of play space at the half-acre park now.</p>
+<p>Even with the expansion, Hornbrook said, the park’s size limits which marquee structures will fit. He said the Bel Aire play area covers 0.7 acres and South of the Knoll Park about 6.5 acres.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>News</category>
      <category>Tiburon</category>
@@ -270,6 +297,7 @@
      <guid isPermaLink="false">6a7ca2a73637842029d0d35e</guid>
      <pubDate>Wed, 12 Aug 2026 16:44:35 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_ed996a73076a4f20a3132fcc5614ca78~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>A rendering from Earthscape Play shows a basket swing among preliminary options for a rebuilt playground at Cypress Hollow Park. The Parks, Open Space &amp; Trails Commission’s mini-parks subcommittee presented concepts from three vendors at workshops July 28 and Aug. 4. No design has been chosen, and no construction has been approved.</media:description>
    </item>
    <item>
      <title>Tiburon real-estate broker turned rocker releases his third album</title>
