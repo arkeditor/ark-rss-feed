@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 20 Aug 2026 06:30:28 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 20 Aug 2026 07:30:37 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>SF State&apos;s Estuary &amp; Ocean Science Center in Tiburon will close after fight to save it falls short</title>
@@ -222,15 +222,18 @@
      <title>Tartine Bakery opens its doors at Strawberry Village</title>
      <link>https://www.thearknewspaper.com/live/tartine-bakery-soft-opens-at-strawberry-village-grand-opening-aug-19</link>
      <description>San Francisco&apos;s Tartine Bakery formally opens its first North Bay store today, Aug. 19, at Strawberry Village shopping center.</description>
-     <content:encoded><![CDATA[<p>Tiburon Peninsula residents no longer have to drive to San Francisco, or wait in its hourlong lines, for a Tartine country loaf.</p>
-<p>The bakery will formally open its first North Bay store Aug. 19 at the Strawberry Village shopping center, filling two storefronts that had sat empty for years and ending a wait that began when Tartine announced the location in March 2025.</p>
-<p>The 3,091-square-foot bakery and cafe sits in the same cluster as Safeway, Calico Corners and High Tech Burrito. It will be open 8 a.m.-4 p.m. daily and will sell the sourdough, morning buns and pastries that built the brand, soft-scramble tartines and breakfast sandwiches on a sweet potato bun, along with lunch items including ham-and-gruyere sandwiches and a double smash burger with American cheese, celery remoulade and fennel confit.</p>
-<p>Tartine began opening intermittently for staff trainings on Aug. 13, with staff saying a friends and family soft opening was set for Aug. 15 and Aug. 16 and the public soft opening would begin Aug. 17.</p>
-<p>San Francisco firm Studio BBA designed the space to pick up the shopping center’s Mediterranean look, with high ceilings, an open floor plan and sightlines that let customers watch the bakers work.</p>
-<p>The store is also a return to the peninsula’s doorstep for a business that started nearby. Founders Chad Robertson and Elisabeth Prueitt honed their craft at Bay Village Breads in Point Reyes Station, then moved to 17 Madrona St. in Mill Valley in 2000. They left for San Francisco in 2002 and opened the first Tartine at 18th and Guerrero streets in the Mission district, where customers reserved bread three days ahead and lined up each morning for the afternoon bake.</p>
-<p>The pair won the James Beard Foundation award for the best pastry chefs in America in 2008, and Bon Appétit magazine called Tartine “America’s most influential bakery” in 2017. Robertson’s 2010 book, “Tartine Bread,” helped set off the home sourdough boom.</p>
-<p>Tartine’s three other Bay Area locations are all in San Francisco: the original Mission bakery, the Tartine Manufactory and a store in the Inner Sunset. The company also runs seven locations in Los Angeles and six in Seoul, South Korea, and has leased a former CVS in San Francisco’s Financial District, a fourth city store it expects to open next year.</p>
-<p>Getting to opening day in Strawberry took longer than planned. Edens, the Washington, D.C.-based real-estate developer that has owned the center sinc...</p>]]></content:encoded>
+     <content:encoded><![CDATA[<p>Tiburon Peninsula residents no longer have to drive to San Francisco, or wait in its hourlong lines, for aTartinecountry loaf.</p>
+<p>The bakery formally opens its first North Bay store today, Aug. 19, at the Strawberry Village shopping center, filling two storefronts that had sat empty for years.</p>
+<p>The wait began when Tartine announced the location in March 2025.</p>
+<p>The 3,091-square-foot bakery and cafe sits in the same cluster as Safeway, Calico Corners and High Tech Burrito. It is open 8 a.m.-4 p.m. daily.</p>
+<p>The menu carries the sourdough, morning buns and pastries that built the brand, along with soft-scramble tartines, breakfast sandwiches on a sweet potato bun and coffee. Lunch items include salads, ham-and-Gruyere sandwiches and a double smash burger with American cheese, celery remoulade and fennel confit.</p>
+<p>The bread is baked in San Francisco and delivered daily. Pastries are made fresh in Strawberry.</p>
+<p>Tartine has been serving customers intermittently since Aug. 13, opening and closing as staff trained ahead of today’s official opening.</p>
+<p>A line formed outside before the doors opened at 8 a.m. Aug. 17, and the cafe was full by 8:30. Mark Jensen of Kentfield and Santiago Sciutti of San Rafael rode up on bikes, trying Tartine for the first time. Julia and Anthony Lugo of Mill Valley, Tartine customers in San Francisco for years, said they had followed the opening on Instagram.</p>
+<p>Cashier Grace Tigrero said lines formed outside on Aug. 15 and Aug. 16 as well, and that the bakery sold out of baked goods within a few hours both days.</p>
+<p>“Opening our first location in Marin has long been a goal,” Tartine CEO Dar Vasseghi said in an Aug. 14 statement. “Strawberry Village is an ideal home for us — a neighborhood gathering place with a strong sense of community. People have been asking us for this for a long time, and we’re excited to deliver on that demand.”</p>
+<p>San Francisco firm Studio BBA designed the space to pick up the shopping center’s Mediterranean look, with high ceilings, an open floor plan and sightlines that let customers watch the bakers work. It seats 120 people indoors and out.</p>
+<p>The store is also a return to the peninsula’s doorstep for a business that started nearby. Founders Chad Robertson and Elisabeth Prueitt began baking at Bay Village Bread in Point Reyes Station in 1999, then moved to 17 Madrona St. in Mill Valley in 2000. They left for San Francisco in 2002 and opened the first Tarti...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Strawberry</category>
      <category>Business</category>
@@ -238,8 +241,12 @@
      <category>Featured</category>
      <guid isPermaLink="false">6a7f96c50184b89c47f6dbe4</guid>
      <pubDate>Fri, 14 Aug 2026 22:54:05 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_c572872bfb114eafaa6a6a9589216f18~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>Staff training is underway at the new Tartine Bakery in Strawberry Village, which has been open intermittently since Aug. 13. The formal opening is set for Aug. 19. (Margaret Hemley / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_f260afc60c6e4ca1af86b82f2767527f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Cashier Grace Tigrero waits on Mark Jensen and Santiago Sciutti on Aug. 17 at Tartine Bakery in Strawberry Village. Jensen, of Kentfield, and Sciutti, of San Rafael, rode their bikes over to try Tartine for the first time. (Ted McDonnell / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_36dbcb7584954779a07145775866a83f~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Bagged country, rye and oat-porridge loaves wait for customers on Aug. 17 at Tartine Bakery in Strawberry Village, where all the breads are sourdough. The bakery has been serving customers since Aug. 13 and holds its official opening today, Aug. 19. (Ted McDonnell / For The Ark)</media:description>
+     <media:content url="https://static.wixstatic.com/media/75283d_4e9e1791e84b4ff389e7392afa76818e~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>James Weinbaum of Tiburon eats a sticky bun on Aug. 17 at Tartine Bakery in Strawberry Village during its soft opening. (Ted McDonnell / For The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon to spend $250k to dig out of audit backlog</title>
