@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 20 Aug 2026 09:55:39 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 20 Aug 2026 10:18:28 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>SF State&apos;s Estuary &amp; Ocean Science Center in Tiburon will close after fight to save it falls short</title>
@@ -56,7 +56,8 @@
      <category>News</category>
      <guid isPermaLink="false">6a8602790c4e421263847f79</guid>
      <pubDate>Wed, 19 Aug 2026 19:24:53 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_a96f98d185754d6c8ba285dfd93c7695~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_26299812289d4c3eb410bb0f74ad9231~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>Parks, Open Space &amp; Trails Commission Chair Michael Moon presents the 60%-complete design for the former sanitation ponds site near McKegney Green during a workshop Aug. 13 at Tiburon Town Hall. Moon and Commissioner Nicole Voss make up the subcommittee guiding the project, which goes back to the full commission at a special meeting Aug. 24. (Francisco Martinez / The Ark)</media:description>
    </item>
    <item>
      <title>Tiburon neighbors rally to find lost dog, bring him home</title>
@@ -221,7 +222,7 @@
      <title>Tartine Bakery opens its doors at Strawberry Village</title>
      <link>https://www.thearknewspaper.com/live/tartine-bakery-soft-opens-at-strawberry-village-grand-opening-aug-19</link>
      <description>San Francisco&apos;s Tartine Bakery formally opens its first North Bay store today, Aug. 19, at Strawberry Village shopping center.</description>
-     <content:encoded><![CDATA[<p>Updated:59 minutes ago</p>
+     <content:encoded><![CDATA[<p>Updated:34 minutes ago</p>
 <p>Tiburon Peninsula residents no longer have to drive to San Francisco, or wait in its hourlong lines, for aTartinecountry loaf.</p>
 <p>The bakery formally opens its first North Bay store today, Aug. 19, at the Strawberry Village shopping center, filling two storefronts that had sat empty for years.</p>
 <p>The wait began when Tartine announced the location in March 2025.</p>
