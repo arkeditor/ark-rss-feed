@@ -7,14 +7,13 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Fri, 04 Sep 2026 19:42:35 +0000</lastBuildDate>
+   <lastBuildDate>Fri, 04 Sep 2026 21:54:35 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Election 2026: Tiburon council race pits five candidates over parks, housing, finances, traffic</title>
      <link>https://www.thearknewspaper.com/live/election-2026-tiburon-council-race-pits-five-candidates-over-parks-housing-finances-traffic</link>
      <description>Five candidates seek three seats on the Tiburon Town Council Nov. 3: incumbents Alice Fredericks and Jack Ryan, challengers Kathleen Defever, Chuck Hornbrook and Faris Jafar.</description>
-     <content:encoded><![CDATA[<p>Updated:12 minutes ago</p>
-<p>Five candidates are competing for three seats on the Tiburon Town Council in the Nov. 3 election, with park amenities, financial transparency and housing at the center of the race.</p>
+     <content:encoded><![CDATA[<p>Five candidates are competing for three seats on the Tiburon Town Council in the Nov. 3 election, with park amenities, financial transparency and housing at the center of the race.</p>
 <p>Incumbent Councilmembers Alice Fredericks and Jack Ryan face challenges from Kathleen Defever, a member of the Planning Commission; Chuck Hornbrook, a member of the Parks, Open Space & Trails Commission; and Faris Jafar, who is seeking his first elected office.</p>
 <p>At least one of the three challengers is guaranteed a seat because incumbent Mayor Jon Welner is not seeking reelection. The three winners will serve four-year terms until November 2030.</p>
 <p>Election 2026: The Tiburon Town Council candidates at a glance</p>
@@ -26,7 +25,7 @@
 <p>Kathleen Defever, 48, is seeking her first term on the council. She has served since 2018 on the Planning Commission, the town body that reviews the general plan, conditional-use permits, zoning and zoning text amendments.</p>
 <p>This is her third run for the council. Defever lost to Ryan in the March 2020 special election and finished second to Noah Griffin in the November 2021 special election.</p>
 <p>She is an attorney who has a solo practice in property- and disability-insurance litigation. Defever writes articles for law journals on consumer and insurance law and gives speeches to European lawyers about American insurance law.</p>
-<p>Raised near Lansing, Michigan, she graduated from DePaul University in Chicago with a bachelor’s degree in international studies and later earned a law degree. She...</p>]]></content:encoded>
+<p>Raised near Lansing, Michigan, she graduated from DePaul University in Chicago with a bachelor’s degree in international studies and later earned a law degree. She earned a master’s in insuranc...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Election 2026</category>
      <category>News</category>
@@ -304,13 +303,16 @@
      <title>Federal prosecutors charge Tiburon man in $103M Pacific Private collapse</title>
      <link>https://www.thearknewspaper.com/live/federal-prosecutors-charge-tiburon-man-in-103m-pacific-private-collapse</link>
      <description>Mark Hanf of Tiburon, founder and former CEO of Novato-based Pacific Private Money, has been charged with charged in federal court with money laundering and conspiracy to commit wire fraud.</description>
-     <content:encoded><![CDATA[<p>A Tiburon man whose Novato lending firm took in about $103 million from investors before collapsing now faces federal fraud charges and has settled a case brought by securities regulators.</p>
-<p>The charges against Mark Hanf come six months after The Ark reported that the Marin County District Attorney’s Office was fielding complaints from investors who could not get their money out.</p>
+     <content:encoded><![CDATA[<p>Updated:18 minutes ago</p>
+<p>Federal prosecutors have charged a Tiburon man with fraud, saying his Novato lending firm had become a Ponzi scheme by the time it collapsed with about $103 million of investors’ money.</p>
+<p>Mark Hanf has separately agreed to settle a case brought by the Securities and Exchange Commission.</p>
+<p>The charges come six months after The Ark reported that the Marin County District Attorney’s Office was fielding complaints from investors who could not get their money out.</p>
 <p>Hanf, 66, the founder and former chief executive of Pacific Private Money, appeared in federal court in San Francisco on Sept. 1 and pleaded not guilty. So did Hoai-Nam Chu Phan, 58, of Novato, the former chief operating officer of Pacific Private Money Inc., the group’s operating company. Both are charged with conspiracy to commit wire fraud. Hanf also faces a count of engaging in monetary transactions in criminally derived property, a money-laundering charge.</p>
+<p>“As alleged, these defendants falsely assured investors that Pacific Private Money was successful and profitable, knowing that continued losses had turned it into a Ponzi scheme,” U.S. Attorney Craig H. Missakian said in a statement.</p>
 <p>They settled the civil case the same day it was filed, each signing a consent to a judgment that would bar him permanently from the securities business. What they will owe has not been set.</p>
+<p>How prosecutors say it worked</p>
 <p>The criminal charging document traces the collapse to a single death. Pacific Private Money raised investor capital to make loans secured by real property, paying members fixed distributions of about 6% to 10% a year and telling them they could take their principal back within 30 days without penalty. In 2021, prosecutors say, the developer who owed the most on loans from the firm’s original fund died. The document identifies him only as Developer-1. His loans were not being repaid, and the projects securing them were distressed and unlikely to cover what was owed.</p>
-<p>That gutted the fund’s finances, prosecutors say, and Hanf and Phan did not tell investors the extent of the losses. By December 2021 the fund could not cover its expenses, its distributions and its redemptions out of revenue. On Dec. 7, 2021, the two began moving money between the Pacific Private funds to close the gap, booking the transfers as loans that accrued interest while little or no interest was actually paid. Money raised for one fund went out as distributions and redemptions to investors in another. Prosecutors put the total raised at about $103 million from more than 175 investors between December 2021 and December 2025.</p>
-<p>“As alleged, these defendants falsely assured investors that Pacific Private Money was successful and profitable, knowing that continued losses had turned it into a Ponzi scheme,” U.S. Attorney Craig H. Mi...</p>]]></content:encoded>
+<p>That gutted the fund’s finances, prosecutors say, and Hanf and Phan did not tell investors the extent of the losses. By December 2021 the fund could not cover its expenses, its distributions and its redemptions out of revenue. On Dec. 7, 2021, the two began moving money between the Pacific Private funds to close the gap, booking the transfers as loans that accrued interest while little or no interest was actually paid. Money raised for one fund went out a...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
