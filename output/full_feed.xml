@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sat, 05 Sep 2026 01:45:52 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 05 Sep 2026 06:26:04 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Election 2026: Tiburon council race pits five candidates over parks, housing, finances, traffic</title>
@@ -303,8 +303,7 @@
      <title>Federal prosecutors charge Tiburon man in $103M Pacific Private collapse</title>
      <link>https://www.thearknewspaper.com/live/federal-prosecutors-charge-tiburon-man-in-103m-pacific-private-collapse</link>
      <description>Mark Hanf of Tiburon, founder and former CEO of Novato-based Pacific Private Money, has been charged with charged in federal court with money laundering and conspiracy to commit wire fraud.</description>
-     <content:encoded><![CDATA[<p>Updated:18 minutes ago</p>
-<p>Federal prosecutors have charged a Tiburon man with fraud, saying his Novato lending firm had become a Ponzi scheme by the time it collapsed with about $103 million of investors’ money.</p>
+     <content:encoded><![CDATA[<p>Federal prosecutors have charged a Tiburon man with fraud, saying his Novato lending firm had become a Ponzi scheme by the time it collapsed with about $103 million of investors’ money.</p>
 <p>Mark Hanf has separately agreed to settle a case brought by the Securities and Exchange Commission.</p>
 <p>The charges come six months after The Ark reported that the Marin County District Attorney’s Office was fielding complaints from investors who could not get their money out.</p>
 <p>Hanf, 66, the founder and former chief executive of Pacific Private Money, appeared in federal court in San Francisco on Sept. 1 and pleaded not guilty. So did Hoai-Nam Chu Phan, 58, of Novato, the former chief operating officer of Pacific Private Money Inc., the group’s operating company. Both are charged with conspiracy to commit wire fraud. Hanf also faces a count of engaging in monetary transactions in criminally derived property, a money-laundering charge.</p>
@@ -312,7 +311,7 @@
 <p>They settled the civil case the same day it was filed, each signing a consent to a judgment that would bar him permanently from the securities business. What they will owe has not been set.</p>
 <p>How prosecutors say it worked</p>
 <p>The criminal charging document traces the collapse to a single death. Pacific Private Money raised investor capital to make loans secured by real property, paying members fixed distributions of about 6% to 10% a year and telling them they could take their principal back within 30 days without penalty. In 2021, prosecutors say, the developer who owed the most on loans from the firm’s original fund died. The document identifies him only as Developer-1. His loans were not being repaid, and the projects securing them were distressed and unlikely to cover what was owed.</p>
-<p>That gutted the fund’s finances, prosecutors say, and Hanf and Phan did not tell investors the extent of the losses. By December 2021 the fund could not cover its expenses, its distributions and its redemptions out of revenue. On Dec. 7, 2021, the two began moving money between the Pacific Private funds to close the gap, booking the transfers as loans that accrued interest while little or no interest was actually paid. Money raised for one fund went out a...</p>]]></content:encoded>
+<p>That gutted the fund’s finances, prosecutors say, and Hanf and Phan did not tell investors the extent of the losses. By December 2021 the fund could not cover its expenses, its distributions and its redemptions out of revenue. On Dec. 7, 2021, the two began moving money between the Pacific Private funds to close the gap, booking the transfers as loans that accrued interest while little or no interest was actually paid. Money raised for one fund went out as distributions and redemption...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>News</category>
