@@ -7,20 +7,21 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 23 Sep 2026 01:33:56 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 23 Sep 2026 06:52:38 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Ark audit finds federally linked license-plate searches continue after Tiburon’s Flock safeguards</title>
      <link>https://www.thearknewspaper.com/live/ark-audit-finds-federally-linked-license-plate-searches-continue-after-tiburon-s-safeguards</link>
      <description>A day after The Ark asked Tiburon who approved access to its license-plate cameras, the town revised the policy, dropping the written-request rule and its monthly audit method.</description>
-     <content:encoded><![CDATA[<p>Thirty-four outside police agencies ran 8,542 searches of Tiburon’s license-plate cameras for federally entangled investigations in the seven months after the town rewrote its plate-reader policy in December and began requiring monthly audits, a new Ark audit has found.</p>
+     <content:encoded><![CDATA[<p>Updated:2 minutes ago</p>
+<p>Thirty-four outside police agencies ran 8,542 searches of Tiburon’s license-plate cameras for federally entangled investigations in the seven months after the town rewrote its plate-reader policy in December and began requiring monthly audits, a new Ark audit has found.</p>
 <p>More than 4,800 came on or after Feb. 3, when Police Chief Michelle Jean told The Ark the town had worked with vendor Flock Safety “to allow external searches only for valid reasons” — language the town repeated in apublic statement March 9. Every one of the 34 agencies ran at least one of those searches. Twenty-six still have access to the cameras, and eight of those ran searches flagged by The Ark as federally entangled as recently as July.</p>
 <p>The Kings County Sheriff’s Office ran 14 on July 2 alone, each naming a Homeland Security Investigations special agent in the search-reason field. Los Angeles County sheriff’s deputies ran nine on July 8 logged as “Assist FBI re: cyber crime” and seven more on July 15 and 16 as “assist fbi taskforce for suspect vehicles in area.”</p>
 <p>Tiburon police also allowed a federally funded intelligence center to keep searching the town’s cameras explicitly on behalf of federal agents and out-of-state police for 105 days after The Ark warned the town the searches were barred under California Senate Bill 34, which since 2016 has made it illegal to share plate-reader data with out-of-state, federal and private entities.</p>
 <p>Three other organizations did not appear to qualify to receive the data at all, yet they ran 478 searches of Tiburon’s cameras between January and July.</p>
 <p>When The Ark asked about those agencies Aug. 6, Police Department officials did not answer, but all three disappeared from Tiburon’s transparency portal on the Flock website within 48 hours. When The Ark inquired about their removal Aug. 10 — seeking records on who had authorized their access and whether required monthly audits had ever identified the agencies — the department again did not answer.</p>
 <p>The next day, however, it quietly uploaded a revised license-plate-reader policy to the town website that redefined who qualifies as a share partner, stripped the language requiring written access requests and eliminated the internal audit methodology established Dec. 4.</p>
-<p>The Ark audit also found that about a quarter of the more than 2 million searches of Tiburon’s cameras over the seven months included no case number, leaving nothing to tie them to an invest...</p>]]></content:encoded>
+<p>The Ark audit also found that about a quarter of the more than 2 million searches of Tiburon’s cameras over the seven months included no case number, leaving not...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
