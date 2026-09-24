@@ -7,8 +7,28 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 24 Sep 2026 20:35:01 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 24 Sep 2026 23:37:08 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Marin County to test AlertMarin emergency alerts at 10 a.m. Sept. 26; fewer than half of Tiburon, Belvedere households signed up</title>
+     <link>https://www.thearknewspaper.com/live/marin-county-to-test-alertmarin-emergency-alerts-at-10-a-m-sept-26-fewer-than-half-of-tiburon-be</link>
+     <description>Marin County will test AlertMarin, its emergency notification system, at 10 a.m. Sept. 26, sending a test alert to everyone registered for the service.</description>
+     <content:encoded><![CDATA[<p>Marin County will test AlertMarin, its emergency notification system, at 10 a.m. Sept. 26, sending a test alert to everyone registered for the service.</p>
+<p>The test checks that AlertMarin can get critical information out in an emergency, according to the county Office of Emergency Management, part of the Marin County Fire Department. Belvedere, in a notice urging residents to sign up, also cited the approach of peak wildfire season and the El Niño forecast.</p>
+<p>Subscribers will get the test by whatever contact methods they chose — text message, phone call or email — in English or Spanish, depending on their account settings. Anyone who doesn’t receive it should log in atalertmarin.organd check that their contact information and addresses are current, the county said.</p>
+<p>Fewer than half of Tiburon and Belvedere households will get it. In Tiburon, 1,782 households, or 48%, have a subscription, and in Belvedere 456, or 45.5%, according to the office’s AlertMarin subscriber dashboard.</p>
+<p>The rate falls by more than half in multiunit properties, where just 110 of Tiburon’s 588 housing units, or 18.7%, and 29 of Belvedere’s 136, or 21.3%, have at least one household subscriber. Tiburon has 2,716 individual subscribers in all and Belvedere 675.</p>
+<p>AlertMarin sends real-time instructions during wildfires, floods, evacuations and other emergencies that call for immediate action. Anyone who lives or works in Marin can register atalertmarin.org, which the county says takes less than five minutes, and list up to five addresses — the county suggests home, work, a child’s school and a family member’s or friend’s house.</p>
+<p>Subscribers can also opt into Notification Groups for information that falls short of an emergency alert: significant weather, coastal flooding and king tides, creek and river flooding, prescribed burns and significant traffic disruptions. The groups are not location-based, so a subscriber gets every notice on a topic, wherever in the county it applies.</p>
+<p>The county also recommends saving AlertMarin’s number, 877-627-1411, as a phone contact, letting it bypass Do Not Disturb settings and adding a home landline as a second contact method.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Belvedere</category>
+     <category>Tiburon</category>
+     <category>Strawberry</category>
+     <category>News</category>
+     <guid isPermaLink="false">6ab599e41f93d48436e3fe07</guid>
+     <pubDate>Thu, 24 Sep 2026 21:49:57 GMT</pubDate>
+   </item>
    <item>
      <title>Belvedere approves Marin’s first commercial drone delivery rules</title>
      <link>https://www.thearknewspaper.com/live/belvedere-approves-marin-s-first-commercial-drone-delivery-rules</link>
@@ -400,22 +420,6 @@
      <category>News</category>
      <guid isPermaLink="false">6aab4064492c8c41bafa3fb9</guid>
      <pubDate>Thu, 17 Sep 2026 01:22:19 GMT</pubDate>
-   </item>
-   <item>
-     <title>Marin supervisors are weighing future of Strawberry review board</title>
-     <link>https://www.thearknewspaper.com/live/supervisors-are-weighing-future-of-strawberry-review-board</link>
-     <description>Marin County supervisors want a closer look at whether the Strawberry Design Review Board should be restructured or folded into another body. It is one of six such recommendations in a countywide review of the volunteer boards that advise the county.   The board reviews the design of homes and development projects in Strawberry, and it has gone nearly quiet. Since Jan. 6, 2025, the county’s hearing calendar for the board lists a single meeting, on Aug. 17 for a home project in unincorporated...</description>
-     <content:encoded><![CDATA[<p>Marin County supervisors want a closer look at whether the Strawberry Design Review Board should be restructured or folded into another body. It is one of six such recommendations in a countywide review of the volunteer boards that advise the county.</p>
-<p>The board reviews the design of homes and development projects in Strawberry, and it has gone nearly quiet. Since Jan. 6, 2025, the county’s hearing calendar for the board lists a single meeting, on Aug. 17 for a home project in unincorporated Alto. The calendar lists eight meetings in 2024, one of them canceled.</p>
-<p>It also has little in front of it. The county lists planning applications by community, and its Strawberry page showed none under review as of Sept. 11. The largest project in Strawberry does not appear on that page either. North Coast Land Holdings’ redevelopment of the former seminary property — approved by the supervisors June 9 and now under challenge in Marin Superior Court — is listed under the neighboring Alto planning area.</p>
-<p>A second Tiburon Peninsula body fared better. County staff recommended the advisory board for County Service Area No. 29, which covers the Paradise Cay canals, stay in place with what the county calls governance improvements.</p>
-<p>Members of both boards said after the Aug. 25 Board of Supervisors meeting that the county had not contacted them about the review.</p>]]></content:encoded>
-     <dc:creator>Tyler Callister</dc:creator>
-     <category>Strawberry</category>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6aab4014435fe3ebd8e3db2c</guid>
-     <pubDate>Thu, 17 Sep 2026 01:19:58 GMT</pubDate>
    </item>
  </channel>
 </rss>
