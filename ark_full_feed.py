@@ -125,10 +125,13 @@ def filter_content(html):
     
     # Limit to 2500 characters
     if len(filtered_html) > 2500:
-        # First try to find a paragraph break near 2500 chars
-        match = re.search(r'</p>\s*(?=<p>)', filtered_html[:2600])
-        if match and match.end() > 800:  # Only use if we found a decent amount of content
-            filtered_html = filtered_html[:match.end()] + '...'
+        # Cut at the LAST paragraph break before the limit (re.search found the first one, which
+        # either kept only the opening paragraph or fell through to a mid-word cut).
+        # Skip breaks that follow a subhead (a paragraph that doesn't end a sentence), so the cut
+        # never leaves a dangling heading.
+        breaks = [m.end() for m in re.finditer(r'(?<=[.!?"\u201d\u2019)])</p>\s*(?=<p>)', filtered_html[:2500])]
+        if breaks and breaks[-1] > 800:  # Only use if we found a decent amount of content
+            filtered_html = filtered_html[:breaks[-1]].rstrip() + '\n<p>...</p>'
         else:
             # Otherwise just cut at 2500 and add ellipsis
             filtered_html = filtered_html[:2500] + '...</p>'
@@ -215,7 +218,7 @@ for entry in feed.entries:
         for div in soup.find_all('div', class_='tETUs'):
             for outer in div.select('span.BrKEk'):
                 for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):
-                    txt = inner.get_text(strip=True)
+                    txt = inner.get_text()
                     if len(txt) > 10 and not is_boilerplate(txt):
                         paragraphs.append(f"<p>{clean_text(txt)}</p>")
         
@@ -223,7 +226,7 @@ for entry in feed.entries:
         if not paragraphs:
             logging.warning(f"Could not find tETUs/BrKEk structure in {post_url}, falling back to p tags")
             for p in soup.find_all('p'):
-                txt = p.get_text(strip=True)
+                txt = p.get_text().strip()
                 # Skip short texts and headers/section titles
                 if len(txt) <= 20:
                     continue
@@ -277,7 +280,7 @@ for entry in feed.entries:
                 
                 img_caption = ""
                 if cap:
-                    img_caption = clean_text(cap.get_text(strip=True))
+                    img_caption = clean_text(cap.get_text())
                 
                 # Add the media item
                 media_item = {
