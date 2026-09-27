@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Sun, 27 Sep 2026 15:41:50 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 27 Sep 2026 16:03:08 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Marin County to test AlertMarin emergency alerts at 10 a.m. Sept. 26; fewer than half of Tiburon, Belvedere households signed up</title>
@@ -15,10 +15,10 @@
      <description>Marin County will test AlertMarin, its emergency notification system, at 10 a.m. Sept. 26, sending a test alert to everyone registered for the service.</description>
      <content:encoded><![CDATA[<p>Marin County will test AlertMarin, its emergency notification system, at 10 a.m. Sept. 26, sending a test alert to everyone registered for the service.</p>
 <p>The test checks that AlertMarin can get critical information out in an emergency, according to the county Office of Emergency Management, part of the Marin County Fire Department. Belvedere, in a notice urging residents to sign up, also cited the approach of peak wildfire season and the El Niño forecast.</p>
-<p>Subscribers will get the test by whatever contact methods they chose — text message, phone call or email — in English or Spanish, depending on their account settings. Anyone who doesn’t receive it should log in atalertmarin.organd check that their contact information and addresses are current, the county said.</p>
+<p>Subscribers will get the test by whatever contact methods they chose — text message, phone call or email — in English or Spanish, depending on their account settings. Anyone who doesn’t receive it should log in at alertmarin.org and check that their contact information and addresses are current, the county said.</p>
 <p>Fewer than half of Tiburon and Belvedere households will get it. In Tiburon, 1,782 households, or 48%, have a subscription, and in Belvedere 456, or 45.5%, according to the office’s AlertMarin subscriber dashboard.</p>
 <p>The rate falls by more than half in multiunit properties, where just 110 of Tiburon’s 588 housing units, or 18.7%, and 29 of Belvedere’s 136, or 21.3%, have at least one household subscriber. Tiburon has 2,716 individual subscribers in all and Belvedere 675.</p>
-<p>AlertMarin sends real-time instructions during wildfires, floods, evacuations and other emergencies that call for immediate action. Anyone who lives or works in Marin can register atalertmarin.org, which the county says takes less than five minutes, and list up to five addresses — the county suggests home, work, a child’s school and a family member’s or friend’s house.</p>
+<p>AlertMarin sends real-time instructions during wildfires, floods, evacuations and other emergencies that call for immediate action. Anyone who lives or works in Marin can register at alertmarin.org, which the county says takes less than five minutes, and list up to five addresses — the county suggests home, work, a child’s school and a family member’s or friend’s house.</p>
 <p>Subscribers can also opt into Notification Groups for information that falls short of an emergency alert: significant weather, coastal flooding and king tides, creek and river flooding, prescribed burns and significant traffic disruptions. The groups are not location-based, so a subscriber gets every notice on a topic, wherever in the county it applies.</p>
 <p>The county also recommends saving AlertMarin’s number, 877-627-1411, as a phone contact, letting it bypass Do Not Disturb settings and adding a home landline as a second contact method.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
@@ -50,14 +50,13 @@
      <content:encoded><![CDATA[<p>Four candidates are running for three four-year seats on the Strawberry Recreation District board Nov. 3, a rare contested election in a district that has long struggled to find anyone willing to serve.</p>
 <p>Chair Peter Teese, a board member since December 2010, is seeking a fifth term. Fellow incumbent Sohrab Saghezchi, a Mill Valley dentist appointed to the board in December 2022 is standing for election to the seat for the first time. The only challenger is David Morgenthaler, a Strawberry father who spent nearly five years in sales and business development at Salesforce.</p>
 <p>The fourth candidate, incumbent Sarah Waterfield, declined to comment and did not sit for a portrait.</p>
-<p>Election 2026:The Strawberry Recreation District four-year candidates at a glance</p>
-<p>Election 2026:Read complete coverage atthearknewspaper.com/election2026</p>
+<p>Election 2026: The Strawberry Recreation District four-year candidates at a glance</p>
+<p>Election 2026: Read complete coverage at thearknewspaper.com/election2026</p>
 <p>The board voted unanimously Aug. 18 to reject a Marin County civil grand jury recommendation capping special-district members at two consecutive four-year terms, with Teese arguing the district almost never has a contested election and that a limit could empty a seat with no one waiting to fill it. Both of its races are contested this year.</p>
 <p>Two other candidates, incumbent Doug Twillman and newcomer Aliza Hawkins, are running for the board’s single two-year seat.</p>
 <p>The independent special district serves the unincorporated Strawberry community of about 6,000 residents. Under the board and General Manager Nancy Shapiro, it runs year-round programs, classes, memberships and events and oversees parks, including the dock at Harbor Cove Park. According to the district, property taxes supply only a fraction of its funding from local property taxes — 3.5 cents per dollar of basic tax paid to Marin County, or roughly 15% of its annual revenue. The rest, about $3 million, comes mostly from fees for classes, facility rentals and memberships.</p>
 <p>The district hired playground company GameTime in July under a $2.4 million contract to build a playground on grass between the tennis courts and baseball fields at Strawberry Park. A revised quote and a separate bid for a restroom pushed the total past $3 million on Sept. 8, and the board told the company to come back under its $2.5 million ceiling. The playground is expected to open in 2027.</p>
-<p>David Morgenthaler: Newcomer wants teen programs and new classes</p>
-<p>Morgenthaler, a father, sales professional and lifelong musician, said he wants to expa...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>Strawberry</category>
@@ -73,30 +72,32 @@
      <title>Election 2026: The Strawberry Recreation District four-year candidates at a glance</title>
      <link>https://www.thearknewspaper.com/live/election-2026-the-strawberry-recreation-district-four-year-candidates-at-a-glance</link>
      <description>The Strawberry Recreation District four-year candidates at a glance</description>
-     <content:encoded><![CDATA[<p>David Morgenthaler,challenger</p>
-<p>Occupation:Sales and marketing professional, formerly with Salesforce.</p>
-<p>Education:Bachelor’s degree in music-industry studies from the University of Southern California.</p>
-<p>Civic background:Member of the Strawberry Neighborhood Association; local activist on Flock Safety automated license-plate readers.</p>
-<p>Key issues:New district programs, including teen programs and music and foreign-language classes.</p>
-<p>Quote:“I’m trying to think outside the box for how we can serve more of the community.”</p>
-<p>Sohrab Saghezchi,incumbent</p>
-<p>Years as resident:10.</p>
-<p>Occupation:Dentist and owner of Mill Valley Dental.</p>
-<p>Education:Studied biology at the University of California at Davis and San Jose State University; doctor of dental surgery degree from the University of the Pacific’s Arthur A. Dugoni School of Dentistry in San Francisco.</p>
-<p>Civic background:Appointed to the Strawberry Recreation District board in December 2022.</p>
-<p>Key issues:Transparency, fiscal responsibility and the new playground project slated for 2027.</p>
-<p>Quote:“I think just making sure that (the district) is connected with the community and making sure that we’re listening to the community and obviously with this big project with the playground, we want to make sure that it’s something everybody is going to be proud of.”</p>
-<p>Peter Teese,incumbent</p>
-<p>Years as resident:24.</p>
-<p>Occupation:Western sales director at U.S. News & World Report.</p>
-<p>Education:Bachelor’s degree in advertising from the University of Colorado Boulder.</p>
-<p>Civic background:Member of the Strawberry Recreation District board since December 2010; board chair.</p>
-<p>Key issues:The new playground project slated for 2027 and the potential to build an amphitheater near the recreation center’s elevator.</p>
-<p>Quote:“There should be more programs that are either low cost or no cost for kids. I think (the new playground) really answers that.”</p>
-<p>Sarah Waterfield,incumbent</p>
-<p>Occupation:Told The Ark in 2024 she was senior vice president of global brand strategy at Ultragenyx, a Novato pharmaceutical company.</p>
-<p>Education:Bachelor’s degree in history and literature from Harvard University and attended Stanford University’s Graduate School of Business.</p>
-<p>Civic background:Member of the Strawberry Recreation District board since December 2024; volunteer with the Boys & Girls Clubs of San Francisco and at Strawberry Point Eleme...</p>]]></content:encoded>
+     <content:encoded><![CDATA[<p>David Morgenthaler, challenger</p>
+<p>Years as resident: 5.</p>
+<p>Occupation: Sales and marketing professional, formerly with Salesforce.</p>
+<p>Education: Bachelor’s degree in music-industry studies from the University of Southern California.</p>
+<p>Civic background: Member of the Strawberry Neighborhood Association; local activist on Flock Safety automated license-plate readers.</p>
+<p>Key issues: New district programs, including teen programs and music and foreign-language classes.</p>
+<p>Quote: “I’m trying to think outside the box for how we can serve more of the community.”</p>
+<p>Sohrab Saghezchi, incumbent</p>
+<p>Years as resident: 10.</p>
+<p>Occupation: Dentist and owner of Mill Valley Dental.</p>
+<p>Education: Studied biology at the University of California at Davis and San Jose State University; doctor of dental surgery degree from the University of the Pacific’s Arthur A. Dugoni School of Dentistry in San Francisco.</p>
+<p>Civic background: Appointed to the Strawberry Recreation District board in December 2022.</p>
+<p>Key issues: Transparency, fiscal responsibility and the new playground project slated for 2027.</p>
+<p>Quote: “I think just making sure that (the district) is connected with the community and making sure that we’re listening to the community and obviously with this big project with the playground, we want to make sure that it’s something everybody is going to be proud of.”</p>
+<p>Peter Teese, incumbent</p>
+<p>Years as resident: 24.</p>
+<p>Occupation: Western sales director at U.S. News & World Report.</p>
+<p>Education: Bachelor’s degree in advertising from the University of Colorado Boulder.</p>
+<p>Civic background: Member of the Strawberry Recreation District board since December 2010; board chair.</p>
+<p>Key issues: The new playground project slated for 2027 and the potential to build an amphitheater near the recreation center’s elevator.</p>
+<p>Quote: “There should be more programs that are either low cost or no cost for kids. I think (the new playground) really answers that.”</p>
+<p>Sarah Waterfield, incumbent</p>
+<p>Years as resident: 7.</p>
+<p>Occupation: Told The Ark in 2024 she was senior vice president of global brand strategy at Ultragenyx, a Novato pharmaceutical company.</p>
+<p>Education: Bachelor’s degree in history and literature from Harvard University and attended Stanford University’s Graduate School of Business.</p>
+<p>...</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>News</category>
@@ -132,8 +133,8 @@
      <content:encoded><![CDATA[<p>The Ark is hosting a Tiburon Town Council candidates forum, moderated by the League of Women Voters of Marin County, from 7 to 8:30 p.m. Sept. 29 in the Town Hall council chambers, 1505 Tiburon Blvd.</p>
 <p>Incumbents Alice Fredericks and Jack Ryan face challengers Kathleen Defever, Chuck Hornbrook and Faris Jafar for three seats in the Nov. 3 election.</p>
 <p>League volunteers will moderate and keep time for the question-and-answer session. The Community Media Center of Marin will record the forum and post it after the event.</p>
-<p>Questions for the candidates can be submitted in advance toforum@thearknewspaper.comor at the event. Candidates will not see the questions ahead of time.</p>
-<p>For local election coverage, visitthearknewspaper.com/election2026.</p>]]></content:encoded>
+<p>Questions for the candidates can be submitted in advance to forum@thearknewspaper.com or at the event. Candidates will not see the questions ahead of time.</p>
+<p>For local election coverage, visit thearknewspaper.com/election2026.</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Election 2026</category>
      <category>News</category>
@@ -234,7 +235,7 @@
 <p>“It was a pretty good week,” Blanch, who entered the tournament ranked No. 245 in the world, said after the match. “Super proud of myself, super proud of my team for the belief, every single day, working. And I’m just super happy for the effort I put in.”</p>
 <p>Tennis commentator Mike Cation called Blanch’s forehand “the biggest weapon in the entire draw.”</p>
 <p>“And suddenly, the fact he was able to run and get to those forehands a little bit more changed how that match got played,” Cation said after the tournament.</p>
-<p>Mmoh, 28, of Bradenton, Florida, came into the week ranked No. 178 in the world. The No. 4 seed beat Karue Sell of Brazil in the round of 32 and American Patrick Maloney in the round of 16. He took his quarterfinal against Abdullah Shelbayh of Jorda...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Sports</category>
      <category>Tiburon</category>
@@ -267,7 +268,7 @@
 <p>Lani grew up at the cusp of the Feminist movement in the 1960’s, and though grounded in the traditional role and values of a stay-at-home mom, through civic and community service she found leadership opportunities and satisfaction.</p>
 <p>Lani’s early volunteer work centered on her children’s school and sports activities, serving as president of the Parents Guild and the Tiburon Peninsula Club, and as a docent with the Audubon Canyon Ranch’s Terwilliger Nature Guides program. Over the following decades, her community involvement grew to include the Junior League of San Francisco, where she served as president from 1977 to 1978 and later received the Spirit of the League Award in 1998; the United Way of the Bay Area, as a board member and director; the Marin chapter of Catholic Charities; the American Red Cross; the Marin General Hospital Foundation; the Marin Council of Agencies; and Marin Open Space. In the late 1980s, her focus turned to homelessness in Marin, and she spent three years on the Marin Homeless Commission, one of them as chair, work that helped bring about a year-round shelter at Hamilton.</p>
 <p>In 1988, Lani was elected to the Belvedere City Council and served two terms, twice as mayor. She chaired the city’s year-long centennial celebration in 1996 and was named Belvedere’s Citizen of the Year the following year.</p>
-<p>Her husband, Bob, passed away in 2015, a few months shy of their 50th wedding anniversary. Together they traveled widely, sharing a lo...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Reader submitted</dc:creator>
      <category>Obituaries</category>
      <guid isPermaLink="false">6ab3ed78eaae7499e9e35191</guid>
@@ -296,13 +297,13 @@
      <link>https://www.thearknewspaper.com/live/ark-audit-finds-federally-linked-license-plate-searches-continue-after-tiburon-s-safeguards</link>
      <description>A day after The Ark asked Tiburon who approved access to its license-plate cameras, the town revised the policy, dropping the written-request rule and its monthly audit method.</description>
      <content:encoded><![CDATA[<p>Thirty-four outside police agencies ran 8,542 searches of Tiburon’s license-plate cameras for federally entangled investigations in the seven months after the town rewrote its plate-reader policy in December and began requiring monthly audits, a new Ark audit has found.</p>
-<p>More than 4,800 came on or after Feb. 3, when Police Chief Michelle Jean told The Ark the town had worked with vendor Flock Safety “to allow external searches only for valid reasons” — language the town repeated in apublic statement March 9. Every one of the 34 agencies ran at least one of those searches. Twenty-six still have access to the cameras, and eight of those ran searches flagged by The Ark as federally entangled as recently as July.</p>
+<p>More than 4,800 came on or after Feb. 3, when Police Chief Michelle Jean told The Ark the town had worked with vendor Flock Safety “to allow external searches only for valid reasons” — language the town repeated in a public statement March 9. Every one of the 34 agencies ran at least one of those searches. Twenty-six still have access to the cameras, and eight of those ran searches flagged by The Ark as federally entangled as recently as July.</p>
 <p>The Kings County Sheriff’s Office ran 14 on July 2 alone, each naming a Homeland Security Investigations special agent in the search-reason field. Los Angeles County sheriff’s deputies ran nine on July 8 logged as “Assist FBI re: cyber crime” and seven more on July 15 and 16 as “assist fbi taskforce for suspect vehicles in area.”</p>
 <p>Tiburon police also allowed a federally funded intelligence center to keep searching the town’s cameras explicitly on behalf of federal agents and out-of-state police for 105 days after The Ark warned the town the searches were barred under California Senate Bill 34, which since 2016 has made it illegal to share plate-reader data with out-of-state, federal and private entities.</p>
 <p>Three other organizations did not appear to qualify to receive the data at all, yet they ran 478 searches of Tiburon’s cameras between January and July.</p>
 <p>When The Ark asked about those agencies Aug. 6, Police Department officials did not answer, but all three disappeared from Tiburon’s transparency portal on the Flock website within 48 hours. When The Ark inquired about their removal Aug. 10 — seeking records on who had authorized their access and whether required monthly audits had ever identified the agencies — the department again did not answer.</p>
 <p>The next day, however, it quietly uploaded a revised license-plate-reader policy to the town website that redefined who qualifies as a share partner, stripped the language requiring written access requests and eliminated the internal audit methodology established Dec. 4.</p>
-<p>The Ark audit also found that about a quarter of the more than 2 million searches of Tiburon’s cameras over the seven months included no case number, leaving nothing to tie them to an invest...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Tiburon</category>
      <category>Belvedere</category>
@@ -339,14 +340,14 @@
      <content:encoded><![CDATA[<p>Four Tiburon Peninsula residents are seeking three seats on the Richardson Bay Sanitary District board of directors in the district’s first contested election since 2018.</p>
 <p>Incumbents Mark Fitzgerald, Peter McIntosh and Patrick Walravens face challenger John Turnacliff. The three winners will serve four-year terms through November 2030, joining sitting board members Mark Slater and Jeff Slavitz.</p>
 <p>Board members receive $125 for every meeting they attend and are eligible for the district’s dental plan.</p>
-<p>Election 2026:The Richardson Bay Sanitary District board candidates at a glance</p>
-<p>Election 2026:Read complete coverage atthearknewspaper.com/election2026</p>
+<p>Election 2026: The Richardson Bay Sanitary District board candidates at a glance</p>
+<p>Election 2026: Read complete coverage at thearknewspaper.com/election2026</p>
 <p>The Richardson Bay district serves northern Tiburon from Gilmartin Drive to Highway 101 and all of Strawberry from its headquarters at Blackie’s Pasture. It collects wastewater across its service area and pumps it to Mill Valley for treatment through the Sewerage Agency of Southern Marin, a joint-powers agency it belongs to with four other member agencies.</p>
 <p>Consolidation was the central question the last time these seats were contested, in 2018, and it is again.</p>
 <p>Board members voted unanimously July 21 to reject all seven findings and nine recommendations in a Marin civil grand jury report, “Better Service at Lower Cost — Optimizing Essential Services for the Future of Marin,” that urged the county’s more than 50 special districts, including the Richardson Bay district, to explore consolidation. The report found that fragmented districts duplicate administrative work and leave residents with uneven fees and service levels, thin staffing and weaker long-term resilience.</p>
 <p>District officials countered that consolidation had already been studied and that the report failed to account for existing joint operations or the financial risks of merging.</p>
 <p>The argument predates this board. A 2011 Marin Local Agency Formation Commission report and a 2018 civil grand jury report both concluded the county had too many sewer agencies, and the Richardson Bay board that year opposed even adding language to its response about exploring consolidation of services on a limited scale. In 2012, at the board’s urging, district ratepayers defeated a ballot proposal to consolidate with other member districts of the Sewerage Agency of Southern Marin.</p>
-<p>The Ark interviewed all four candidates in August and September about consolidation, their other priorities for the district a...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Election 2026</category>
      <category>Tiburon</category>
@@ -363,31 +364,31 @@
      <title>Election 2026: The Richardson Bay Sanitary District board candidates at a glance</title>
      <link>https://www.thearknewspaper.com/live/election-2026-the-richardson-bay-sanitary-district-board-candidates-at-a-glance</link>
      <description>The Richardson Bay Sanitary District board candidates at a glance.</description>
-     <content:encoded><![CDATA[<p>Mark Fitzgerald,incumbent</p>
-<p>Years as resident:4; grew up in Tiburon.</p>
-<p>Occupation:Tiburon Fire Protection District captain.</p>
-<p>Education:Fire academy at Butte College; fire-science courses at Santa Rosa Junior College and the College of Marin.</p>
-<p>Civic background:Member of the Richardson Bay Sanitary District board since August 2022.</p>
-<p>Key issues:Employee continuity, fiscal responsibility, district transparency.</p>
-<p>Quote:“I’m proud to be part of that and take the pride and the responsibility of the well-being of the district as kind of a personal affliction. If things go bad there, then I would be part of that. If things go great there, then I was part of that. And the goal is to make everything go well and be good and run smoothly.”</p>
-<p>Peter McIntosh,incumbent</p>
-<p>Years as resident:15.</p>
-<p>Occupation:Co-founder of EnviroSmarts, which makes environmental sensors, including water-leak detectors.</p>
-<p>Education:Bachelor’s degree in advertising and communications from Southern Methodist University.</p>
-<p>Civic background:Member of the Richardson Bay Sanitary District board since 2021; board president.</p>
-<p>Key issues:Continuing good district governance; serving as district liaison to the Sewerage Agency of Southern Marin; bay water quality.</p>
-<p>Quote:“Back to the question of what drives me: I just love being a volunteer and helping out. … I’ve done a great job, I think, and I want to continue doing a great job.”</p>
-<p>John Turnacliff,challenger</p>
-<p>Years as resident:25.</p>
-<p>Occupation:Equipment-finance manager; owner of Golden Gate Equipment Finance.</p>
-<p>Education:Bachelor’s degree in business administration from the University of Southern California.</p>
-<p>Civic background:Chair of the Marin County Republican Central Committee.</p>
-<p>Key issues:Improving district operations based on employee feedback; financial stewardship, including limiting rate increases.</p>
-<p>Quote:“I’m kind of watching the hen house, the sewer system and what people are doing there for the people that don’t ever want to hear about it or think about it.”</p>
-<p>Patrick Walravens,incumbent</p>
-<p>Years as resident:26.</p>
-<p>Occupation:Managing director and senior equity research analyst at Citizens Capital Markets & Advisory, a Citizens Financial Group subsidiary; began his career as an attorney.</p>
-<p>Education:Bachelor’s degree in economics from Stanford University; MBA and law degree from the University of California at Lo...</p>]]></content:encoded>
+     <content:encoded><![CDATA[<p>Mark Fitzgerald, incumbent</p>
+<p>Years as resident: 4; grew up in Tiburon.</p>
+<p>Occupation: Tiburon Fire Protection District captain.</p>
+<p>Education: Fire academy at Butte College; fire-science courses at Santa Rosa Junior College and the College of Marin.</p>
+<p>Civic background: Member of the Richardson Bay Sanitary District board since August 2022.</p>
+<p>Key issues: Employee continuity, fiscal responsibility, district transparency.</p>
+<p>Quote: “I’m proud to be part of that and take the pride and the responsibility of the well-being of the district as kind of a personal affliction. If things go bad there, then I would be part of that. If things go great there, then I was part of that. And the goal is to make everything go well and be good and run smoothly.”</p>
+<p>Peter McIntosh, incumbent</p>
+<p>Years as resident: 15.</p>
+<p>Occupation: Co-founder of EnviroSmarts, which makes environmental sensors, including water-leak detectors.</p>
+<p>Education: Bachelor’s degree in advertising and communications from Southern Methodist University.</p>
+<p>Civic background: Member of the Richardson Bay Sanitary District board since 2021; board president.</p>
+<p>Key issues: Continuing good district governance; serving as district liaison to the Sewerage Agency of Southern Marin; bay water quality.</p>
+<p>Quote: “Back to the question of what drives me: I just love being a volunteer and helping out. … I’ve done a great job, I think, and I want to continue doing a great job.”</p>
+<p>John Turnacliff, challenger</p>
+<p>Years as resident: 25.</p>
+<p>Occupation: Equipment-finance manager; owner of Golden Gate Equipment Finance.</p>
+<p>Education: Bachelor’s degree in business administration from the University of Southern California.</p>
+<p>Civic background: Chair of the Marin County Republican Central Committee.</p>
+<p>Key issues: Improving district operations based on employee feedback; financial stewardship, including limiting rate increases.</p>
+<p>Quote: “I’m kind of watching the hen house, the sewer system and what people are doing there for the people that don’t ever want to hear about it or think about it.”</p>
+<p>Patrick Walravens, incumbent</p>
+<p>Years as resident: 26.</p>
+<p>Occupation: Managing director and senior equity research analyst at Citizens Capital Markets & Advisory, a Citizens Financial Group subsidiary; began his career as an attorney.</p>
+<p>...</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Election 2026</category>
      <category>Tiburon</category>
@@ -407,13 +408,13 @@
      <content:encoded><![CDATA[<p>Voters in Paradise Cay will decide Nov. 3 whether to continue a special parcel tax that pays to dredge the waterfront community’s canals and its two entry channels to San Francisco Bay.</p>
 <p>Measure Z would set the tax at $2,200 per lot a year in County Service Area No. 29 beginning July 1, 2027. The rate would then rise automatically by 3% each year beginning July 1, 2028, and the tax would expire June 30, 2037.</p>
 <p>The service area estimates the measure would raise an average of about $272,800 a year for maintenance dredging in Paradise Cay’s principal waterways and the north and south entry channels. It needs approval from two-thirds of the votes cast to pass.</p>
-<p>Election 2026:Read complete coverage atthearknewspaper.com/election2026</p>
+<p>Election 2026: Read complete coverage at thearknewspaper.com/election2026</p>
 <p>The Marin Board of Supervisors called the election May 19 on a 4-0 vote, with Supervisor Stephanie Moulton-Peters absent. Measure Z would continue an existing special tax scheduled to expire June 30, 2027.</p>
 <p>The tax falls on lots inside Service Area No. 29, the county-run district that takes in the Paradise Cay parcels with canal access rather than the whole neighborhood. Keeping those canals and the entrances to the bay navigable requires periodic removal of the sediment that washes into them. Resident Eric Lyons described them as the community’s riparian, or dock-bearing, homeowners. The county has not published how many of the 130 lots pay, though at $2,200 apiece, the revenue estimate works out to about 124.</p>
 <p>Lyons has lived in Paradise Cay for more than 30 years and chairs the district’s six-member advisory board. He said the community faces no immediate dredging emergency because its waterways were last dredged in 2020 and 2024. But residents have to keep collecting money for the next project, which the board is planning for 2028 or 2029, he said.</p>
 <p>Paradise Cay typically needs dredging about every four or five years, although the precise schedule depends on how quickly sediment accumulates.</p>
 <p>“The fill-in depends on many factors, including winter rains, ferry wakes and winter weather in general,” Lyons said. “We’ve never really needed to dredge more frequently than four years, but keeping the north and south cay entry channels clear and wide enough for navigation is always a challenge.”</p>
-<p>Dredging Paradise Cay involves more than removing sediment. Projects also carry costs for engineering, planning, sediment testing and regulatory permits. The work needs approval from the ...</p>]]></content:encoded>
+<p>...</p>]]></content:encoded>
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>Tiburon</category>
