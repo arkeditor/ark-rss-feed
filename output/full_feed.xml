@@ -7,8 +7,20 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Wed, 30 Sep 2026 01:42:57 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 30 Sep 2026 07:38:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Tonight at 7 p.m.: Tiburon Town Council candidates forum</title>
+     <link>https://www.thearknewspaper.com/live/tonight-at-7-p-m-tiburon-town-council-candidates-forum</link>
+     <description>The Ark is hosting a forum with the Tiburon Town Council candidates, moderated by the League of Women Voters of Marin. Watch live on Instagram: @thearknewspaper</description>
+     <content:encoded><![CDATA[<p>The Ark is hosting a forum with the Tiburon Town Council candidates, moderated by the League of Women Voters of Marin.</p>
+<p>Watch live on Instagram: @thearknewspaper</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>News</category>
+     <category>Tiburon</category>
+     <guid isPermaLink="false">6abc6a872c3d34e1238785a2</guid>
+     <pubDate>Wed, 30 Sep 2026 01:49:53 GMT</pubDate>
+   </item>
    <item>
      <title>Election 2026: Reed schools’ Measure O seeks $115 million bond for campus repairs</title>
      <link>https://www.thearknewspaper.com/live/election-2026-reed-schools-measure-o-seeks-115-million-bond-for-campus-repairs</link>
@@ -406,22 +418,6 @@
      <media:content url="https://static.wixstatic.com/media/75283d_0e88a904cd914b48be8b8ea898e9d65b~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
      <media:content url="https://static.wixstatic.com/media/75283d_c1465a049a1d46fc8d7854bce20135ca~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
      <media:content url="https://static.wixstatic.com/media/75283d_501085df7ceb4ea2bbc5d7755e4250e5~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-   </item>
-   <item>
-     <title>Tiburon seeks savings as ponds park estimate reaches $3.7 million</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-seeks-savings-as-ponds-park-estimate-reaches-3-7-million</link>
-     <description>Tiburon parks commissioners asked designers Sept. 15 to trim the cost of a planned park at the former sanitation ponds near McKegney Green, now projected at $3.7 million.</description>
-     <content:encoded><![CDATA[<p>Tiburon parks officials are looking for ways to bring down the cost of a park at the former sanitation-ponds site near McKegney Green, where the projected construction price has climbed to $3.7 million.</p>
-<p>The Parks, Open Space & Trails Commission asked designers Sept. 15 to reduce the cost of a lawn, price an option for one beach volleyball court instead of two and find savings in a $360,000 shade structure, among other changes to the 60%-complete design. A 60% set fixes a project’s layout and materials and is detailed enough to price, but it is not the final construction drawings.</p>
-<p>The meeting followed an informal, hourlong feedback session at which consultants from Mill Valley-based park designers RHAA Landscape Architecture & Planning fielded questions about the park’s design as it stood.</p>
-<p>Commissioners also asked the designers to determine whether the proposed adjustable basketball hoops would be strong enough to withstand players hanging on them; to paint the proposed ball wall so it blends into its surroundings; to consider removing some seats closer to McKegney Green; to replace the extended stone seating along the site’s banks with groups of stone seats; and to consider driftwood instead of bike gates on the pedestrian-only curve that connects the Old Rail Trail to the multiuse path in front of the Richardson Bay Sanitary District.</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>Tiburon</category>
-     <category>News</category>
-     <guid isPermaLink="false">6ab3f0bac93c586840b1c8e0</guid>
-     <pubDate>Wed, 23 Sep 2026 15:32:37 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_86d6273356de470da76977ae67b43e61~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>A rendering presented to Tiburon’s Parks, Open Space &amp; Trails Commission on Sept. 15 shows the proposed park at the former sanitation-ponds site near McKegney Green. Commissioners, looking to bring down the $3.7 million cost, asked designer RHAA Landscape Architecture &amp; Planning to scale back the lawn, find savings in a $360,000 awning and consider a single beach volleyball court in place of the two shown. (RHAA via town of Tiburon)</media:description>
    </item>
  </channel>
 </rss>
