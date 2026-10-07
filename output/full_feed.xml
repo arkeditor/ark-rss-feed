@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 06 Oct 2026 23:08:32 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 07 Oct 2026 02:31:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Election 2026: Tiburon Town Council hopefuls talk traffic, finances, housing at Ark forum</title>
@@ -213,7 +213,7 @@
      <title>Demolition of Belvedere’s Mallard Pointe gets green light</title>
      <link>https://www.thearknewspaper.com/live/belvedere-issues-mallard-pointe-bulkhead-permit-clearing-way-for-demolition</link>
      <description>Crews are mobilizing to demolish Belvedere’s 22 Mallard Pointe apartments after an Oct. 1 permit, but one tenant remains and a silt-curtain dispute could stall part of the work.</description>
-     <content:encoded><![CDATA[<p>Updated: 21 hours ago</p>
+     <content:encoded><![CDATA[<p>Updated: 29 minutes ago</p>
 <p>This story was updated from a preliminary version posted Oct. 2.</p>
 <p>Crews are mobilizing to tear down Belvedere’s 22 Mallard Pointe apartments after the city issued a lagoon bulkhead permit Oct. 1, which it required before demolition could begin. But one tenant remains, and a dispute over a silt curtain could stall part of the work.</p>
 <p>Demolition can be completed safely in the next 60 days, said Bruce Dorfman, principal of developer Thompson Dorfman Partners. Bulkhead work will begin as soon as removing some of the housing and garages opens access to it, he said, and “demo and bulkhead work will be performed sequentially in segments and largely simultaneously.”</p>
@@ -230,6 +230,8 @@
      <category>Belvedere</category>
      <guid isPermaLink="false">6abefceb5e99b6bb53696373</guid>
      <pubDate>Fri, 02 Oct 2026 00:39:03 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_06df234c39d243deba1340044097747b~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:description>The city-approved plan for replacing Mallard Pointe’s lagoon bulkhead shows the new bulkhead as a heavy black line along lots 2-11 and the silt curtain as a squiggly blue line from lot 11 to lot 4. Red X’s mark the stretch along lots 2, 3 and part of 4, where the plan shows no curtain. (BKF Engineers via Thompson Dorfman Partners / Ark illustration)</media:description>
    </item>
    <item>
      <title>Three fire agencies drill at Belvedere&apos;s Mallard Pointe complex through Oct. 12</title>
