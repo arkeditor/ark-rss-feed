@@ -7,8 +7,26 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 12 Oct 2026 02:08:38 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 12 Oct 2026 05:59:15 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Retired SFPD Deputy Chief Ann Mannix, husband among three found dead in Strawberry home</title>
+     <link>https://www.thearknewspaper.com/live/three-found-dead-in-strawberry-home-after-911-report-of-shots-fired</link>
+     <description>Retired San Francisco police Deputy Chief Ann Mannix and her husband, Kevin Mannix, a retired police sergeant, were among three people found dead inside a Strawberry Circle home Oct. 11 after a 911 caller reported gunfire.</description>
+     <content:encoded><![CDATA[<p>Sheriff's deputies found three people dead inside a Strawberry home Oct. 11 after a 911 caller reported shots fired there, the Marin County Sheriff's Office said.</p>
+<p>The call came in at 5:03 p.m. from a residence on Strawberry Circle, according to a news release the office issued at 9 p.m. Deputies arrived within minutes and spoke with the caller, who had already left the home. They set up a perimeter and then went inside.</p>
+<p>Detectives from the Sheriff's Office Investigations Unit are processing the scene. The office said there is “no known threat to the community.”</p>
+<p>The office has not identified the three people or released other details, saying the investigation is “in its very early stages.”</p>
+<p>This story will be updated.</p>]]></content:encoded>
+     <dc:creator>Kevin Hessel</dc:creator>
+     <category>Featured</category>
+     <category>Strawberry</category>
+     <category>News</category>
+     <category>News Alert</category>
+     <guid isPermaLink="false">6acc67a246e3b0dcdaa04fbc</guid>
+     <pubDate>Mon, 12 Oct 2026 04:54:32 GMT</pubDate>
+     <media:content url="https://static.wixstatic.com/media/75283d_e839ab13f1a9458cac3039766615fdc9~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+   </item>
    <item>
      <title>Election 2026: Tiburon Town Council hopefuls talk traffic, finances, housing at Ark forum</title>
      <link>https://www.thearknewspaper.com/live/election-2026-tiburon-town-council-hopefuls-talk-traffic-finances-housing-at-ark-forum</link>
@@ -375,22 +393,6 @@
      <pubDate>Tue, 29 Sep 2026 14:38:01 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_5b3a24f1d80d440788c955db35776f80~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
      <media:description>At top, a towboat moves across the bay in drone footage from ‘P Cay,’ a three-minute film by Tiburon resident Mark Freiberg. Above, Oliver Scheer, 8, appears in a scene from ‘Bad Day,’ a short film by his grandmother, Tiburon resident Nancy Freed. They are among about 30 films in the Belvedere Home Made Film Festival, which begins at 6 p.m. Oct. 9 at Belvedere Community Park. (Screengrabs from video)</media:description>
-   </item>
-   <item>
-     <title>Tiburon’s Cinelounge to host Bruce Dern for inaugural fundraising gala</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-s-cinelounge-to-host-bruce-dern-for-inaugural-fundraising-gala</link>
-     <description>Academy Award-nominated actor Bruce Dern will be the guest of honor Nov. 5 at the first fundraising gala for a new nonprofit supporting Tiburon movie theater Cinelounge.</description>
-     <content:encoded><![CDATA[<p>Academy Award-nominated actor Bruce Dern will be the guest of honor Nov. 5 at the first fundraising gala for a new nonprofit supporting downtown Tiburon movie theater Cinelounge.</p>
-<p>The evening runs 5:30-9:30 p.m. at the theater and includes a reception ahead of a screening of “Dernsie: The Amazing Life of Bruce Dern,” a documentary about his life that debuted earlier this year at the Cannes Film Festival. The screening, limited to 60 people, will be followed by a conversation with Dern and “Dernsie” director Mike Mendez. Reception-only tickets are also available.</p>
-<p>“When you have talent like this, … and they come to Tiburon, it’s a once-in-a-lifetime event,” says Christian Meoli, who owns the theater with his wife, Camilla Meoli. “And (Dern) has such an amazing track record of working in the business in films for, I mean, my God, almost, over seven decades that we also thought that he was a great fit for the demographic in Tiburon.”</p>]]></content:encoded>
-     <dc:creator>Francisco Martinez</dc:creator>
-     <category>News</category>
-     <category>Tiburon</category>
-     <category>Entertainment</category>
-     <guid isPermaLink="false">6abb208c14eeeb87d4d1f005</guid>
-     <pubDate>Tue, 29 Sep 2026 14:37:02 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_f905ccf3a03844368e4a6b4db7cd7e9c~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>Actor Bruce Dern is the subject of ‘Dernsie: The Amazing Life of Bruce Dern,’ a documentary that premiered in May at the Cannes Film Festival. He will attend a Nov. 5 screening at Cinelounge in Tiburon. (Festival de Cannes)</media:description>
    </item>
  </channel>
 </rss>
