@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 12 Oct 2026 19:12:44 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 13 Oct 2026 01:29:05 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Election 2026: Tam Union board member Kevin Saavedra resigns day after restraining order, stays on ballot</title>
@@ -38,20 +38,19 @@
    <item>
      <title>Ex-SFPD sergeant kills wife, a former deputy chief, and daughter in Strawberry murder-suicide</title>
      <link>https://www.thearknewspaper.com/live/three-found-dead-in-strawberry-home-after-911-report-of-shots-fired</link>
-     <description>Two retired San Francisco police officers and their 24-year-old daughter were found dead Oct. 11 after a shooting inside a Strawberry Circle home.</description>
-     <content:encoded><![CDATA[<p>A retired San Francisco police sergeant shot and killed his wife, a retired deputy chief, and their 24-year-old daughter in their Strawberry home Oct. 11, then killed himself, according to the Marin County Sheriff’s Office.</p>
-<p>The office identified them Oct. 12 as Kevin Mannix, 68; Ann Mannix, 65; and Katherine “Katie” Mannix. Its findings are preliminary.</p>
+     <description>A retired San Francisco police sergeant shot and killed his wife, a former deputy chief, and their 24-year-old daughter in Strawberry, then himself, the Sheriff’s Office said.</description>
+     <content:encoded><![CDATA[<p>A retired San Francisco police sergeant shot and killed his wife, a former deputy chief, and their 24-year-old daughter in their Strawberry home Oct. 11, then killed himself, according to the Marin County Sheriff’s Office.</p>
+<p>The office identified them Oct. 12 as Kevin Mannix, 68; Ann Mannix, 65; and Katherine “Katie” Mannix. Its findings are preliminary. The office has not said what led to the shooting.</p>
 <p>Dispatchers received a 911 call at 5:03 p.m. The couple’s other daughter, who had been in the home and got out, made the call, The Ark confirmed independently.</p>
-<p>She told dispatchers that her father had shot her mother and sister with a handgun, that she had heard six to nine shots and that she had locked herself in a bedroom, according to recorded emergency radio traffic. An automated fall-detection alert from an Apple Watch at the home also reached dispatchers.</p>
+<p>She told dispatchers that her father had shot her mother and sister with a handgun, that she had heard six to nine shots and that she had locked herself in a bedroom, according to recorded emergency radio traffic. An automated fall-detection alert from an Apple Watch at the home, with no one speaking on the line, also reached dispatchers.</p>
 <p>Deputies arrived a few minutes later, set up a perimeter and went inside to make sure no threat remained, Miguel Almaguer, the office’s public information officer, said at a news conference at the scene that night.</p>
-<p>The daughter climbed out a window with her hands raised before deputies went in, according to the radio traffic. Deputies found the bodies in the main room of the house, with a handgun next to Kevin Mannix, the radio traffic shows.</p>
+<p>The daughter came out of the house with her hands raised before deputies went in, according to the radio traffic. Deputies found the three inside, with a handgun next to Kevin Mannix, the radio traffic shows.</p>
 <p>The surviving daughter’s husband also called 911, and several neighbors called to report hearing gunshots, according to the radio traffic. Deputies interviewed witnesses at nearby homes on Strawberry Circle that night.</p>
-<p>There appeared to be no earlier calls for service at the address, Almaguer said that night. Investigators and the county coroner finished processing the scene Oct. 12, and autopsies were scheduled for Oct. 13, according to the Sheriff’s Office.</p>
+<p>There appeared to be no earlier calls for service at the address, Almaguer said that night. Investigators and the county coroner finished processing the scene by Oct. 12, and autopsies were scheduled for Oct. 13, according to the Sheriff’s Office.</p>
 <p>“There is no threat to the community,” Almaguer said.</p>
 <p>San Francisco Police Chief Derrick Lew told department members of the couple’s deaths in a 7:37 p.m. email that night, which The Ark obtained.</p>
 <p>“It is with heavy hearts that we share the news of the passing of Ann and Kevin Mannix,” Lew said in the email. “Please keep their family in your prayers.”</p>
 <p>The deaths have “left our entire SFPD family reeling,” Louis Wong, president of the San Francisco Police Officers Association, said in a statement Oct. 12.</p>
-<p>“There are no words that can fully capture the depth of this tragedy, nor are there simple answers to the painful questions we are all asking,” he said.</p>
 <p>...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Featured</category>
@@ -63,7 +62,7 @@
      <media:content url="https://static.wixstatic.com/media/75283d_e839ab13f1a9458cac3039766615fdc9~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
      <media:description>People stand near a Marin County Sheriff’s Office patrol vehicle on Strawberry Circle the night of Oct. 11, after deputies found three people dead inside a home on the street. (Francisco Martinez / The Ark)</media:description>
      <media:content url="https://static.wixstatic.com/media/75283d_050b75c82a794c888a95ffd4c15e9564~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
-     <media:description>Ann Mannix is shown in Strawberry in July 2021, shortly after she retired from the San Francisco Police Department as a deputy chief, the department’s highest-ranking woman. (Clara Lu / For The Ark 2021)</media:description>
+     <media:description>Ann Mannix is shown in Strawberry in July 2021, shortly after she retired from the San Francisco Police Department as a deputy chief, the department’s highest-ranking woman. (Clara Lu archive / For The Ark 2021)</media:description>
    </item>
    <item>
      <title>Election 2026: Tiburon Town Council hopefuls talk traffic, finances, housing at Ark forum</title>
