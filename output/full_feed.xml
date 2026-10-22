@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Thu, 22 Oct 2026 17:23:54 +0000</lastBuildDate>
+   <lastBuildDate>Thu, 22 Oct 2026 20:39:03 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>A&amp;C Ventures revives downtown Tiburon housing plan with 127 units</title>
@@ -269,6 +269,18 @@
      <title>Election 2026: Assembly Democrats Lucan, Elward agree on policy, spar over outside money</title>
      <link>https://www.thearknewspaper.com/live/election-2026-assembly-democrats-lucan-elward-agree-on-policy-spar-over-outside-money</link>
      <description>Assembly candidates Eric Lucan and Jackie Elward agreed on most policy at a Sept. 30 forum but sparred over millions in outside money in the 12th District race.</description>
+     <content:encoded><![CDATA[<p>The two Democrats competing to succeed Assemblymember Damon Connolly agreed on most policy questions at an online candidate forum, but Marin Supervisor Eric Lucan and Rohnert Park Councilmember Jackie Elward sparred over the millions in outside money flooding their race.</p>
+<p>The Sept. 30 webinar was hosted by the Coalition of Sensible Taxpayers, a Marin taxpayer-advocacy group, and moderated by Marin Independent Journal columnist Dick Spotswood.</p>
+<p>Both candidates said they support state funding to finish high-speed rail, oppose Proposition 43, which would make local tax measures put on the ballot by citizen initiative harder to pass, and would have backed a police and firefighter pension bill Gov. Gavin Newsom vetoed last month. Lucan’s answers centered on financing tools for housing, Elward’s on local control and accountability for state spending.</p>
+<p>Election 2026: Read complete coverage at thearknewspaper.com/election2026</p>
+<p>The 12th Assembly District covers all of Marin County and part of Sonoma County, including Rohnert Park and a portion of Petaluma. Connolly, D-San Rafael, is running for the state Senate seat being vacated by Sen. Mike McGuire, who is termed out.</p>
+<p>Lucan, a former three-term Novato councilmember and mayor elected to the Board of Supervisors in 2022, led the six-candidate June 2 primary with 28.3%. Elward, a former Rohnert Park mayor and an educator who came to the U.S. from the Democratic Republic of Congo, was second at 22.6%. Under California’s top-two system, the two highest vote-getters advance regardless of party.</p>
+<p>Tiburon Councilmember Holli Thier, the only candidate from the peninsula, finished fourth at 14% and conceded in June. Lucan led on the Tiburon Peninsula in early returns, with 28.7% of the 4,712 votes counted at the time, ahead of Thier at 23.6%.</p>
+<p>A fight over who is paying</p>
+<p>Spotswood asked each candidate how big money would affect their decisions in Sacramento. He said Lucan had received $551,000 in September from Grow California, a political action committee founded by tech and cryptocurrency billionaires Tim Draper and Chris Larsen.</p>
+<p>Lucan said that was wrong.</p>
+<p>“I did not receive that contribution, and I have not received any money from that group. Those are independent expenditures that are happening completely without my knowledge,” he said.</p>
+<p>...</p>]]></content:encoded>
      <dc:creator>Kevin Hessel</dc:creator>
      <category>Election 2026</category>
      <category>News</category>
@@ -277,7 +289,8 @@
      <category>Strawberry</category>
      <guid isPermaLink="false">6acee99ca69f56b914149983</guid>
      <pubDate>Wed, 14 Oct 2026 02:51:01 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_dfbd2312091f4e5089a602674adf23a3~mv2.jpg/v1/fit/w_1000,h_999,al_c,q_80/file.jpg" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_6c8b037c6939447d882b5ee374813f53~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
+     <media:content url="https://static.wixstatic.com/media/75283d_34e11779016442b0933203d4e41d81c7~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
    </item>
    <item>
      <title>Election 2026: State Senate candidates Connolly, Gibbs clash over taxes, housing, homelessness</title>
