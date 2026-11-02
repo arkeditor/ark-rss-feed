@@ -79,7 +79,12 @@ def is_boilerplate(text):
         r'Read the complete story',
         r'Comment on this article',
         r'independent local journalism',
-        r'high-impact community journalism'
+        r'high-impact community journalism',
+        # The new site's newsletter box and support box on article pages (Kevin, Nov. 1, 2026: always filter out)
+        r'delivered by email',
+        r'named the nation',
+        r'best small community weekly',
+        r'accountability journalism with a mission'
     ]
     
     for pattern in boilerplate_patterns:
@@ -280,7 +285,15 @@ for entry in feed.entries:
                 
                 img_caption = ""
                 if cap:
-                    img_caption = clean_text(cap.get_text())
+                    # The new site shows the credit first in its own span (<span class="cr" data-orig="(via ...)">);
+                    # put it back after the caption as typed in Wix: "Caption text. (via Name)" (Kevin, Nov. 1, 2026).
+                    cr = cap.find('span', class_='cr')
+                    if cr:
+                        orig = cr.get('data-orig') or '(' + cr.get_text().strip() + ')'
+                        cr.extract()
+                        img_caption = clean_text(cap.get_text() + ' ' + orig)
+                    else:
+                        img_caption = clean_text(cap.get_text())
                 
                 # Add the media item
                 media_item = {
