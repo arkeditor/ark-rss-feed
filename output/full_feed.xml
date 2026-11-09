@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 09 Nov 2026 02:47:46 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 09 Nov 2026 10:31:25 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Sanitary board incumbents on track to keep seats over Turnacliff</title>
@@ -28,6 +28,7 @@
      <category>Election 2026</category>
      <category>Tiburon</category>
      <category>Strawberry</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/fitzgerald-mcintosh-and-walravens-will-win-sanitary-board-seats</guid>
      <pubDate>Wed, 04 Nov 2026 07:45:32 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_74a6d509260b4b6aabb9b89e6ac8da7d~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -53,6 +54,7 @@
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>Strawberry</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/saghezchi-waterfield-will-win-strawberry-rec-board-seats-teese-leads-for-third</guid>
      <pubDate>Wed, 04 Nov 2026 07:38:27 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_5358faec147d4e478d7f7c56adc834fc~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -77,6 +79,7 @@
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>Strawberry</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/twillman-will-win-strawberry-rec-two-year-seat</guid>
      <pubDate>Wed, 04 Nov 2026 07:15:01 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_8decdf5cdf054b0fa8a65876ea9c582b~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -103,6 +106,7 @@
      <dc:creator>Tyler Callister</dc:creator>
      <category>Election 2026</category>
      <category>Tiburon</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/measure-z-leading-with-84-as-paradise-cay-weighs-dredging-tax</guid>
      <pubDate>Wed, 04 Nov 2026 07:03:45 GMT</pubDate>
    </item>
@@ -126,6 +130,7 @@
      <category>Tiburon</category>
      <category>Belvedere</category>
      <category>Strawberry</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/elward-leads-assembly-race-billionaire-tax-trails-statewide</guid>
      <pubDate>Wed, 04 Nov 2026 06:44:26 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_d02850bbb5f8464c8039cf3fe969a688~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -154,6 +159,7 @@
      <category>Tiburon</category>
      <category>Belvedere</category>
      <category>School News</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/early-returns-favor-ghaffary-pasarell-tsai-and-godfrey-for-reed-board</guid>
      <pubDate>Wed, 04 Nov 2026 06:27:11 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_3b5176f9fe394b5f94c8d017bbb709f5~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -181,6 +187,7 @@
      <category>Belvedere</category>
      <category>Strawberry</category>
      <category>School News</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/three-mill-valley-challengers-lead-tam-union-board-race-in-first-count</guid>
      <pubDate>Wed, 04 Nov 2026 06:06:27 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_c9bacd979c5f493bbd0957fedef76a76~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -210,6 +217,7 @@
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Election 2026</category>
      <category>Tiburon</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/ryan-hornbrook-and-defever-lead-five-way-tiburon-council-race</guid>
      <pubDate>Wed, 04 Nov 2026 06:05:50 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_441c11caa6ea4ec78e3ce9e0a8a1eaed~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -237,6 +245,7 @@
      <category>Tiburon</category>
      <category>Belvedere</category>
      <category>School News</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/reed-s-115-million-measure-o-leads-in-early-returns-above-55-bar</guid>
      <pubDate>Wed, 04 Nov 2026 06:04:24 GMT</pubDate>
    </item>
@@ -265,6 +274,7 @@
      <category>Belvedere</category>
      <category>Strawberry</category>
      <category>School News</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/nemzer-leads-race-for-marin-board-of-education-s-area-5</guid>
      <pubDate>Wed, 04 Nov 2026 05:56:28 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_06c4eb5b559046e49a9af49c04c0ea19~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -394,6 +404,7 @@
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Tiburon</category>
      <category>Business</category>
+     <category>NEW BUSINESS</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-mahjong-shop-deals-in-tiles-lessons-community</guid>
      <pubDate>Tue, 03 Nov 2026 15:34:04 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_bea4cf933cfe4fc88cd93bc6a311fdb2~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -409,6 +420,7 @@
 <p>“There was everything we could have expected it to be,” says Herrera, who ordered a pork chop while Ives had a pizza and the two shared cocktails.</p>]]></content:encoded>
      <dc:creator>Francisco Martinez</dc:creator>
      <category>Everyday Encounters</category>
+     <category>EVERYDAY ENCOUNTERS</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/a-couple-celebrates-25-years-together-with-a-tiburon-getaway</guid>
      <pubDate>Tue, 03 Nov 2026 15:33:26 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_f53b2cfcb13d4d368f9fa7d05fb71f9e~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -440,6 +452,7 @@
      <dc:creator>Diana Goodman</dc:creator>
      <category>Tiburon</category>
      <category>Entertainment</category>
+     <category>PICKS OF THE WEEK</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/cinelounge-hosts-bruce-dern-gala-diwali-festival-is-saturday</guid>
      <pubDate>Tue, 03 Nov 2026 15:31:01 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_72144678e8f94f85a5cee1fb45fb0493~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -472,6 +485,7 @@
      <category>Belvedere</category>
      <category>Strawberry</category>
      <category>El Niño</category>
+     <category>EL NIÑO</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-belvedere-brace-for-el-niño-king-tides</guid>
      <pubDate>Tue, 27 Oct 2026 14:40:02 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_04d77b2a38894c07853c10216c6d2b81~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
@@ -497,6 +511,7 @@
      <category>Belvedere</category>
      <category>Strawberry</category>
      <category>School News</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-belvedere-strawberry-voters-are-weighing-eight-local-contests-four-local-measures</guid>
      <pubDate>Tue, 27 Oct 2026 14:39:01 GMT</pubDate>
    </item>
@@ -573,6 +588,7 @@
      <category>Tiburon</category>
      <category>Belvedere</category>
      <category>Strawberry</category>
+     <category>ELECTION 2026</category>
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/late-filings-show-who-s-paying-for-tiburon-council-fire-school-races</guid>
      <pubDate>Tue, 27 Oct 2026 14:35:01 GMT</pubDate>
    </item>
