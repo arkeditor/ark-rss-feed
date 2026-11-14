@@ -84,7 +84,10 @@ def is_boilerplate(text):
         r'delivered by email',
         r'named the nation',
         r'best small community weekly',
-        r'accountability journalism with a mission'
+        r'accountability journalism with a mission',
+        # Election gift box (aside.gift-box; excluded by selector, these are the fallback)
+        r'Keep election coverage free',
+        r'A gift keeps it that way'
     ]
     
     for pattern in boilerplate_patterns:
@@ -140,8 +143,57 @@ def filter_content(html):
         else:
             # Otherwise just cut at 2500 and add ellipsis
             filtered_html = filtered_html[:2500] + '...</p>'
-    
+        # Never end on a dangling segment byline (one whose segment text was cut away).
+        filtered_html = re.sub(r'(?:\n?<p>By [^<]*·[^<]*</p>)+(\n<p>\.\.\.</p>)$', r'\1', filtered_html)
+
     return filtered_html
+
+# Segment byline lines built from the site's byline stacks: "By Kevin Hessel · Updated Nov. 13"
+BYLINE_RE = re.compile(r'<p>By [^<]*·[^<]*</p>$')
+
+# Site-inserted boxes inside or around the story whose text must not reach the feed
+# (election gift box, Election Center rail, Recent Stories rail, newsletter form).
+# The phrase list in is_boilerplate() is the fallback if the markup changes.
+SITE_BOX_SELECTORS = ['aside.gift-box', 'section.ec', 'section.recent', 'form']
+
+def is_site_box(el):
+    for sel in SITE_BOX_SELECTORS:
+        tag, cls = sel.split('.') if '.' in sel else (sel, None)
+        for anc in [el] + list(el.parents):
+            if anc.name == tag and (cls is None or cls in (anc.get('class') or [])):
+                return True
+    return False
+
+def top_byline_div(soup):
+    """The byline bar under the headline: the div holding the first /author/ link outside .seg-by and the story body."""
+    for a in soup.select('article a[href^="/author/"]'):
+        if a.find_parent('div', class_='seg-by') or a.find_parent('div', class_='ark-body'):
+            continue
+        if a.get_text().strip().startswith('By'):
+            return a.parent
+    return None
+
+def nice_name(name, alt=''):
+    """'KEVIN HESSEL' -> 'Kevin Hessel'; prefer the photo's alt text when it is the same name."""
+    if alt and alt.strip().lower() == name.strip().lower():
+        return alt.strip()
+    def cap(w):
+        w = w.capitalize()
+        m = re.match(r"^(Mc|O')(\w)(.*)$", w)
+        return m.group(1) + m.group(2).upper() + m.group(3) if m else w
+    return ' '.join('-'.join(cap(p) for p in w.split('-')) for w in name.split())
+
+def byline_line(div):
+    """Turn a byline stack ('By KEVIN HESSEL' + 'Updated Nov. 13 · 5 min read') into 'By Kevin Hessel · Updated Nov. 13'."""
+    parts = [s.strip() for s in div.stripped_strings]
+    text = re.sub(r'\s+', ' ', ' '.join(parts))
+    m = re.match(r'^By\s+(.+?)\s+((?:Updated\s+)?[A-Z][a-z]{2,4}\.?\s+\d.*)$', text)
+    if not m:
+        return ''
+    name, date = m.group(1), m.group(2)
+    date = re.sub(r'\s*·\s*\d+\s+min read.*$', '', date).strip()
+    img = div.find('img') or (div.parent.find('img') if div.parent else None)
+    return clean_text(f"By {nice_name(name, img.get('alt', '') if img else '')} · {date}")
 
 def transform_media_url(url):
     """Transform media URLs to the specified format."""
@@ -230,7 +282,20 @@ for entry in feed.entries:
         # Fallback if the specific structure isn't found
         if not paragraphs:
             logging.warning(f"Could not find tETUs/BrKEk structure in {post_url}, falling back to p tags")
-            for p in soup.find_all('p'):
+            # Stories that open with "UPDATE, <date>:" run-ins render as segments, each with a
+            # byline stack (div.seg-by). Only then do the top byline bar and each stack become
+            # "By Name · Date" lines; stories without segments come out exactly as before.
+            has_segments = bool(soup.select('div.seg-by'))
+            top_by = top_byline_div(soup) if has_segments else None
+            for p in soup.find_all(['p', 'div']):
+                if p.name == 'div':
+                    if has_segments and ('seg-by' in (p.get('class') or []) or p is top_by):
+                        line = byline_line(p)
+                        if line:
+                            paragraphs.append(f"<p>{line}</p>")
+                    continue
+                if is_site_box(p):
+                    continue
                 txt = p.get_text().strip()
                 # Skip short texts and headers/section titles
                 if len(txt) <= 20:
@@ -243,7 +308,9 @@ for entry in feed.entries:
         seen, unique = set(), []
         for p in paragraphs:
             norm = re.sub(r'\s+', ' ', BeautifulSoup(p, 'html.parser').get_text()).lower()
-            if norm not in seen:
+            if BYLINE_RE.match(p):
+                unique.append(p)  # two segments can carry the same byline; keep both
+            elif norm not in seen:
                 seen.add(norm)
                 unique.append(p)
         
