@@ -209,6 +209,22 @@ def transform_media_url(url):
         return f"https://static.wixstatic.com/media/{media_id}/v1/fit/w_1000,h_999,al_c,q_80/file.{ext}"
     return url
 
+def caps_name(name):
+    """House all-caps byline name: 'Ted McDonnell' -> 'TED McDONNELL' (Mc/Mac prefix stays mixed case)."""
+    parts = re.split(r'(\b(?:Mc|Mac)(?=[A-Z]))', name)
+    return ''.join(pt if re.fullmatch(r'Mc|Mac', pt) else pt.upper() for pt in parts)
+
+
+def newsletter_byline(names):
+    """dc:creator as MailerLite shows it: 'By KEVIN HESSEL', 'By A and B', 'By A, B and C'."""
+    names = list(dict.fromkeys(names))
+    if not names:
+        return ''
+    caps = [caps_name(n) for n in names]
+    joined = caps[0] if len(caps) == 1 else ', '.join(caps[:-1]) + ' and ' + caps[-1]
+    return 'By ' + joined
+
+
 def safe_xml_text(text):
     """Safely escape text for XML, stripping invalid control chars and escaping entities."""
     if not text:
@@ -245,7 +261,10 @@ for entry in feed.entries:
     published = entry.get('published', datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000'))
     
     # Extract creator and categories from original feed if available
-    creator = entry.get('author', '')
+    names = [a.get('name', '').strip() for a in entry.get('authors', []) if a.get('name', '').strip()]
+    if not names and entry.get('author'):
+        names = [entry['author'].strip()]
+    creator = newsletter_byline(names)
     categories = [tag.get('term', '') for tag in entry.get('tags', [])]
     
     logging.info(f"Processing {post_url}")
