@@ -21,6 +21,53 @@ import re
 import os
 from datetime import datetime, timezone
 import html
+import sys
+import time
+import xml.etree.ElementTree as ET
+
+OUTPUT_PATH = 'output/full_feed.xml'
+HTTP_TIMEOUT = 20          # seconds per request; requests has no default timeout
+MIN_ITEMS = 5              # fewer than this from the site feed means something broke upstream
+HEADERS = {'User-Agent': 'ArkFullFeed/1.0 (+https://github.com/arkeditor/ark-rss-feed)'}
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
+
+def http_get(url, tries=3):
+    """GET with timeout, status check and backoff; raises after the last try."""
+    for i in range(tries):
+        try:
+            r = SESSION.get(url, timeout=HTTP_TIMEOUT)
+            r.raise_for_status()
+            return r
+        except requests.RequestException as e:
+            if i == tries - 1:
+                raise
+            logging.warning(f"Retry {i + 1} for {url}: {e}")
+            time.sleep(2 * (i + 1))
+
+
+def load_previous_items():
+    """Last good feed's items by guid, so one failed page fetch doesn't strip a story's body or photos."""
+    prev = {}
+    try:
+        root = ET.parse(OUTPUT_PATH).getroot()
+    except (OSError, ET.ParseError):
+        return prev
+    ns = {'content': 'http://purl.org/rss/1.0/modules/content/', 'media': 'http://search.yahoo.com/mrss/'}
+    for item in root.iter('item'):
+        guid = (item.findtext('guid') or '').strip()
+        if not guid:
+            continue
+        media, last = [], None
+        for el in item:
+            if el.tag == '{%s}content' % ns['media']:
+                last = {'url': el.get('url', ''), 'caption': '', 'type': el.get('medium', 'image')}
+                media.append(last)
+            elif el.tag == '{%s}description' % ns['media'] and last is not None:
+                last['caption'] = el.text or ''
+        prev[guid] = {'content_encoded': item.findtext('content:encoded', namespaces=ns), 'media_items': media}
+    return prev
 
 # --- Setup logging ---
 log_dir = "logs"
@@ -32,7 +79,18 @@ logging.basicConfig(filename=log_filename, level=logging.INFO,
 # --- Load blog feed for processing ---
 blog_feed_url = 'https://www.thearknewspaper.com/blog-feed.xml'
 logging.info(f"Fetching blog feed: {blog_feed_url}")
-blog_feed = feedparser.parse(blog_feed_url)
+try:
+    blog_feed = feedparser.parse(http_get(blog_feed_url).content)
+except requests.RequestException as e:
+    logging.error(f"Blog feed fetch failed, keeping the last good feed: {e}")
+    print(f"ERROR: blog feed fetch failed: {e}", file=sys.stderr)
+    sys.exit(1)
+if len(blog_feed.entries) < MIN_ITEMS:
+    # An empty or truncated upstream feed must never overwrite the live one (MailerLite, Buffer, Social CMS read it).
+    logging.error(f"Blog feed has {len(blog_feed.entries)} entries (bozo={blog_feed.get('bozo')}); keeping the last good feed")
+    print(f"ERROR: blog feed returned only {len(blog_feed.entries)} entries", file=sys.stderr)
+    sys.exit(1)
+previous_items = load_previous_items()
 # We'll use the blog feed entries directly as our primary source
 feed = blog_feed
 
@@ -231,6 +289,16 @@ def newsletter_byline(names):
     return 'By ' + joined
 
 
+def xml_attr(text):
+    """Escape a URL or other value for an XML attribute/element without double-escaping existing &amp;."""
+    return html.escape(html.unescape(text or ''), quote=True)
+
+
+def cdata(text):
+    """Wrap in CDATA, splitting any ']]>' that would otherwise end the section early."""
+    return '<![CDATA[' + (text or '').replace(']]>', ']]]]><![CDATA[>') + ']]>'
+
+
 def safe_xml_text(text):
     """Safely escape text for XML, stripping invalid control chars and escaping entities."""
     if not text:
@@ -290,7 +358,7 @@ for entry in feed.entries:
     
     # Now scrape the article page
     try:
-        response = requests.get(post_url)
+        response = http_get(post_url)
         soup = BeautifulSoup(response.content, 'lxml')
         
         # First extract article content
@@ -401,6 +469,16 @@ for entry in feed.entries:
     except Exception as e:
         logging.error(f"Error processing {post_url}: {e}")
 
+    # A failed or empty page fetch keeps the body and photos from the last good build.
+    old = previous_items.get(guid)
+    if old:
+        if not current_entry['content_encoded'] and old['content_encoded']:
+            current_entry['content_encoded'] = old['content_encoded']
+            logging.warning(f"Reused previous body for {post_url}")
+        if not current_entry['media_items'] and old['media_items']:
+            current_entry['media_items'] = old['media_items']
+            logging.warning(f"Reused previous media for {post_url}")
+
     # Fallback: use Wix feed enclosure if scraping found no image
     if not current_entry['media_items'] and entry.get('enclosures'):
         for enclosure in entry.enclosures:
@@ -429,7 +507,7 @@ output_xml += f'   <description>{safe_xml_text(feed.feed.get("description", "The
 output_xml += '   <docs>http://www.rssboard.org/rss-specification</docs>\n'
 output_xml += '   <generator>Ark RSS Feed Generator (Rebuilt)</generator>\n'
 output_xml += '   <language>en</language>\n'
-output_xml += f'   <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>\n'
+output_xml += '   <lastBuildDate>__LAST_BUILD_DATE__</lastBuildDate>\n'
 # Fixed self-reference URL
 output_xml += f'   <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />\n'
 
@@ -437,12 +515,12 @@ output_xml += f'   <atom:link href="https://raw.githubusercontent.com/arkeditor/
 for entry in all_entries:
     output_xml += '   <item>\n'
     output_xml += f'     <title>{safe_xml_text(entry["title"])}</title>\n'
-    output_xml += f'     <link>{entry["link"]}</link>\n'
+    output_xml += f'     <link>{xml_attr(entry["link"])}</link>\n'
     output_xml += f'     <description>{safe_xml_text(entry["description"])}</description>\n'
     
     # Add content:encoded if we have it
     if entry['content_encoded']:
-        output_xml += f'     <content:encoded><![CDATA[{entry["content_encoded"]}]]></content:encoded>\n'
+        output_xml += f'     <content:encoded>{cdata(entry["content_encoded"])}</content:encoded>\n'
     
     # Add dc:creator if available
     if entry['creator']:
@@ -452,12 +530,12 @@ for entry in all_entries:
     for category in entry['categories']:
         output_xml += f'     <category>{safe_xml_text(category)}</category>\n'
     
-    output_xml += f'     <guid isPermaLink="false">{entry["guid"]}</guid>\n'
-    output_xml += f'     <pubDate>{entry["pubDate"]}</pubDate>\n'
+    output_xml += f'     <guid isPermaLink="false">{xml_attr(entry["guid"])}</guid>\n'
+    output_xml += f'     <pubDate>{safe_xml_text(entry["pubDate"])}</pubDate>\n'
     
     # Output all media items (Media RSS spec allows multiple media:content per item)
     for media in entry['media_items']:
-        output_xml += f'     <media:content url="{media["url"]}" medium="{media["type"]}"/>\n'
+        output_xml += f'     <media:content url="{xml_attr(media["url"])}" medium="{xml_attr(media["type"])}"/>\n'
         if media['caption']:
             output_xml += f'     <media:description>{safe_xml_text(media["caption"])}</media:description>\n'
     
@@ -467,9 +545,31 @@ for entry in all_entries:
 output_xml += ' </channel>\n'
 output_xml += '</rss>\n'
 
-# Write the final RSS feed to file
+# Only rewrite the file when the stories changed: lastBuildDate alone shouldn't churn a commit every run.
+LBD_RE = re.compile(r'<lastBuildDate>[^<]*</lastBuildDate>')
+try:
+    with open(OUTPUT_PATH, encoding='utf-8') as f:
+        old_xml = f.read()
+except OSError:
+    old_xml = ''
+if LBD_RE.sub('', old_xml) == LBD_RE.sub('', output_xml.replace('__LAST_BUILD_DATE__', '')):
+    logging.info("No story changes; feed left as is")
+    sys.exit(0)
+output_xml = output_xml.replace('__LAST_BUILD_DATE__', datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000'))
+
+# Refuse to publish XML that doesn't parse; the last good feed stays live.
+try:
+    ET.fromstring(output_xml.encode('utf-8'))
+except ET.ParseError as e:
+    logging.error(f"Generated feed is not well-formed XML ({e}); keeping the last good feed")
+    print(f"ERROR: generated feed is not well-formed: {e}", file=sys.stderr)
+    sys.exit(1)
+
+# Write atomically so a crash mid-write can't leave a half file behind.
 os.makedirs('output', exist_ok=True)
-with open('output/full_feed.xml', 'w', encoding='utf-8') as f:
+tmp_path = OUTPUT_PATH + '.tmp'
+with open(tmp_path, 'w', encoding='utf-8') as f:
     f.write(output_xml)
+os.replace(tmp_path, OUTPUT_PATH)
 
 logging.info("Rebuilt feed written to output/full_feed.xml")
