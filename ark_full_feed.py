@@ -209,6 +209,9 @@ def transform_media_url(url):
         return f"https://static.wixstatic.com/media/{media_id}/v1/fit/w_1000,h_999,al_c,q_80/file.{ext}"
     return url
 
+NON_PERSON_CREDITS = {'reader submitted', 'staff', 'the ark staff', 'staff report', 'submitted'}
+
+
 def caps_name(name):
     """House all-caps byline name: 'Ted McDonnell' -> 'TED McDONNELL' (Mc/Mac prefix stays mixed case)."""
     parts = re.split(r'(\b(?:Mc|Mac)(?=[A-Z]))', name)
@@ -220,6 +223,9 @@ def newsletter_byline(names):
     names = list(dict.fromkeys(names))
     if not names:
         return ''
+    # Credits that aren't a person's name pass through as written (no 'By', no caps).
+    if len(names) == 1 and names[0].lower() in NON_PERSON_CREDITS:
+        return names[0]
     caps = [caps_name(n) for n in names]
     joined = caps[0] if len(caps) == 1 else ', '.join(caps[:-1]) + ' and ' + caps[-1]
     return 'By ' + joined
