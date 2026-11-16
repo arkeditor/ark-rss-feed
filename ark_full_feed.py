@@ -6,8 +6,7 @@ This script enriches the RSS feed by:
 - Pulling titles and descriptions from the blog feed.
 - Filtering out items with titles starting with 'Public Notices'.
 - Cleaning punctuation and merging paragraph fragments.
-- Scraping full article content under <div class="tETUs"> for 
-  <content:encoded> output.
+- Scraping the full article text from each story page for <content:encoded>.
 - Embedding images from <figure>/<figcaption> as <media:content>
   and <media:description>.
 - Outputting a prettified RSS with proper namespaces.
@@ -101,7 +100,7 @@ def clean_text(text):
         
     replacements = {
         '‚Äò': "'", '‚Äô': "'", '‚Äú': '"', '‚Äù': '"',
-        '‚Äì': '-', '‚Äî': '-', '‚Ä¶': '...', '¬†': ' '
+        '‚Äì': '–', '‚Äî': '—', '‚Ä¶': '...', '¬†': ' '
     }
     for src, tgt in replacements.items(): 
         text = text.replace(src, tgt)
@@ -109,17 +108,11 @@ def clean_text(text):
     entities = {
         '&rsquo;': "'", '&lsquo;': "'", '&ldquo;': '"', '&rdquo;': '"',
         '&apos;': "'", '&#39;': "'", '&quot;': '"',
-        '&mdash;': '-', '&ndash;': '-'
+        '&mdash;': '—', '&ndash;': '–'
     }
-    for ent, ch in entities.items(): 
+    for ent, ch in entities.items():
         text = text.replace(ent, ch)
-    
-    # Fix specific word spacing issues while avoiding breaking normal words
-    text = re.sub(r'(\w)to(subscribing|making)\b', r'\1 to \2', text)
-    text = re.sub(r'(\w)for(weekly)\b', r'\1 for \2', text)
-    text = re.sub(r'\bconsider(making)\b', r'consider \1', text)
-    text = re.sub(r'\b(hcorn)at(thearknewspaper)\b', r'\1 at \2', text)
-    
+
     return re.sub(r'\s+', ' ', text).strip()
 
 def is_boilerplate(text):
@@ -172,7 +165,7 @@ def merge_broken_paragraphs(html):
     return html
 
 def filter_content(html):
-    """Filter content to remove unwanted text and limit to 2500 characters."""
+    """Drop boilerplate paragraphs (site boxes, support pitches)."""
     if not html:
         return ""
         
@@ -187,24 +180,8 @@ def filter_content(html):
     if not filtered_paragraphs:
         return ""
         
-    filtered_html = "\n".join(filtered_paragraphs)
-    
-    # Limit to 2500 characters
-    if len(filtered_html) > 2500:
-        # Cut at the LAST paragraph break before the limit (re.search found the first one, which
-        # either kept only the opening paragraph or fell through to a mid-word cut).
-        # Skip breaks that follow a subhead (a paragraph that doesn't end a sentence), so the cut
-        # never leaves a dangling heading.
-        breaks = [m.end() for m in re.finditer(r'(?<=[.!?"\u201d\u2019)])</p>\s*(?=<p>)', filtered_html[:2500])]
-        if breaks and breaks[-1] > 800:  # Only use if we found a decent amount of content
-            filtered_html = filtered_html[:breaks[-1]].rstrip() + '\n<p>...</p>'
-        else:
-            # Otherwise just cut at 2500 and add ellipsis
-            filtered_html = filtered_html[:2500] + '...</p>'
-        # Never end on a dangling segment byline (one whose segment text was cut away).
-        filtered_html = re.sub(r'(?:\n?<p>By [^<]*·[^<]*</p>)+(\n<p>\.\.\.</p>)$', r'\1', filtered_html)
-
-    return filtered_html
+    # Full story text, no length cap (MailerLite's RSS block sets its own excerpt length).
+    return "\n".join(filtered_paragraphs)
 
 # Segment byline lines built from the site's byline stacks: "By Kevin Hessel · Updated Nov. 13"
 BYLINE_RE = re.compile(r'<p>By [^<]*·[^<]*</p>$')
@@ -364,39 +341,28 @@ for entry in feed.entries:
         # First extract article content
         paragraphs = []
         
-        # Primary content extraction target: <div class="tETUs"> with nested spans
-        for div in soup.find_all('div', class_='tETUs'):
-            for outer in div.select('span.BrKEk'):
-                for inner in outer.select("span[style*='color:black'][style*='text-decoration:inherit']"):
-                    txt = inner.get_text()
-                    if len(txt) > 10 and not is_boilerplate(txt):
-                        paragraphs.append(f"<p>{clean_text(txt)}</p>")
-        
-        # Fallback if the specific structure isn't found
-        if not paragraphs:
-            logging.warning(f"Could not find tETUs/BrKEk structure in {post_url}, falling back to p tags")
-            # Stories that open with "UPDATE, <date>:" run-ins render as segments, each with a
-            # byline stack (div.seg-by). Only then do the top byline bar and each stack become
-            # "By Name · Date" lines; stories without segments come out exactly as before.
-            has_segments = bool(soup.select('div.seg-by'))
-            top_by = top_byline_div(soup) if has_segments else None
-            for p in soup.find_all(['p', 'div']):
-                if p.name == 'div':
-                    if has_segments and ('seg-by' in (p.get('class') or []) or p is top_by):
-                        line = byline_line(p)
-                        if line:
-                            paragraphs.append(f"<p>{line}</p>")
-                    continue
-                if is_site_box(p):
-                    continue
-                txt = p.get_text().strip()
-                # Skip short texts and headers/section titles
-                if len(txt) <= 20:
-                    continue
-                
-                if not is_boilerplate(txt):
-                    paragraphs.append(f"<p>{clean_text(txt)}</p>")
-        
+        # Stories that open with "UPDATE, <date>:" run-ins render as segments, each with a
+        # byline stack (div.seg-by). Only then do the top byline bar and each stack become
+        # "By Name · Date" lines; stories without segments come out exactly as before.
+        has_segments = bool(soup.select('div.seg-by'))
+        top_by = top_byline_div(soup) if has_segments else None
+        for p in soup.find_all(['p', 'div']):
+            if p.name == 'div':
+                if has_segments and ('seg-by' in (p.get('class') or []) or p is top_by):
+                    line = byline_line(p)
+                    if line:
+                        paragraphs.append(f"<p>{line}</p>")
+                continue
+            if is_site_box(p):
+                continue
+            txt = p.get_text().strip()
+            # Skip short texts and headers/section titles
+            if len(txt) <= 20:
+                continue
+            
+            if not is_boilerplate(txt):
+                paragraphs.append(f"<p>{clean_text(txt)}</p>")
+    
         # Dedupe & clean
         seen, unique = set(), []
         for p in paragraphs:
