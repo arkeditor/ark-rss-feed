@@ -7,8 +7,21 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Mon, 16 Nov 2026 04:58:47 +0000</lastBuildDate>
+   <lastBuildDate>Tue, 17 Nov 2026 00:32:19 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
+   <item>
+     <title>Belvedere rejects Mallard Pointe permit appeal after four-hour hearing</title>
+     <link>https://www.thearknewspaper.com/live/belvedere-rejects-mallard-pointe-permit-appeal-after-four-hour-hearing</link>
+     <description>The Belvedere City Council unanimously rejected a residents group’s appeal of Mallard Pointe’s bulkhead permits Nov. 9, finding paperwork errors but no reason to overturn them.</description>
+     <content:encoded><![CDATA[<p>The Belvedere City Council unanimously rejected a residents group’s appeal of Mallard Pointe’s bulkhead permits Nov. 9, finding paperwork errors but no reason to overturn them.</p>
+<p>The Belvedere City Council unanimously rejected a residents group’s challenge to Mallard Pointe’s bulkhead permits Nov. 9, ending a heavily attended four-hour afternoon hearing in which members acknowledged paperwork errors but found no basis to overturn the approvals.</p>
+<p>The council first voted 4-1 to deny a request by Belvedere Residents for Intelligent Growth, or BRIG, to postpone the hearing, with Councilmember Jane Cooper dissenting. BRIG wanted to keep the appeal open through the winter, arguing the rains of a predicted El Niño season would show how construction along the lagoon shoreline was holding up.</p>
+<p>All five members then voted to deny the appeal, leaving intact two permits issued Oct. 1 to replace about 900 feet of shoreline bulkheads. The work includes removing the old walls, driving vinyl sheet piles into the lagoon bed and excavating and backfilling behind them.</p>]]></content:encoded>
+     <dc:creator>By TYLER CALLISTER</dc:creator>
+     <category>Belvedere</category>
+     <guid isPermaLink="false">https://www.thearknewspaper.com/live/belvedere-rejects-mallard-pointe-permit-appeal-after-four-hour-hearing</guid>
+     <pubDate>Mon, 16 Nov 2026 21:45:38 GMT</pubDate>
+   </item>
    <item>
      <title>First of three Bay Area storms arrives Friday with rain, gusts and flood-prone tide</title>
      <link>https://www.thearknewspaper.com/live/first-of-three-bay-area-storms-arrives-friday-with-rain-gusts-and-flood-prone-tide</link>
@@ -779,26 +792,6 @@
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/lawrence-h-stotter</guid>
      <pubDate>Tue, 03 Nov 2026 15:30:03 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_4afa335952c042efaad00b25bc82d06e~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-   </item>
-   <item>
-     <title>Tiburon, Belvedere brace for El Niño, king tides</title>
-     <link>https://www.thearknewspaper.com/live/tiburon-belvedere-brace-for-el-niño-king-tides</link>
-     <description>Tiburon and Belvedere are filling sandbag stations and readying a shared emergency center for a strong to very strong El Niño, and officials urge residents to prepare.</description>
-     <content:encoded><![CDATA[<p>Tiburon and Belvedere are filling sandbag stations and readying a shared emergency center for a strong to very strong El Niño, and officials urge residents to prepare.</p>
-<p>Tiburon and Belvedere are filling sandbag stations and readying a shared emergency operations center for a winter that forecasters expect to bring a strong to very strong El Niño, and officials say residents need to get ready too.</p>
-<p>NOAA’s Climate Prediction Center said Oct. 8 there is a “greater than an 83% chance” a strong to very strong El Niño lasts through January-March. It put the same 83% odds on October-December bringing an event stronger than any El Niño since 1950. Its next update is due Nov. 12.</p>
-<p>NOAA’s Oct. 15 seasonal outlook gives much of California, and the West Coast as far north as the Oregon coast, elevated odds of above-normal rain from November through January, though with less confidence than for the Southeast.</p>
-<p>The season’s highest tides are predicted Nov. 24-26, Dec. 22-25 and Jan. 20-22, topping out at 7.23 feet above the average daily low tide Dec. 24 at NOAA’s San Francisco gauge. Those predictions don’t account for weather, and actual tides have been running 6 inches to 1 foot higher, Steven Torrence, director of the county Office of Emergency Management, told the Belvedere-Tiburon Emergency Preparedness Council Oct. 20.</p>]]></content:encoded>
-     <dc:creator>By FRANCISCO MARTINEZ and TYLER CALLISTER</dc:creator>
-     <category>Tiburon</category>
-     <category>Belvedere</category>
-     <category>Strawberry</category>
-     <category>El Niño</category>
-     <category>EL NIÑO</category>
-     <guid isPermaLink="false">https://www.thearknewspaper.com/live/tiburon-belvedere-brace-for-el-niño-king-tides</guid>
-     <pubDate>Tue, 27 Oct 2026 14:40:02 GMT</pubDate>
-     <media:content url="https://static.wixstatic.com/media/75283d_04d77b2a38894c07853c10216c6d2b81~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>A vehicle sits stranded on fully submerged Greenwood Cove Drive, left, while another works its way through the flooded inbound lanes of Tiburon Boulevard during the peak of the Jan. 3 king tide. Officials are preparing for a winter in which forecasters favor above-normal rain during a strong El Niño, with king tides expected Nov. 24-26, Dec. 22-25 and Jan. 20-22. (Bahareh Farhid archive 2026)</media:description>
    </item>
  </channel>
 </rss>
