@@ -7,7 +7,7 @@
    <docs>http://www.rssboard.org/rss-specification</docs>
    <generator>Ark RSS Feed Generator (Rebuilt)</generator>
    <language>en</language>
-   <lastBuildDate>Tue, 17 Nov 2026 17:57:38 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 18 Nov 2026 00:23:06 +0000</lastBuildDate>
    <atom:link href="https://raw.githubusercontent.com/arkeditor/ark-rss-feed/main/output/full_feed.xml" rel="self" type="application/rss+xml" />
    <item>
      <title>Family, friends honor Belvedere girl Harper Tan’s memory</title>
@@ -53,12 +53,14 @@
      <media:description>A plan by Stetson Engineers shows where Belvedere would line the bayside path along San Rafael Avenue with 20-inch NOAQ Boxwall flood barriers (red line) under the $180,000 emergency flood plan the City Council approved Nov. 9. (via Stetson Engineers)</media:description>
    </item>
    <item>
-     <title>Crystal Duran to leave Belvedere-Tiburon Library after nearly 5 years</title>
+     <title>Crystal Duran leaving Belvedere-Tiburon Library to become Santa Clara city librarian</title>
      <link>https://www.thearknewspaper.com/live/crystal-duran-to-leave-belvedere-tiburon-library-after-nearly-5-years</link>
-     <description>Belvedere-Tiburon Library Director Crystal Duran leaves Dec. 5 for a similar job elsewhere in the Bay Area. Joey Della Santina will serve as interim director.</description>
-     <content:encoded><![CDATA[<p>Belvedere-Tiburon Library Director Crystal Duran leaves Dec. 5 for a similar job elsewhere in the Bay Area. Joey Della Santina will serve as interim director.</p>
-<p>Belvedere-Tiburon Library Director Crystal Duran is leaving her post after nearly five years on the job for a similar role elsewhere in the Bay Area.</p>
-<p>Duran’s last day at the library is Dec. 5. Assistant Director for Library Service Joey Della Santina will serve as interim director beginning Dec. 6.</p>
+     <description>Belvedere-Tiburon Library Director Crystal Duran will become Santa Clara’s city librarian Dec. 14. Her last day in Tiburon is Dec. 5, and Joey Della Santina will serve as interim director.</description>
+     <content:encoded><![CDATA[<p>Belvedere-Tiburon Library Director Crystal Duran will become Santa Clara’s city librarian Dec. 14. Her last day in Tiburon is Dec. 5, and Joey Della Santina will serve as interim director.</p>
+<p>This story was updated Nov. 17 after the city of Santa Clara announced Duran’s appointment, following The Ark’s deadline for its Nov. 18 print edition.</p>
+<p>Belvedere-Tiburon Library Director Crystal Duran is leaving her post after nearly five years on the job to become Santa Clara’s city librarian.</p>
+<p>The city of Santa Clara announced the appointment Nov. 17. Duran starts there Dec. 14, succeeding City Librarian Patty Wong, who is retiring, and was chosen after a nationwide search that included interviews with the city’s Board of Library Trustees and city staff, the city said.</p>
+<p>Duran’s last day at the Belvedere-Tiburon Library is Dec. 5. Assistant Director for Library Service Joey Della Santina will serve as interim director beginning Dec. 6.</p>
 <p>The Library Agency board unanimously appointed Della Santina to the interim role in closed session at a special meeting Nov. 12. He will have the support of an outside adviser while he serves as interim.</p>]]></content:encoded>
      <dc:creator>By FRANCISCO MARTINEZ</dc:creator>
      <category>Tiburon</category>
@@ -66,7 +68,7 @@
      <guid isPermaLink="false">https://www.thearknewspaper.com/live/crystal-duran-to-leave-belvedere-tiburon-library-after-nearly-5-years</guid>
      <pubDate>Tue, 17 Nov 2026 16:18:20 GMT</pubDate>
      <media:content url="https://static.wixstatic.com/media/75283d_c5d852637e334132bfa3c1964f0009a9~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>Belvedere-Tiburon Library Director Crystal Duran, shown at the library in September 2022, leaves her post Dec. 5 after nearly five years for a similar job elsewhere in the Bay Area. Assistant Director for Library Service Joey Della Santina will take over as interim director Dec. 6 (Elliot Karlan archive / For The Ark 2022)</media:description>
+     <media:description>Belvedere-Tiburon Library Director Crystal Duran, shown at the library in September 2022, leaves her post Dec. 5 after nearly five years to become Santa Clara’s city librarian. Assistant Director for Library Service Joey Della Santina will take over as interim director Dec. 6. (Elliot Karlan archive / For The Ark 2022)</media:description>
    </item>
    <item>
      <title>Santa, concerts, Hanukkah and a festival fill the peninsula’s holiday season</title>
@@ -204,7 +206,6 @@
      <media:content url="https://static.wixstatic.com/media/75283d_e965b0f426f042679943d4ca08a67e96~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
      <media:description>Larry Stotter competes in a jumping event at the Hayward Classic masters meet at the University of Oregon’s Hayward Field in Eugene, Oregon. He won gold medals in six events at the 2017 Hayward Classic and ran the lead leg on an 85-and-older 4x100-meter relay team whose 2017 U.S. record still stands. (via Dan Stotter)</media:description>
      <media:content url="https://static.wixstatic.com/media/75283d_251dae95c4834b009b60e551c9a16ab8~mv2.webp/v1/fit/w_1000,h_999,al_c,q_80/file.webp" medium="image"/>
-     <media:description>Larry Stotter, seen in September, was a Tiburon family-law attorney who argued a child-support case before the U.S. Supreme Court and in his 80s set masters track-and-field records. He died Oct. 25 at 97. (via Stotter family)</media:description>
    </item>
    <item>
      <title>First of three Bay Area storms arrives Friday with rain, gusts and flood-prone tide</title>
